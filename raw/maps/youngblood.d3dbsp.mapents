@@ -1,0 +1,4865 @@
+{
+skycolor "0.87 0.94 1"
+skylight "0.56"
+_color "0.5 0.5 .62 1"
+ambient ".116"
+classname "worldspawn"
+sundirection "-37 -9 0"
+suncolor "0.88 0.93 1"
+sunlight "0.9"
+origin "0 0 0"
+}
+{
+script_delay "0.5"
+script_decel "0.1"
+script_accel "0.1"
+script_duration "0.5"
+script_linkto "pf2_5"
+target "pf2_auto355"
+targetname "pf2_auto346"
+angles "2.65422 358.487 2.07432"
+origin "-1524 -97917 -114915"
+classname "script_struct"
+}
+{
+script_decel "0.5"
+script_accel "0.5"
+script_duration "1.5"
+target "pf2_auto157"
+targetname "pf2_auto156"
+angles "4.7 270 0"
+origin "18 -101478 -114778"
+classname "script_struct"
+}
+{
+script_noteworthy "mover"
+classname "script_brushmodel"
+origin "-1385 -102158 -107632"
+model "*1"
+}
+{
+script_noteworthy "mover"
+classname "script_brushmodel"
+origin "-1388 -102116 -107623"
+model "*2"
+}
+{
+script_decel "2"
+script_accel "1"
+script_duration "10"
+target "pf2_auto343"
+targetname "pf2_auto337"
+origin "-365 -98805 -114937"
+classname "script_struct"
+}
+{
+script_accel "0.1"
+script_delay "0"
+script_duration "2"
+target "pf2_auto66"
+targetname "pf2_auto28"
+origin "72 -100348 -114798"
+classname "script_struct"
+}
+{
+script_decel "1.25"
+script_accel "0.1"
+script_delay "0"
+script_duration "3"
+target "pf2_auto68"
+targetname "pf2_auto32"
+origin "-22 -99403 -114911"
+classname "script_struct"
+}
+{
+script_decel "1.25"
+script_accel "0.1"
+script_delay "0"
+script_duration "3"
+target "pf2_auto70"
+targetname "pf2_auto34"
+origin "-827 -99525 -114975"
+classname "script_struct"
+}
+{
+script_noteworthy "mover"
+classname "script_brushmodel"
+origin "303 -97406 -107547"
+model "*3"
+}
+{
+script_decel "2"
+script_accel "1"
+script_duration "8.5"
+target "pf2_auto344"
+targetname "pf2_auto338"
+origin "-994 -98843 -115029"
+classname "script_struct"
+}
+{
+script_accel "0.1"
+script_delay "0"
+script_duration "2"
+target "pf2_auto84"
+targetname "pf2_auto66"
+origin "60 -100344 -114804"
+classname "script_struct"
+}
+{
+angles "359.3 0.5 6.51887e-010"
+script_duration "2"
+target "pf2_auto86"
+targetname "pf2_auto68"
+origin "-50 -99418 -114911"
+classname "script_struct"
+}
+{
+script_accel "0.1"
+script_delay "0"
+script_duration "2"
+target "pf2_auto72"
+targetname "pf2_auto29"
+origin "-309 -100857 -114819"
+classname "script_struct"
+}
+{
+origin "6133 -108558 -116304"
+angles "0 326 0"
+classname "info_player_start"
+}
+{
+script_noteworthy "mover"
+classname "script_brushmodel"
+origin "-434 -101229 -107428"
+model "*4"
+}
+{
+gndlt "191d229901"
+ltorigin "-829.886 -100979 -107669"
+angles "0 276 0"
+origin "-795 -100968 -108108"
+model "cw_foliage_ctl_tree_beech_1"
+classname "script_model"
+}
+{
+gndlt "191d229901"
+ltorigin "-417.648 -101217 -107400"
+origin "-411 -101242 -107471"
+angles "0 68 0"
+model "six_foliage_afr_tall_bush_01a"
+classname "script_model"
+}
+{
+gndlt "191d229901"
+ltorigin "-524.352 -101337 -107434"
+origin "-531 -101312 -107505"
+angles "0 248 0"
+model "six_foliage_afr_tall_bush_01a"
+classname "script_model"
+}
+{
+gndlt "191e229901"
+ltorigin "-454.751 -101412 -107395"
+angles "4.08952 218.957 15.872"
+origin "-450.9 -101418 -107406"
+model "pbk_foliage_jungle_tall_grass02"
+classname "script_model"
+}
+{
+gndlt "191d229901"
+ltorigin "-378.213 -101332 -107399"
+angles "2.19646 58.3392 -4.1668"
+origin "-386.9 -101330 -107414"
+model "pbk_foliage_jungle_tall_grass02"
+classname "script_model"
+}
+{
+gndlt "191d229901"
+ltorigin "-437.463 -101101 -107452"
+origin "-431 -101126 -107523"
+angles "0 56 0"
+model "six_foliage_afr_tall_bush_01a"
+classname "script_model"
+}
+{
+gndlt "191d229901"
+ltorigin "-334.998 -101213 -107411"
+angles "358.219 253.933 11.8317"
+origin "-326.9 -101218 -107426"
+model "pbk_foliage_jungle_tall_grass02"
+classname "script_model"
+}
+{
+gndlt "191d229901"
+ltorigin "-302.843 -101110 -107419"
+angles "354.304 331.111 7.8853"
+origin "-296.9 -101100 -107434"
+model "pbk_foliage_jungle_tall_grass02"
+classname "script_model"
+}
+{
+gndlt "191d229901"
+ltorigin "-563.256 -101222 -107466"
+origin "-571 -101198 -107537"
+angles "0 252 0"
+model "six_foliage_afr_tall_bush_01a"
+classname "script_model"
+}
+{
+gndlt "191e229901"
+ltorigin "-389 -101382 -107320"
+origin "-389 -101382 -107412"
+model "paris_street_lamp_freestanding_03"
+classname "script_model"
+}
+{
+gndlt "191d229901"
+ltorigin "-407.559 -101426 -107395"
+origin "-409 -101428 -107427"
+angles "5 58.9 0"
+model "ch_wooden_fence_post_01"
+classname "script_model"
+}
+{
+gndlt "191d229901"
+ltorigin "-267.953 -101124 -107412"
+origin "-268 -101124 -107412"
+angles "85 252.9 180"
+model "afr_corrugated_metal2x8"
+classname "script_model"
+}
+{
+gndlt "191d229901"
+ltorigin "-296.953 -101219 -107402"
+origin "-297 -101219 -107402"
+angles "85 252.9 180"
+model "afr_corrugated_metal2x8"
+classname "script_model"
+}
+{
+gndlt "191d229901"
+ltorigin "-336.927 -101312 -107392"
+origin "-337 -101312 -107392"
+angles "85 242.9 -180"
+model "afr_corrugated_metal2x8"
+classname "script_model"
+}
+{
+gndlt "191d229901"
+ltorigin "-384.917 -101396 -107384"
+origin "-385 -101396 -107384"
+angles "85 238.9 180"
+model "afr_corrugated_metal2x8"
+classname "script_model"
+}
+{
+gndlt "191d229901"
+ltorigin "-364.77 -101350 -107401"
+origin "-363 -101351 -107433"
+angles "5 154.9 -1.1959e-006"
+model "ch_wooden_fence_post_01"
+classname "script_model"
+}
+{
+gndlt "191d229901"
+ltorigin "-322.441 -101269 -107411"
+origin "-321 -101267 -107443"
+angles "5 238.9 0"
+model "ch_wooden_fence_post_01"
+classname "script_model"
+}
+{
+gndlt "191d229901"
+ltorigin "-289.202 -101168 -107417"
+origin "-291 -101167 -107449"
+angles "5 336.9 0"
+model "ch_wooden_fence_post_01"
+classname "script_model"
+}
+{
+gndlt "191d229901"
+ltorigin "-262.752 -101074 -107429"
+origin "-263 -101077 -107461"
+angles "5 84.9 0"
+model "ch_wooden_fence_post_01"
+classname "script_model"
+}
+{
+script_noteworthy "mover"
+classname "script_brushmodel"
+origin "-1761 -99775 -107427"
+model "*5"
+}
+{
+gndlt "191e229901"
+ltorigin "-2919.32 -100072 -107598"
+angles "0 164 0"
+origin "-2905 -100094 -108037"
+model "cw_foliage_ctl_tree_beech_1"
+classname "script_model"
+}
+{
+script_decel "2"
+script_accel "1"
+script_duration "6"
+target "pf2_auto369"
+targetname "pf2_auto340"
+origin "-974 -97267 -114765"
+classname "script_struct"
+}
+{
+script_accel "0.1"
+script_delay "0"
+script_duration "2"
+target "pf2_auto74"
+targetname "pf2_auto30"
+origin "-434 -100456 -114846"
+classname "script_struct"
+}
+{
+script_accel "0.1"
+script_delay "0"
+script_duration "2"
+target "pf2_auto76"
+targetname "pf2_auto31"
+origin "-383 -100028 -114875"
+classname "script_struct"
+}
+{
+script_decel "1.25"
+script_accel "0.1"
+script_delay "0"
+script_duration "2.5"
+target "pf2_auto78"
+targetname "pf2_auto33"
+origin "-420 -99349 -114938"
+classname "script_struct"
+}
+{
+script_decel "2"
+script_accel "1"
+script_duration "4.5"
+target "pf2_auto345"
+targetname "pf2_auto339"
+origin "-1236 -98383 -114991"
+classname "script_struct"
+}
+{
+script_decel "2"
+script_accel "1"
+script_duration "10"
+target "pf2_auto347"
+targetname "pf2_auto341"
+origin "-1657 -97920 -114926"
+classname "script_struct"
+}
+{
+targetname "pf2_auto347"
+angles "4.21609 1.92734 10.3883"
+origin "-2249 -98514 -115224"
+classname "script_struct"
+}
+{
+targetname "pf2_auto342"
+angles "350.766 339.477 5.17225"
+origin "-1072 -98767 -115286"
+classname "script_struct"
+}
+{
+angles "357.8 0 1"
+script_duration "2"
+target "pf2_auto88"
+targetname "pf2_auto70"
+origin "-898 -99525 -114999"
+classname "script_struct"
+}
+{
+script_prefab_exploder "deer_start"
+classname "trigger_multiple"
+origin "6174 -108509 -116242"
+model "?0"
+}
+{
+script_noteworthy "mover"
+classname "script_brushmodel"
+origin "658 -101640 -107468"
+model "*6"
+}
+{
+gndlt "191d229901"
+ltorigin "431.25 -101690 -107427"
+origin "420 -101669 -107498"
+angles "0 266 0"
+model "six_foliage_afr_tall_bush_01a"
+classname "script_model"
+}
+{
+gndlt "191d229901"
+ltorigin "347.77 -101807 -107489"
+origin "357 -101821 -107560"
+angles "0 104 0"
+model "six_foliage_afr_tall_bush_01a"
+classname "script_model"
+}
+{
+gndlt "191d229901"
+ltorigin "358.9 -101679 -107489"
+origin "349 -101663 -107560"
+angles "0 280 0"
+model "six_foliage_afr_tall_bush_01a"
+classname "script_model"
+}
+{
+gndlt "191d229901"
+ltorigin "234.573 -101446 -107396"
+angles "1.00179e-005 118 -2"
+origin "251 -101418 -107719"
+model "fah_foliage_fanpalm_02"
+classname "script_model"
+}
+{
+gndlt "191d229901"
+ltorigin "461.527 -101787 -107460"
+angles "2.37566 274.32 7.9161"
+origin "461 -101789 -107474"
+model "pbk_foliage_jungle_tall_grass02"
+classname "script_model"
+}
+{
+gndlt "191d229901"
+ltorigin "463.716 -101705 -107460"
+angles "2.37566 100.32 -8.0839"
+origin "467 -101702 -107474"
+model "pbk_foliage_jungle_tall_grass02"
+classname "script_model"
+}
+{
+gndlt "191d229901"
+ltorigin "459.207 -101578 -107460"
+angles "2.37566 284.32 7.9161"
+origin "459 -101580 -107474"
+model "pbk_foliage_jungle_tall_grass02"
+classname "script_model"
+}
+{
+gndlt "191d229901"
+ltorigin "445.825 -101467 -107476"
+angles "358.414 113.769 -18.0878"
+origin "447 -101462 -107488"
+model "pbk_foliage_jungle_tall_grass02"
+classname "script_model"
+}
+{
+gndlt "191d229901"
+ltorigin "435.139 -101391 -107480"
+angles "358.414 275.769 13.9122"
+origin "435 -101394 -107494"
+model "pbk_foliage_jungle_tall_grass02"
+classname "script_model"
+}
+{
+gndlt "191d229901"
+ltorigin "431.317 -101417 -107461"
+origin "431 -101417 -107462"
+angles "30 352.9 -90.0001"
+model "afr_corrugated_metal2x8"
+classname "script_model"
+}
+{
+gndlt "191d229901"
+ltorigin "436.62 -101460 -107474"
+origin "464 -101463 -107490"
+angles "299.361 348.821 3.53277"
+model "ch_wooden_fence_post_01"
+classname "script_model"
+}
+{
+gndlt "191d229901"
+ltorigin "447.44 -101366 -107474"
+origin "475 -101369 -107490"
+angles "356.186 81.5046 -59.9777"
+model "ch_wooden_fence_post_01"
+classname "script_model"
+}
+{
+target "pf2_auto11"
+targetname "pf2_auto1"
+classname "trigger_multiple"
+origin "568 -101612 -107474"
+model "?1"
+}
+{
+targetname "pf2_auto12"
+origin "-539 -101620 -114870"
+angles "332 0 -7.5"
+classname "script_struct"
+}
+{
+target "pf2_auto15"
+targetname "pf2_auto1"
+classname "trigger_multiple"
+origin "-437 -101237 -107511"
+model "?2"
+}
+{
+script_prefab_exploder "deer_hill_tremor_a"
+classname "trigger_multiple"
+origin "5947 -107491 -116000"
+model "?3"
+}
+{
+angles "333.023 142.126 -99.449"
+targetname "pf2_auto370"
+origin "-1606 -96342 -114683"
+classname "script_struct"
+}
+{
+target "pf2_auto371"
+targetname "move_trigger"
+classname "trigger_multiple"
+origin "-2410 -96967 -114616"
+model "?4"
+}
+{
+dmg "50"
+classname "trigger_hurt"
+origin "-1097 -98674 -115352"
+model "?5"
+}
+{
+script_prefab_exploder "vehicle_fall_a"
+classname "trigger_multiple"
+origin "-2474 -97041 -114939"
+model "?6"
+}
+{
+script_noteworthy "mover"
+classname "script_brushmodel"
+origin "-2892 -94802 -107972"
+model "*7"
+}
+{
+gndlt "191e229901"
+ltorigin "-2890.83 -94802 -107993"
+origin "-2742 -94802 -108060"
+model "vehicle_mack_truck_trailer"
+classname "script_model"
+}
+{
+script_noteworthy "mover"
+classname "script_brushmodel"
+origin "-2876 -94538 -107992"
+model "*8"
+}
+{
+gndlt "191e229901"
+ltorigin "-2881.15 -94538 -107967"
+origin "-3096 -94538 -108062"
+model "vehicle_18wheeler_cab"
+classname "script_model"
+}
+{
+target "pf2_auto380"
+targetname "pf2_auto371"
+classname "trigger_multiple"
+origin "-2891 -94800 -107981"
+model "?7"
+}
+{
+target "pf2_auto381"
+targetname "pf2_auto371"
+classname "trigger_multiple"
+origin "-2887 -94533 -107966"
+model "?8"
+}
+{
+script_duration "1"
+targetname "pf2_auto380"
+target "pf2_auto376"
+angles "0 36 0"
+origin "-7543.5 -96719.2 -113018"
+classname "script_struct"
+}
+{
+script_duration "1"
+targetname "pf2_auto381"
+target "pf2_auto372"
+angles "0 36 0"
+origin "-7331.1 -96562.4 -113052"
+classname "script_struct"
+}
+{
+script_duration "1"
+target "pf2_auto377"
+targetname "pf2_auto376"
+angles "2.00001 36 44"
+origin "-5944.8 -96548.6 -112941"
+classname "script_struct"
+}
+{
+script_duration "1"
+target "pf2_auto373"
+targetname "pf2_auto372"
+angles "30.4625 68.6327 53.6505"
+origin "-5768.9 -96288.1 -113045"
+classname "script_struct"
+}
+{
+script_duration "1"
+target "pf2_auto378"
+targetname "pf2_auto377"
+angles "13.8806 34.292 81.7627"
+origin "-4368.5 -96455.2 -113898"
+classname "script_struct"
+}
+{
+script_duration "1"
+target "pf2_auto374"
+targetname "pf2_auto373"
+angles "51.6522 80.9919 95.2865"
+origin "-4252.4 -96203.5 -114035"
+classname "script_struct"
+}
+{
+script_duration "0.25"
+target "pf2_auto375"
+targetname "pf2_auto374"
+angles "28.6903 234.447 -124.003"
+origin "-3176.5 -96167.4 -114557"
+classname "script_struct"
+}
+{
+script_duration "0.25"
+target "pf2_auto379"
+targetname "pf2_auto378"
+angles "69.1543 295.186 -59.3625"
+origin "-3060.7 -96040.2 -114299"
+classname "script_struct"
+}
+{
+targetname "pf2_auto375"
+angles "336.728 185.418 -152.357"
+origin "-2971.2 -96051.6 -114571"
+classname "script_struct"
+}
+{
+targetname "pf2_auto379"
+angles "29.5462 180.376 -138.445"
+origin "-2667.2 -96109.1 -114572"
+classname "script_struct"
+}
+{
+script_prefab_exploder "rescue_a"
+classname "trigger_multiple"
+origin "-3834 -96592 -114683"
+model "?9"
+}
+{
+script_prefab_exploder "basement_slide"
+classname "trigger_multiple"
+origin "-1338 -98261 -115189"
+model "?10"
+}
+{
+target "pf2_auto382"
+targetname "pf2_auto335"
+classname "trigger_multiple"
+origin "1243 -96325 -107494"
+model "?11"
+}
+{
+script_noteworthy "mover"
+classname "script_brushmodel"
+origin "1196 -96305 -107620"
+model "*9"
+}
+{
+classname "script_brushmodel"
+origin "1392 -96110 -107549"
+model "*10"
+}
+{
+classname "script_brushmodel"
+origin "1181 -96241 -107554"
+model "*11"
+}
+{
+classname "script_brushmodel"
+origin "1317 -96156 -107549"
+model "*12"
+}
+{
+classname "script_brushmodel"
+origin "1245 -96328 -107513"
+model "*13"
+}
+{
+classname "script_brushmodel"
+origin "1140 -96271 -107554"
+model "*14"
+}
+{
+classname "script_brushmodel"
+origin "1125 -96280 -107575"
+model "*15"
+}
+{
+classname "script_brushmodel"
+origin "1121 -96282 -107542"
+model "*16"
+}
+{
+classname "script_brushmodel"
+origin "1120 -96283 -107537"
+model "*17"
+}
+{
+classname "script_brushmodel"
+origin "1115 -96286 -107527"
+model "*18"
+}
+{
+classname "script_brushmodel"
+origin "1129 -96278 -107506"
+model "*19"
+}
+{
+classname "script_brushmodel"
+origin "1157 -96260 -107506"
+model "*20"
+}
+{
+classname "script_brushmodel"
+origin "1160 -96258 -107506"
+model "*21"
+}
+{
+classname "script_brushmodel"
+origin "1168 -96254 -107509"
+model "*22"
+}
+{
+classname "script_brushmodel"
+origin "1173 -96250 -107511"
+model "*23"
+}
+{
+classname "script_brushmodel"
+origin "1178 -96247 -107518"
+model "*24"
+}
+{
+classname "script_brushmodel"
+origin "1262 -96196 -107506"
+model "*25"
+}
+{
+classname "script_brushmodel"
+origin "1304 -96170 -107507"
+model "*26"
+}
+{
+classname "script_brushmodel"
+origin "1308 -96167 -107510"
+model "*27"
+}
+{
+classname "script_brushmodel"
+origin "1315 -96164 -107512"
+model "*28"
+}
+{
+classname "script_brushmodel"
+origin "1317 -96162 -107516"
+model "*29"
+}
+{
+classname "script_brushmodel"
+origin "1320 -96160 -107520"
+model "*30"
+}
+{
+classname "script_brushmodel"
+origin "1267 -96193 -107533"
+model "*31"
+}
+{
+classname "script_brushmodel"
+origin "1264 -96195 -107523"
+model "*32"
+}
+{
+classname "script_brushmodel"
+origin "1271 -96190 -107560"
+model "*33"
+}
+{
+classname "script_brushmodel"
+origin "1276 -96188 -107571"
+model "*34"
+}
+{
+classname "script_brushmodel"
+origin "1287 -96181 -107588"
+model "*35"
+}
+{
+classname "script_brushmodel"
+origin "1414 -96103 -107556"
+model "*36"
+}
+{
+classname "script_brushmodel"
+origin "1421 -96098 -107559"
+model "*37"
+}
+{
+classname "script_brushmodel"
+origin "1423 -96097 -107567"
+model "*38"
+}
+{
+classname "script_brushmodel"
+origin "1423 -96097 -107578"
+model "*39"
+}
+{
+classname "script_brushmodel"
+origin "1421 -96098 -107589"
+model "*40"
+}
+{
+classname "script_brushmodel"
+origin "1417 -96101 -107592"
+model "*41"
+}
+{
+classname "script_brushmodel"
+origin "1397 -96113 -107578"
+model "*42"
+}
+{
+classname "script_brushmodel"
+origin "1399 -96112 -107585"
+model "*43"
+}
+{
+classname "script_brushmodel"
+origin "1400 -96111 -107587"
+model "*44"
+}
+{
+classname "script_brushmodel"
+origin "1402 -96110 -107591"
+model "*45"
+}
+{
+gndlt "191e229901"
+ltorigin "1092.89 -96397.2 -107402"
+origin "1096.63 -96397 -107463"
+model "cobra_town_antenna_01"
+classname "script_model"
+angles "0 301.5 0"
+}
+{
+classname "script_brushmodel"
+origin "1408 -96106 -107591"
+model "*46"
+}
+{
+classname "script_brushmodel"
+origin "1398 -96113 -107604"
+model "*47"
+}
+{
+target "pf2_auto383"
+script_duration "4.5"
+script_decel "1"
+script_accel "1.5"
+targetname "pf2_auto382"
+origin "-330 -98377 -114958"
+classname "script_struct"
+}
+{
+target "pf2_auto384"
+script_delay "1.75"
+angles "0 354 12"
+script_duration "0.15"
+script_accel "0.1"
+targetname "pf2_auto383"
+origin "-796 -98608 -114986"
+classname "script_struct"
+}
+{
+target "pf2_auto385"
+script_delay "0.2"
+angles "0 354 12"
+script_duration "2"
+script_accel "1.25"
+targetname "pf2_auto384"
+origin "-795 -98608 -114997"
+classname "script_struct"
+}
+{
+script_linkto "pf2_7"
+script_duration "0.1"
+target "pf2_auto386"
+angles "350.766 339.477 5.17225"
+targetname "pf2_auto385"
+origin "-1072 -98767 -115286"
+classname "script_struct"
+}
+{
+angles "350.766 339.477 5.17225"
+targetname "pf2_auto386"
+origin "-1048 -98751 -115546"
+classname "script_struct"
+}
+{
+script_linkname "pf2_7"
+classname "trigger_multiple"
+origin "-1038 -98790 -115208"
+model "?12"
+}
+{
+script_prefab_exploder "roof_collapse"
+classname "trigger_multiple"
+origin "-1036 -98791 -115128"
+model "?13"
+}
+{
+classname "script_brushmodel"
+origin "31061 -114606 -116805"
+model "*48"
+}
+{
+gndlt "2d2e313b01"
+ltorigin "31301.1 -114799 -116649"
+origin "31272.5 -114813 -116617"
+angles "0 26.7 0"
+model "com_wallchunk_boardcorner02"
+classname "script_model"
+}
+{
+classname "script_brushmodel"
+origin "31211 -114546 -116775"
+model "*49"
+}
+{
+gndlt "2224263501"
+ltorigin "31295.9 -114650 -116654"
+modelscale "1.2"
+origin "31261.9 -114667 -116616"
+angles "0.59999 26.7 0"
+model "com_wallchunk_boardcorner02"
+classname "script_model"
+}
+{
+gndlt "302e2b4e01"
+ltorigin "31354 -114760 -116790"
+origin "31325.2 -114773 -116758"
+angles "281 26.7013 4.5012e-006"
+model "com_wallchunk_boardcorner03"
+classname "script_model"
+}
+{
+gndlt "3c3c3c9901"
+ltorigin "31371.2 -114751 -116795"
+origin "31342.6 -114765 -116827"
+angles "0 26.7 0"
+model "com_wallchunk_boardcorner01"
+classname "script_model"
+}
+{
+gndlt "3536383301"
+ltorigin "31281.4 -114810 -116591"
+origin "31244.9 -114827 -116559"
+angles "270 26.0754 0.624566"
+model "com_wallchunk_boardcorner03"
+classname "script_model"
+}
+{
+gndlt "2625232f01"
+ltorigin "31347.4 -114763 -116735"
+origin "31310.9 -114780 -116703"
+angles "270 26.0754 0.624566"
+model "com_wallchunk_boardcorner03"
+classname "script_model"
+}
+{
+classname "script_brushmodel"
+origin "31181 -114849 -116768"
+model "*50"
+}
+{
+classname "script_brushmodel"
+origin "31178 -114843 -116769"
+model "*51"
+}
+{
+gndlt "4841350001"
+ltorigin "31016.5 -114508 -116793"
+origin "31049 -114477 -116793"
+angles "270 216.63 -179.93"
+model "ma_industrial_fridge_1_open"
+classname "script_model"
+}
+{
+classname "script_brushmodel"
+origin "31188 -114846 -116829"
+model "*52"
+}
+{
+classname "script_brushmodel"
+origin "31238 -114912 -116712"
+model "*53"
+}
+{
+classname "script_brushmodel"
+origin "31254 -114903 -116713"
+model "*54"
+}
+{
+gndlt "2625251901"
+ltorigin "31267 -114556 -116730"
+origin "31238.4 -114570 -116689"
+angles "0 206.7 0.69996"
+model "com_wallchunk_boardcorner03"
+classname "script_model"
+}
+{
+classname "script_brushmodel"
+origin "31281 -114835 -116693"
+model "*55"
+}
+{
+classname "script_brushmodel"
+origin "31263 -114859 -116700"
+model "*56"
+}
+{
+classname "script_brushmodel"
+origin "31273 -114881 -116713"
+model "*57"
+}
+{
+classname "script_brushmodel"
+origin "31296 -114925 -116729"
+model "*58"
+}
+{
+classname "script_brushmodel"
+origin "31289 -114909 -116726"
+model "*59"
+}
+{
+classname "script_brushmodel"
+origin "31274 -114894 -116719"
+model "*60"
+}
+{
+classname "script_brushmodel"
+origin "31273 -114864 -116701"
+model "*61"
+}
+{
+classname "script_brushmodel"
+origin "31267 -114839 -116690"
+model "*62"
+}
+{
+classname "script_brushmodel"
+origin "31282 -114859 -116701"
+model "*63"
+}
+{
+classname "script_brushmodel"
+origin "31305 -114913 -116724"
+model "*64"
+}
+{
+classname "script_brushmodel"
+origin "31284 -114891 -116711"
+model "*65"
+}
+{
+gndlt "4143454e01"
+ltorigin "31232.1 -114431 -116777"
+origin "31243 -114431 -116821"
+angles "0 296.7 0"
+model "ma_industrial_fridge_1_open"
+classname "script_model"
+}
+{
+script_prefab_exploder "mansion_int_rumble_a"
+classname "trigger_multiple"
+origin "379 -103176 -114631"
+model "?14"
+}
+{
+gndlt "191e229901"
+ltorigin "-880.309 -97288.9 -107432"
+origin "-884 -97283 -107631"
+angles "0 302 0"
+model "com_powerpole1"
+classname "script_model"
+}
+{
+script_noteworthy "mover"
+classname "script_brushmodel"
+origin "-660 -97319 -107639"
+model "*66"
+}
+{
+script_noteworthy "mover"
+classname "script_brushmodel"
+origin "296 -95051 -107375"
+model "*67"
+}
+{
+classname "script_brushmodel"
+origin "339 -95107 -107604"
+model "*68"
+}
+{
+gndlt "191e229901"
+ltorigin "230.364 -95271.1 -107428"
+origin "225.565 -95269.2 -107471"
+angles "0 127.8 0"
+model "bi_wire_pipes"
+classname "script_model"
+}
+{
+gndlt "191e229901"
+ltorigin "286.678 -95342.6 -107477"
+origin "287.823 -95346.2 -107508"
+angles "0 127.8 0"
+model "bat_wallmountedpipes"
+classname "script_model"
+}
+{
+gndlt "191e229901"
+ltorigin "286.678 -95342.6 -107410"
+origin "287.823 -95346.2 -107441"
+angles "0 127.8 0"
+model "bat_wallmountedpipes"
+classname "script_model"
+}
+{
+gndlt "191e229901"
+ltorigin "481.423 -95184.7 -107388"
+origin "481.426 -95184.7 -107388"
+angles "0 37.8 0"
+model "com_pipe_4x256_single_metal_dull"
+classname "script_model"
+}
+{
+gndlt "191e229901"
+ltorigin "447.001 -95282.2 -107388"
+origin "447.005 -95282.2 -107388"
+angles "0 127.8 0"
+model "com_pipe_4x256_single_metal_dull"
+classname "script_model"
+}
+{
+gndlt "191e229901"
+ltorigin "452.154 -94941 -107477"
+origin "451.009 -94937.4 -107508"
+angles "0 307.8 0"
+model "bat_wallmountedpipes"
+classname "script_model"
+}
+{
+gndlt "191e229901"
+ltorigin "452.154 -94941 -107410"
+origin "451.009 -94937.4 -107441"
+angles "0 307.8 0"
+model "bat_wallmountedpipes"
+classname "script_model"
+}
+{
+gndlt "191e229901"
+ltorigin "626.07 -95235.7 -107401"
+origin "626.074 -95235.7 -107401"
+angles "356.2 127.8 1.17162e-006"
+model "com_pipe_4x256_single_metal_dull"
+classname "script_model"
+}
+{
+gndlt "191e229901"
+ltorigin "439.411 -95517.2 -107504"
+origin "439.418 -95517.2 -107504"
+angles "0 121.8 0"
+model "com_pipe_4x256_single_metal_dull"
+classname "script_model"
+}
+{
+gndlt "191e229901"
+ltorigin "484.656 -95509.1 -107504"
+origin "482.493 -95509.1 -107508"
+angles "0 177.8 0"
+model "bog_b_cinderblock_clutter_02"
+classname "script_model"
+}
+{
+gndlt "191e229901"
+ltorigin "476.976 -95539.9 -107504"
+origin "477.367 -95538.4 -107508"
+angles "0 71.8 0"
+model "bog_b_cinderblock_clutter_02"
+classname "script_model"
+}
+{
+gndlt "191e229901"
+ltorigin "329.615 -95488.6 -107319"
+angles "0 235.8 0"
+origin "334.646 -95482.8 -107355"
+model "character_arab_civilian_lowres_b"
+classname "script_model"
+}
+{
+script_noteworthy "mover"
+classname "script_brushmodel"
+origin "-272 -101880 -107581"
+model "*69"
+}
+{
+gndlt "191d229901"
+ltorigin "-441.299 -101931 -107598"
+origin "-453 -101911 -107669"
+angles "0 268 0"
+model "six_foliage_afr_tall_bush_01a"
+classname "script_model"
+}
+{
+gndlt "191d229901"
+ltorigin "-404.316 -101790 -107598"
+origin "-395 -101813 -107669"
+angles "0 78 0"
+model "six_foliage_afr_tall_bush_01a"
+classname "script_model"
+}
+{
+gndlt "191d229901"
+ltorigin "-356.272 -101835 -107417"
+origin "-357 -101830 -107616"
+angles "0 276 0"
+model "com_powerpole1"
+classname "script_model"
+}
+{
+gndlt "191d229901"
+ltorigin "-336.727 -101960 -107569"
+angles "0.244163 114.265 -8.07464"
+origin "-336.9 -101957 -107584"
+model "pbk_foliage_jungle_tall_grass02"
+classname "script_model"
+}
+{
+gndlt "191d229901"
+ltorigin "-317.823 -101837 -107583"
+angles "10.133 280.349 9.7007"
+origin "-318.9 -101837 -107594"
+model "pbk_foliage_jungle_tall_grass02"
+classname "script_model"
+}
+{
+gndlt "191d229901"
+ltorigin "-257 -101722 -107501"
+origin "-257 -101722 -107593"
+model "paris_street_lamp_freestanding_03"
+classname "script_model"
+}
+{
+gndlt "191d229901"
+ltorigin "-492.692 -101811 -107682"
+origin "-503 -101789 -107753"
+angles "0 262 0"
+model "six_foliage_afr_tall_bush_01a"
+classname "script_model"
+}
+{
+gndlt "191d229901"
+ltorigin "-322.029 -101745 -107589"
+angles "2.37566 86.3205 -18.0839"
+origin "-320.9 -101743 -107600"
+model "pbk_foliage_jungle_tall_grass02"
+classname "script_model"
+}
+{
+gndlt "191d229901"
+ltorigin "-269.999 -101769 -107564"
+origin "-270 -101769 -107564"
+angles "90 262.9 -180"
+model "afr_corrugated_metal2x8"
+classname "script_model"
+}
+{
+gndlt "191d229901"
+ltorigin "-299.978 -101965 -107558"
+origin "-300 -101965 -107558"
+angles "87 256.9 180"
+model "afr_corrugated_metal2x8"
+classname "script_model"
+}
+{
+gndlt "191e229901"
+ltorigin "-314.429 -102006 -107571"
+origin "-315 -102006 -107603"
+angles "359.3 170.9 1.64789e-007"
+model "ch_wooden_fence_post_01"
+classname "script_model"
+}
+{
+gndlt "191d229901"
+ltorigin "-293.896 -101919 -107573"
+origin "-294 -101920 -107605"
+angles "359.3 260.9 0"
+model "ch_wooden_fence_post_01"
+classname "script_model"
+}
+{
+gndlt "191d229901"
+ltorigin "-280.571 -101810 -107579"
+origin "-280 -101810 -107611"
+angles "359.3 350.9 0"
+model "ch_wooden_fence_post_01"
+classname "script_model"
+}
+{
+gndlt "191d229901"
+ltorigin "-268.127 -101717 -107579"
+origin "-268 -101716 -107611"
+angles "359.3 78.9 0"
+model "ch_wooden_fence_post_01"
+classname "script_model"
+}
+{
+target "pf2_auto16"
+targetname "pf2_auto15"
+script_delay "0.5"
+script_decel "1"
+script_accel "0.25"
+script_duration "4"
+origin "-502 -102346 -114737"
+angles "0 0 0"
+classname "script_struct"
+}
+{
+target "pf2_auto13"
+targetname "pf2_auto1"
+classname "trigger_multiple"
+origin "-390 -101923 -107565"
+model "?15"
+}
+{
+script_linkname "pf2_3"
+classname "trigger_multiple"
+origin "-481 -99311 -115021"
+model "?16"
+}
+{
+script_noteworthy "mover"
+classname "script_brushmodel"
+origin "496 -99740 -107566"
+model "*70"
+}
+{
+gndlt "191e229901"
+ltorigin "629.494 -99862.2 -107522"
+angles "0 96 0"
+origin "629 -99869 -107560"
+model "ac_prs_imp_payback_bush_roll"
+classname "script_model"
+}
+{
+gndlt "191e229901"
+ltorigin "646.658 -99926.1 -107522"
+origin "641 -99928 -107560"
+model "ac_prs_imp_payback_bush_roll"
+classname "script_model"
+}
+{
+gndlt "191d229901"
+ltorigin "583.209 -99702.4 -107522"
+angles "0 344 0"
+origin "585 -99707 -107560"
+model "ac_prs_imp_payback_bush_roll"
+classname "script_model"
+}
+{
+gndlt "191d229901"
+ltorigin "593.494 -99752.2 -107522"
+angles "0 96 0"
+origin "593 -99759 -107560"
+model "ac_prs_imp_payback_bush_roll"
+classname "script_model"
+}
+{
+gndlt "191d229901"
+ltorigin "447.678 -99969.8 -107568"
+angles "354.7 126 -10"
+model "foliage_grass_trimmed_mid_dark_64"
+origin "448 -99970 -107572"
+classname "script_model"
+}
+{
+gndlt "191d229901"
+ltorigin "632.557 -99679.7 -107259"
+angles "0 288 -2"
+origin "614 -99701 -107582"
+model "fah_foliage_fanpalm_02"
+classname "script_model"
+}
+{
+script_decel "1"
+script_accel "1.5"
+script_duration "4.5"
+target "pf2_auto349"
+targetname "pf2_auto336"
+origin "-330 -98377 -114958"
+classname "script_struct"
+}
+{
+script_prefab_exploder "deer_hut_tremor_a"
+classname "trigger_multiple"
+origin "6088 -108337 -116286"
+model "?17"
+}
+{
+script_decel "0.5"
+script_duration "1"
+target "pf2_auto301"
+targetname "pf2_auto300"
+angles "0 54.4 0"
+origin "5464 -107191 -115826"
+classname "script_struct"
+}
+{
+targetname "pf2_auto44"
+angles "4.49999 172 -1.06135e-006"
+origin "128 -100960 -114792"
+classname "script_struct"
+}
+{
+targetname "pf2_auto344"
+angles "320.217 344.561 34.2127"
+origin "-1645 -98878 -115412"
+classname "script_struct"
+}
+{
+target "pf2_auto14"
+targetname "pf2_auto13"
+script_decel "1"
+script_accel ".25"
+script_duration "4"
+script_delay "1.75"
+origin "-272 -102032 -114752"
+angles "0 0 0"
+classname "script_struct"
+}
+{
+target "pf2_auto23"
+targetname "pf2_auto22"
+classname "trigger_multiple"
+origin "-1397 -102206 -107657"
+model "?18"
+}
+{
+targetname "pf2_auto343"
+angles "356.158 28.343 0.24896"
+origin "-495 -98831 -115331"
+classname "script_struct"
+}
+{
+targetname "pf2_auto16"
+origin "-701.6 -102193 -114939"
+angles "331.9 0 0"
+classname "script_struct"
+}
+{
+targetname "pf2_auto14"
+origin "-480 -102000 -114936"
+angles "303.7 352.96 -11.333"
+classname "script_struct"
+}
+{
+targetname "move_trigger"
+target "pf2_auto22"
+classname "trigger_multiple"
+origin "41 -102562 -114666"
+model "?19"
+}
+{
+target "pf2_auto24"
+script_decel "0.2"
+script_accel "0.1"
+script_duration "1"
+targetname "pf2_auto23"
+origin "-7 -102165 -114744"
+classname "script_struct"
+}
+{
+targetname "pf2_auto21"
+classname "trigger_multiple_fx_volume_on"
+origin "6057 -108350 -116251"
+model "?20"
+}
+{
+script_decel "2"
+script_accel ".5"
+script_duration "5"
+target "pf2_auto25"
+origin "-23 -102153 -114756"
+targetname "pf2_auto24"
+angles "358.8 0 0"
+classname "script_struct"
+}
+{
+origin "-94.1 -102051 -114807"
+targetname "pf2_auto25"
+angles "344.714 0.271871 -0.95911"
+classname "script_struct"
+}
+{
+script_prefab_exploder "cecotchunk_a"
+classname "trigger_multiple"
+origin "36 -102565 -114692"
+model "?21"
+}
+{
+script_decel "2"
+script_duration "4"
+target "pf2_auto351"
+targetname "pf2_auto345"
+angles "3.82159 0.340739 7.3534"
+origin "-1308 -98541 -115161"
+classname "script_struct"
+}
+{
+gndlt "191e229901"
+ltorigin "-1300.99 -96151 -107322"
+origin "-1326 -96172 -107591"
+angles "0 220 0"
+model "me_streetlight"
+classname "script_model"
+}
+{
+gndlt "191e229901"
+ltorigin "-988 -95900 -107487"
+origin "-988 -95900 -107579"
+model "paris_street_lamp_freestanding_03"
+classname "script_model"
+}
+{
+script_noteworthy "mover"
+classname "script_brushmodel"
+origin "-1124 -96080 -107593"
+model "*71"
+}
+{
+gndlt "191e229901"
+ltorigin "-1471.82 -94600.7 -107309"
+origin "-1477 -94596 -107508"
+angles "0 318 0"
+model "com_powerpole1"
+classname "script_model"
+}
+{
+script_noteworthy "mover"
+classname "script_brushmodel"
+origin "-1245 -94710 -107536"
+model "*72"
+}
+{
+script_noteworthy "mover"
+classname "script_brushmodel"
+origin "231 -96471 -107568"
+model "*73"
+}
+{
+classname "script_brushmodel"
+origin "532 -96448 -107496"
+model "*74"
+}
+{
+classname "script_brushmodel"
+origin "457 -96494 -107496"
+model "*75"
+}
+{
+classname "script_brushmodel"
+origin "278 -96492 -107478"
+model "*76"
+}
+{
+classname "script_brushmodel"
+origin "263 -96613 -107502"
+model "*77"
+}
+{
+classname "script_brushmodel"
+origin "25 -96621 -107506"
+model "*78"
+}
+{
+target "pf2_auto337"
+targetname "pf2_auto335"
+classname "trigger_multiple"
+origin "285 -97390 -107635"
+model "?22"
+}
+{
+target "pf2_auto338"
+targetname "pf2_auto335"
+classname "trigger_multiple"
+origin "-827 -97424 -107629"
+model "?23"
+}
+{
+target "pf2_auto339"
+targetname "pf2_auto335"
+classname "trigger_multiple"
+origin "-1206 -96227 -107556"
+model "?24"
+}
+{
+target "pf2_auto336"
+targetname "pf2_auto335"
+classname "trigger_multiple"
+origin "239 -96465 -107612"
+model "?25"
+}
+{
+target "pf2_auto341"
+targetname "pf2_auto335"
+classname "trigger_multiple"
+origin "-1410 -94856 -107513"
+model "?26"
+}
+{
+target "pf2_auto340"
+targetname "pf2_auto335"
+classname "trigger_multiple"
+origin "206 -95182 -107531"
+model "?27"
+}
+{
+target "pf2_auto335"
+targetname "move_trigger"
+classname "trigger_multiple"
+origin "215 -100356 -114919"
+model "?28"
+}
+{
+script_delay "0.5"
+script_duration "0.5"
+target "pf2_auto312"
+targetname "pf2_auto310"
+angles "0 26 0"
+origin "978 -103777 -114805"
+classname "script_struct"
+}
+{
+targetname "move_trigger"
+target "pf2_auto299"
+classname "trigger_multiple"
+origin "5947 -107489 -116061"
+model "?29"
+}
+{
+script_accel "0.5"
+script_duration "1"
+target "pf2_auto315"
+targetname "pf2_auto314"
+angles "0 26 0"
+origin "1276 -104121 -114783"
+classname "script_struct"
+}
+{
+script_delay "0.5"
+script_duration "0.5"
+target "pf2_auto311"
+targetname "pf2_auto309"
+angles "0 26 0"
+origin "908 -103634 -114805"
+classname "script_struct"
+}
+{
+script_noteworthy "mover"
+classname "script_brushmodel"
+origin "2526 -103759 -107706"
+model "*79"
+}
+{
+script_noteworthy "mover"
+classname "script_brushmodel"
+origin "1874 -103598 -107651"
+model "*80"
+}
+{
+script_noteworthy "mover"
+classname "script_brushmodel"
+origin "1883 -103622 -107680"
+model "*81"
+}
+{
+gndlt "191d229901"
+ltorigin "1706.67 -103782 -107595"
+origin "1707 -103782 -107595"
+angles "0 180 0"
+model "dub_poolside_rail_01"
+classname "script_model"
+}
+{
+script_noteworthy "mover"
+classname "script_brushmodel"
+origin "1361 -103591 -107651"
+model "*82"
+}
+{
+script_noteworthy "mover"
+classname "script_brushmodel"
+origin "1291 -103646 -107680"
+model "*83"
+}
+{
+script_noteworthy "mover"
+classname "script_brushmodel"
+origin "1360 -103652 -107680"
+model "*84"
+}
+{
+script_noteworthy "mover"
+classname "script_brushmodel"
+origin "1361 -103467 -107638"
+model "*85"
+}
+{
+target "pf2_auto309"
+targetname "pf2_auto304"
+classname "trigger_multiple"
+origin "1364 -103610 -107690"
+model "?30"
+}
+{
+target "pf2_auto310"
+targetname "pf2_auto304"
+classname "trigger_multiple"
+origin "1879 -103636 -107690"
+model "?31"
+}
+{
+target "pf2_auto314"
+targetname "pf2_auto313"
+classname "trigger_multiple"
+origin "2526 -103752 -107690"
+model "?32"
+}
+{
+targetname "pf2_auto311"
+angles "0.500765 26.0216 0.50026"
+origin "899 -103634 -114808"
+classname "script_struct"
+}
+{
+targetname "pf2_auto312"
+angles "359.204 25.9056 0.0715597"
+origin "978 -103783 -114806"
+classname "script_struct"
+}
+{
+target "pf2_auto313"
+targetname "move_trigger"
+classname "trigger_multiple"
+origin "1227 -104598 -114820"
+model "?33"
+}
+{
+targetname "pf2_auto315"
+angles "0 26 5"
+origin "1279 -104121 -114798"
+classname "script_struct"
+}
+{
+script_prefab_exploder "mansion_ext_a"
+classname "trigger_multiple"
+origin "1128 -104627 -114858"
+model "?34"
+}
+{
+script_accel "0.5"
+script_duration "1"
+target "pf2_auto317"
+targetname "pf2_auto316"
+angles "0 26 0"
+origin "1276 -104121 -114783"
+classname "script_struct"
+}
+{
+script_noteworthy "mover"
+classname "script_brushmodel"
+origin "2515 -104026 -107716"
+model "*86"
+}
+{
+gndlt "191e229901"
+ltorigin "2461 -104026 -107629"
+origin "2269 -104026 -107643"
+model "intro_balcony_railing_04_clump"
+classname "script_model"
+}
+{
+gndlt "191e229901"
+ltorigin "2750 -104026 -107629"
+origin "2718 -104026 -107643"
+model "intro_balcony_railing_04"
+classname "script_model"
+}
+{
+gndlt "191e229901"
+ltorigin "2685 -104026 -107629"
+origin "2653 -104026 -107643"
+model "intro_balcony_railing_04"
+classname "script_model"
+}
+{
+target "pf2_auto316"
+targetname "pf2_auto313"
+classname "trigger_multiple"
+origin "2527 -104022 -107695"
+model "?35"
+}
+{
+targetname "pf2_auto317"
+angles "359.307 25.9265 6.00044"
+origin "1278 -104125 -114784"
+classname "script_struct"
+}
+{
+script_delay "1.75"
+script_linkto "pf2_3"
+angles "0 354 12"
+script_accel "0.1"
+script_duration "0.15"
+target "pf2_auto353"
+targetname "pf2_auto349"
+origin "-796 -98608 -114986"
+classname "script_struct"
+}
+{
+script_linkto "pf2_6"
+script_decel "0.5"
+script_accel "0.5"
+script_duration "3.5"
+target "pf2_auto346"
+targetname "pf2_auto369"
+origin "-1326 -97635 -114765"
+classname "script_struct"
+}
+{
+targetname "pf2_auto350"
+angles "8.54739 359.616 12.1871"
+origin "-1490 -97967 -114939"
+classname "script_struct"
+}
+{
+script_linkname "pf2_5"
+classname "trigger_multiple"
+origin "-1070 -98527 -115156"
+model "?36"
+}
+{
+targetname "pf2_auto351"
+angles "1.82501 0.223714 3.34764"
+origin "-1308 -98541 -115265"
+classname "script_struct"
+}
+{
+script_prefab_exploder "impact_c"
+classname "trigger_multiple"
+origin "-770 -99294 -114981"
+model "?37"
+}
+{
+script_delay "0.2"
+angles "0 354 12"
+script_accel "1.25"
+script_duration "2"
+target "pf2_auto342"
+targetname "pf2_auto353"
+origin "-795 -98608 -114997"
+classname "script_struct"
+}
+{
+script_delay "0.5"
+script_decel "0.25"
+script_accel "0.5"
+script_duration "1.5"
+target "pf2_auto350"
+targetname "pf2_auto355"
+angles "6.12905 358.622 1.81674"
+origin "-1524 -97917 -114915"
+classname "script_struct"
+}
+{
+target "pf2_auto356"
+targetname "move_trigger"
+classname "trigger_multiple"
+origin "-1706 -97556 -114934"
+model "?38"
+}
+{
+script_noteworthy "mover"
+classname "script_brushmodel"
+origin "-2594 -96885 -107807"
+model "*87"
+}
+{
+gndlt "191e229901"
+ltorigin "-2918.93 -96618.2 -107904"
+origin "-2925 -96611 -107939"
+angles "0 310 0"
+model "com_restaurantstainlessteelshelf_02"
+classname "script_model"
+}
+{
+gndlt "191e229901"
+ltorigin "-2962.36 -96664.6 -107905"
+origin "-2970 -96659 -107940"
+angles "0 324 0"
+model "com_restaurantsteelshelf_rusty_02"
+classname "script_model"
+}
+{
+gndlt "191d229901"
+ltorigin "-2608 -96811 -107923"
+origin "-2608 -96811 -107940"
+angles "0 310 0"
+model "furniture_pool_table_dirty"
+classname "script_model"
+}
+{
+gndlt "191e229901"
+ltorigin "-2718.74 -96478.3 -107903"
+origin "-2728 -96463 -107939"
+angles "0 32 0"
+model "red_toolbox_01"
+classname "script_model"
+}
+{
+gndlt "191d229901"
+ltorigin "-2698.7 -96927.2 -107917"
+origin "-2698.7 -96927.2 -107939"
+angles "0 130 0"
+model "afr_militarytent_wood_table"
+classname "script_model"
+}
+{
+gndlt "191e229901"
+ltorigin "-2485.2 -97070.3 -107917"
+origin "-2485.2 -97070.3 -107939"
+angles "0 28 0"
+model "afr_militarytent_wood_table"
+classname "script_model"
+}
+{
+gndlt "191d229901"
+ltorigin "-2461.6 -96819.1 -107917"
+origin "-2461.6 -96819.1 -107939"
+angles "0 62 0"
+model "afr_militarytent_wood_table"
+classname "script_model"
+}
+{
+gndlt "191e229901"
+ltorigin "-2347.8 -96908.1 -107912"
+origin "-2334.1 -96900.8 -107940"
+angles "0 298 0"
+model "machinery_washer_white"
+classname "script_model"
+}
+{
+gndlt "191e229901"
+ltorigin "-2374.86 -96871.3 -107912"
+origin "-2363.7 -96860.5 -107940"
+angles "0 314 0"
+model "machinery_washer_white"
+classname "script_model"
+}
+{
+target "pf2_auto362"
+targetname "pf2_auto361"
+script_delay "0.5"
+script_decel "0.1"
+script_accel "0.1"
+script_duration "0.5"
+script_linkto "pf2_8 pf2_5"
+angles "2.65422 358.487 2.07432"
+origin "-1524 -97917 -114915"
+classname "script_struct"
+}
+{
+script_prefab_exploder "family_a1"
+classname "trigger_multiple"
+origin "5178 -106835 -115720"
+model "?39"
+}
+{
+script_prefab_exploder "family_a2"
+classname "trigger_multiple"
+origin "4505 -106638 -115622"
+model "?40"
+}
+{
+script_prefab_exploder "family_b1"
+classname "trigger_multiple"
+origin "4001 -106314 -115516"
+model "?41"
+}
+{
+script_prefab_exploder "family_c1"
+classname "trigger_multiple"
+origin "3720 -105883 -115516"
+model "?42"
+}
+{
+script_prefab_exploder "family_d1"
+classname "trigger_multiple"
+origin "3236 -105220 -115484"
+model "?43"
+}
+{
+script_prefab_exploder "family_e1"
+classname "trigger_multiple"
+origin "2879 -104937 -115463"
+model "?44"
+}
+{
+target "pf2_auto360"
+targetname "pf2_auto335"
+classname "trigger_multiple"
+origin "-2627 -96797 -107890"
+model "?45"
+}
+{
+target "pf2_auto361"
+targetname "pf2_auto360"
+script_decel "2"
+script_accel "1"
+script_duration "6"
+origin "-974 -97267 -114765"
+classname "script_struct"
+}
+{
+script_accel "1"
+script_duration "3"
+target "pf2_auto364"
+targetname "pf2_auto363"
+angles "8.54739 359.616 12.1871"
+origin "-1490 -97967 -114939"
+classname "script_struct"
+}
+{
+target "pf2_auto318"
+targetname "move_trigger"
+classname "trigger_multiple"
+origin "252 -102901 -114608"
+model "?46"
+}
+{
+target "pf2_auto363"
+targetname "pf2_auto362"
+script_delay "0.5"
+script_decel "0.25"
+script_accel "0.5"
+script_duration "1.5"
+script_linkto "pf2_9"
+angles "6.12905 358.622 1.81674"
+origin "-1524 -97917 -114915"
+classname "script_struct"
+}
+{
+targetname "pf2_auto364"
+angles "8.54739 359.616 12.1871"
+origin "-1318 -98227 -115023"
+classname "script_struct"
+}
+{
+script_noteworthy "mover"
+classname "script_brushmodel"
+origin "-2528 -93776 -107952"
+model "*88"
+}
+{
+gndlt "191e229901"
+ltorigin "-2533.66 -93792.1 -107939"
+origin "-2528 -93776 -108032"
+angles "0 0 0"
+model "ygb_tmp_house_b"
+classname "script_model"
+}
+{
+targetname "pf2_auto356"
+target "pf2_auto365"
+classname "trigger_multiple"
+origin "-2536 -93804 -107932"
+model "?47"
+}
+{
+script_duration "0.1"
+target "pf2_auto366"
+targetname "pf2_auto365"
+origin "-5488 -96760 -114528"
+classname "script_struct"
+}
+{
+script_duration "1.7"
+target "pf2_auto367"
+script_delay "0.5"
+angles "48.5904 310.893 -40.8934"
+targetname "pf2_auto366"
+origin "-4400 -96574 -113033"
+classname "script_struct"
+}
+{
+script_duration "1"
+target "pf2_auto370"
+angles "23.5444 189.415 -135.107"
+targetname "pf2_auto367"
+origin "-2323 -96415 -114465"
+classname "script_struct"
+}
+{
+script_linkname "pf2_6"
+classname "trigger_multiple"
+origin "-671 -99357 -115046"
+model "?48"
+}
+{
+script_prefab_exploder "basement_exit_a"
+classname "trigger_multiple"
+origin "-1700 -97550 -115002"
+model "?49"
+}
+{
+script_linkto "pf2_1"
+angles "359.2 0 0"
+script_accel "0.1"
+script_delay "0"
+script_duration "1.75"
+target "pf2_auto90"
+targetname "pf2_auto72"
+origin "-317 -100857 -114824"
+classname "script_struct"
+}
+{
+script_noteworthy "mover"
+classname "script_brushmodel"
+origin "-356 -102663 -107617"
+model "*89"
+}
+{
+gndlt "191e229901"
+ltorigin "-583.154 -102591 -107626"
+angles "15.6371 156.272 14.4367"
+origin "-582.9 -102603 -107635"
+model "pbk_foliage_jungle_tall_grass02"
+classname "script_model"
+}
+{
+gndlt "191e229901"
+ltorigin "-624.073 -102668 -107607"
+angles "1.78094 244.237 14.1261"
+origin "-612.9 -102671 -107619"
+model "pbk_foliage_jungle_tall_grass02"
+classname "script_model"
+}
+{
+gndlt "191e229901"
+ltorigin "-153 -102691 -107515"
+origin "-153 -102691 -107607"
+model "paris_street_lamp_freestanding_03"
+classname "script_model"
+}
+{
+gndlt "191e229901"
+ltorigin "-517.738 -102624 -107369"
+origin "-546 -102608 -107638"
+angles "0 150 0"
+model "me_streetlight"
+classname "script_model"
+}
+{
+target "pf2_auto8"
+targetname "pf2_auto1"
+classname "trigger_multiple"
+origin "-323 -102627 -107381"
+model "?50"
+}
+{
+target "pf2_auto1"
+targetname "move_trigger"
+classname "trigger_multiple"
+origin "193 -102787 -114607"
+model "?51"
+}
+{
+target "pf2_auto9"
+targetname "pf2_auto8"
+script_delay "1.1"
+script_decel "0.1"
+script_accel "0.1"
+script_duration "0.3"
+origin "-356 -102663 -114703"
+angles "0 0 0"
+classname "script_struct"
+}
+{
+targetname "pf2_auto10"
+origin "-782.9 -102440 -114927"
+angles "317.562 359.057 -47.1658"
+classname "script_struct"
+}
+{
+target "pf2_auto10"
+targetname "pf2_auto9"
+script_delay ".15"
+script_decel "3"
+script_accel "2"
+script_duration "6"
+origin "-360 -102659 -114719"
+angles "0 0 0"
+classname "script_struct"
+}
+{
+script_noteworthy "mover"
+classname "script_brushmodel"
+origin "53174 -107032 -76371"
+model "*90"
+}
+{
+script_noteworthy "mover"
+classname "script_brushmodel"
+origin "125 -102885 -108229"
+model "*91"
+}
+{
+script_noteworthy "mover"
+classname "script_brushmodel"
+origin "50966 -107000 -76371"
+model "*92"
+}
+{
+script_noteworthy "mover"
+classname "script_brushmodel"
+origin "295 -102804 -108229"
+model "*93"
+}
+{
+targetname "pf2_auto318"
+target "pf2_auto17"
+classname "trigger_multiple"
+origin "273 -102811 -108177"
+model "?52"
+}
+{
+targetname "pf2_auto318"
+target "pf2_auto19"
+classname "trigger_multiple"
+origin "145 -102877 -108175"
+model "?53"
+}
+{
+script_noteworthy "player_push_trigger"
+target "pf2_auto6"
+targetname "move_trigger"
+classname "trigger_multiple"
+origin "249 -102894 -114584"
+model "?54"
+}
+{
+targetname "pf2_auto18"
+origin "255 -102822 -114632"
+angles "0 264.6 0"
+classname "script_struct"
+}
+{
+target "pf2_auto18"
+targetname "pf2_auto17"
+script_accel ".25"
+script_duration "1.5"
+origin "255 -102822 -114632"
+angles "0 26 0"
+classname "script_struct"
+}
+{
+target "pf2_auto20"
+targetname "pf2_auto19"
+script_duration "1.5"
+script_accel ".25"
+origin "179 -102859 -114632"
+angles "0 26 0"
+classname "script_struct"
+}
+{
+targetname "pf2_auto20"
+origin "179 -102859 -114632"
+angles "0 134.2 0"
+classname "script_struct"
+}
+{
+script_prefab_exploder "rod_impact_reveal_near"
+classname "trigger_multiple"
+origin "201 -102797 -114641"
+model "?55"
+}
+{
+target "pf2_auto12"
+targetname "pf2_auto11"
+script_delay "2.5"
+script_decel "1.25"
+script_accel ".25"
+script_duration "5"
+origin "-102 -101630 -114764"
+angles "0 0 0"
+classname "script_struct"
+}
+{
+script_prefab_exploder "dust_ground_break_a"
+classname "trigger_multiple"
+origin "204 -102796 -114650"
+model "?56"
+}
+{
+origin "-788.5 -102216 -114306"
+classname "script_struct"
+}
+{
+target "pf2_auto21"
+classname "trigger_multiple_fx_volume"
+origin "-792 -102216 -114304"
+model "?57"
+}
+{
+targetname "pf2_auto21"
+classname "trigger_multiple_fx_volume_off"
+origin "514 -103449 -114640"
+model "?58"
+}
+{
+script_prefab_exploder "mansion_garden_a"
+classname "trigger_multiple"
+origin "999 -104140 -114720"
+model "?59"
+}
+{
+script_prefab_exploder "suburb_climb_b"
+classname "trigger_multiple"
+origin "3399 -105376 -115096"
+model "?60"
+}
+{
+script_prefab_exploder "suburb_climb_a"
+classname "trigger_multiple"
+origin "4243 -106233 -115304"
+model "?61"
+}
+{
+script_prefab_exploder "deer_hill_tremor_b"
+classname "trigger_multiple"
+origin "5224 -106965 -115720"
+model "?62"
+}
+{
+script_prefab_exploder "impact_b"
+classname "trigger_multiple"
+origin "-83 -101620 -114811"
+model "?63"
+}
+{
+script_accel "0.1"
+script_delay "0"
+script_duration "2"
+target "pf2_auto80"
+targetname "pf2_auto27"
+origin "154 -100762 -114791"
+classname "script_struct"
+}
+{
+script_accel "0.1"
+script_delay "0"
+script_duration "2"
+target "pf2_auto92"
+targetname "pf2_auto74"
+origin "-462 -100445 -114857"
+classname "script_struct"
+}
+{
+angles "358.8 359.7 -0.393715"
+script_accel "0.1"
+script_delay "0"
+script_duration "2"
+target "pf2_auto94"
+targetname "pf2_auto76"
+origin "-434 -100028 -114895"
+classname "script_struct"
+}
+{
+angles "357.4 0 0.9"
+script_accel "0.1"
+script_delay "0"
+script_duration "2"
+target "pf2_auto96"
+targetname "pf2_auto78"
+origin "-461 -99349 -114951"
+classname "script_struct"
+}
+{
+script_decel "0.2"
+script_linkto "pf2_1"
+angles "359.4 0 0"
+script_accel "0.3"
+script_delay "0.2"
+script_duration "1.5"
+target "pf2_auto98"
+targetname "pf2_auto80"
+origin "151 -100762 -114804"
+classname "script_struct"
+}
+{
+classname "script_brushmodel"
+origin "472 -98538 -107486"
+model "*94"
+}
+{
+gndlt "191e229901"
+ltorigin "739.039 -98677.3 -107418"
+origin "710.451 -98691.7 -107386"
+angles "0 26.7 0"
+model "com_wallchunk_boardcorner02"
+classname "script_model"
+}
+{
+classname "script_brushmodel"
+origin "530 -98554 -107456"
+model "*95"
+}
+{
+gndlt "191e229901"
+ltorigin "810.946 -98642.8 -107639"
+origin "773.88 -98659.8 -107610"
+angles "274.9 206.7 -179.999"
+model "com_wallchunk_boardcorner03"
+classname "script_model"
+}
+{
+gndlt "191e229901"
+ltorigin "809.643 -98641.8 -107560"
+origin "781.027 -98656.2 -107592"
+angles "90 107.174 80.474"
+model "com_wallchunk_boardcorner04"
+classname "script_model"
+}
+{
+gndlt "191e229901"
+ltorigin "739.039 -98677.3 -107519"
+origin "710.451 -98691.7 -107551"
+angles "0 26.7 0"
+model "com_wallchunk_boardcorner01"
+classname "script_model"
+}
+{
+gndlt "191e229901"
+ltorigin "797.859 -98649.4 -107394"
+origin "761.373 -98666.1 -107362"
+angles "270 26.0754 0.624566"
+model "com_wallchunk_boardcorner03"
+classname "script_model"
+}
+{
+gndlt "191e229901"
+ltorigin "742.46 -98672.8 -107423"
+origin "705.974 -98689.5 -107391"
+angles "270 26.0754 0.624566"
+model "com_wallchunk_boardcorner03"
+classname "script_model"
+}
+{
+classname "script_brushmodel"
+origin "425 -98344 -107439"
+model "*96"
+}
+{
+classname "script_brushmodel"
+origin "693 -98712 -107456"
+model "*97"
+}
+{
+classname "script_brushmodel"
+origin "599 -98691 -107456"
+model "*98"
+}
+{
+classname "script_brushmodel"
+origin "489 -98472 -107439"
+model "*99"
+}
+{
+classname "script_brushmodel"
+origin "293 -98309 -107605"
+model "*100"
+}
+{
+gndlt "191e229901"
+ltorigin "597.173 -98568.3 -107658"
+angles "0 20.7 0"
+model "dub_lounge_sofa_06"
+origin "595.218 -98565 -107674"
+classname "script_model"
+}
+{
+gndlt "191e229901"
+ltorigin "585.452 -98624.1 -107658"
+origin "589.54 -98622.7 -107677"
+angles "0 110.7 -32"
+model "cnd_flatscreen_tv_on_wallmount_02"
+classname "script_model"
+}
+{
+gndlt "191d229901"
+ltorigin "512.501 -98369.8 -107654"
+origin "545.044 -98338.3 -107654"
+angles "270 216.63 -179.93"
+model "ma_industrial_fridge_1_open"
+classname "script_model"
+}
+{
+script_noteworthy "mover"
+classname "script_brushmodel"
+origin "466 -98659 -107679"
+model "*101"
+}
+{
+gndlt "191d229901"
+ltorigin "-1459.49 -98504.3 -107731"
+origin "-1458 -98508 -107761"
+angles "356.5 296 0"
+model "vehicle_subcompact_blue"
+classname "script_model"
+}
+{
+script_noteworthy "mover"
+classname "script_brushmodel"
+origin "-1483 -98725 -107743"
+model "*102"
+}
+{
+gndlt "191d229901"
+ltorigin "-1320.62 -99091.5 -107502"
+origin "-1323 -99085 -107701"
+angles "0 290 0"
+model "com_powerpole1"
+classname "script_model"
+}
+{
+script_noteworthy "mover"
+classname "script_brushmodel"
+origin "-165 -100513 -107587"
+model "*103"
+}
+{
+gndlt "191d229901"
+ltorigin "-244.552 -100701 -107398"
+origin "-246 -100694 -107597"
+angles "0 282 0"
+model "com_powerpole1"
+classname "script_model"
+}
+{
+gndlt "191d229901"
+ltorigin "-198.277 -100659 -107561"
+angles "6.28761 312.049 5.99542"
+origin "-195 -100654 -107574"
+model "pbk_foliage_jungle_tall_grass02"
+classname "script_model"
+}
+{
+gndlt "191d229901"
+ltorigin "-221.115 -100589 -107569"
+angles "6.28829 124.047 -6.0048"
+origin "-223 -100590 -107582"
+model "pbk_foliage_jungle_tall_grass02"
+classname "script_model"
+}
+{
+gndlt "191d229901"
+ltorigin "-241.646 -100524 -107573"
+angles "0.96443 323.246 5.87859"
+origin "-237 -100516 -107588"
+model "pbk_foliage_jungle_tall_grass02"
+classname "script_model"
+}
+{
+gndlt "191d229901"
+ltorigin "-243.068 -100443 -107581"
+angles "348.386 345.937 -0.0936997"
+origin "-235 -100438 -107596"
+model "pbk_foliage_jungle_tall_grass02"
+classname "script_model"
+}
+{
+gndlt "191d229901"
+ltorigin "-276.641 -100351 -107591"
+angles "8.27663 145.835 -6.03177"
+origin "-277 -100360 -107604"
+model "pbk_foliage_jungle_tall_grass02"
+classname "script_model"
+}
+{
+gndlt "191d229901"
+ltorigin "-371.927 -100375 -107595"
+origin "-384 -100365 -107666"
+angles "0 294 0"
+model "six_foliage_afr_tall_bush_01a"
+classname "script_model"
+}
+{
+script_noteworthy "mover"
+classname "script_brushmodel"
+origin "-322 -99712 -107614"
+model "*104"
+}
+{
+gndlt "191d229901"
+ltorigin "-349.749 -99547.7 -107365"
+origin "-380 -99560 -107634"
+angles "0 202 0"
+model "me_streetlight"
+classname "script_model"
+}
+{
+gndlt "191d229901"
+ltorigin "-322.033 -99873.4 -107601"
+angles "348.277 1.84605 0"
+origin "-315 -99874 -107616"
+model "pbk_foliage_jungle_tall_grass02"
+classname "script_model"
+}
+{
+gndlt "191d229901"
+ltorigin "-347.136 -99798 -107606"
+angles "10.288 164.048 -5.99031"
+origin "-345 -99804 -107618"
+model "pbk_foliage_jungle_tall_grass02"
+classname "script_model"
+}
+{
+gndlt "191d229901"
+ltorigin "-401.528 -99701.7 -107615"
+angles "350.396 357.966 5.99739"
+origin "-395 -99700 -107630"
+model "pbk_foliage_jungle_tall_grass02"
+classname "script_model"
+}
+{
+gndlt "191d229901"
+ltorigin "-449.419 -99807.8 -107643"
+origin "-440 -99823 -107714"
+angles "0 102 0"
+model "six_foliage_afr_tall_bush_01a"
+classname "script_model"
+}
+{
+gndlt "191e229901"
+ltorigin "-607 -98429 -107665"
+origin "-607 -98429 -107757"
+model "paris_street_lamp_freestanding_03"
+classname "script_model"
+}
+{
+script_noteworthy "mover"
+classname "script_brushmodel"
+origin "-460 -98677 -107706"
+model "*105"
+}
+{
+gndlt "191d229901"
+ltorigin "383 -100297 -107499"
+origin "383 -100297 -107591"
+model "paris_street_lamp_freestanding_03"
+classname "script_model"
+}
+{
+gndlt "191d229901"
+ltorigin "610.491 -100352 -107534"
+angles "0 106 0"
+origin "615 -100354 -107578"
+model "foliage_pacific_palms08_animated"
+classname "script_model"
+}
+{
+script_noteworthy "mover"
+classname "script_brushmodel"
+origin "546 -100466 -107559"
+model "*106"
+}
+{
+gndlt "191d229901"
+ltorigin "660.639 -100376 -107518"
+angles "0 104 0"
+origin "657 -100383 -107556"
+model "ac_prs_imp_payback_bush_roll"
+classname "script_model"
+}
+{
+gndlt "191d229901"
+ltorigin "722.063 -100422 -107504"
+angles "0 188 0"
+origin "729 -100423 -107542"
+model "ac_prs_imp_payback_bush_roll"
+classname "script_model"
+}
+{
+gndlt "191d229901"
+ltorigin "474.807 -100461 -107528"
+angles "0 128 0"
+origin "464 -100464 -107566"
+model "ac_prs_imp_payback_bush_roll"
+classname "script_model"
+}
+{
+gndlt "191d229901"
+ltorigin "434.312 -100331 -107568"
+angles "354.7 0 0"
+model "foliage_grass_trimmed_mid_dark_64"
+origin "436 -100330 -107572"
+classname "script_model"
+}
+{
+gndlt "191d229901"
+ltorigin "441.191 -100393 -107564"
+angles "3.79802 165.88 -1.90416"
+model "foliage_grass_trimmed_mid_dark_64"
+origin "440 -100394 -107569"
+classname "script_model"
+}
+{
+gndlt "191d229901"
+ltorigin "456.191 -100446 -107561"
+angles "3.79802 165.88 -1.90416"
+model "foliage_grass_trimmed_mid_dark_64"
+origin "455 -100447 -107566"
+classname "script_model"
+}
+{
+target "pf2_auto29"
+targetname "pf2_auto26"
+classname "trigger_multiple"
+origin "-204 -100496 -107552"
+model "?64"
+}
+{
+target "pf2_auto27"
+targetname "pf2_auto26"
+classname "trigger_multiple"
+origin "572 -100472 -107616"
+model "?65"
+}
+{
+target "pf2_auto28"
+targetname "pf2_auto26"
+classname "trigger_multiple"
+origin "512 -99704 -107312"
+model "?66"
+}
+{
+target "pf2_auto30"
+targetname "pf2_auto26"
+classname "trigger_multiple"
+origin "-264 -99744 -107548"
+model "?67"
+}
+{
+target "pf2_auto31"
+targetname "pf2_auto26"
+classname "trigger_multiple"
+origin "-2452 -99962 -107696"
+model "?68"
+}
+{
+target "pf2_auto32"
+targetname "pf2_auto26"
+classname "trigger_multiple"
+origin "444 -98644 -107532"
+model "?69"
+}
+{
+target "pf2_auto33"
+targetname "pf2_auto26"
+classname "trigger_multiple"
+origin "-460 -98704 -107728"
+model "?70"
+}
+{
+target "pf2_auto34"
+targetname "pf2_auto26"
+classname "trigger_multiple"
+origin "-1464 -98676 -107696"
+model "?71"
+}
+{
+target "pf2_auto26"
+targetname "move_trigger"
+classname "trigger_multiple"
+origin "-127 -101608 -114716"
+model "?72"
+}
+{
+script_linkname "pf2_2"
+classname "trigger_multiple"
+origin "166 -100133 -114823"
+model "?73"
+}
+{
+script_noteworthy "mover"
+classname "script_brushmodel"
+origin "579 -100926 -108273"
+model "*107"
+}
+{
+gndlt "191d229901"
+ltorigin "578.583 -100926 -108241"
+origin "579 -100926 -108273"
+angles "0 0 0"
+model "vehicle_subcompact_blue"
+classname "script_model"
+}
+{
+script_delay "0.5"
+script_decel "1"
+script_accel "0.5"
+script_duration "2"
+target "pf2_auto44"
+targetname "pf2_auto43"
+angles "8.09999 172 -1.90603e-006"
+origin "458 -101002 -114737"
+classname "script_struct"
+}
+{
+target "pf2_auto43"
+targetname "pf2_auto26"
+classname "trigger_multiple"
+origin "581 -100920 -108236"
+model "?74"
+}
+{
+speed "40"
+target "pf2_auto46"
+targetname "pf2_auto45"
+origin "2362 -105026 -115262"
+angles "0 1.00179e-005 0"
+classname "info_vehicle_node"
+}
+{
+target "pf2_auto60"
+spawnflags "2"
+targetname "pf2_auto59"
+origin "1912 -105136 -115236"
+angles "0 30 0"
+export "2"
+model "vehicle_jeep_rubicon"
+vehicletype "humvee"
+script_team "allies"
+classname "script_vehicle_jeep_rubicon_payback"
+}
+{
+targetname "pf2_auto60"
+spawnflags "1"
+lookahead ".5"
+speed "40"
+target "pf2_auto45"
+origin "1912 -105136 -115236"
+angles "0 30 0"
+classname "info_vehicle_node"
+}
+{
+speed "40"
+target "pf2_auto47"
+targetname "pf2_auto46"
+origin "2824 -105094 -115262"
+angles "0 342 0"
+classname "info_vehicle_node"
+}
+{
+speed "40"
+target "pf2_auto62"
+targetname "pf2_auto61"
+origin "5258 -105700 -115590"
+angles "0 100 0"
+classname "info_vehicle_node_rotate"
+}
+{
+speed "35"
+target "pf2_auto49"
+targetname "pf2_auto48"
+origin "3430 -105604 -115342"
+angles "0 294 0"
+classname "info_vehicle_node"
+}
+{
+speed "35"
+target "pf2_auto50"
+targetname "pf2_auto49"
+origin "3694 -105914 -115372"
+angles "0 306 0"
+classname "info_vehicle_node"
+}
+{
+speed "30"
+target "pf2_auto51"
+targetname "pf2_auto50"
+origin "3948 -106310 -115426"
+angles "0 298 0"
+classname "info_vehicle_node"
+}
+{
+origin "4366 -106564 -115470"
+speed "28"
+target "pf2_auto52"
+targetname "pf2_auto51"
+angles "0 50 0"
+classname "info_vehicle_node_rotate"
+}
+{
+origin "4944 -106066 -115532"
+target "pf2_auto54"
+targetname "pf2_auto53"
+angles "0 32 0"
+classname "info_vehicle_node_rotate"
+}
+{
+target "pf2_auto61"
+targetname "pf2_auto54"
+origin "5170 -105892 -115590"
+angles "0 74 0"
+classname "info_vehicle_node_rotate"
+}
+{
+speed "40"
+target "pf2_auto55"
+targetname "pf2_auto62"
+origin "5200 -105502 -115590"
+angles "0 76 0"
+classname "info_vehicle_node_rotate"
+}
+{
+speed "45"
+target "pf2_auto56"
+targetname "pf2_auto55"
+origin "5240 -105260 -115618"
+angles "0 72 0"
+classname "info_vehicle_node"
+}
+{
+speed "45"
+target "pf2_auto57"
+targetname "pf2_auto56"
+origin "5390 -104832 -115616"
+angles "0 54 0"
+classname "info_vehicle_node"
+}
+{
+speed "50"
+target "pf2_auto58"
+targetname "pf2_auto57"
+origin "5888 -104550 -115558"
+angles "0 34 0"
+classname "info_vehicle_node"
+}
+{
+speed "50"
+targetname "pf2_auto58"
+origin "6240 -104384 -115570"
+angles "0 22 0"
+classname "info_vehicle_node"
+}
+{
+target "pf2_auto59"
+classname "trigger_multiple_spawn"
+origin "3664 -105772 -115344"
+model "?75"
+}
+{
+speed "25"
+origin "4800 -106342 -115496"
+target "pf2_auto53"
+targetname "pf2_auto52"
+angles "0 72 0"
+classname "info_vehicle_node_rotate"
+}
+{
+speed "25"
+origin "3370 -105218 -115262"
+target "pf2_auto48"
+targetname "pf2_auto47"
+angles "0 300 0"
+classname "info_vehicle_node_rotate"
+}
+{
+script_noteworthy "mover"
+classname "script_brushmodel"
+origin "-1120 -99836 -107635"
+model "*108"
+}
+{
+gndlt "191e229901"
+ltorigin "-1251 -99653 -107589"
+origin "-1251 -99653 -107681"
+model "paris_street_lamp_freestanding_03"
+classname "script_model"
+}
+{
+script_accel "0.1"
+script_duration "2"
+target "pf2_auto82"
+targetname "pf2_auto63"
+origin "-104 -100028 -114875"
+classname "script_struct"
+}
+{
+target "pf2_auto63"
+targetname "pf2_auto26"
+classname "trigger_multiple"
+origin "-1104 -99820 -107636"
+model "?76"
+}
+{
+script_decel "0.25"
+script_accel "0.5"
+angles "356.5 0 -2.4"
+script_duration "1.5"
+target "pf2_auto100"
+targetname "pf2_auto82"
+origin "-118 -100014 -114886"
+classname "script_struct"
+}
+{
+angles "354.4 359.944 3.60276"
+script_accel "0.25"
+script_delay "0"
+script_duration "1"
+target "pf2_auto130"
+targetname "pf2_auto84"
+origin "-8 -100344 -114861"
+classname "script_struct"
+}
+{
+script_decel "2"
+script_accel "1.5"
+script_linkto "pf2_2"
+angles "355.2 0.5 2.3"
+script_duration "4.5"
+target "pf2_auto128"
+targetname "pf2_auto86"
+origin "-107 -99428 -114934"
+classname "script_struct"
+}
+{
+angles "352.2 359.898 2.30861"
+script_duration "2"
+target "pf2_auto112"
+targetname "pf2_auto88"
+origin "-1014 -99525 -115053"
+classname "script_struct"
+}
+{
+angles "343 0.0730745 -0.415248"
+script_accel "0.1"
+script_delay "0"
+script_duration "2"
+target "pf2_auto102"
+targetname "pf2_auto90"
+origin "-410 -100857 -114867"
+classname "script_struct"
+}
+{
+angles "351.9 0 0"
+script_accel "0.1"
+script_delay "0"
+script_duration "2"
+target "pf2_auto106"
+targetname "pf2_auto92"
+origin "-612 -100439 -114928"
+classname "script_struct"
+}
+{
+angles "344.593 3.87206 -1.79339"
+script_accel "0.1"
+script_delay "0"
+script_duration "2"
+target "pf2_auto110"
+targetname "pf2_auto94"
+origin "-571 -99976 -115019"
+classname "script_struct"
+}
+{
+angles "351.158 0 2.9363"
+script_accel "0.1"
+script_delay "0"
+script_duration "2"
+target "pf2_auto114"
+targetname "pf2_auto96"
+origin "-555 -99392 -114979"
+classname "script_struct"
+}
+{
+angles "352.12 2.87156 -20.6268"
+script_accel "0.1"
+script_delay "0"
+script_duration "2"
+target "pf2_auto104"
+targetname "pf2_auto98"
+origin "112 -100741 -114834"
+classname "script_struct"
+}
+{
+angles "353.115 359.683 5.32865"
+script_duration "1.25"
+target "pf2_auto108"
+targetname "pf2_auto100"
+origin "-109 -100035 -114956"
+classname "script_struct"
+}
+{
+angles "330.994 354.021 0.355245"
+script_accel "0.1"
+script_delay "0"
+script_duration "2"
+target "pf2_auto150"
+targetname "pf2_auto102"
+origin "-507 -100845 -114930"
+classname "script_struct"
+}
+{
+angles "352.12 2.87156 -20.6268"
+script_accel "0.1"
+script_delay "0"
+script_duration "2"
+target "pf2_auto120"
+targetname "pf2_auto104"
+origin "110 -100741 -114843"
+classname "script_struct"
+}
+{
+angles "327.9 0 0"
+script_accel "0.1"
+script_delay "0"
+script_duration "2"
+target "pf2_auto122"
+targetname "pf2_auto106"
+origin "-736 -100453 -115098"
+classname "script_struct"
+}
+{
+script_decel "1"
+script_accel "0.5"
+angles "352.216 359.601 5.3394"
+script_duration "3"
+target "pf2_auto124"
+targetname "pf2_auto108"
+origin "-159 -100098 -114994"
+classname "script_struct"
+}
+{
+angles "344.593 3.87206 6.2066"
+script_accel "0.1"
+script_delay "0"
+script_duration "2"
+target "pf2_auto134"
+targetname "pf2_auto110"
+origin "-661 -99976 -115055"
+classname "script_struct"
+}
+{
+angles "350.232 359.535 10.3641"
+script_duration "2"
+target "pf2_auto136"
+targetname "pf2_auto112"
+origin "-1148 -99565 -115161"
+classname "script_struct"
+}
+{
+angles "343.169 359.614 9.0313"
+script_accel "0.1"
+script_delay "0"
+script_duration "2"
+target "pf2_auto126"
+targetname "pf2_auto114"
+origin "-743 -99434 -115099"
+classname "script_struct"
+}
+{
+angles "352.12 2.87156 -20.0268"
+script_accel "0.1"
+script_delay "0"
+script_duration "2"
+target "pf2_auto138"
+targetname "pf2_auto120"
+origin "82 -100757 -114855"
+classname "script_struct"
+}
+{
+script_decel "4"
+angles "325.9 0 0"
+script_accel "0.1"
+script_delay "0"
+script_duration "14"
+target "pf2_auto140"
+targetname "pf2_auto122"
+origin "-782 -100453 -115104"
+classname "script_struct"
+}
+{
+script_decel "1"
+script_accel "1"
+angles "357.992 0.137388 5.79333"
+script_duration "6"
+target "pf2_auto142"
+targetname "pf2_auto124"
+origin "-331 -100125 -115067"
+classname "script_struct"
+}
+{
+script_decel "4"
+angles "343.169 359.614 15.0313"
+script_accel "0.1"
+script_delay "0"
+script_duration "14"
+target "pf2_auto144"
+targetname "pf2_auto126"
+origin "-873 -99412 -115123"
+classname "script_struct"
+}
+{
+script_decel "0.5"
+script_accel "0.5"
+script_linkto "pf2_3"
+angles "352.125 0.182478 12.3384"
+script_duration "3.5"
+target "pf2_auto146"
+targetname "pf2_auto128"
+origin "-448 -99472 -115019"
+classname "script_struct"
+}
+{
+script_decel "2"
+angles "355.217 356.012 11.9588"
+script_accel "0.5"
+script_delay "0"
+script_duration "5"
+target "pf2_auto148"
+targetname "pf2_auto130"
+origin "-45 -100344 -114941"
+classname "script_struct"
+}
+{
+script_decel "4"
+angles "326.994 353.992 4.37047"
+script_accel "0.1"
+script_delay "0"
+script_duration "14"
+target "pf2_auto150"
+targetname "pf2_auto132"
+origin "-533 -100845 -114944"
+classname "script_struct"
+}
+{
+script_decel "4"
+angles "340.617 3.41398 6.34363"
+script_accel "0.1"
+script_delay "0"
+script_duration "14"
+target "pf2_auto152"
+targetname "pf2_auto134"
+origin "-743 -99988 -115079"
+classname "script_struct"
+}
+{
+script_decel "4"
+angles "348.265 359.168 10.4327"
+script_duration "14"
+target "pf2_auto154"
+targetname "pf2_auto136"
+origin "-1238 -99565 -115235"
+classname "script_struct"
+}
+{
+angles "350.267 3.63246 -22.1433"
+script_accel "0.1"
+script_delay "0"
+script_duration "2"
+targetname "pf2_auto138"
+origin "62 -100757 -114859"
+classname "script_struct"
+}
+{
+angles "321.9 0 0"
+script_accel "0.1"
+script_delay "0"
+script_duration "2"
+targetname "pf2_auto140"
+origin "-874 -100453 -115168"
+classname "script_struct"
+}
+{
+angles "353.094 0.524031 4.67129"
+targetname "pf2_auto142"
+origin "-430 -100175 -115125"
+classname "script_struct"
+}
+{
+angles "339.309 358.506 17.3879"
+script_accel "0.1"
+script_delay "0"
+script_duration "2"
+targetname "pf2_auto144"
+origin "-1029 -99430 -115174"
+classname "script_struct"
+}
+{
+angles "345.39 358.663 16.6354"
+script_delay "0"
+script_duration "2"
+targetname "pf2_auto146"
+origin "-550 -99489 -115070"
+classname "script_struct"
+}
+{
+angles "355.217 356.012 15.9588"
+script_accel "0.1"
+script_delay "0"
+script_duration "10"
+targetname "pf2_auto148"
+origin "-136 -100404 -114993"
+classname "script_struct"
+}
+{
+angles "325 353.806 4.47452"
+script_accel "0.1"
+script_delay "0"
+script_duration "2"
+targetname "pf2_auto150"
+origin "-543 -100845 -114944"
+classname "script_struct"
+}
+{
+angles "336.642 2.93295 6.51902"
+script_accel "0.1"
+script_delay "0"
+script_duration "2"
+targetname "pf2_auto152"
+origin "-876 -100044 -115147"
+classname "script_struct"
+}
+{
+angles "344.332 358.416 12.6109"
+script_duration "2"
+targetname "pf2_auto154"
+origin "-1401 -99595 -115274"
+classname "script_struct"
+}
+{
+script_linkname "pf2_1"
+classname "trigger_multiple"
+origin "274 -101109 -114736"
+model "?77"
+}
+{
+script_prefab_exploder "impact_b_move_a"
+classname "trigger_multiple"
+origin "-68 -101156 -114792"
+model "?78"
+}
+{
+script_prefab_exploder "impact_b_move_b"
+classname "trigger_multiple"
+origin "67 -100368 -114929"
+model "?79"
+}
+{
+script_prefab_exploder "impact_c_house_a"
+classname "trigger_multiple"
+origin "-358 -99546 -114965"
+model "?80"
+}
+{
+script_prefab_exploder "suburb_driveby_a"
+classname "trigger_multiple"
+origin "3774 -105617 -115506"
+model "?81"
+}
+{
+script_prefab_exploder "mansion_door_reveal_a"
+classname "trigger_multiple"
+origin "250 -102903 -114613"
+model "?82"
+}
+{
+script_noteworthy "mover"
+classname "script_brushmodel"
+origin "1030 -100920 -108273"
+model "*109"
+}
+{
+gndlt "191d229901"
+ltorigin "1029.58 -100920 -108241"
+origin "1030 -100920 -108273"
+angles "0 0 0"
+model "vehicle_subcompact_blue"
+classname "script_model"
+}
+{
+target "pf2_auto155"
+targetname "pf2_auto1"
+classname "trigger_multiple"
+origin "1023 -100923 -108239"
+model "?83"
+}
+{
+script_accel "0.15"
+script_duration "0.5"
+target "pf2_auto156"
+script_delay "3"
+targetname "pf2_auto155"
+angles "0 270 0"
+origin "18 -101474 -114771"
+classname "script_struct"
+}
+{
+target "pf2_auto158"
+script_accel "0.75"
+script_duration "1"
+targetname "pf2_auto157"
+angles "10.9 270 0"
+origin "18 -101492 -114784"
+classname "script_struct"
+}
+{
+target "pf2_auto159"
+script_accel "0.25"
+script_duration "1.25"
+targetname "pf2_auto158"
+angles "66.8 270 0"
+origin "18 -101534 -114829"
+classname "script_struct"
+}
+{
+script_decel "0.5"
+script_duration "1.25"
+targetname "pf2_auto159"
+angles "52.8 270 0"
+origin "20 -101547 -114856"
+classname "script_struct"
+}
+{
+script_duration "0.1"
+target "pf2_auto161"
+targetname "pf2_auto160"
+angles "0 28 0"
+origin "290 -102971 -114359"
+classname "script_struct"
+}
+{
+script_duration "3.5"
+target "pf2_auto162"
+targetname "pf2_auto161"
+angles "0 28 0"
+origin "315 -103017 -114771"
+classname "script_struct"
+}
+{
+target "pf2_auto160"
+targetname "pf2_auto6"
+classname "trigger_multiple"
+origin "714 -102368 -107597"
+model "?84"
+}
+{
+target "pf2_auto163"
+script_duration "0.1"
+targetname "pf2_auto162"
+angles "0 28 0"
+origin "85 -102604 -114771"
+classname "script_struct"
+}
+{
+script_noteworthy "mover"
+classname "script_brushmodel"
+origin "718 -102368 -107905"
+model "*110"
+}
+{
+script_duration "2"
+targetname "pf2_auto163"
+angles "0 28 0"
+origin "85 -102604 -114292"
+classname "script_struct"
+}
+{
+dmg "50"
+classname "trigger_hurt"
+origin "-13 -99722 -115048"
+model "?85"
+}
+{
+dmg "50"
+classname "trigger_hurt"
+origin "-445 -99244 -115192"
+model "?86"
+}
+{
+dmg "50"
+classname "trigger_hurt"
+origin "-829 -99382 -115312"
+model "?87"
+}
+{
+dmg "50"
+classname "trigger_hurt"
+origin "-641 -99922 -115244"
+model "?88"
+}
+{
+dmg "50"
+classname "trigger_hurt"
+origin "-379 -100380 -115232"
+model "?89"
+}
+{
+dmg "50"
+classname "trigger_hurt"
+origin "-303 -100702 -115084"
+model "?90"
+}
+{
+dmg "50"
+classname "trigger_hurt"
+origin "87 -100488 -115022"
+model "?91"
+}
+{
+dmg "50"
+classname "trigger_hurt"
+origin "-42 -101601 -114888"
+model "?92"
+}
+{
+dmg "50"
+classname "trigger_hurt"
+origin "-147 -102230 -114886"
+model "?93"
+}
+{
+dmg "50"
+classname "trigger_hurt"
+origin "-209 -102526 -114850"
+model "?94"
+}
+{
+script_noteworthy "mover"
+classname "script_brushmodel"
+origin "55606 -107064 -76371"
+model "*111"
+}
+{
+script_noteworthy "mover"
+classname "script_brushmodel"
+origin "58006 -107160 -76371"
+model "*112"
+}
+{
+script_noteworthy "mover"
+classname "script_brushmodel"
+origin "50998 -109400 -76371"
+model "*113"
+}
+{
+script_noteworthy "mover"
+classname "script_brushmodel"
+origin "53302 -109432 -76371"
+model "*114"
+}
+{
+script_noteworthy "mover"
+classname "script_brushmodel"
+origin "55862 -109560 -76371"
+model "*115"
+}
+{
+script_noteworthy "mover"
+classname "script_brushmodel"
+origin "58358 -109496 -76371"
+model "*116"
+}
+{
+script_noteworthy "mover"
+classname "script_brushmodel"
+origin "60726 -109464 -76371"
+model "*117"
+}
+{
+script_noteworthy "mover"
+classname "script_brushmodel"
+origin "60822 -107064 -76371"
+model "*118"
+}
+{
+script_noteworthy "mover"
+classname "script_brushmodel"
+origin "63318 -106968 -76371"
+model "*119"
+}
+{
+script_noteworthy "mover"
+classname "script_brushmodel"
+origin "63286 -109592 -76371"
+model "*120"
+}
+{
+target "pf2_auto165"
+targetname "pf2_auto164"
+classname "trigger_multiple"
+origin "50982 -107048 -78211"
+model "?95"
+}
+{
+target "pf2_auto167"
+targetname "pf2_auto164"
+classname "trigger_multiple"
+origin "53158 -107016 -78211"
+model "?96"
+}
+{
+target "pf2_auto166"
+targetname "pf2_auto164"
+classname "trigger_multiple"
+origin "50982 -109352 -78211"
+model "?97"
+}
+{
+target "pf2_auto168"
+targetname "pf2_auto164"
+classname "trigger_multiple"
+origin "53254 -109416 -78211"
+model "?98"
+}
+{
+target "pf2_auto170"
+targetname "pf2_auto164"
+classname "trigger_multiple"
+origin "55846 -109544 -78211"
+model "?99"
+}
+{
+target "pf2_auto169"
+targetname "pf2_auto164"
+classname "trigger_multiple"
+origin "55622 -107112 -78211"
+model "?100"
+}
+{
+target "pf2_auto171"
+targetname "pf2_auto164"
+classname "trigger_multiple"
+origin "57990 -107176 -78211"
+model "?101"
+}
+{
+target "pf2_auto172"
+targetname "pf2_auto164"
+classname "trigger_multiple"
+origin "58278 -109448 -78211"
+model "?102"
+}
+{
+target "pf2_auto173"
+targetname "pf2_auto164"
+classname "trigger_multiple"
+origin "60806 -107048 -78211"
+model "?103"
+}
+{
+target "pf2_auto174"
+targetname "pf2_auto164"
+classname "trigger_multiple"
+origin "60646 -109448 -78211"
+model "?104"
+}
+{
+target "pf2_auto176"
+targetname "pf2_auto164"
+classname "trigger_multiple"
+origin "63270 -109512 -78211"
+model "?105"
+}
+{
+target "pf2_auto175"
+targetname "pf2_auto164"
+classname "trigger_multiple"
+origin "63334 -106888 -78211"
+model "?106"
+}
+{
+target "pf2_auto164"
+targetname "move_trigger"
+classname "trigger_multiple"
+origin "-2948 -96360 -114458"
+model "?107"
+}
+{
+script_duration "0.01"
+targetname "pf2_auto167"
+origin "53879 -100822 -134355"
+classname "script_struct"
+}
+{
+target "pf2_auto180"
+script_duration "0.01"
+targetname "pf2_auto165"
+origin "54479 -98469 -130981"
+classname "script_struct"
+}
+{
+target "pf2_auto182"
+script_duration "0.01"
+angles "0 180 -180"
+targetname "pf2_auto169"
+origin "54248 -99857 -126674"
+classname "script_struct"
+}
+{
+target "pf2_auto186"
+script_duration "0.01"
+targetname "pf2_auto171"
+origin "54338 -98131 -122806"
+classname "script_struct"
+}
+{
+target "pf2_auto179"
+script_duration "0.01"
+targetname "pf2_auto166"
+origin "54405 -98614 -134864"
+classname "script_struct"
+}
+{
+target "pf2_auto177"
+script_duration "0.01"
+targetname "pf2_auto168"
+origin "54061 -100717 -130714"
+classname "script_struct"
+}
+{
+target "pf2_auto181"
+script_duration "0.01"
+angles "359 180 -180"
+targetname "pf2_auto170"
+origin "54119 -99911 -130516"
+classname "script_struct"
+}
+{
+target "pf2_auto184"
+script_duration "0.01"
+targetname "pf2_auto172"
+origin "54262 -101433 -122968"
+classname "script_struct"
+}
+{
+target "pf2_auto185"
+script_duration "0.01"
+targetname "pf2_auto174"
+origin "54396 -101345 -126774"
+classname "script_struct"
+}
+{
+target "pf2_auto187"
+script_duration "0.01"
+targetname "pf2_auto173"
+origin "54216 -98131 -126624"
+classname "script_struct"
+}
+{
+target "pf2_auto183"
+script_duration "0.01"
+angles "0 180 180"
+targetname "pf2_auto175"
+origin "54275 -100162 -122504"
+classname "script_struct"
+}
+{
+targetname "pf2_auto176"
+origin "63286 -109592 -85502"
+classname "script_struct"
+}
+{
+target "pf2_auto188"
+script_duration "1"
+angles "30 66 0"
+targetname "pf2_auto177"
+origin "-6768.7 -89434.2 -107634"
+classname "script_struct"
+}
+{
+target "pf2_auto199"
+script_duration "1"
+angles "308 66 0"
+targetname "pf2_auto178"
+origin "-7447.2 -91216.3 -110849"
+classname "script_struct"
+}
+{
+target "pf2_auto189"
+script_duration "1"
+angles "328 66 0"
+targetname "pf2_auto179"
+origin "-8009 -87049.5 -111860"
+classname "script_struct"
+}
+{
+target "pf2_auto190"
+script_duration "1"
+angles "348 66 0"
+targetname "pf2_auto180"
+origin "-8496.2 -87787.1 -107945"
+classname "script_struct"
+}
+{
+target "pf2_auto191"
+script_duration "1"
+angles "11 246 180"
+targetname "pf2_auto181"
+origin "-7325.3 -88702.5 -107648"
+classname "script_struct"
+}
+{
+target "pf2_auto197"
+script_duration "1"
+angles "18 246 180"
+targetname "pf2_auto182"
+origin "-7645.1 -89288.1 -103778"
+classname "script_struct"
+}
+{
+target "pf2_auto192"
+script_duration "1"
+angles "42 246 -180"
+targetname "pf2_auto183"
+origin "-8316.8 -90071.6 -100054"
+classname "script_struct"
+}
+{
+target "pf2_auto193"
+script_duration "1"
+angles "294 66 0"
+targetname "pf2_auto184"
+origin "-6686.1 -91008.9 -100612"
+classname "script_struct"
+}
+{
+target "pf2_auto194"
+script_duration "1"
+angles "36 66 0"
+targetname "pf2_auto185"
+origin "-5464.1 -88048 -102230"
+classname "script_struct"
+}
+{
+target "pf2_auto195"
+script_duration "1"
+angles "24 66 0"
+targetname "pf2_auto186"
+origin "-9589.6 -89411.9 -100500"
+classname "script_struct"
+}
+{
+target "pf2_auto196"
+script_duration "1"
+angles "68 66 0"
+targetname "pf2_auto187"
+origin "-10051.6 -90449.7 -103692"
+classname "script_struct"
+}
+{
+target "pf2_auto200"
+script_duration "1"
+angles "40 66 0"
+targetname "pf2_auto188"
+origin "-7587.1 -91272.2 -109052"
+classname "script_struct"
+}
+{
+target "pf2_auto201"
+script_duration "1"
+angles "302 66 0"
+targetname "pf2_auto189"
+origin "-8653.3 -88496.6 -112586"
+classname "script_struct"
+}
+{
+target "pf2_auto202"
+script_duration "1"
+angles "326 66 0"
+targetname "pf2_auto190"
+origin "-9654.6 -90388.9 -109339"
+classname "script_struct"
+}
+{
+target "pf2_auto203"
+script_duration "1"
+angles "11 246 180"
+targetname "pf2_auto191"
+origin "-8318.5 -90933.4 -108972"
+classname "script_struct"
+}
+{
+target "pf2_auto204"
+script_duration "1"
+angles "42 246 -180"
+targetname "pf2_auto192"
+origin "-9436.2 -92585.7 -101400"
+classname "script_struct"
+}
+{
+target "pf2_auto205"
+script_duration "1"
+angles "282 66 0"
+targetname "pf2_auto193"
+origin "-7794 -93497.3 -101965"
+classname "script_struct"
+}
+{
+target "pf2_auto206"
+script_duration "1"
+angles "332 66 0"
+targetname "pf2_auto194"
+origin "-6366.8 -90075.5 -102906"
+classname "script_struct"
+}
+{
+target "pf2_auto207"
+script_duration "1"
+angles "36 66 0"
+targetname "pf2_auto195"
+origin "-10534.8 -91535 -101824"
+classname "script_struct"
+}
+{
+target "pf2_auto208"
+script_duration "1"
+angles "86 66 0"
+targetname "pf2_auto196"
+origin "-11239.3 -93117.2 -104824"
+classname "script_struct"
+}
+{
+target "pf2_auto209"
+script_duration "1"
+angles "18 246 180"
+targetname "pf2_auto197"
+origin "-8638.3 -91519 -105102"
+classname "script_struct"
+}
+{
+target "pf2_auto211"
+script_duration "1"
+angles "358 66 0"
+targetname "pf2_auto199"
+origin "-8478.7 -93533 -112029"
+classname "script_struct"
+}
+{
+target "pf2_auto221"
+script_duration "1"
+angles "358 66 0"
+targetname "pf2_auto200"
+origin "-9013.1 -94475.1 -108232"
+classname "script_struct"
+}
+{
+target "pf2_auto220"
+script_duration "1"
+angles "292 66 0"
+targetname "pf2_auto201"
+origin "-10944 -93641.7 -111766"
+classname "script_struct"
+}
+{
+target "pf2_auto219"
+script_duration "1"
+angles "4.00001 66 0"
+targetname "pf2_auto202"
+origin "-11050.5 -93524.2 -108033"
+classname "script_struct"
+}
+{
+target "pf2_auto218"
+script_duration "1"
+angles "11 246 180"
+targetname "pf2_auto203"
+origin "-9744.5 -94136.3 -107964"
+classname "script_struct"
+}
+{
+target "pf2_auto217"
+script_duration "1"
+angles "42 246 -180"
+targetname "pf2_auto204"
+origin "-11014.3 -96130.2 -100504"
+classname "script_struct"
+}
+{
+target "pf2_auto216"
+script_duration "1"
+angles "324 66 0"
+targetname "pf2_auto205"
+origin "-9372.1 -97041.9 -101069"
+classname "script_struct"
+}
+{
+target "pf2_auto215"
+script_duration "1"
+angles "14 66 0"
+targetname "pf2_auto206"
+origin "-8551.8 -94983 -103950"
+classname "script_struct"
+}
+{
+target "pf2_auto233"
+script_duration "1"
+angles "5.99997 66 0"
+targetname "pf2_auto207"
+origin "-12112.9 -95079.5 -100928"
+classname "script_struct"
+}
+{
+target "pf2_auto213"
+script_duration "1"
+angles "38 66 0"
+targetname "pf2_auto208"
+origin "-12271.6 -95435.8 -104600"
+classname "script_struct"
+}
+{
+target "pf2_auto212"
+script_duration "1"
+angles "18 246 180"
+targetname "pf2_auto209"
+origin "-10216.5 -95063.5 -104206"
+classname "script_struct"
+}
+{
+target "pf2_auto223"
+script_duration "1"
+angles "328 66 0"
+targetname "pf2_auto211"
+origin "-8904.2 -94488.6 -111955"
+classname "script_struct"
+}
+{
+target "pf2_auto234"
+script_duration "1"
+angles "18 246 180"
+targetname "pf2_auto212"
+origin "-11172.3 -97210.4 -105174"
+classname "script_struct"
+}
+{
+target "pf2_auto245"
+script_duration "1"
+angles "356 66 0"
+targetname "pf2_auto213"
+origin "-11960.6 -94737.3 -103258"
+classname "script_struct"
+}
+{
+target "pf2_auto246"
+script_duration "1"
+angles "18 246 180"
+targetname "pf2_auto234"
+origin "-12538.1 -100278 -104278"
+classname "script_struct"
+}
+{
+target "pf2_auto235"
+script_duration "1"
+angles "82 66 0"
+targetname "pf2_auto215"
+origin "-10304.2 -98919 -105056"
+classname "script_struct"
+}
+{
+target "pf2_auto243"
+script_duration "1"
+angles "6.00001 66 0"
+targetname "pf2_auto216"
+origin "-10109.1 -98697.1 -101433"
+classname "script_struct"
+}
+{
+target "pf2_auto242"
+script_duration "1"
+angles "42 246 -180"
+targetname "pf2_auto217"
+origin "-11970.2 -98277.1 -101398"
+classname "script_struct"
+}
+{
+target "pf2_auto236"
+script_duration "1"
+angles "11 246 180"
+targetname "pf2_auto218"
+origin "-10821.6 -96555.4 -109008"
+classname "script_struct"
+}
+{
+target "pf2_auto237"
+script_duration "1"
+angles "42 66 0"
+targetname "pf2_auto219"
+origin "-12234.1 -96182.6 -108889"
+classname "script_struct"
+}
+{
+target "pf2_auto238"
+script_duration "1"
+angles "342 66 0"
+targetname "pf2_auto220"
+origin "-13082.7 -98445.1 -111802"
+classname "script_struct"
+}
+{
+target "pf2_auto239"
+script_duration "1"
+angles "338 66 0"
+targetname "pf2_auto221"
+origin "-10060 -96826.6 -109238"
+classname "script_struct"
+}
+{
+target "pf2_auto241"
+script_duration "1"
+angles "304 66 0"
+targetname "pf2_auto223"
+origin "-9404.4 -95612.2 -112849"
+classname "script_struct"
+}
+{
+target "pf2_auto247"
+script_duration "1"
+angles "68 66 0"
+targetname "pf2_auto235"
+origin "-11973.4 -102668 -104424"
+classname "script_struct"
+}
+{
+target "pf2_auto248"
+script_duration "1"
+angles "11 246 180"
+targetname "pf2_auto236"
+origin "-12187.4 -99623.1 -108112"
+classname "script_struct"
+}
+{
+target "pf2_auto249"
+script_duration "1"
+angles "358 66 0"
+targetname "pf2_auto237"
+origin "-13463.3 -98943.4 -108069"
+classname "script_struct"
+}
+{
+target "pf2_auto250"
+script_duration "1"
+angles "326 66 0"
+targetname "pf2_auto238"
+origin "-13234.8 -98786.8 -111802"
+classname "script_struct"
+}
+{
+target "pf2_auto251"
+script_duration "1"
+angles "40 66 0"
+targetname "pf2_auto239"
+origin "-11349.4 -99722.5 -107896"
+classname "script_struct"
+}
+{
+target "pf2_auto253"
+script_duration "1"
+angles "292 66 0"
+targetname "pf2_auto241"
+origin "-12241 -101983 -111095"
+classname "script_struct"
+}
+{
+target "pf2_auto254"
+script_duration "1"
+angles "42 246 -180"
+targetname "pf2_auto242"
+origin "-13350.6 -101378 -100652"
+classname "script_struct"
+}
+{
+target "pf2_auto255"
+script_duration "1"
+angles "20 66 0"
+targetname "pf2_auto243"
+origin "-11428.6 -101661 -101023"
+classname "script_struct"
+}
+{
+target "pf2_auto244"
+script_duration "1"
+angles "300 66 0"
+targetname "pf2_auto233"
+origin "-13306 -97759.3 -101520"
+classname "script_struct"
+}
+{
+target "pf2_auto256"
+script_duration "1"
+angles "314 66 0"
+targetname "pf2_auto244"
+origin "-14717.4 -100929 -100624"
+classname "script_struct"
+}
+{
+target "pf2_auto257"
+script_duration "1"
+angles "342 66 0"
+targetname "pf2_auto245"
+origin "-13598.9 -98417.1 -103146"
+classname "script_struct"
+}
+{
+script_duration "1"
+angles "18 246 180"
+targetname "pf2_auto246"
+origin "-13463 -102355 -105508"
+classname "script_struct"
+}
+{
+script_duration "1"
+angles "80 66 0"
+targetname "pf2_auto247"
+origin "-13004.9 -104985 -105616"
+classname "script_struct"
+}
+{
+script_duration "1"
+angles "11 246 180"
+targetname "pf2_auto248"
+origin "-13112.3 -101701 -109342"
+classname "script_struct"
+}
+{
+script_duration "1"
+angles "330 66 0"
+targetname "pf2_auto249"
+origin "-14403.6 -101056 -109635"
+classname "script_struct"
+}
+{
+script_duration "1"
+angles "304 66 0"
+targetname "pf2_auto250"
+origin "-13538.2 -99468.3 -112696"
+classname "script_struct"
+}
+{
+script_duration "1"
+angles "40 66 0"
+targetname "pf2_auto251"
+origin "-12426.4 -102142 -109388"
+classname "script_struct"
+}
+{
+target "pf2_auto252"
+script_duration "1"
+angles "340 66 0"
+targetname "pf2_auto253"
+origin "-13196 -104128 -112249"
+classname "script_struct"
+}
+{
+script_duration "1"
+angles "42 246 -180"
+targetname "pf2_auto254"
+origin "-14321.1 -103557 -101770"
+classname "script_struct"
+}
+{
+script_duration "1"
+angles "20 66 0"
+targetname "pf2_auto255"
+origin "-12460.1 -103977 -102215"
+classname "script_struct"
+}
+{
+script_duration "1"
+angles "298 66 0"
+targetname "pf2_auto256"
+origin "-15521.1 -102734 -102302"
+classname "script_struct"
+}
+{
+script_duration "1"
+angles "0 66 0"
+targetname "pf2_auto257"
+origin "-14190.3 -99745.4 -103780"
+classname "script_struct"
+}
+{
+script_noteworthy "mover"
+classname "script_brushmodel"
+origin "6929 -107321 -113210"
+model "*121"
+}
+{
+gndlt "191e239901"
+ltorigin "6937.18 -107321 -113168"
+angles "0 0 0"
+origin "6929 -107321 -113210"
+model "fullbody_prototype_deer_a"
+classname "script_model"
+}
+{
+script_noteworthy "mover"
+classname "script_brushmodel"
+origin "5262 -108924 -113211"
+model "*122"
+}
+{
+gndlt "1a1e229901"
+ltorigin "5279.58 -108900 -113208"
+origin "5302 -108914 -113233"
+angles "2.29981 0 0"
+model "foliage_afr_tree_brokentrunk_01a"
+classname "script_model"
+}
+{
+target "pf2_auto300"
+targetname "pf2_auto299"
+classname "trigger_multiple"
+origin "5276 -108897 -113208"
+model "?108"
+}
+{
+script_accel "0.25"
+script_duration "0.8"
+target "pf2_auto302"
+targetname "pf2_auto301"
+angles "0 54.4 71.9"
+origin "5545 -107200 -115873"
+classname "script_struct"
+}
+{
+script_decel "0.5"
+script_duration "1.1"
+target "pf2_auto303"
+targetname "pf2_auto302"
+angles "358.528 54.6732 169.497"
+origin "5642 -107270 -115968"
+classname "script_struct"
+}
+{
+targetname "pf2_auto303"
+angles "358.528 54.6732 -92.503"
+origin "5729 -107346 -115974"
+classname "script_struct"
+}
+{
+script_decel "0.5"
+script_accel "1"
+script_duration "2.5"
+target "pf2_auto306"
+targetname "pf2_auto305"
+angles "0 26.4 0"
+origin "988 -103800 -114775"
+classname "script_struct"
+}
+{
+script_noteworthy "mover"
+classname "script_brushmodel"
+origin "807 -104017 -108692"
+model "*123"
+}
+{
+gndlt "191d229901"
+ltorigin "743 -104178 -108687"
+origin "743 -104178 -108687"
+model "pool_ball"
+classname "script_model"
+}
+{
+gndlt "191d229901"
+ltorigin "861 -104226 -108688"
+origin "861 -104226 -108688"
+model "pool_ring"
+classname "script_model"
+}
+{
+target "pf2_auto305"
+targetname "pf2_auto304"
+classname "trigger_multiple"
+origin "804 -104019 -108687"
+model "?109"
+}
+{
+target "pf2_auto304"
+targetname "move_trigger"
+classname "trigger_multiple"
+origin "988 -104149 -114800"
+model "?110"
+}
+{
+script_accel "1"
+script_decel "0.5"
+script_duration "8"
+target "pf2_auto307"
+targetname "pf2_auto306"
+angles "358.9 26.3809 1.00018"
+origin "988 -103800 -114803"
+classname "script_struct"
+}
+{
+script_duration "3"
+target "pf2_auto308"
+targetname "pf2_auto307"
+angles "2.49957 26.4435 -0.39904"
+origin "988 -103800 -114832"
+classname "script_struct"
+}
+{
+script_duration "4"
+script_decel "2"
+targetname "pf2_auto308"
+angles "0 26.4 0"
+origin "988 -103800 -114860"
+classname "script_struct"
+}
+{
+script_speed "55"
+targetname "player_speed_trigger"
+classname "trigger_multiple"
+origin "6106 -108410 -115648"
+model "?111"
+}
+{
+origin "6268 -108482 -116292"
+angles "0 230.6 0"
+script_noteworthy "player"
+targetname "start_deer"
+classname "script_struct"
+}
+{
+script_speed "50"
+targetname "player_speed_trigger"
+classname "trigger_multiple"
+origin "351 -103129 -114480"
+model "?112"
+}
+{
+origin "255 -102914 -114609"
+angles "0 114.6 0"
+script_noteworthy "player"
+targetname "start_chaos_a"
+classname "script_struct"
+}
+{
+origin "562 -103531 -114686"
+angles "0 114.6 0"
+script_noteworthy "player"
+targetname "start_mansion"
+classname "script_struct"
+}
+{
+origin "2020 -105028 -115230"
+angles "0 150.6 0"
+script_noteworthy "player"
+targetname "start_mansion_ext"
+classname "script_struct"
+}
+{
+origin "5169 -106656 -115551"
+angles "0 150.6 0"
+script_noteworthy "player"
+targetname "start_neighborhood"
+classname "script_struct"
+}
+{
+origin "5772 -107804 -116002"
+angles "0 120.6 0"
+script_noteworthy "player"
+targetname "start_woods"
+classname "script_struct"
+}
+{
+origin "31023 -115600 -117002"
+angles "0 90.6 0"
+script_noteworthy "player"
+targetname "start_test_area_a"
+classname "script_struct"
+}
+{
+script_speed "65"
+targetname "player_speed_trigger"
+classname "trigger_multiple"
+origin "3010 -106201 -115648"
+model "?113"
+}
+{
+target "pf1_auto21"
+origin "5442 -106838 -115798"
+targetname "pf1_auto9"
+angles "0 238 0"
+model "fullbody_prototype_deer_a"
+classname "script_struct"
+}
+{
+spawnflags "3"
+targetname "deer_stampede_target"
+origin "5428 -106248 -115598"
+target "pf1_auto8"
+script_noteworthy "delete_on_goal"
+script_drone "1"
+angles "0 252 0"
+export "1"
+model "fullbody_prototype_deer_a"
+classname "actor_drone_deer_dog"
+}
+{
+target "pf1_auto39"
+origin "5448 -106475 -115658"
+targetname "pf1_auto8"
+angles "0 270 0"
+model "fullbody_prototype_deer_a"
+classname "script_struct"
+}
+{
+target "pf1_auto19"
+origin "5156 -107058 -115748"
+targetname "pf1_auto10"
+angles "0 224 0"
+model "fullbody_prototype_deer_a"
+classname "script_struct"
+}
+{
+target "pf1_auto12"
+origin "4808 -107350 -115744"
+targetname "pf1_auto11"
+angles "0 224 0"
+model "fullbody_prototype_deer_a"
+classname "script_struct"
+}
+{
+origin "4462 -107820 -115822"
+targetname "pf1_auto12"
+angles "0 224 0"
+model "fullbody_prototype_deer_a"
+classname "script_struct"
+}
+{
+script_flag "deer_stampede"
+classname "trigger_multiple_flag_set"
+origin "5410 -107331 -115545"
+model "?114"
+}
+{
+target "pf1_auto13"
+origin "5533 -106866 -115820"
+targetname "pf1_auto14"
+angles "0 224 0"
+model "fullbody_prototype_deer_a"
+classname "script_struct"
+}
+{
+target "pf1_auto37"
+origin "5680 -106464 -115704"
+targetname "pf1_auto15"
+angles "0 244 0"
+model "fullbody_prototype_deer_a"
+classname "script_struct"
+}
+{
+target "pf1_auto16"
+origin "5311 -107108 -115774"
+targetname "pf1_auto13"
+angles "0 224 0"
+model "fullbody_prototype_deer_a"
+classname "script_struct"
+}
+{
+target "pf1_auto17"
+origin "4925 -107396 -115760"
+targetname "pf1_auto16"
+angles "0 224 0"
+model "fullbody_prototype_deer_a"
+classname "script_struct"
+}
+{
+origin "4533 -107816 -115822"
+targetname "pf1_auto17"
+angles "0 224 0"
+model "fullbody_prototype_deer_a"
+classname "script_struct"
+}
+{
+target "pf1_auto11"
+origin "5010 -107234 -115778"
+targetname "pf1_auto19"
+angles "0 224 0"
+model "fullbody_prototype_deer_a"
+classname "script_struct"
+}
+{
+target "pf1_auto10"
+origin "5348 -107002 -115768"
+targetname "pf1_auto21"
+angles "0 210 0"
+model "fullbody_prototype_deer_a"
+classname "script_struct"
+}
+{
+spawnflags "3"
+targetname "deer_stampede_target"
+origin "5810 -106244 -115684"
+target "pf1_auto15"
+script_noteworthy "delete_on_goal"
+script_drone "1"
+angles "0 240 0"
+export "2"
+model "fullbody_prototype_deer_a"
+classname "actor_drone_deer_dog"
+}
+{
+origin "4479 -107716 -115822"
+targetname "pf1_auto22"
+angles "0 200 0"
+model "fullbody_prototype_deer_a"
+classname "script_struct"
+}
+{
+target "pf1_auto22"
+origin "5005 -107162 -115748"
+targetname "pf1_auto23"
+angles "0 238 0"
+model "fullbody_prototype_deer_a"
+classname "script_struct"
+}
+{
+target "pf1_auto23"
+origin "5301 -106904 -115792"
+targetname "pf1_auto24"
+angles "0 202 0"
+model "fullbody_prototype_deer_a"
+classname "script_struct"
+}
+{
+target "pf1_auto24"
+origin "5525 -106738 -115776"
+targetname "pf1_auto25"
+angles "0 250 0"
+model "fullbody_prototype_deer_a"
+classname "script_struct"
+}
+{
+target "pf1_auto33"
+origin "5512 -106390 -115654"
+targetname "pf1_auto26"
+angles "0 260 0"
+model "fullbody_prototype_deer_a"
+classname "script_struct"
+}
+{
+spawnflags "3"
+targetname "deer_stampede_target"
+origin "5524 -106268 -115620"
+target "pf1_auto26"
+script_noteworthy "delete_on_goal"
+script_drone "1"
+angles "0 256 0"
+export "3"
+model "fullbody_prototype_deer_a"
+classname "actor_drone_deer_dog"
+}
+{
+origin "4527 -107744 -115822"
+targetname "pf1_auto27"
+angles "0 200 0"
+model "fullbody_prototype_deer_a"
+classname "script_struct"
+}
+{
+target "pf1_auto27"
+origin "5053 -107190 -115758"
+targetname "pf1_auto28"
+angles "0 238 0"
+model "fullbody_prototype_deer_a"
+classname "script_struct"
+}
+{
+target "pf1_auto28"
+origin "5349 -106932 -115780"
+targetname "pf1_auto29"
+angles "0 202 0"
+model "fullbody_prototype_deer_a"
+classname "script_struct"
+}
+{
+target "pf1_auto29"
+origin "5563 -106746 -115772"
+targetname "pf1_auto30"
+angles "0 244 0"
+model "fullbody_prototype_deer_a"
+classname "script_struct"
+}
+{
+target "pf1_auto35"
+origin "5674 -106342 -115690"
+targetname "pf1_auto31"
+angles "0 256 0"
+model "fullbody_prototype_deer_a"
+classname "script_struct"
+}
+{
+spawnflags "3"
+targetname "deer_stampede_target"
+origin "5758 -106088 -115624"
+target "pf1_auto31"
+script_noteworthy "delete_on_goal"
+script_drone "1"
+angles "0 254 0"
+export "4"
+model "fullbody_prototype_deer_a"
+classname "actor_drone_deer_dog"
+}
+{
+target "pf1_auto25"
+origin "5526.5 -106553 -115700"
+targetname "pf1_auto33"
+angles "0 272 0"
+model "fullbody_prototype_deer_a"
+classname "script_struct"
+}
+{
+target "pf1_auto30"
+origin "5616.5 -106506 -115696"
+targetname "pf1_auto35"
+angles "0 240 0"
+model "fullbody_prototype_deer_a"
+classname "script_struct"
+}
+{
+target "pf1_auto14"
+origin "5637.5 -106639 -115736"
+targetname "pf1_auto37"
+angles "0 238 0"
+model "fullbody_prototype_deer_a"
+classname "script_struct"
+}
+{
+target "pf1_auto9"
+origin "5470 -106685 -115756"
+targetname "pf1_auto39"
+angles "0 268 0"
+model "fullbody_prototype_deer_a"
+classname "script_struct"
+}
+{
+script_speed "96"
+targetname "player_speed_trigger"
+classname "trigger_multiple"
+origin "-819 -99595 -114944"
+model "?115"
+}
+{
+origin "6054 -109376 -116510"
+targetname "pf1_auto41"
+angles "0 242 0"
+model "fullbody_prototype_deer_a"
+classname "script_struct"
+}
+{
+script_moveoverride "1"
+spawnflags "3"
+targetname "deer_hut_rumble_target"
+origin "6354 -108916 -116378"
+target "pf1_auto41"
+script_noteworthy "delete_on_goal"
+script_drone "1"
+angles "0 212 0"
+export "5"
+model "fullbody_prototype_deer_a"
+classname "actor_drone_deer_dog"
+}
+{
+origin "6498 -109870 -116676"
+targetname "pf1_auto43"
+angles "0 216 0"
+model "fullbody_prototype_deer_a"
+classname "script_struct"
+}
+{
+script_moveoverride "1"
+spawnflags "3"
+targetname "deer_hut_rumble_target"
+origin "6786 -109556 -116636"
+target "pf1_auto43"
+script_noteworthy "delete_on_goal"
+script_drone "1"
+angles "0 212 0"
+export "6"
+model "fullbody_prototype_deer_a"
+classname "actor_drone_deer_dog"
+}
+{
+script_speed "65"
+targetname "player_speed_trigger"
+classname "trigger_multiple"
+origin "695 -103881 -115648"
+model "?116"
+}
+{
+script_speed "55"
+targetname "player_speed_trigger"
+classname "trigger_multiple"
+origin "808 -105057 -115648"
+model "?117"
+}
+{
+origin "-1505 -97874 -114845"
+angles "0 128.1 0"
+script_noteworthy "player"
+targetname "start_chaos_b"
+classname "script_struct"
+}
+{
+script_speed "60"
+targetname "player_speed_trigger"
+classname "trigger_multiple"
+origin "-3119 -95328 -114944"
+model "?118"
+}
+{
+origin "38657 -115600 -117002"
+angles "0 90.6 0"
+script_noteworthy "player"
+targetname "start_test_area_b"
+classname "script_struct"
+}
+{
+targetname "vehicle_jeep_rubicon"
+classname "script_vehicle_collmap"
+model "*124"
+}

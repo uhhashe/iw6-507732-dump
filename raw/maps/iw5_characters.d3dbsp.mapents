@@ -1,0 +1,1628 @@
+{
+classname "worldspawn"
+skycolor "0.99 1 1"
+skylight "0.9"
+radiosityscale "1.0"
+sunradiosity "1.3"
+contrastgain "0.425"
+_color ".8 .9 1"
+sunlight "1.3"
+sundirection "-30 299 0"
+suncolor "0.99 1 0.97"
+ambient ".0"
+maxbounces "2"
+}
+{
+origin "-6096 -432 -4140"
+spawnflags "1"
+export "1"
+model "body_delta_elite_lmg_a"
+classname "actor_iw5_ally_delta_multicam_M249"
+}
+{
+origin "-6160 -432 -4140"
+spawnflags "1"
+export "2"
+model "body_delta_elite_assault_aa"
+classname "actor_iw5_ally_delta_multicam_M16"
+}
+{
+origin "-6032 -432 -4140"
+spawnflags "1"
+export "3"
+model "body_delta_elite_assault_aa"
+classname "actor_iw5_ally_delta_multicam_M4"
+}
+{
+origin "-5968 -432 -4140"
+spawnflags "1"
+export "4"
+model "body_delta_elite_assault_aa"
+classname "actor_iw5_ally_delta_multicam_M4_grenadier"
+}
+{
+origin "-6096 -368 -4140"
+spawnflags "1"
+export "5"
+model "fullbody_chemwar_russian_assault_a"
+classname "actor_iw5_enemy_docks_SHTGN"
+}
+{
+origin "-6160 -368 -4140"
+spawnflags "1"
+export "6"
+model "fullbody_chemwar_russian_assault_a"
+classname "actor_iw5_enemy_docks_RPG"
+}
+{
+origin "-6032 -368 -4140"
+spawnflags "1"
+export "7"
+model "fullbody_chemwar_russian_assault_a"
+classname "actor_iw5_enemy_docks_SMG"
+}
+{
+origin "-5904 -368 -4140"
+spawnflags "1"
+export "8"
+model "fullbody_chemwar_russian_assault_a"
+classname "actor_iw5_enemy_docks_gasmask_SHTGN"
+}
+{
+origin "-5968 -368 -4140"
+spawnflags "1"
+export "9"
+model "fullbody_chemwar_russian_assault_a"
+classname "actor_iw5_enemy_docks_gasmask_RPG"
+}
+{
+origin "-5840 -368 -4140"
+spawnflags "1"
+export "10"
+model "fullbody_chemwar_russian_assault_a"
+classname "actor_iw5_enemy_docks_gasmask_SMG"
+}
+{
+spawnflags "1"
+origin "-6160 -496 -4140"
+export "11"
+model "body_sas_urban_assault"
+classname "actor_iw5_ally_sas_blackkit_MP5"
+}
+{
+origin "-5904 -432 -4140"
+spawnflags "1"
+export "12"
+model "body_delta_elite_assault_aa"
+classname "actor_iw5_ally_delta_multicam_MP5"
+}
+{
+origin "-5840 -432 -4140"
+spawnflags "1"
+export "13"
+model "body_delta_elite_assault_aa"
+classname "actor_iw5_ally_delta_multicam_SCAR"
+}
+{
+origin "-5776 -432 -4140"
+spawnflags "1"
+export "14"
+model "body_delta_elite_shotgun_a"
+classname "actor_iw5_ally_delta_multicam_SHOTGUN"
+}
+{
+origin "-6160 -304 -4140"
+spawnflags "1"
+export "15"
+model "body_africa_militia_assault_a"
+classname "actor_iw5_enemy_africa_militia_AK47"
+}
+{
+origin "-6096 -304 -4140"
+spawnflags "1"
+export "16"
+model "body_africa_militia_assault_a"
+classname "actor_iw5_enemy_africa_militia_AR"
+}
+{
+origin "-6032 -304 -4140"
+spawnflags "1"
+export "17"
+model "body_africa_militia_assault_a"
+classname "actor_iw5_enemy_africa_militia_FAMAS"
+}
+{
+origin "-5968 -304 -4140"
+spawnflags "1"
+export "18"
+model "body_africa_militia_lmg_a"
+classname "actor_iw5_enemy_africa_militia_LMG"
+}
+{
+origin "-5904 -304 -4140"
+spawnflags "1"
+export "19"
+model "body_africa_militia_rpg_a"
+classname "actor_iw5_enemy_africa_militia_RPG"
+}
+{
+origin "-5840 -304 -4140"
+spawnflags "1"
+export "20"
+model "body_africa_militia_shotgun_a"
+classname "actor_iw5_enemy_africa_militia_SHGN"
+}
+{
+spawnflags "1"
+origin "-6160 -560 -4140"
+export "21"
+model "body_russianwoodland_assault_a"
+classname "actor_iw5_enemy_opforce_rushwoodland_AK47"
+}
+{
+spawnflags "1"
+origin "-6160 -624 -4140"
+export "22"
+model "body_gign_paris_assault"
+classname "actor_iw5_ally_gign_paris_FAMAS"
+}
+{
+spawnflags "1"
+origin "-6096 -624 -4140"
+export "23"
+model "body_gign_paris_smg"
+classname "actor_iw5_ally_gign_paris_MP5"
+}
+{
+spawnflags "1"
+origin "-6032 -624 -4140"
+export "24"
+model "body_gign_paris_lmg"
+classname "actor_iw5_ally_gign_paris_LMG"
+}
+{
+spawnflags "1"
+origin "-5968 -624 -4140"
+export "25"
+model "body_gign_paris_shotgun"
+classname "actor_iw5_ally_gign_paris_SHOTGUN"
+}
+{
+origin "-5776 -304 -4140"
+spawnflags "1"
+export "26"
+model "body_africa_militia_smg_a"
+classname "actor_iw5_enemy_africa_militia_SMG"
+}
+{
+spawnflags "1"
+origin "-6160 -688 -4140"
+export "27"
+model "body_hero_sandman_delta"
+classname "actor_iw5_ally_hero_sandman_delta_manhattan"
+}
+{
+spawnflags "1"
+origin "-6096 -688 -4140"
+export "28"
+model "body_hero_sandman_delta"
+classname "actor_iw5_ally_hero_sandman_delta_M4"
+}
+{
+spawnflags "1"
+origin "-6032 -688 -4140"
+export "29"
+model "body_hero_sandman_delta"
+classname "actor_iw5_ally_hero_sandman_delta"
+}
+{
+spawnflags "1"
+origin "-6160 -752 -4140"
+export "30"
+model "body_prague_civ_male_a"
+classname "actor_iw5_ally_prague_resistance_AR"
+}
+{
+spawnflags "1"
+origin "-6096 -752 -4140"
+export "31"
+model "body_prague_civ_male_a"
+classname "actor_iw5_ally_prague_resistance_PISTOL"
+}
+{
+spawnflags "1"
+origin "-6032 -752 -4140"
+export "32"
+model "body_prague_civ_male_a"
+classname "actor_iw5_ally_prague_resistance_RPG"
+}
+{
+spawnflags "1"
+origin "-6160 -816 -4140"
+export "33"
+model "body_russian_military_assault_a"
+classname "actor_gallery_russian_military"
+}
+{
+spawnflags "1"
+origin "-6160 -880 -4140"
+export "34"
+model "body_russian_naval_assault_a"
+classname "actor_iw5_enemy_opforce_widowmaker_AK47"
+}
+{
+spawnflags "1"
+origin "-6160 -944 -4140"
+export "35"
+model "body_russian_naval_captain_a"
+classname "actor_iw5_enemy_villain_widowmaker_captain"
+}
+{
+spawnflags "1"
+origin "-6160 -1008 -4140"
+export "36"
+model "body_henchmen_assault_a"
+classname "actor_iw5_enemy_opforce_henchmen_AK47"
+}
+{
+spawnflags "1"
+origin "-6096 -1008 -4140"
+export "37"
+model "body_henchmen_smg_a"
+classname "actor_iw5_enemy_opforce_henchmen_P90"
+}
+{
+spawnflags "1"
+origin "-6032 -1008 -4140"
+export "38"
+model "body_henchmen_shotgun_a"
+classname "actor_iw5_enemy_opforce_henchmen_SHOTGUN"
+}
+{
+spawnflags "1"
+origin "-6160 -1072 -4140"
+export "39"
+model "body_tank_crew_a"
+classname "actor_iw5_ally_tank_crew"
+}
+{
+spawnflags "1"
+origin "-6096 -1072 -4140"
+export "40"
+model "body_tank_pilot_a"
+classname "actor_iw5_ally_air_crew"
+}
+{
+origin "-5584 -304 -4140"
+spawnflags "1"
+export "41"
+model "body_russian_military_assault_a_black"
+classname "actor_gallery_russian_military_black"
+}
+{
+origin "-5584 -496 -4140"
+spawnflags "1"
+export "42"
+model "body_russian_military_assault_a_airborne"
+classname "actor_gallery_russian_military_air_assault"
+}
+{
+origin "-5520 -496 -4140"
+spawnflags "1"
+export "43"
+model "body_russian_military_lmg_a_airborne"
+classname "actor_gallery_russian_military_air_lmg"
+}
+{
+origin "-5456 -496 -4140"
+spawnflags "1"
+export "44"
+model "body_russian_military_rpg_a_airborne"
+classname "actor_gallery_russian_military_air_rpg"
+}
+{
+origin "-5392 -496 -4140"
+spawnflags "1"
+export "45"
+model "body_russian_military_shotgun_a_airborne"
+classname "actor_gallery_russian_military_air_shgn"
+}
+{
+origin "-5328 -496 -4140"
+spawnflags "1"
+export "46"
+model "body_russian_military_smg_a_airborne"
+classname "actor_gallery_russian_military_air_smg"
+}
+{
+origin "-5584 -560 -4140"
+spawnflags "1"
+export "47"
+model "body_russian_military_assault_a_arctic"
+classname "actor_gallery_russian_military_snow_assault"
+}
+{
+origin "-5520 -560 -4140"
+spawnflags "1"
+export "48"
+model "body_russian_military_lmg_a_arctic"
+classname "actor_gallery_russian_military_snow_lmg"
+}
+{
+origin "-5456 -560 -4140"
+spawnflags "1"
+export "49"
+model "body_russian_military_rpg_a_arctic"
+classname "actor_gallery_russian_military_snow_rpg"
+}
+{
+origin "-5392 -560 -4140"
+spawnflags "1"
+export "50"
+model "body_russian_military_shotgun_a_arctic"
+classname "actor_gallery_russian_military_snow_shgn"
+}
+{
+origin "-5328 -560 -4140"
+spawnflags "1"
+export "51"
+model "body_russian_military_smg_a_arctic"
+classname "actor_gallery_russian_military_snow_smg"
+}
+{
+origin "-5584 -624 -4140"
+spawnflags "1"
+export "52"
+model "body_russian_military_assault_a"
+classname "actor_gallery_russian_military_urban_assault"
+}
+{
+origin "-5520 -624 -4140"
+spawnflags "1"
+export "53"
+model "body_russian_military_lmg_a"
+classname "actor_gallery_russian_military_urban_lmg"
+}
+{
+origin "-5456 -624 -4140"
+spawnflags "1"
+export "54"
+model "body_russian_military_rpg_a"
+classname "actor_gallery_russian_military_urban_rpg"
+}
+{
+origin "-5392 -624 -4140"
+spawnflags "1"
+export "55"
+model "body_russian_military_shotgun_a"
+classname "actor_gallery_russian_military_urban_shgn"
+}
+{
+origin "-5328 -624 -4140"
+spawnflags "1"
+export "56"
+model "body_russian_military_smg_a"
+classname "actor_gallery_russian_military_urban_smg"
+}
+{
+origin "-5584 -688 -4140"
+spawnflags "1"
+export "57"
+model "body_russian_military_assault_a_woodland"
+classname "actor_gallery_russian_military_wood_assault"
+}
+{
+origin "-5520 -688 -4140"
+spawnflags "1"
+export "58"
+model "body_russian_military_lmg_a_woodland"
+classname "actor_gallery_russian_military_wood_lmg"
+}
+{
+origin "-5456 -688 -4140"
+spawnflags "1"
+export "59"
+model "body_russian_military_rpg_a_woodland"
+classname "actor_gallery_russian_military_wood_rpg"
+}
+{
+origin "-5392 -688 -4140"
+spawnflags "1"
+export "60"
+model "body_russian_military_shotgun_a_woodland"
+classname "actor_gallery_russian_military_wood_shgn"
+}
+{
+origin "-5328 -688 -4140"
+spawnflags "1"
+export "61"
+model "body_russian_military_smg_a_woodland"
+classname "actor_gallery_russian_military_wood_smg"
+}
+{
+origin "-5584 -752 -4140"
+spawnflags "1"
+export "62"
+model "body_russian_military_assault_a_black"
+classname "actor_gallery_russian_military_elite_assault"
+}
+{
+origin "-5520 -752 -4140"
+spawnflags "1"
+export "63"
+model "body_russian_military_lmg_a_black"
+classname "actor_gallery_russian_military_elite_lmg"
+}
+{
+origin "-5456 -752 -4140"
+spawnflags "1"
+export "64"
+model "body_russian_military_rpg_a_black"
+classname "actor_gallery_russian_military_elite_rpg"
+}
+{
+origin "-5392 -752 -4140"
+spawnflags "1"
+export "65"
+model "body_russian_military_shotgun_a_black"
+classname "actor_gallery_russian_military_elite_shgn"
+}
+{
+origin "-5328 -752 -4140"
+spawnflags "1"
+export "66"
+model "body_russian_military_smg_a_black"
+classname "actor_gallery_russian_military_elite_smg"
+}
+{
+origin "-5584 -816 -4140"
+spawnflags "1"
+export "67"
+model "body_henchmen_assault_a"
+classname "actor_iw5_enemy_hijacker_AR"
+}
+{
+origin "-5520 -816 -4140"
+spawnflags "1"
+export "68"
+model "body_henchmen_shotgun_a"
+classname "actor_iw5_enemy_hijacker_SHGN"
+}
+{
+origin "-5456 -816 -4140"
+spawnflags "1"
+export "69"
+model "body_fso_vest_a"
+classname "actor_iw5_ally_russian_secretservice_ak47"
+}
+{
+origin "-5392 -816 -4140"
+spawnflags "1"
+export "70"
+model "body_fso_vest_a"
+classname "actor_iw5_ally_russian_secretservice_mp5"
+}
+{
+origin "-5328 -816 -4140"
+spawnflags "1"
+export "71"
+model "body_fso_suit_commander"
+classname "actor_iw5_ally_russian_commander"
+}
+{
+origin "-5584 -880 -4140"
+spawnflags "1"
+export "72"
+model "body_russian_military_assault_a_woodland"
+classname "actor_iw5_villain_makarov_oneshotonekill"
+}
+{
+origin "-5520 -880 -4140"
+spawnflags "1"
+export "73"
+model "body_henchmen_shotgun_a"
+classname "actor_iw5_enemy_villain_makarov_shockandawe"
+}
+{
+origin "-6224 -432 -4140"
+spawnflags "1"
+export "74"
+model "body_hero_truck_delta"
+classname "actor_iw5_ally_hero_truck_delta_M249"
+}
+{
+origin "-5840 -496 -4140"
+spawnflags "1"
+export "75"
+model "body_hero_sandman_delta_dusty"
+classname "actor_iw5_ally_hero_sandman_delta_dusty"
+}
+{
+origin "-5776 -496 -4140"
+spawnflags "1"
+export "76"
+model "body_hero_truck_delta_dusty"
+classname "actor_iw5_ally_hero_truck_delta_M249_dusty"
+}
+{
+origin "-5456 -880 -4140"
+spawnflags "1"
+export "77"
+model "body_villain_makarov_hijack"
+classname "actor_iw5_enemy_villain_makarov_hijack"
+}
+{
+origin "-5584 -944 -4140"
+spawnflags "1"
+export "78"
+model "body_hero_truck_delta_snow"
+classname "actor_iw5_ally_hero_truck_delta_snow_M4"
+}
+{
+origin "-6096 -240 -4140"
+spawnflags "1"
+export "79"
+model "body_delta_elite_snow_lmg_a"
+classname "actor_iw5_ally_delta_snow_M249"
+}
+{
+origin "-6160 -240 -4140"
+spawnflags "1"
+export "80"
+model "body_delta_elite_snow_assault_aa"
+classname "actor_iw5_ally_delta_snow_M16"
+}
+{
+origin "-6032 -240 -4140"
+spawnflags "1"
+export "81"
+model "body_delta_elite_snow_assault_aa"
+classname "actor_iw5_ally_delta_snow_M4"
+}
+{
+origin "-5968 -240 -4140"
+spawnflags "1"
+export "82"
+model "body_delta_elite_snow_smg_a"
+classname "actor_iw5_ally_delta_snow_MP5"
+}
+{
+origin "-5904 -240 -4140"
+spawnflags "1"
+export "83"
+model "body_delta_elite_snow_assault_aa"
+classname "actor_iw5_ally_delta_snow_SCAR"
+}
+{
+origin "-5840 -240 -4140"
+spawnflags "1"
+export "84"
+model "body_delta_elite_snow_shotgun_a"
+classname "actor_iw5_ally_delta_snow_SHOTGUN"
+}
+{
+origin "-5648 -816 -4140"
+spawnflags "1"
+export "85"
+model "body_henchmen_lmg_a"
+classname "actor_iw5_enemy_opforce_henchmen_LMG"
+}
+{
+origin "-5904 -496 -4140"
+spawnflags "1"
+export "86"
+model "body_hero_sandman_delta"
+classname "actor_iw5_ally_hero_sandman_delta_gasmask_M4"
+}
+{
+origin "-6224 -240 -4140"
+spawnflags "1"
+export "87"
+model "body_hero_sandman_delta_snow"
+classname "actor_iw5_ally_hero_sandman_delta_snow"
+}
+{
+origin "-6288 -240 -4140"
+spawnflags "1"
+export "88"
+model "body_delta_elite_snow_assault_ab"
+classname "actor_iw5_ally_hero_grinch_delta_snow"
+}
+{
+origin "-6288 -432 -4140"
+spawnflags "1"
+export "89"
+model "body_delta_elite_assault_bb"
+classname "actor_iw5_ally_hero_grinch_delta"
+}
+{
+origin "-5584 -1008 -4140"
+spawnflags "1"
+export "90"
+model "body_rangers_bdu_assault_a"
+classname "actor_iw5_ally_rangers_AR"
+}
+{
+origin "-5520 -944 -4140"
+spawnflags "1"
+export "91"
+model "body_hero_kamarov_lmg_a"
+classname "actor_iw5_ally_hero_kamarov_prague"
+}
+{
+origin "-5584 -240 -4140"
+spawnflags "1"
+export "92"
+model "fullbody_price_africa_assault_a"
+classname "actor_gallery_hero_price_africa"
+}
+{
+origin "-5520 -240 -4140"
+spawnflags "1"
+export "93"
+model "fullbody_soap_africa_assault_a"
+classname "actor_gallery_hero_soap_africa"
+}
+{
+origin "-5456 -240 -4140"
+spawnflags "1"
+export "94"
+model "fullbody_keegan_africa_assault_a"
+classname "actor_gallery_hero_keegan_africa"
+}
+{
+origin "-5392 -240 -4140"
+spawnflags "1"
+export "95"
+model "fullbody_nikolai_africa_assault_a"
+classname "actor_gallery_hero_nikolai_africa"
+}
+{
+origin "-5584 -176 -4140"
+spawnflags "1"
+export "96"
+model "body_pmc_africa_assault_a"
+classname "actor_gallery_pmc_africa_assault"
+}
+{
+origin "-5520 -176 -4140"
+spawnflags "1"
+export "97"
+model "body_pmc_africa_lmg_a"
+classname "actor_gallery_pmc_africa_lmg"
+}
+{
+origin "-5456 -176 -4140"
+spawnflags "1"
+export "98"
+model "body_pmc_africa_shotgun_a"
+classname "actor_gallery_pmc_africa_shotgun"
+}
+{
+origin "-5392 -176 -4140"
+spawnflags "1"
+export "99"
+model "body_pmc_africa_smg_a"
+classname "actor_gallery_pmc_africa_smg"
+}
+{
+origin "-5328 -240 -4140"
+spawnflags "1"
+export "100"
+model "body_hero_yuri_smg_a"
+classname "actor_gallery_hero_yuri"
+}
+{
+origin "-5584 -112 -4140"
+spawnflags "1"
+export "101"
+model "body_opforce_russian_air_sniper"
+classname "actor_gallery_opforce_sniper_airborne"
+}
+{
+origin "-5520 -112 -4140"
+spawnflags "1"
+export "102"
+model "body_opforce_russian_arctic_sniper"
+classname "actor_gallery_opforce_sniper_arctic"
+}
+{
+origin "-5456 -112 -4140"
+spawnflags "1"
+export "103"
+model "body_opforce_henchmen_sniper"
+classname "actor_gallery_opforce_sniper_henchmen"
+}
+{
+origin "-5392 -112 -4140"
+spawnflags "1"
+export "104"
+model "body_opforce_africa_militia_sniper"
+classname "actor_gallery_opforce_sniper_militia"
+}
+{
+origin "-5328 -112 -4140"
+spawnflags "1"
+export "105"
+model "body_opforce_russian_urban_sniper"
+classname "actor_gallery_opforce_sniper_urban"
+}
+{
+origin "-5264 -112 -4140"
+spawnflags "1"
+export "106"
+model "body_opforce_russian_woodland_sniper"
+classname "actor_gallery_opforce_sniper_woodland"
+}
+{
+origin "-5584 -48 -4140"
+spawnflags "1"
+export "107"
+model "body_ally_delta_sniper"
+classname "actor_gallery_ally_sniper_delta"
+}
+{
+origin "-5520 -48 -4140"
+spawnflags "1"
+export "108"
+model "body_ally_delta_sniper"
+classname "actor_gallery_ally_sniper_pmc"
+}
+{
+origin "-5456 -48 -4140"
+spawnflags "1"
+export "109"
+model "body_ally_sas_sniper"
+classname "actor_gallery_ally_sniper_sas"
+}
+{
+origin "-5264 -240 -4140"
+spawnflags "1"
+export "110"
+model "fullbody_soap_europe_assault_a"
+classname "actor_gallery_hero_soap_europe"
+}
+{
+origin "-5200 -240 -4140"
+spawnflags "1"
+export "111"
+model "fullbody_soap_europe_injured_a"
+classname "actor_iw5_ally_hero_soap_prague_injured"
+}
+{
+spawnflags "1"
+origin "-6480 -624 -4140"
+export "112"
+model "body_sas_urban_assault"
+classname "actor_gallery_sas_urban_assault"
+}
+{
+spawnflags "1"
+origin "-6416 -624 -4140"
+export "113"
+model "body_sas_urban_lmg"
+classname "actor_gallery_sas_urban_lmg"
+}
+{
+spawnflags "1"
+origin "-6352 -624 -4140"
+export "114"
+model "body_sas_urban_shotgun"
+classname "actor_gallery_sas_urban_shotgun"
+}
+{
+spawnflags "1"
+origin "-6288 -624 -4140"
+export "115"
+model "body_sas_urban_smg"
+classname "actor_gallery_sas_urban_smg"
+}
+{
+origin "-5392 -304 -4140"
+spawnflags "1"
+export "116"
+model "body_price_europe_assault_a"
+classname "actor_gallery_hero_price_europe_a"
+}
+{
+origin "-5328 -304 -4140"
+spawnflags "1"
+export "117"
+model "body_price_europe_assault_b"
+classname "actor_gallery_hero_price_europe_b"
+}
+{
+origin "-5264 -304 -4140"
+spawnflags "1"
+export "118"
+model "body_price_europe_assault_c"
+classname "actor_gallery_hero_price_europe_c"
+}
+{
+origin "-5392 -368 -4140"
+spawnflags "1"
+export "119"
+model "body_price_europe_assault_aa"
+classname "actor_gallery_hero_price_europe_aa"
+}
+{
+origin "-5200 -304 -4140"
+spawnflags "1"
+export "120"
+model "body_price_europe_assault_cc"
+classname "actor_gallery_hero_price_europe_cc"
+}
+{
+spawnflags "1"
+origin "-6480 -1008 -4140"
+export "121"
+model "fullbody_def_mesh_body_a"
+classname "actor_gallery_def_mesh_body_a"
+}
+{
+spawnflags "1"
+origin "-6416 -1008 -4140"
+export "122"
+model "fullbody_def_mesh_soldier_a"
+classname "actor_gallery_def_mesh_soldier_a"
+}
+{
+targetname "spawner_volume"
+classname "trigger_multiple"
+origin "-4992 472 -3760"
+model "?0"
+}
+{
+origin "-5136 -848 -4144"
+targetname "spawner_ground"
+classname "script_struct"
+}
+{
+ltorigin "-5130.06 -752 -4093.33"
+origin "-5136 -752 -4144"
+model "viewhands_player_gs_hostage"
+classname "script_model"
+}
+{
+ltorigin "-5136 -784 -4091.65"
+origin "-5136 -784 -4100"
+angles "0 90 0"
+model "weapon_helmet_goggles"
+classname "script_model"
+}
+{
+origin "-8 148 48"
+targetname "highlight_model_point"
+angles "0 270 0"
+classname "script_struct"
+}
+{
+origin "56 148 48"
+targetname "highlight_model_point"
+angles "0 270 0"
+classname "script_struct"
+}
+{
+origin "120 148 48"
+targetname "highlight_model_point"
+angles "0 270 0"
+classname "script_struct"
+}
+{
+origin "184 148 48"
+targetname "highlight_model_point"
+angles "0 270 0"
+classname "script_struct"
+}
+{
+targetname "spawnpoint_1"
+origin "0 512 48"
+angles "0 270 0"
+classname "script_struct"
+}
+{
+targetname "spawnpoint_1"
+origin "-998 1750 20"
+angles "0 243 0"
+classname "script_struct"
+}
+{
+targetname "spawnpoint_2"
+origin "64 512 48"
+angles "0 270 0"
+classname "script_struct"
+}
+{
+targetname "spawnpoint_3"
+origin "128 512 48"
+angles "0 270 0"
+classname "script_struct"
+}
+{
+targetname "spawnpoint_4"
+origin "192 512 48"
+angles "0 270 0"
+classname "script_struct"
+}
+{
+targetname "spawnpoint_2"
+origin "-964 1698 20"
+angles "0 225 0"
+classname "script_struct"
+}
+{
+targetname "spawnpoint_3"
+origin "-496 1248 20"
+angles "0 72 0"
+classname "script_struct"
+}
+{
+targetname "spawnpoint_4"
+origin "-432 1248 20"
+angles "0 104 0"
+classname "script_struct"
+}
+{
+angles "0 30 0"
+targetname "auto1"
+origin "-1048 1688 8"
+_color "1.000000 1.000000 1.000000"
+classname "script_struct"
+}
+{
+classname "script_struct"
+_color "1.000000 1.000000 1.000000"
+origin "104 -40 8"
+target "auto1"
+targetname "move_player_start"
+angles "0 90 0"
+}
+{
+angles "90 45 -180"
+targetname "ch_streetlight_02_FX_origin"
+origin "424.487 840.787 212"
+classname "script_struct"
+}
+{
+classname "script_struct"
+origin "572.756 854.496 42.0301"
+targetname "fluorescent_glow_FX_origin"
+angles "30 93.3 -90"
+}
+{
+classname "script_struct"
+origin "515.213 853.5 41.0287"
+targetname "fluorescent_glow_FX_origin"
+angles "29.9881 90.8658 -88.2681"
+}
+{
+classname "script_struct"
+origin "629 853.5 42.0301"
+targetname "fluorescent_glow_FX_origin"
+angles "30 90 -90"
+}
+{
+classname "script_struct"
+origin "685.029 853.475 42.0443"
+targetname "fluorescent_glow_FX_origin"
+angles "29.6537 87.036 -91.1353"
+}
+{
+classname "script_struct"
+origin "437.5 919 42.0301"
+targetname "fluorescent_glow_FX_origin"
+angles "30 3.18772e-006 -90"
+}
+{
+classname "script_struct"
+origin "462.468 875.468 42.0301"
+targetname "fluorescent_glow_FX_origin"
+angles "30 45 -90"
+}
+{
+classname "script_struct"
+origin "461.5 1107 42.0301"
+targetname "fluorescent_glow_FX_origin"
+angles "30 3.18772e-006 -90"
+}
+{
+classname "script_struct"
+origin "436.5 1633.5 43.8301"
+targetname "fluorescent_glow_FX_origin"
+angles "30 3.18772e-006 -90"
+}
+{
+classname "script_struct"
+origin "436.5 1758.5 44.0301"
+targetname "fluorescent_glow_FX_origin"
+angles "30 3.18772e-006 -90"
+}
+{
+angles "90 45 -180"
+targetname "ch_streetlight_02_FX_origin"
+origin "1688.49 -663.213 212"
+classname "script_struct"
+}
+{
+classname "script_struct"
+origin "1836.76 -649.504 42.0301"
+targetname "fluorescent_glow_FX_origin"
+angles "30 93.3 -90"
+}
+{
+classname "script_struct"
+origin "1779.21 -650.5 41.0287"
+targetname "fluorescent_glow_FX_origin"
+angles "29.9881 90.8658 -88.2681"
+}
+{
+classname "script_struct"
+origin "1893 -650.5 42.0301"
+targetname "fluorescent_glow_FX_origin"
+angles "30 90 -90"
+}
+{
+classname "script_struct"
+origin "1949.03 -650.525 42.0443"
+targetname "fluorescent_glow_FX_origin"
+angles "29.6537 87.036 -91.1353"
+}
+{
+classname "script_struct"
+origin "1701.5 -585 42.0301"
+targetname "fluorescent_glow_FX_origin"
+angles "30 3.18772e-006 -90"
+}
+{
+classname "script_struct"
+origin "1726.47 -628.532 42.0301"
+targetname "fluorescent_glow_FX_origin"
+angles "30 45 -90"
+}
+{
+classname "script_struct"
+origin "1725.5 -397 42.0301"
+targetname "fluorescent_glow_FX_origin"
+angles "30 3.18772e-006 -90"
+}
+{
+classname "script_struct"
+origin "1700.5 129.5 43.8301"
+targetname "fluorescent_glow_FX_origin"
+angles "30 3.18772e-006 -90"
+}
+{
+classname "script_struct"
+origin "1700.5 254.5 44.0301"
+targetname "fluorescent_glow_FX_origin"
+angles "30 3.18772e-006 -90"
+}
+{
+angles "90 225 180"
+targetname "ch_streetlight_02_FX_origin"
+origin "-360.487 -72.7868 196"
+classname "script_struct"
+}
+{
+classname "script_struct"
+origin "-508.756 -86.4959 26.0301"
+targetname "fluorescent_glow_FX_origin"
+angles "30 273.3 -90"
+}
+{
+classname "script_struct"
+origin "-451.213 -85.5 25.0287"
+targetname "fluorescent_glow_FX_origin"
+angles "29.9881 270.866 -88.2681"
+}
+{
+classname "script_struct"
+origin "-565 -85.5 26.0301"
+targetname "fluorescent_glow_FX_origin"
+angles "30 270 -90"
+}
+{
+classname "script_struct"
+origin "-621.029 -85.4751 26.0443"
+targetname "fluorescent_glow_FX_origin"
+angles "29.6537 267.036 -91.1353"
+}
+{
+classname "script_struct"
+origin "-373.5 -151 26.0301"
+targetname "fluorescent_glow_FX_origin"
+angles "30 180 -90"
+}
+{
+classname "script_struct"
+origin "-398.468 -107.468 26.0301"
+targetname "fluorescent_glow_FX_origin"
+angles "30 225 -90"
+}
+{
+classname "script_struct"
+origin "-397.5 -339 26.0301"
+targetname "fluorescent_glow_FX_origin"
+angles "30 180 -90"
+}
+{
+classname "script_struct"
+origin "-372.5 -865.5 27.8301"
+targetname "fluorescent_glow_FX_origin"
+angles "30 180 -90"
+}
+{
+classname "script_struct"
+origin "-372.5 -990.5 28.0301"
+targetname "fluorescent_glow_FX_origin"
+angles "30 180 -90"
+}
+{
+gndlt "5556568001"
+ltorigin "-233.759 -1007.81 0.577721"
+sound_csv_include "destruct_firehydrant"
+csv_include "destructible_firehydrant"
+origin "-236 -1010 -16"
+targetname "destructible_toy"
+destructible_type "toy_firehydrant"
+model "com_firehydrant"
+classname "script_model"
+angles "0 180 0"
+}
+{
+gndlt "5454520000"
+ltorigin "299 1191 19.4557"
+sound_csv_include "destruct_parkingmeter"
+csv_include "destructible_parkingmeter"
+angles "0 180 0"
+destructible_type "toy_parkingmeter"
+targetname "destructible_toy"
+origin "299 1191 -8"
+model "com_parkingmeter_destructible"
+classname "script_model"
+}
+{
+gndlt "615d565e01"
+ltorigin "-101 1191 19.4557"
+sound_csv_include "destruct_parkingmeter"
+csv_include "destructible_parkingmeter"
+angles "0 180 0"
+destructible_type "toy_parkingmeter"
+targetname "destructible_toy"
+origin "-101 1191 -8"
+model "com_parkingmeter_destructible"
+classname "script_model"
+}
+{
+gndlt "5657558001"
+ltorigin "-101 1703 19.4557"
+sound_csv_include "destruct_parkingmeter"
+csv_include "destructible_parkingmeter"
+angles "0 180 0"
+destructible_type "toy_parkingmeter"
+targetname "destructible_toy"
+origin "-101 1703 -8"
+model "com_parkingmeter_destructible"
+classname "script_model"
+}
+{
+gndlt "5655518001"
+ltorigin "-101 1447 19.4557"
+sound_csv_include "destruct_parkingmeter"
+csv_include "destructible_parkingmeter"
+angles "0 180 0"
+destructible_type "toy_parkingmeter"
+targetname "destructible_toy"
+origin "-101 1447 -8"
+model "com_parkingmeter_destructible"
+classname "script_model"
+}
+{
+gndlt "5252510001"
+ltorigin "-101 1959 19.4557"
+sound_csv_include "destruct_parkingmeter"
+csv_include "destructible_parkingmeter"
+angles "0 180 0"
+destructible_type "toy_parkingmeter"
+targetname "destructible_toy"
+origin "-101 1959 -8"
+model "com_parkingmeter_destructible"
+classname "script_model"
+}
+{
+gndlt "4d4d4c0000"
+ltorigin "299 1703 27.4557"
+sound_csv_include "destruct_parkingmeter"
+csv_include "destructible_parkingmeter"
+angles "0 180 0"
+destructible_type "toy_parkingmeter"
+targetname "destructible_toy"
+origin "299 1703 0"
+model "com_parkingmeter_destructible"
+classname "script_model"
+}
+{
+gndlt "5252500000"
+ltorigin "299 1447 27.4557"
+sound_csv_include "destruct_parkingmeter"
+csv_include "destructible_parkingmeter"
+angles "0 180 0"
+destructible_type "toy_parkingmeter"
+targetname "destructible_toy"
+origin "299 1447 0"
+model "com_parkingmeter_destructible"
+classname "script_model"
+}
+{
+gndlt "4949480000"
+ltorigin "299 2215 27.4557"
+sound_csv_include "destruct_parkingmeter"
+csv_include "destructible_parkingmeter"
+angles "0 180 0"
+destructible_type "toy_parkingmeter"
+targetname "destructible_toy"
+origin "299 2215 0"
+model "com_parkingmeter_destructible"
+classname "script_model"
+}
+{
+gndlt "4c4c4b0000"
+ltorigin "299 1959 27.4557"
+sound_csv_include "destruct_parkingmeter"
+csv_include "destructible_parkingmeter"
+angles "0 180 0"
+destructible_type "toy_parkingmeter"
+targetname "destructible_toy"
+origin "299 1959 0"
+model "com_parkingmeter_destructible"
+classname "script_model"
+}
+{
+gndlt "6162606701"
+ltorigin "-110.241 847.812 8.57772"
+sound_csv_include "destruct_firehydrant"
+csv_include "destructible_firehydrant"
+origin "-108 850 -8"
+targetname "destructible_toy"
+destructible_type "toy_firehydrant"
+model "com_firehydrant"
+classname "script_model"
+}
+{
+gndlt "5a5b5a7401"
+ltorigin "297.726 935.774 22.2687"
+sound_csv_include "destruct_newspaperbox"
+csv_include "destructible_newspaperbox_blue"
+destructible_type "toy_newspaper_stand_blue"
+targetname "destructible_toy"
+origin "296 934 0"
+model "com_newspaperbox_blue"
+classname "script_model"
+}
+{
+gndlt "5b5b5a6401"
+ltorigin "296.678 906.175 22.2884"
+sound_csv_include "destruct_newspaperbox"
+csv_include "destructible_newspaperbox_red"
+targetname "destructible_toy"
+destructible_type "toy_newspaper_stand_red"
+origin "296 906 0"
+model "com_newspaperbox_red"
+classname "script_model"
+}
+{
+gndlt "4a4b497c01"
+ltorigin "-161.726 -147.774 6.26869"
+sound_csv_include "destruct_newspaperbox"
+csv_include "destructible_newspaperbox_blue"
+destructible_type "toy_newspaper_stand_blue"
+targetname "destructible_toy"
+origin "-160 -146 -16"
+model "com_newspaperbox_blue"
+classname "script_model"
+angles "0 180 0"
+}
+{
+gndlt "5253517901"
+ltorigin "-160.678 -118.175 6.28836"
+sound_csv_include "destruct_newspaperbox"
+csv_include "destructible_newspaperbox_red"
+targetname "destructible_toy"
+destructible_type "toy_newspaper_stand_red"
+origin "-160 -118 -16"
+model "com_newspaperbox_red"
+classname "script_model"
+angles "0 180 0"
+}
+{
+classname "script_struct"
+origin "-408 1853 97"
+targetname "light_red_steady_FX_origin"
+angles "0 180 -90"
+}
+{
+classname "script_struct"
+origin "-496 1875 97"
+targetname "light_red_steady_FX_origin"
+angles "0 0 -90"
+}
+{
+classname "script_struct"
+origin "-1286 1434 97"
+targetname "light_orange_steady_FX_origin"
+angles "0 90 -90"
+}
+{
+targetname "pf684_auto1"
+classname "trigger_use"
+origin "-783 1179 126"
+model "?1"
+}
+{
+ltorigin "-786.364 1176.4 125.868"
+sound_csv_include "destruct_tv_exp"
+csv_include "destructible_tubetv_tv1"
+targetname "interactive_tv"
+classname "script_model"
+model "com_tv1_cinematic"
+origin "-790.2 1172.6 116.8"
+angles "20 45 0"
+target "pf684_auto1"
+}
+{
+targetname "pf689_auto1"
+classname "trigger_use"
+origin "-667 1160 142"
+model "?2"
+}
+{
+ltorigin "-666.996 1155.64 141.868"
+sound_csv_include "destruct_tv_exp"
+csv_include "destructible_tubetv_tv1"
+targetname "interactive_tv"
+classname "script_model"
+model "com_tv1_cinematic"
+origin "-667 1150.6 132.8"
+angles "20 90 0"
+target "pf689_auto1"
+}
+{
+targetname "pf690_auto1"
+classname "trigger_use"
+origin "-634 1160 142"
+model "?3"
+}
+{
+ltorigin "-633.996 1155.64 141.868"
+sound_csv_include "destruct_tv_exp"
+csv_include "destructible_tubetv_tv1"
+targetname "interactive_tv"
+classname "script_model"
+model "com_tv1_cinematic"
+origin "-634 1150.6 132.8"
+angles "20 90 0"
+target "pf690_auto1"
+}
+{
+gndlt "1412130000"
+ltorigin "-530.57 1835.09 16.9774"
+sound_csv_include "destruct_filecabinet"
+csv_include "destructible_filecabinet"
+targetname "destructible_toy"
+destructible_type "toy_filecabinet"
+origin "-530.5 1835 -8"
+model "com_filecabinetblackclosed"
+classname "script_model"
+angles "0 276.3 0"
+}
+{
+origin "-1243 1477.5 580"
+targetname "light_glow_industrial_FX_origin"
+classname "script_struct"
+angles "0 90 -90"
+}
+{
+origin "-815 1293.5 580"
+targetname "light_glow_industrial_FX_origin"
+classname "script_struct"
+angles "0 90 -90"
+}
+{
+origin "-815 1661.5 580"
+targetname "light_glow_industrial_FX_origin"
+classname "script_struct"
+angles "0 90 -90"
+}
+{
+origin "-815 1477.5 580"
+targetname "light_glow_industrial_FX_origin"
+classname "script_struct"
+angles "0 90 -90"
+}
+{
+origin "-841 1661.5 580"
+targetname "light_glow_industrial_FX_origin"
+classname "script_struct"
+angles "0 270 -90"
+}
+{
+origin "-841 1293.5 580"
+targetname "light_glow_industrial_FX_origin"
+classname "script_struct"
+angles "0 270 -90"
+}
+{
+origin "-841 1477.5 580"
+targetname "light_glow_industrial_FX_origin"
+classname "script_struct"
+angles "0 270 -90"
+}
+{
+gndlt "08090a0000"
+ltorigin "-560.004 1823.86 50.8679"
+csv_include "destructible_tubetv_tv1"
+sound_csv_include "destruct_tv_exp"
+targetname "interactive_tv"
+classname "script_model"
+model "com_tv1_cinematic"
+origin "-560 1828.9 41.8"
+angles "20 270 -2.33606e-006"
+}
+{
+gndlt "08090a0000"
+ltorigin "-560.004 1827.9 75.003"
+csv_include "destructible_tubetv_tv1"
+sound_csv_include "destruct_tv_exp"
+targetname "interactive_tv"
+classname "script_model"
+model "com_tv1_cinematic"
+origin "-560 1827.9 63.8"
+angles "0 270 0"
+}
+{
+gndlt "1c1d1e0006"
+ltorigin "-385.288 1139.2 50.8679"
+csv_include "destructible_tubetv_tv1"
+sound_csv_include "destruct_tv_exp"
+targetname "interactive_tv"
+classname "script_model"
+model "com_tv1_cinematic"
+origin "-381.485 1135.36 41.8"
+angles "20 135 -1.65185e-006"
+}
+{
+gndlt "1c1d1e0006"
+ltorigin "-383.002 1136.91 75.003"
+csv_include "destructible_tubetv_tv1"
+sound_csv_include "destruct_tv_exp"
+targetname "interactive_tv"
+classname "script_model"
+model "com_tv1_cinematic"
+origin "-382.192 1136.07 63.8"
+angles "0 135 0"
+}
+{
+gndlt "2425260006"
+ltorigin "-362.388 1283.74 16.9774"
+sound_csv_include "destruct_filecabinet"
+csv_include "destructible_filecabinet"
+targetname "destructible_toy"
+destructible_type "toy_filecabinet"
+origin "-362.5 1284 -8"
+model "com_filecabinetblackclosed"
+classname "script_model"
+angles "0 100 0"
+}
+{
+targetname "pf806_auto1"
+classname "trigger_use"
+origin "-804 1264 39"
+model "?4"
+}
+{
+gndlt "1c1b1a0006"
+ltorigin "-809.732 1262.95 38.203"
+sound_csv_include "destruct_tv_exp"
+csv_include "destructible_tubetv_tv1"
+targetname "interactive_tv"
+classname "script_model"
+model "com_tv1_cinematic"
+origin "-810 1262.5 27"
+angles "0 15 0"
+target "pf806_auto1"
+}
+{
+targetname "pf807_auto1"
+classname "trigger_use"
+origin "-801 1346 39"
+model "?5"
+}
+{
+gndlt "1415180000"
+ltorigin "-804.69 1349.16 38.203"
+sound_csv_include "destruct_tv_exp"
+csv_include "destructible_tubetv_tv1"
+targetname "interactive_tv"
+classname "script_model"
+model "com_tv1_cinematic"
+origin "-805.5 1350 27"
+angles "0 315 0"
+target "pf807_auto1"
+}
+{
+targetname "pf808_auto1"
+classname "trigger_use"
+origin "-375 1186 39"
+model "?6"
+}
+{
+gndlt "1b1c1d0006"
+ltorigin "-371.31 1182.84 38.203"
+sound_csv_include "destruct_tv_exp"
+csv_include "destructible_tubetv_tv1"
+targetname "interactive_tv"
+classname "script_model"
+model "com_tv1_cinematic"
+origin "-370.5 1182 27"
+angles "0 135 0"
+target "pf808_auto1"
+}
+{
+classname "script_struct"
+origin "-1150 1932 97"
+targetname "light_orange_steady_FX_origin"
+angles "0 0 -90"
+}
+{
+classname "script_struct"
+origin "-1150 1916 97"
+targetname "light_orange_steady_FX_origin"
+angles "0 180 -90"
+}
+{
+classname "script_struct"
+origin "-954 1932 97"
+targetname "light_orange_steady_FX_origin"
+angles "0 0 -90"
+}
+{
+classname "script_struct"
+origin "-954 1916 97"
+targetname "light_orange_steady_FX_origin"
+angles "0 180 -90"
+}
+{
+classname "script_struct"
+origin "-954 1084 97"
+targetname "light_orange_steady_FX_origin"
+angles "0 180 -90"
+}
+{
+classname "script_struct"
+origin "-954 1100 97"
+targetname "light_orange_steady_FX_origin"
+angles "0 0 -90"
+}
+{
+classname "script_struct"
+origin "-1150 1084 97"
+targetname "light_orange_steady_FX_origin"
+angles "0 180 -90"
+}
+{
+classname "script_struct"
+origin "-1150 1100 97"
+targetname "light_orange_steady_FX_origin"
+angles "0 0 -90"
+}
+{
+classname "script_struct"
+angles "0 180 0"
+targetname "ending_breach_org"
+origin "-432 1474 -8"
+}
+{
+classname "info_player_start"
+origin "32 -640 0"
+angles "0 90 0"
+}

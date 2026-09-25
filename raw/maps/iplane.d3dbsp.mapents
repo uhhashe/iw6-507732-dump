@@ -1,0 +1,3194 @@
+{
+classname "worldspawn"
+northyaw "90"
+skycolor "0.835294 0.847059 1"
+skylight "0.3"
+_color "0.5 0.5 .62 1"
+ambient "0.21"
+sundirection "-14 -126 0"
+suncolor "0.854902 0.929412 1 1"
+sunlight "1.3"
+}
+{
+origin "16140 4736 -112"
+targetname "all_plane_origin"
+angles "0 180 0"
+classname "script_struct"
+}
+{
+classname "script_brushmodel"
+origin "14869 4521 -251"
+model "*1"
+}
+{
+targetname "ground_brush_two"
+classname "script_brushmodel"
+origin "640 5540 -1415"
+model "*2"
+}
+{
+targetname "ground_brush"
+classname "script_brushmodel"
+origin "10073 4816 -1967"
+model "*3"
+}
+{
+origin "15241.5 4633 -391"
+angles "0 158 0"
+classname "info_player_start"
+}
+{
+origin "8827 4527.5 -293"
+classname "script_origin"
+}
+{
+origin "16126 4736 -112"
+targetname "org_view_roll"
+angles "0 180 0"
+classname "script_origin"
+}
+{
+script_noteworthy "brush_model"
+origin "15056 4896 -395"
+targetname "kersey_anim_start"
+angles "0 347.3 0"
+classname "script_origin"
+}
+{
+script_noteworthy "brush_model"
+origin "15174 4692 -381"
+targetname "vargas_in_chair"
+classname "script_struct"
+}
+{
+script_friendname "kersey"
+script_ignoreall "1"
+script_ignoreme "1"
+spawnflags "1"
+origin "15118 4860 -392"
+targetname "heroes"
+angles "0 240 0"
+export "4"
+model "body_hero_sandman_delta"
+classname "actor_iw5_ally_hero_sandman_delta"
+}
+{
+script_friendname "price"
+script_ignoreall "1"
+script_ignoreme "1"
+origin "15194 4710 -394"
+spawnflags "1"
+targetname "heroes"
+angles "0 187.1 0"
+export "1"
+model "fullbody_keegan_africa_assault_a"
+classname "actor_gallery_hero_keegan_africa"
+}
+{
+script_noteworthy "vargas"
+script_ignoreall "1"
+script_ignoreme "1"
+spawnflags "1"
+origin "15328 4819 -392"
+targetname "evil"
+angles "0 268 0"
+export "2"
+model "body_henchmen_smg_a"
+classname "actor_iw5_enemy_opforce_henchmen_kriss"
+}
+{
+script_friendname "mccoy"
+script_ignoreall "1"
+script_ignoreme "1"
+spawnflags "1"
+origin "15118 4630 -392"
+targetname "heroes"
+angles "0 138 0"
+export "3"
+model "body_hero_sandman_delta"
+classname "actor_iw5_ally_hero_sandman_delta"
+}
+{
+script_noteworthy "brush_model"
+origin "15003.5 4679 -395"
+targetname "mccoy_anim_start"
+angles "0 7.19999 0"
+classname "script_origin"
+}
+{
+gndlt "09090d3e01"
+ltorigin "14990 4828 -361.521"
+targetname "vargas_chair"
+origin "14990 4828 -380"
+model "com_folding_chair"
+classname "script_model"
+}
+{
+script_noteworthy "knees_one"
+script_ignoreall "1"
+script_ignoreme "1"
+spawnflags "1"
+origin "14815 4687.5 -343"
+targetname "evil"
+angles "0 358 0"
+export "5"
+model "body_henchmen_smg_a"
+classname "actor_iw5_enemy_opforce_henchmen_kriss"
+}
+{
+script_noteworthy "knees_two"
+script_ignoreall "1"
+script_ignoreme "1"
+spawnflags "1"
+origin "15288 4819.5 -392"
+targetname "evil"
+angles "0 268 0"
+export "6"
+model "body_henchmen_smg_a"
+classname "actor_iw5_enemy_opforce_henchmen_kriss"
+}
+{
+script_noteworthy "brush_model"
+origin "15161.5 4633.5 -395"
+targetname "on_knees_two"
+angles "0 122.2 0"
+classname "script_origin"
+}
+{
+script_noteworthy "brush_model"
+origin "15103 4793.5 -395"
+targetname "on_knees_one"
+angles "0 205.1 0"
+classname "script_origin"
+}
+{
+script_noteworthy "brush_model"
+origin "15361 4814.5 -296"
+targetname "player_on_back"
+angles "0 180 0"
+classname "script_origin"
+}
+{
+target "auto2"
+targetname "auto1"
+angles "270 1.00179e-005 -180"
+script_noteworthy "climb_out_origin"
+origin "15415.5 4710.7 -671"
+classname "script_origin"
+}
+{
+script_noteworthy "brush_model"
+origin "15548.5 4738.5 -668"
+targetname "player_on_back_one"
+angles "270 359.906 0.0937648"
+classname "script_origin"
+}
+{
+script_noteworthy "brush_model"
+origin "15671 4749 -304"
+targetname "player_on_back_pre_one"
+angles "0 180 0"
+classname "script_origin"
+}
+{
+script_noteworthy "brush_model"
+origin "15361 4739 -296"
+targetname "player_on_back"
+angles "0 180 0"
+classname "script_origin"
+}
+{
+script_index "4"
+target "r_plane_player_climb_three"
+targetname "auto2"
+angles "270 1.00179e-005 -180"
+script_noteworthy "climb_out_origin"
+origin "15415.5 4710.7 -651"
+classname "script_origin"
+}
+{
+script_noteworthy "brush_model"
+origin "15362.5 4669.5 -296"
+targetname "player_on_back"
+angles "0 180 0"
+classname "script_origin"
+}
+{
+script_noteworthy "brush_model"
+origin "15060 4710 -363"
+targetname "chair_position_two_origin"
+angles "0 180 0"
+classname "script_origin"
+}
+{
+script_noteworthy "brush_model"
+origin "15088 4710 -367"
+targetname "chair_position_one_origin"
+angles "0 180 0"
+classname "script_origin"
+}
+{
+script_noteworthy "brush_model"
+origin "15024 4710 -367"
+targetname "chair_position_three_origin"
+angles "0 180 0"
+classname "script_origin"
+}
+{
+script_index "3"
+angles "270 1.00179e-005 -180"
+target "r_plane_player_climb_two"
+script_noteworthy "climb_out_origin"
+origin "15409.6 4707.8 -713"
+targetname "r_plane_player_climb_one"
+classname "script_origin"
+}
+{
+target "auto1"
+angles "270 1.00179e-005 -180"
+script_noteworthy "climb_out_origin"
+origin "15415.5 4710.7 -691"
+targetname "r_plane_player_climb_two"
+classname "script_origin"
+}
+{
+target "r_plane_player_climb_four"
+script_noteworthy "climb_out_origin"
+angles "270 1.00179e-005 -180"
+origin "15414.9 4714.5 -630.9"
+targetname "r_plane_player_climb_three"
+classname "script_origin"
+}
+{
+target "r_plane_player_climb_five"
+script_noteworthy "climb_out_origin"
+angles "270 1.00179e-005 -180"
+origin "15427 4692.5 -602.9"
+targetname "r_plane_player_climb_four"
+classname "script_origin"
+}
+{
+target "r_plane_player_climb_six"
+script_noteworthy "climb_out_origin"
+angles "270 1.00179e-005 -180"
+origin "15435 4658.5 -556.9"
+targetname "r_plane_player_climb_five"
+classname "script_origin"
+}
+{
+script_index "5"
+target "r_plane_player_climb_seven"
+script_noteworthy "climb_out_origin"
+angles "270 1.00179e-005 -180"
+origin "15439.1 4618.5 -508.9"
+targetname "r_plane_player_climb_six"
+classname "script_origin"
+}
+{
+target "r_plane_player_climb_eight"
+script_noteworthy "climb_out_origin"
+angles "270 1.00179e-005 -180"
+origin "15449.2 4614.5 -442.9"
+targetname "r_plane_player_climb_seven"
+classname "script_origin"
+}
+{
+angles "0 326 0"
+origin "-4335.5 16861.5 730"
+targetname "parachute_from_plane_two"
+classname "script_origin"
+}
+{
+script_noteworthy "brush_model"
+angles "0 340 0"
+origin "14534.5 4867.5 -390"
+targetname "parachute_from_plane_one"
+classname "script_origin"
+}
+{
+spawnflags "1"
+script_noteworthy "wing_guy_one"
+origin "15400 5211 -216"
+targetname "evil_wing_guys"
+angles "0 283 0"
+export "7"
+model "body_henchmen_smg_a"
+classname "actor_iw5_enemy_opforce_henchmen_kriss"
+}
+{
+spawnflags "1"
+script_noteworthy "wing_guy_two"
+origin "15360 5339 -216"
+targetname "evil_wing_guys"
+angles "0 283 0"
+export "8"
+model "body_henchmen_smg_a"
+classname "actor_iw5_enemy_opforce_henchmen_kriss"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15748 4876.04 -274"
+origin "15748 4876 -274"
+targetname "lights_red_fuselage"
+model "empty_model"
+classname "script_model"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15861 4876.04 -274"
+origin "15861 4876 -274"
+targetname "lights_red_fuselage"
+model "empty_model"
+classname "script_model"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15259 4612.04 -274"
+origin "15259 4612 -274"
+targetname "lights_red_fuselage"
+model "empty_model"
+classname "script_model"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15356 4612.04 -274"
+origin "15356 4612 -274"
+targetname "lights_red_fuselage"
+model "empty_model"
+classname "script_model"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15539 4612.04 -274"
+origin "15539 4612 -274"
+targetname "lights_red_fuselage"
+model "empty_model"
+classname "script_model"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15810 4612.04 -274"
+origin "15810 4612 -274"
+targetname "lights_red_fuselage"
+model "empty_model"
+classname "script_model"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15886 4612.04 -274"
+origin "15886 4612 -274"
+targetname "lights_red_fuselage"
+model "empty_model"
+classname "script_model"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15612 4612.04 -274"
+origin "15612 4612 -274"
+targetname "lights_red_fuselage"
+model "empty_model"
+classname "script_model"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15429 4612.04 -274"
+origin "15429 4612 -274"
+targetname "lights_red_fuselage"
+model "empty_model"
+classname "script_model"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15333 4612.04 -274"
+origin "15333 4612 -274"
+targetname "lights_red_fuselage"
+model "empty_model"
+classname "script_model"
+}
+{
+script_noteworthy "brush_model"
+origin "15062 4686 -398"
+targetname "zerog_physics"
+classname "script_origin"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15333 4877.04 -274"
+origin "15333 4877 -274"
+targetname "lights_red_fuselage"
+model "empty_model"
+classname "script_model"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15356 4877.04 -274"
+origin "15356 4877 -274"
+targetname "lights_red_fuselage"
+model "empty_model"
+classname "script_model"
+}
+{
+script_noteworthy "brush_model"
+origin "15228 4891 -390"
+targetname "look_out_window"
+angles "346.169 77.065 -2.18431"
+classname "script_origin"
+}
+{
+script_noteworthy "brush_model"
+origin "15790 4846 -206"
+targetname "zerog_physics"
+classname "script_origin"
+}
+{
+script_noteworthy "brush_model"
+origin "15174 4830 -398"
+targetname "zerog_physics"
+classname "script_origin"
+}
+{
+script_noteworthy "brush_model"
+origin "15254 4686 -398"
+targetname "zerog_physics"
+classname "script_origin"
+}
+{
+script_noteworthy "brush_model"
+origin "15046 4622 -206"
+targetname "zerog_physics"
+classname "script_origin"
+}
+{
+script_noteworthy "brush_model"
+origin "15398 4670 -302"
+targetname "zerog_physics"
+classname "script_origin"
+}
+{
+script_noteworthy "brush_model"
+origin "15430 4814 -302"
+targetname "zerog_physics"
+classname "script_origin"
+}
+{
+script_noteworthy "brush_model"
+origin "15590 4670 -302"
+targetname "zerog_physics"
+classname "script_origin"
+}
+{
+script_noteworthy "brush_model"
+origin "15782 4814 -318"
+targetname "zerog_physics"
+classname "script_origin"
+}
+{
+script_noteworthy "brush_model"
+origin "15798 4638 -318"
+targetname "zerog_physics"
+classname "script_origin"
+}
+{
+target "auto4"
+targetname "auto3"
+script_noteworthy "climb_out_origin"
+angles "270 180 180"
+origin "15739.6 4706.5 -217.1"
+classname "script_origin"
+}
+{
+target "auto5"
+targetname "auto4"
+script_noteworthy "climb_out_origin"
+angles "270 180 180"
+origin "15741.6 4702.5 -179.1"
+classname "script_origin"
+}
+{
+script_noteworthy "brush_model"
+origin "15774 4676 -206"
+targetname "zerog_physics"
+classname "script_origin"
+}
+{
+script_noteworthy "brush_model"
+origin "15568 4670 -206"
+targetname "zerog_physics"
+classname "script_origin"
+}
+{
+script_noteworthy "brush_model"
+origin "15570 4840 -206"
+targetname "zerog_physics"
+classname "script_origin"
+}
+{
+script_noteworthy "brush_model"
+origin "15382 4848 -206"
+targetname "zerog_physics"
+classname "script_origin"
+}
+{
+script_noteworthy "brush_model"
+origin "15366 4650 -206"
+targetname "zerog_physics"
+classname "script_origin"
+}
+{
+script_noteworthy "brush_model"
+origin "15240 4754 -154"
+targetname "zerog_physics"
+classname "script_origin"
+}
+{
+script_noteworthy "brush_model"
+origin "15110 4852 -206"
+targetname "zerog_physics"
+classname "script_origin"
+}
+{
+script_noteworthy "brush_model"
+origin "15180 4746 -398"
+targetname "zerog_physics"
+classname "script_origin"
+}
+{
+script_noteworthy "brush_model"
+origin "15080 4750 -398"
+targetname "zerog_physics"
+classname "script_origin"
+}
+{
+script_noteworthy "brush_model"
+origin "15280 4830 -398"
+targetname "zerog_physics"
+classname "script_origin"
+}
+{
+script_noteworthy "brush_model"
+origin "15096 4810 -398"
+targetname "zerog_physics"
+classname "script_origin"
+}
+{
+script_noteworthy "brush_model"
+origin "15390 4742 -334"
+targetname "zerog_physics"
+classname "script_origin"
+}
+{
+script_noteworthy "brush_model"
+origin "15526 4742 -334"
+targetname "zerog_physics"
+classname "script_origin"
+}
+{
+script_noteworthy "brush_model"
+origin "15606 4814 -270"
+targetname "zerog_physics"
+classname "script_origin"
+}
+{
+script_noteworthy "brush_model"
+origin "15694 4742 -326"
+targetname "zerog_physics"
+classname "script_origin"
+}
+{
+script_noteworthy "brush_model"
+origin "15822 4750 -326"
+targetname "zerog_physics"
+classname "script_origin"
+}
+{
+script_noteworthy "brush_model"
+origin "15598 4718 -326"
+targetname "zerog_physics"
+classname "script_origin"
+}
+{
+script_noteworthy "brush_model"
+origin "15518 4606 -278"
+targetname "zerog_physics"
+classname "script_origin"
+}
+{
+script_noteworthy "brush_model"
+origin "15438 4606 -278"
+targetname "zerog_physics"
+classname "script_origin"
+}
+{
+script_noteworthy "brush_model"
+origin "15366 4606 -278"
+targetname "zerog_physics"
+classname "script_origin"
+}
+{
+script_noteworthy "brush_model"
+origin "15286 4606 -278"
+targetname "zerog_physics"
+classname "script_origin"
+}
+{
+script_noteworthy "brush_model"
+origin "15214 4606 -278"
+targetname "zerog_physics"
+classname "script_origin"
+}
+{
+script_noteworthy "brush_model"
+origin "15190 4878 -278"
+targetname "zerog_physics"
+classname "script_origin"
+}
+{
+script_noteworthy "brush_model"
+origin "15286 4870 -278"
+targetname "zerog_physics"
+classname "script_origin"
+}
+{
+script_noteworthy "brush_model"
+origin "15374 4878 -278"
+targetname "zerog_physics"
+classname "script_origin"
+}
+{
+script_noteworthy "brush_model"
+origin "15486 4870 -278"
+targetname "zerog_physics"
+classname "script_origin"
+}
+{
+script_noteworthy "brush_model"
+origin "15574 4870 -278"
+targetname "zerog_physics"
+classname "script_origin"
+}
+{
+script_noteworthy "brush_model"
+origin "15718 4870 -278"
+targetname "zerog_physics"
+classname "script_origin"
+}
+{
+script_noteworthy "brush_model"
+origin "15368 4754 -154"
+targetname "zerog_physics"
+classname "script_origin"
+}
+{
+script_noteworthy "brush_model"
+origin "15456 4754 -154"
+targetname "zerog_physics"
+classname "script_origin"
+}
+{
+script_noteworthy "brush_model"
+origin "15544 4754 -154"
+targetname "zerog_physics"
+classname "script_origin"
+}
+{
+script_noteworthy "brush_model"
+origin "15624 4754 -154"
+targetname "zerog_physics"
+classname "script_origin"
+}
+{
+script_noteworthy "brush_model"
+origin "15696 4754 -154"
+targetname "zerog_physics"
+classname "script_origin"
+}
+{
+script_noteworthy "brush_model"
+origin "15760 4746 -154"
+targetname "zerog_physics"
+classname "script_origin"
+}
+{
+script_noteworthy "brush_model"
+origin "15832 4746 -154"
+targetname "zerog_physics"
+classname "script_origin"
+}
+{
+script_noteworthy "brush_model"
+origin "15950 4830 -278"
+targetname "zerog_physics"
+classname "script_origin"
+}
+{
+script_noteworthy "brush_model"
+origin "15958 4822 -190"
+targetname "zerog_physics"
+classname "script_origin"
+}
+{
+script_noteworthy "brush_model"
+origin "15950 4734 -278"
+targetname "zerog_physics"
+classname "script_origin"
+}
+{
+script_noteworthy "brush_model"
+origin "15958 4726 -190"
+targetname "zerog_physics"
+classname "script_origin"
+}
+{
+script_noteworthy "brush_model"
+origin "15950 4622 -278"
+targetname "zerog_physics"
+classname "script_origin"
+}
+{
+script_noteworthy "brush_model"
+origin "15958 4614 -190"
+targetname "zerog_physics"
+classname "script_origin"
+}
+{
+script_noteworthy "brush_model"
+origin "15830 4742 -270"
+targetname "zerog_physics"
+classname "script_origin"
+}
+{
+script_noteworthy "brush_model"
+origin "15750 4742 -270"
+targetname "zerog_physics"
+classname "script_origin"
+}
+{
+script_noteworthy "brush_model"
+origin "15702 4742 -270"
+targetname "zerog_physics"
+classname "script_origin"
+}
+{
+script_noteworthy "brush_model"
+origin "15638 4742 -270"
+targetname "zerog_physics"
+classname "script_origin"
+}
+{
+script_noteworthy "brush_model"
+origin "15558 4742 -270"
+targetname "zerog_physics"
+classname "script_origin"
+}
+{
+script_noteworthy "brush_model"
+origin "15502 4750 -270"
+targetname "zerog_physics"
+classname "script_origin"
+}
+{
+script_noteworthy "brush_model"
+origin "15454 4750 -270"
+targetname "zerog_physics"
+classname "script_origin"
+}
+{
+script_noteworthy "brush_model"
+origin "15390 4742 -270"
+targetname "zerog_physics"
+classname "script_origin"
+}
+{
+script_noteworthy "brush_model"
+origin "15334 4742 -270"
+targetname "zerog_physics"
+classname "script_origin"
+}
+{
+script_noteworthy "brush_model"
+origin "15262 4750 -270"
+targetname "zerog_physics"
+classname "script_origin"
+}
+{
+script_noteworthy "brush_model"
+origin "15174 4750 -270"
+targetname "zerog_physics"
+classname "script_origin"
+}
+{
+script_noteworthy "brush_model"
+origin "15118 4750 -270"
+targetname "zerog_physics"
+classname "script_origin"
+}
+{
+script_noteworthy "brush_model"
+origin "15062 4750 -270"
+targetname "zerog_physics"
+classname "script_origin"
+}
+{
+target "r_plane_player_climb_nine"
+script_noteworthy "climb_out_origin"
+angles "270 1.00179e-005 -180"
+origin "15479.3 4620.5 -384.9"
+targetname "r_plane_player_climb_eight"
+classname "script_origin"
+}
+{
+target "r_plane_player_climb_ten"
+script_noteworthy "climb_out_origin"
+angles "270 1.00179e-005 -180"
+origin "15491.4 4652.5 -336.9"
+targetname "r_plane_player_climb_nine"
+classname "script_origin"
+}
+{
+target "r_plane_player_climb_eleven"
+script_noteworthy "climb_out_origin"
+angles "270 1.00179e-005 -180"
+origin "15491.4 4694.5 -302.9"
+targetname "r_plane_player_climb_ten"
+classname "script_origin"
+}
+{
+script_index "2"
+target "r_plane_player_climb_twelve"
+script_noteworthy "climb_out_origin"
+angles "270 1.00179e-005 -180"
+origin "15473.5 4728.5 -276.9"
+targetname "r_plane_player_climb_eleven"
+classname "script_origin"
+}
+{
+target "r_plane_player_climb_thirteen"
+script_noteworthy "climb_out_origin"
+angles "270 1.00179e-005 -180"
+origin "15473.6 4762.5 -252.9"
+targetname "r_plane_player_climb_twelve"
+classname "script_origin"
+}
+{
+target "auto3"
+script_index "1"
+script_noteworthy "climb_out_origin"
+angles "270 168 178"
+origin "15739.6 4714.5 -241.1"
+targetname "r_plane_player_climb_thirteen"
+classname "script_origin"
+}
+{
+target "r_plane_player_climb_fifteen"
+script_noteworthy "climb_out_origin"
+angles "270 180 180"
+origin "15739.7 4700.5 -23.1"
+targetname "r_plane_player_climb_fourteen"
+classname "script_origin"
+}
+{
+target "r_plane_player_climb_eighteen"
+script_noteworthy "climb_out_origin"
+angles "270 180 180"
+origin "15738.1 4674.5 70.9"
+targetname "r_plane_player_climb_seventeen"
+classname "script_origin"
+}
+{
+script_noteworthy "climb_out_origin"
+angles "270 180 180"
+origin "15736.1 4658.5 102.9"
+targetname "r_plane_player_climb_eighteen"
+classname "script_origin"
+}
+{
+origin "15370 5294 -218"
+angles "0 284 0"
+targetname "jumper_two"
+classname "script_origin"
+}
+{
+target "r_plane_player_climb_sixteen"
+script_noteworthy "climb_out_origin"
+angles "270 180 180"
+origin "15739.8 4698.5 8.9"
+targetname "r_plane_player_climb_fifteen"
+classname "script_origin"
+}
+{
+target "r_plane_player_climb_seventeen"
+script_noteworthy "climb_out_origin"
+angles "270 180 180"
+origin "15739.9 4704.5 38.9"
+targetname "r_plane_player_climb_sixteen"
+classname "script_origin"
+}
+{
+origin "13856 4844 -632"
+targetname "chance"
+classname "script_origin"
+}
+{
+origin "13872 4768 -632"
+targetname "chance_2"
+classname "script_origin"
+}
+{
+origin "15372 5384 -258"
+angles "0 284 0"
+targetname "jumper"
+classname "script_origin"
+}
+{
+targetname "metal_clip"
+classname "script_brushmodel"
+origin "15528 4747 -275"
+model "*4"
+}
+{
+targetname "c17_right_wing_flap"
+classname "script_brushmodel"
+origin "15460 4250 -262"
+model "*5"
+}
+{
+targetname "c17_right_wing"
+classname "script_brushmodel"
+origin "15548 4059 -222"
+model "*6"
+}
+{
+script_noteworthy "brush_model"
+targetname "door_lower"
+classname "script_brushmodel"
+origin "15091 4745 -396"
+model "*7"
+}
+{
+targetname "c17_right_wing_engines"
+classname "script_brushmodel"
+origin "15761 4027 -331"
+model "*8"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15567.8 4804.09 -344.683"
+targetname "moving_crates"
+angles "0 0 0"
+origin "15568 4804 -360"
+model "com_plasticcase_green_big_idf_iw6"
+classname "script_model"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15424 4654 -391"
+script_noteworthy "brush_model"
+origin "15424 4654 -395"
+model "com_plastic_crate_pallet"
+classname "script_model"
+}
+{
+targetname "plane_fuselage"
+classname "script_brushmodel"
+origin "15560 4744 -280"
+model "*9"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15424.9 4696.05 -343.683"
+targetname "moving_crates"
+angles "0 335 0"
+origin "15425 4696 -359"
+model "com_plasticcase_green_big_idf_iw6"
+classname "script_model"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15425.2 4711.91 -371.683"
+targetname "moving_crates"
+angles "0 180 0"
+origin "15425 4712 -387"
+model "com_plasticcase_green_big_idf_iw6"
+classname "script_model"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15424.8 4680.09 -371.683"
+targetname "moving_crates"
+angles "0 0 0"
+origin "15425 4680 -387"
+model "com_plasticcase_black_big_tagged_iw6"
+classname "script_model"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15425.2 4647.91 -343.683"
+targetname "moving_crates"
+angles "0 180 0"
+origin "15425 4648 -359"
+model "com_plasticcase_black_big_tagged_iw6"
+classname "script_model"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15425.2 4647.91 -371.683"
+targetname "moving_crates"
+angles "0 180 0"
+origin "15425 4648 -387"
+model "com_plasticcase_green_big_idf_iw6"
+classname "script_model"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15488.8 4680.09 -343.683"
+targetname "moving_crates"
+angles "0 0 0"
+origin "15489 4680 -359"
+model "com_plasticcase_green_big_idf_iw6"
+classname "script_model"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15489.3 4712 -341.683"
+targetname "moving_crates"
+angles "0 185 0"
+origin "15489 4712 -357"
+model "com_plasticcase_black_big_tagged_iw6"
+classname "script_model"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15489.2 4711.91 -371.683"
+targetname "moving_crates"
+angles "0 180 0"
+origin "15489 4712 -387"
+model "com_plasticcase_green_big_idf_iw6"
+classname "script_model"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15488.8 4680.09 -371.683"
+targetname "moving_crates"
+angles "0 0 0"
+origin "15489 4680 -387"
+model "com_plasticcase_green_big_idf_iw6"
+classname "script_model"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15489.2 4647.91 -343.683"
+targetname "moving_crates"
+angles "0 180 0"
+origin "15489 4648 -359"
+model "com_plasticcase_green_big_idf_iw6"
+classname "script_model"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15489.2 4647.91 -371.683"
+targetname "moving_crates"
+angles "0 180 0"
+origin "15489 4648 -387"
+model "com_plasticcase_green_big_idf_iw6"
+classname "script_model"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15568.3 4840 -344.683"
+targetname "moving_crates"
+angles "0 185 0"
+origin "15568 4840 -360"
+model "com_plasticcase_green_big_idf_iw6"
+classname "script_model"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15568.2 4835.91 -372.683"
+targetname "moving_crates"
+angles "0 180 0"
+origin "15568 4836 -388"
+model "com_plasticcase_green_big_idf_iw6"
+classname "script_model"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15567.8 4804.09 -372.683"
+targetname "moving_crates"
+angles "0 0 0"
+origin "15568 4804 -388"
+model "com_plasticcase_black_big_tagged_iw6"
+classname "script_model"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15568.2 4771.91 -372.683"
+targetname "moving_crates"
+angles "0 180 0"
+origin "15568 4772 -388"
+model "com_plasticcase_black_big_tagged_iw6"
+classname "script_model"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15568.2 4771.91 -344.683"
+targetname "moving_crates"
+angles "0 180 0"
+origin "15568 4772 -360"
+model "com_plasticcase_black_big_tagged_iw6"
+classname "script_model"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15632.2 4835.91 -374.683"
+targetname "moving_crates"
+angles "0 180 0"
+origin "15632 4836 -390"
+model "com_plasticcase_black_big_tagged_iw6"
+classname "script_model"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15631.8 4804.09 -374.683"
+targetname "moving_crates"
+angles "0 0 0"
+origin "15632 4804 -390"
+model "com_plasticcase_green_big_idf_iw6"
+classname "script_model"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15632.2 4771.91 -374.683"
+targetname "moving_crates"
+angles "0 180 0"
+origin "15632 4772 -390"
+model "com_plasticcase_black_big_tagged_iw6"
+classname "script_model"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15424 4704 -391"
+script_noteworthy "brush_model"
+origin "15424 4704 -395"
+model "com_plastic_crate_pallet"
+classname "script_model"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15490 4654 -391"
+script_noteworthy "brush_model"
+angles "0 180 0"
+origin "15490 4654 -395"
+model "com_plastic_crate_pallet"
+classname "script_model"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15490 4704 -391"
+script_noteworthy "brush_model"
+angles "0 180 0"
+origin "15490 4704 -395"
+model "com_plastic_crate_pallet"
+classname "script_model"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15566 4780 -391"
+script_noteworthy "brush_model"
+angles "0 180 0"
+origin "15566 4780 -395"
+model "com_plastic_crate_pallet"
+classname "script_model"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15634 4780 -391"
+script_noteworthy "brush_model"
+angles "0 180 0"
+origin "15634 4780 -395"
+model "com_plastic_crate_pallet"
+classname "script_model"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15566 4830 -391"
+script_noteworthy "brush_model"
+angles "0 180 0"
+origin "15566 4830 -395"
+model "com_plastic_crate_pallet"
+classname "script_model"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15634 4830 -391"
+script_noteworthy "brush_model"
+angles "0 180 0"
+origin "15634 4830 -395"
+model "com_plastic_crate_pallet"
+classname "script_model"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15488 4834 -391"
+script_noteworthy "brush_model"
+angles "0 180 0"
+origin "15488 4834 -395"
+model "com_plastic_crate_pallet"
+classname "script_model"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15422 4784 -391"
+script_noteworthy "brush_model"
+angles "0 0 0"
+origin "15422 4784 -395"
+model "com_plastic_crate_pallet"
+classname "script_model"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15422 4834 -391"
+script_noteworthy "brush_model"
+angles "0 0 0"
+origin "15422 4834 -395"
+model "com_plastic_crate_pallet"
+classname "script_model"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15422.8 4776.09 -371.683"
+targetname "moving_crates"
+angles "0 0 0"
+origin "15423 4776 -387"
+model "com_plasticcase_green_big_idf_iw6"
+classname "script_model"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15486.8 4776.09 -371.683"
+targetname "moving_crates"
+angles "0 0 0"
+origin "15487 4776 -387"
+model "com_plasticcase_green_big_idf_iw6"
+classname "script_model"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15422.7 4772 -343.683"
+targetname "moving_crates"
+angles "0 5 0"
+origin "15423 4772 -359"
+model "com_plasticcase_black_big_tagged_iw6"
+classname "script_model"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15423.2 4807.91 -371.683"
+targetname "moving_crates"
+angles "0 180 0"
+origin "15423 4808 -387"
+model "com_plasticcase_green_big_idf_iw6"
+classname "script_model"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15422.8 4840.09 -343.683"
+targetname "moving_crates"
+angles "0 0 0"
+origin "15423 4840 -359"
+model "com_plasticcase_green_big_idf_iw6"
+classname "script_model"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15422.8 4840.09 -371.683"
+targetname "moving_crates"
+angles "0 0 0"
+origin "15423 4840 -387"
+model "com_plasticcase_green_big_idf_iw6"
+classname "script_model"
+}
+{
+targetname "plane_tail"
+classname "script_brushmodel"
+origin "14816 4740 -272"
+model "*10"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15486.8 4840.09 -371.683"
+targetname "moving_crates"
+angles "0 0 0"
+origin "15487 4840 -387"
+model "com_plasticcase_green_big_idf_iw6"
+classname "script_model"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15487.2 4807.91 -371.683"
+targetname "moving_crates"
+angles "0 180 0"
+origin "15487 4808 -387"
+model "com_plasticcase_black_big_tagged_iw6"
+classname "script_model"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15423.2 4807.91 -343.683"
+targetname "moving_crates"
+angles "0 180 0"
+origin "15423 4808 -359"
+model "com_plasticcase_green_big_idf_iw6"
+classname "script_model"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15486.8 4840.09 -343.683"
+targetname "moving_crates"
+angles "0 0 0"
+origin "15487 4840 -359"
+model "com_plasticcase_black_big_tagged_iw6"
+classname "script_model"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15487.1 4791.95 -343.683"
+targetname "moving_crates"
+angles "0 155 0"
+origin "15487 4792 -359"
+model "com_plasticcase_green_big_idf_iw6"
+classname "script_model"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15488 4784 -391"
+script_noteworthy "brush_model"
+angles "0 180 0"
+origin "15488 4784 -395"
+model "com_plastic_crate_pallet"
+classname "script_model"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15797.7 4796 -345.782"
+targetname "jeeps_on_plane"
+origin "15808 4796 -394.9"
+angles "0 180 0"
+model "vehicle_iveco_lynx_iw6_static"
+classname "script_model"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15879.7 4640 -344.683"
+targetname "moving_crates"
+angles "0 5 0"
+origin "15880 4640 -360"
+model "com_plasticcase_green_big_idf_iw6"
+classname "script_model"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15880.2 4675.91 -344.683"
+targetname "moving_crates"
+angles "0 180 0"
+origin "15880 4676 -360"
+model "com_plasticcase_green_big_idf_iw6"
+classname "script_model"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15879.8 4708.09 -344.683"
+targetname "moving_crates"
+angles "0 0 0"
+origin "15880 4708 -360"
+model "com_plasticcase_black_big_tagged_iw6"
+classname "script_model"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15879.8 4644.09 -372.683"
+targetname "moving_crates"
+angles "0 0 0"
+origin "15880 4644 -388"
+model "com_plasticcase_green_big_idf_iw6"
+classname "script_model"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15880.2 4675.91 -372.683"
+targetname "moving_crates"
+angles "0 180 0"
+origin "15880 4676 -388"
+model "com_plasticcase_black_big_tagged_iw6"
+classname "script_model"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15879.8 4708.09 -372.683"
+targetname "moving_crates"
+angles "0 0 0"
+origin "15880 4708 -388"
+model "com_plasticcase_black_big_tagged_iw6"
+classname "script_model"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15815.8 4644.09 -374.683"
+targetname "moving_crates"
+angles "0 0 0"
+origin "15816 4644 -390"
+model "com_plasticcase_black_big_tagged_iw6"
+classname "script_model"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15816.2 4675.91 -374.683"
+targetname "moving_crates"
+angles "0 180 0"
+origin "15816 4676 -390"
+model "com_plasticcase_green_big_idf_iw6"
+classname "script_model"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15815.8 4708.09 -374.683"
+targetname "moving_crates"
+angles "0 0 0"
+origin "15816 4708 -390"
+model "com_plasticcase_black_big_tagged_iw6"
+classname "script_model"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15814 4700 -391"
+script_noteworthy "brush_model"
+angles "0 0 0"
+origin "15814 4700 -395"
+model "com_plastic_crate_pallet"
+classname "script_model"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15882 4700 -391"
+script_noteworthy "brush_model"
+angles "0 0 0"
+origin "15882 4700 -395"
+model "com_plastic_crate_pallet"
+classname "script_model"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15814 4650 -391"
+script_noteworthy "brush_model"
+angles "0 0 0"
+origin "15814 4650 -395"
+model "com_plastic_crate_pallet"
+classname "script_model"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15882 4650 -391"
+script_noteworthy "brush_model"
+angles "0 0 0"
+origin "15882 4650 -395"
+model "com_plastic_crate_pallet"
+classname "script_model"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15535.1 4827.06 -310.683"
+targetname "moving_crates"
+angles "0 219.9 0"
+origin "15535 4827 -326"
+model "com_plasticcase_black_big_tagged_iw6"
+classname "script_model"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15886.4 4613.31 -314.021"
+targetname "moving_crates"
+angles "0 182 -14"
+origin "15886 4617 -329"
+model "com_plasticcase_green_big_idf_iw6"
+classname "script_model"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15631.9 4821.91 -343.683"
+targetname "moving_crates"
+angles "0 62.4 0"
+origin "15632 4822 -359"
+model "com_plasticcase_black_big_tagged_iw6"
+classname "script_model"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15412.8 4843.09 -310.683"
+targetname "moving_crates"
+angles "0 0 0"
+origin "15413 4843 -326"
+model "com_plasticcase_green_big_idf_iw6"
+classname "script_model"
+}
+{
+script_noteworthy "brush_model"
+classname "script_brushmodel"
+origin "15653 4741 -357"
+model "*11"
+}
+{
+script_noteworthy "brush_model"
+targetname "netting_front_l"
+classname "script_brushmodel"
+origin "15455 4684 -356"
+model "*12"
+}
+{
+script_noteworthy "brush_model"
+targetname "netting_front_r"
+classname "script_brushmodel"
+origin "15457 4804 -356"
+model "*13"
+}
+{
+script_noteworthy "brush_model"
+targetname "netting_middle"
+classname "script_brushmodel"
+origin "15599 4807 -360"
+model "*14"
+}
+{
+script_noteworthy "brush_model"
+targetname "netting_rear"
+classname "script_brushmodel"
+origin "15849 4673 -360"
+model "*15"
+}
+{
+gndlt "09090d3e01"
+ltorigin "14905.2 4594.4 -298.829"
+script_noteworthy "link_me_tail"
+targetname "tarps1"
+origin "14910 4591.4 -299.8"
+angles "1.2788 358.743 -3.407"
+model "fence_tarp_draping_130x50"
+classname "script_model"
+}
+{
+targetname "dmg_left_epic_four"
+target "dmg_left_epic_eight"
+classname "script_brushmodel"
+origin "15216 4720 -148"
+model "*16"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15197 4604 -348"
+targertname "door_button"
+origin "15197 4604 -348"
+modelscale "2"
+angles "0 180 0"
+model "ny_harbor_sub_command_switch_08"
+classname "script_model"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15077.1 4604.41 -343.617"
+script_noteworthy "link_me_tail"
+origin "15133 4605 -375.5"
+angles "355.1 89.7 5.83405e-007"
+model "hind_arena_tarp_orange"
+classname "script_model"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15075.9 4883.59 -343.617"
+script_noteworthy "link_me_tail"
+origin "15020 4883 -375.5"
+angles "355.1 269.7 0"
+model "hind_arena_tarp_orange"
+classname "script_model"
+}
+{
+gndlt "09090d3e01"
+ltorigin "14908.2 4895.49 -299.571"
+script_noteworthy "link_me_tail"
+targetname "tarps1"
+origin "14913 4893.4 -300.8"
+angles "359.858 1.4844 -1.36457"
+model "fence_tarp_draping_130x50"
+classname "script_model"
+}
+{
+gndlt "09090d3e01"
+ltorigin "14752.3 4603.92 -289.513"
+script_noteworthy "link_me_tail"
+targetname "tarps0"
+origin "14764 4596.4 -199.8"
+angles "1.2788 79.0431 -173.407"
+model "mp_cement_tarp4"
+classname "script_model"
+}
+{
+gndlt "09090d3e01"
+ltorigin "14752 4884.62 -287.167"
+script_noteworthy "link_me_tail"
+targetname "tarps0"
+origin "14762 4892.4 -199.8"
+angles "358.607 261.057 172.85"
+model "mp_cement_tarp4"
+classname "script_model"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15449.9 4695.97 -310.683"
+targetname "moving_crates"
+angles "0 21.9 0"
+origin "15450 4696 -326"
+model "com_plasticcase_green_big_idf_iw6"
+classname "script_model"
+}
+{
+angles "0 90 0"
+maxmove "2000"
+maxturn "360"
+targetname "m_p_l"
+spawnflags "4"
+fov_outer "90"
+fov_inner "60"
+exponent "1"
+target "pf27_auto19"
+origin "15964 4745 -300"
+def "light_point_linear"
+radius "400"
+_color "1 0 0"
+intensity "0.1"
+classname "light_omni"
+__smorigin "0 -2816 -1792"
+__smangles "0 0 0"
+__smname "test/iplane_plane.map"
+__smid "763"
+pl# "4"
+}
+{
+maxmove "2000"
+maxturn "360"
+targetname "rear_primary_light"
+spawnflags "4"
+fov_outer "90"
+fov_inner "60"
+exponent "2"
+target "pf27_auto21"
+origin "15010 4703 -327"
+def "light_point_linear"
+radius "300"
+_color "1 1 1"
+intensity "2"
+classname "light_spot"
+__smorigin "0 -2816 -1792"
+__smangles "0 0 0"
+__smname "test/iplane_plane.map"
+__smid "765"
+pl# "2"
+}
+{
+angles "0 90 0"
+maxmove "2000"
+maxturn "360"
+targetname "m_p_l_r"
+spawnflags "4"
+fov_outer "90"
+fov_inner "60"
+exponent "1"
+target "pf27_auto401"
+origin "15452.5 4730.5 -300"
+def "light_point_linear"
+radius "150"
+_color "1 0 0"
+intensity "0.1"
+classname "light_omni"
+__smorigin "0 -2816 -1792"
+__smangles "0 0 0"
+__smname "test/iplane_plane.map"
+__smid "767"
+pl# "3"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15446.2 4646.01 -310.683"
+targetname "moving_crates"
+angles "0 177 0"
+origin "15446 4646 -326"
+model "com_plasticcase_black_big_tagged_iw6"
+classname "script_model"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15452.1 4667.91 -280.683"
+targetname "moving_crates"
+angles "0 128.9 0"
+origin "15452 4668 -296"
+model "com_plasticcase_black_big_tagged_iw6"
+classname "script_model"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15353.8 4826.73 -380.683"
+targetname "moving_crates"
+angles "0 90.9 0"
+origin "15354 4827 -396"
+model "com_plasticcase_black_big_tagged_iw6"
+classname "script_model"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15371.8 4766.73 -380.683"
+targetname "moving_crates"
+angles "0 90.9 0"
+origin "15372 4767 -396"
+model "com_plasticcase_black_big_tagged_iw6"
+classname "script_model"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15373.8 4702.73 -380.683"
+targetname "moving_crates"
+angles "0 90.9 0"
+origin "15374 4703 -396"
+model "com_plasticcase_black_big_tagged_iw6"
+classname "script_model"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15357.9 4644.95 -380.683"
+targetname "moving_crates"
+angles "0 28.9 0"
+origin "15358 4645 -396"
+model "com_plasticcase_black_big_tagged_iw6"
+classname "script_model"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15371 4817.28 -350.683"
+targetname "moving_crates"
+angles "0 280 0"
+origin "15371 4817 -366"
+model "com_plasticcase_green_big_idf_iw6"
+classname "script_model"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15220.7 4876.31 -395.001"
+model "ch_bunker_wires_01"
+classname "script_model"
+angles "90 180 -89.9999"
+origin "15185 4861 -397"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15291.2 4876.31 -395.001"
+model "ch_bunker_wires_01"
+classname "script_model"
+angles "90 180 -89.9999"
+origin "15255.5 4861 -397"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15361.7 4876.31 -395.001"
+model "ch_bunker_wires_01"
+classname "script_model"
+angles "90 180 -89.9999"
+origin "15326 4861 -397"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15219.2 4615.81 -395.001"
+model "ch_bunker_wires_01"
+classname "script_model"
+angles "90 180 -89.9999"
+origin "15183.5 4600.5 -397"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15289.7 4615.81 -395.001"
+model "ch_bunker_wires_01"
+classname "script_model"
+angles "90 180 -89.9999"
+origin "15254 4600.5 -397"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15360.2 4615.81 -395.001"
+model "ch_bunker_wires_01"
+classname "script_model"
+angles "90 180 -89.9999"
+origin "15324.5 4600.5 -397"
+}
+{
+origin "15926.5 4751 -300"
+script_noteworthy "brush_model"
+targetname "m_p_l_tracker"
+classname "script_origin"
+}
+{
+origin "15430 4721.5 -299.5"
+script_noteworthy "brush_model"
+targetname "m_p_l_r_tracker"
+classname "script_origin"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15126 4895.3 -268.2"
+script_noteworthy "link_me_tail"
+model "com_airduct_square"
+classname "script_model"
+origin "15126 4895.3 -268.2"
+angles "1.00179e-005 180 -90"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15063 4895.3 -268.2"
+script_noteworthy "link_me_tail"
+model "com_airduct_square"
+classname "script_model"
+origin "15063 4895.3 -268.2"
+angles "1.00179e-005 180 -90"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15440 4884.5 -291.5"
+script_noteworthy "brush_model"
+angles "0 180 0"
+origin "15440 4884.5 -291.5"
+model "com_pipe_4x512_gas"
+classname "script_model"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15952 4884.5 -291.5"
+script_noteworthy "brush_model"
+angles "0 180 0"
+origin "15952 4884.5 -291.5"
+model "com_pipe_4x512_gas"
+classname "script_model"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15000 4895.3 -268.2"
+script_noteworthy "link_me_tail"
+model "com_airduct_square"
+classname "script_model"
+origin "15000 4895.3 -268.2"
+angles "1.00179e-005 180 -90"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15128 4592.3 -268.2"
+script_noteworthy "link_me_tail"
+model "com_airduct_square"
+classname "script_model"
+origin "15128 4592.3 -268.2"
+angles "1.00179e-005 180 -90"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15065 4592.3 -268.2"
+script_noteworthy "link_me_tail"
+model "com_airduct_square"
+classname "script_model"
+origin "15065 4592.3 -268.2"
+angles "1.00179e-005 180 -90"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15002 4592.3 -268.2"
+script_noteworthy "link_me_tail"
+model "com_airduct_square"
+classname "script_model"
+origin "15002 4592.3 -268.2"
+angles "1.00179e-005 180 -90"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15245 4601.3 -288.2"
+script_noteworthy "brush_model"
+model "com_airduct_square"
+classname "script_model"
+origin "15245 4601.3 -288.2"
+angles "1.00179e-005 180 -90"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15291 4885.3 -288.2"
+script_noteworthy "brush_model"
+model "com_airduct_square"
+classname "script_model"
+origin "15291 4885.3 -288.2"
+angles "1.00179e-005 180 -90"
+}
+{
+gndlt "09090d3e01"
+ltorigin "14858.7 4859 -183.8"
+script_noteworthy "link_me_tail"
+origin "14858.7 4859 -183.8"
+classname "script_model"
+model "com_airduct_circle"
+}
+{
+gndlt "09090d3e01"
+ltorigin "14921.7 4859 -183.8"
+script_noteworthy "link_me_tail"
+origin "14921.7 4859 -183.8"
+classname "script_model"
+model "com_airduct_circle"
+}
+{
+gndlt "09090d3e01"
+ltorigin "14984.7 4859 -183.8"
+script_noteworthy "link_me_tail"
+origin "14984.7 4859 -183.8"
+classname "script_model"
+model "com_airduct_circle"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15047.7 4859 -183.8"
+script_noteworthy "link_me_tail"
+origin "15047.7 4859 -183.8"
+classname "script_model"
+model "com_airduct_circle"
+}
+{
+gndlt "09090d3e01"
+ltorigin "14928.7 4893 -221.8"
+script_noteworthy "link_me_tail"
+origin "14928.7 4893 -221.8"
+classname "script_model"
+model "com_airduct_circle"
+}
+{
+gndlt "09090d3e01"
+ltorigin "14991.7 4893 -221.8"
+script_noteworthy "link_me_tail"
+origin "14991.7 4893 -221.8"
+classname "script_model"
+model "com_airduct_circle"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15054.7 4893 -221.8"
+script_noteworthy "link_me_tail"
+origin "15054.7 4893 -221.8"
+classname "script_model"
+model "com_airduct_circle"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15117.7 4893 -221.8"
+script_noteworthy "link_me_tail"
+origin "15117.7 4893 -221.8"
+classname "script_model"
+model "com_airduct_circle"
+}
+{
+gndlt "09090d3e01"
+ltorigin "14882.7 4899 -221.8"
+angles "0 351.1 0"
+script_noteworthy "link_me_tail"
+origin "14882.7 4899 -221.8"
+classname "script_model"
+model "com_airduct_circle"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15785.9 4578.23 -304.217"
+script_noteworthy "brush_model"
+model "ch_bunker_wires_03"
+classname "script_model"
+angles "19.2909 81.5391 -24.2406"
+origin "15822 4581.3 -306.5"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15710.7 4578.01 -270.914"
+script_noteworthy "brush_model"
+model "ch_bunker_wires_02"
+classname "script_model"
+angles "0 270 0"
+origin "15709 4581 -285"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15715.9 4579.1 -311.231"
+script_noteworthy "brush_model"
+model "ch_bunker_wires_04"
+classname "script_model"
+angles "20.4572 93.2634 10.6553"
+origin "15687 4572.9 -327.5"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15655.7 4573.52 -295.63"
+script_noteworthy "brush_model"
+model "ch_bunker_wires_03"
+classname "script_model"
+angles "21.5739 105.235 17.6027"
+origin "15682 4580.3 -320.5"
+}
+{
+gndlt "09090d3e01"
+ltorigin "14858.7 4631 -183.8"
+script_noteworthy "link_me_tail"
+origin "14858.7 4631 -183.8"
+classname "script_model"
+model "com_airduct_circle"
+}
+{
+gndlt "09090d3e01"
+ltorigin "14921.7 4631 -183.8"
+script_noteworthy "link_me_tail"
+origin "14921.7 4631 -183.8"
+classname "script_model"
+model "com_airduct_circle"
+}
+{
+gndlt "09090d3e01"
+ltorigin "14984.7 4631 -183.8"
+script_noteworthy "link_me_tail"
+origin "14984.7 4631 -183.8"
+classname "script_model"
+model "com_airduct_circle"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15047.7 4631 -183.8"
+script_noteworthy "link_me_tail"
+origin "15047.7 4631 -183.8"
+classname "script_model"
+model "com_airduct_circle"
+}
+{
+gndlt "09090d3e01"
+ltorigin "14928.7 4595 -221.8"
+script_noteworthy "link_me_tail"
+origin "14928.7 4595 -221.8"
+classname "script_model"
+model "com_airduct_circle"
+}
+{
+gndlt "09090d3e01"
+ltorigin "14991.7 4595 -221.8"
+script_noteworthy "link_me_tail"
+origin "14991.7 4595 -221.8"
+classname "script_model"
+model "com_airduct_circle"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15054.7 4595 -221.8"
+script_noteworthy "link_me_tail"
+origin "15054.7 4595 -221.8"
+classname "script_model"
+model "com_airduct_circle"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15117.7 4595 -221.8"
+script_noteworthy "link_me_tail"
+origin "15117.7 4595 -221.8"
+classname "script_model"
+model "com_airduct_circle"
+}
+{
+gndlt "09090d3e01"
+ltorigin "14882.7 4587 -221.8"
+angles "0 15.1 0"
+script_noteworthy "link_me_tail"
+origin "14882.7 4587 -221.8"
+classname "script_model"
+model "com_airduct_circle"
+}
+{
+targetname "end_left_holder"
+classname "script_brushmodel"
+origin "15655 5424 -282"
+model "*17"
+}
+{
+targetname "lights_off_non_moving"
+classname "script_brushmodel"
+origin "15824 4878 -270"
+model "*18"
+}
+{
+targetname "lights_off_non_moving"
+classname "script_brushmodel"
+origin "15392 4610 -270"
+model "*19"
+}
+{
+targetname "lights_off_non_moving"
+classname "script_brushmodel"
+origin "15576 4610 -270"
+model "*20"
+}
+{
+script_noteworthy "brush_model"
+targetname "mov_pipe_left"
+classname "script_brushmodel"
+origin "15688 4680 -200"
+model "*21"
+}
+{
+targetname "lights_off_non_moving"
+classname "script_brushmodel"
+origin "15712 4878 -270"
+model "*22"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15446 4597.86 -323.5"
+script_noteworthy "brush_model"
+targetname "windows_and_ext"
+origin "15446 4597.5 -326"
+angles "0 0 0"
+model "ap_window_clean"
+classname "script_model"
+}
+{
+targetname "lights_off_non_moving"
+classname "script_brushmodel"
+origin "15600 4878 -270"
+model "*23"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15719 4597 -342.55"
+targetname "windows_and_ext"
+origin "15719 4597 -352"
+angles "0 180 0"
+model "clk_fire_extinguisher_lrg_scaled"
+classname "script_model"
+}
+{
+targetname "c17_left_wing_flap"
+classname "script_brushmodel"
+origin "15438 5264 -262"
+model "*24"
+}
+{
+targetname "c17_left_wing"
+classname "script_brushmodel"
+origin "15460 5348 -270"
+model "*25"
+}
+{
+targetname "full_engine"
+classname "script_brushmodel"
+origin "15896 5112 -318"
+model "*26"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15993 5116 -324"
+targetname "engine_moving_fan"
+angles "0 90 0"
+origin "15990.5 5116 -324"
+model "machinery_turbine_fan"
+classname "script_model"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15857 5424 -338"
+targetname "engine_fan_one"
+angles "0 90 0"
+origin "15854.5 5424 -338"
+model "machinery_turbine_fan"
+classname "script_model"
+}
+{
+targetname "engine_top"
+classname "script_brushmodel"
+origin "15808 5424 -342"
+model "*27"
+}
+{
+targetname "lights_off_non_moving"
+classname "script_brushmodel"
+origin "15848 4610 -270"
+model "*28"
+}
+{
+targetname "lights_off_non_moving"
+classname "script_brushmodel"
+origin "15296 4610 -270"
+model "*29"
+}
+{
+targetname "lights_on_non_moving"
+classname "script_brushmodel"
+origin "15392 4878 -270"
+model "*30"
+}
+{
+targetname "lights_off_non_moving"
+classname "script_brushmodel"
+origin "15296 4878 -270"
+model "*31"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15568 4593 -342.55"
+targetname "windows_and_ext"
+origin "15568 4593 -352"
+angles "0 180 0"
+model "clk_fire_extinguisher_lrg_scaled"
+classname "script_model"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15583 4593 -342.55"
+targetname "windows_and_ext"
+origin "15583 4593 -352"
+angles "0 180 0"
+model "clk_fire_extinguisher_lrg_scaled"
+classname "script_model"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15406 4597.86 -323.5"
+script_noteworthy "brush_model"
+targetname "windows_and_ext"
+origin "15406 4597.5 -326"
+angles "0 0 0"
+model "ap_window_clean"
+classname "script_model"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15370 4597.86 -323.5"
+script_noteworthy "brush_model"
+targetname "windows_and_ext"
+origin "15370 4597.5 -326"
+angles "0 0 0"
+model "ap_window_clean"
+classname "script_model"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15334 4597.86 -323.5"
+script_noteworthy "brush_model"
+targetname "windows_and_ext"
+origin "15334 4597.5 -326"
+angles "0 0 0"
+model "ap_window_clean"
+classname "script_model"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15298 4597.86 -323.5"
+script_noteworthy "brush_model"
+targetname "windows_and_ext"
+origin "15298 4597.5 -326"
+angles "0 0 0"
+model "ap_window_clean"
+classname "script_model"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15261.5 4596.86 -323.5"
+script_noteworthy "brush_model"
+targetname "windows_and_ext"
+origin "15261.5 4596.5 -326"
+angles "0 0 0"
+model "ap_window_clean"
+classname "script_model"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15226 4597.86 -323.5"
+script_noteworthy "brush_model"
+targetname "windows_and_ext"
+origin "15226 4597.5 -326"
+angles "0 0 0"
+model "ap_window_clean"
+classname "script_model"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15446 4890.64 -323.5"
+script_noteworthy "brush_model"
+targetname "windows_and_ext"
+origin "15446 4891 -326"
+angles "0 180 0"
+model "ap_window_clean"
+classname "script_model"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15406 4890.64 -323.5"
+script_noteworthy "brush_model"
+targetname "windows_and_ext"
+origin "15406 4891 -326"
+angles "0 180 0"
+model "ap_window_clean"
+classname "script_model"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15370 4890.64 -323.5"
+script_noteworthy "brush_model"
+targetname "windows_and_ext"
+origin "15370 4891 -326"
+angles "0 180 0"
+model "ap_window_clean"
+classname "script_model"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15334 4890.64 -323.5"
+script_noteworthy "brush_model"
+targetname "windows_and_ext"
+origin "15334 4891 -326"
+angles "0 180 0"
+model "ap_window_clean"
+classname "script_model"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15298 4890.64 -323.5"
+script_noteworthy "brush_model"
+targetname "windows_and_ext"
+origin "15298 4891 -326"
+angles "0 180 0"
+model "ap_window_clean"
+classname "script_model"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15261.5 4889.64 -323.5"
+script_noteworthy "brush_model"
+targetname "windows_and_ext"
+origin "15261.5 4890 -326"
+angles "0 180 0"
+model "ap_window_clean"
+classname "script_model"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15226 4890.64 -323.5"
+script_noteworthy "brush_model"
+targetname "windows_and_ext"
+origin "15226 4891 -326"
+angles "0 180 0"
+model "ap_window_clean"
+classname "script_model"
+}
+{
+script_noteworthy "brush_model"
+targetname "dmg_top_one"
+classname "script_brushmodel"
+origin "15577 4736 -156"
+model "*32"
+}
+{
+target "dmg_left_epic_eleven"
+script_delay "0.1"
+script_noteworthy "brush_model"
+targetname "dmg_left_epic_one"
+classname "script_brushmodel"
+origin "15216 4608 -216"
+model "*33"
+}
+{
+target "dmg_left_epic_six"
+script_delay "0.1"
+script_noteworthy "brush_model"
+targetname "dmg_left_epic_two"
+classname "script_brushmodel"
+origin "15216 4632 -192"
+model "*34"
+}
+{
+target "dmg_left_epic_seven"
+script_delay "0.1"
+script_noteworthy "brush_model"
+targetname "dmg_left_epic_three"
+classname "script_brushmodel"
+origin "15216 4680 -160"
+model "*35"
+}
+{
+target "dmg_left_epic_nine"
+script_delay "0.1"
+script_noteworthy "brush_model"
+targetname "dmg_left_epic_five"
+classname "script_brushmodel"
+origin "15272 4608 -216"
+model "*36"
+}
+{
+target "dmg_left_epic_one"
+script_delay "0.1"
+script_noteworthy "brush_model"
+targetname "dmg_left_epic_six"
+classname "script_brushmodel"
+origin "15272 4632 -192"
+model "*37"
+}
+{
+target "dmg_left_epic_two"
+script_delay "0.1"
+script_noteworthy "brush_model"
+targetname "dmg_left_epic_seven"
+classname "script_brushmodel"
+origin "15272 4680 -160"
+model "*38"
+}
+{
+target "dmg_left_epic_three"
+script_delay "0.1"
+script_noteworthy "brush_model"
+targetname "dmg_left_epic_eight"
+classname "script_brushmodel"
+origin "15272 4720 -148"
+model "*39"
+}
+{
+target "dmg_left_epic_nineteen"
+script_delay "0.1"
+script_noteworthy "brush_model"
+targetname "dmg_left_epic_nine"
+classname "script_brushmodel"
+origin "15328 4608 -216"
+model "*40"
+}
+{
+target "dmg_left_epic_twenty"
+script_delay "0.1"
+script_noteworthy "brush_model"
+targetname "dmg_left_epic_ten"
+classname "script_brushmodel"
+origin "15328 4632 -192"
+model "*41"
+}
+{
+target "dmg_left_epic_twelve"
+script_delay "0.1"
+script_noteworthy "brush_model"
+targetname "dmg_left_epic_eleven"
+classname "script_brushmodel"
+origin "15328 4680 -160"
+model "*42"
+}
+{
+target "dmg_left_epic_fithteen"
+script_delay "0.1"
+script_noteworthy "brush_model"
+targetname "dmg_left_epic_twelve"
+classname "script_brushmodel"
+origin "15328 4720 -148"
+model "*43"
+}
+{
+target "dmg_left_epic_twentythree"
+script_delay "0.1"
+script_noteworthy "brush_model"
+targetname "dmg_left_epic_thirteen"
+classname "script_brushmodel"
+origin "15360 4608 -216"
+model "*44"
+}
+{
+target "dmg_left_epic_thirteen"
+script_delay "0.1"
+script_noteworthy "brush_model"
+targetname "dmg_left_epic_fourteen"
+classname "script_brushmodel"
+origin "15360 4632 -192"
+model "*45"
+}
+{
+target "dmg_left_epic_five"
+script_delay "0.1"
+script_noteworthy "brush_model"
+targetname "dmg_left_epic_fithteen"
+classname "script_brushmodel"
+origin "15360 4680 -160"
+model "*46"
+}
+{
+target "dmg_left_epic_ten"
+script_delay "0.1"
+script_noteworthy "brush_model"
+targetname "dmg_left_epic_sixteen"
+classname "script_brushmodel"
+origin "15360 4720 -148"
+model "*47"
+}
+{
+target "dmg_left_epic_twentyone"
+script_delay "0.1"
+script_noteworthy "brush_model"
+targetname "dmg_left_epic_seventeen"
+classname "script_brushmodel"
+origin "15384 4608 -216"
+model "*48"
+}
+{
+target "dmg_left_epic_twentyfour"
+script_delay "0.1"
+script_noteworthy "brush_model"
+targetname "dmg_left_epic_eightteen"
+classname "script_brushmodel"
+origin "15384 4632 -192"
+model "*49"
+}
+{
+target "dmg_left_epic_fourteen"
+script_delay "0.1"
+script_noteworthy "brush_model"
+targetname "dmg_left_epic_nineteen"
+classname "script_brushmodel"
+origin "15384 4680 -160"
+model "*50"
+}
+{
+script_delay "0.1"
+script_noteworthy "brush_model"
+targetname "dmg_left_epic_twenty"
+classname "script_brushmodel"
+origin "15384 4720 -148"
+model "*51"
+}
+{
+target "dmg_left_epic_twentytwo"
+script_delay "0.1"
+script_noteworthy "brush_model"
+targetname "dmg_left_epic_twentyone"
+classname "script_brushmodel"
+origin "15416 4608 -216"
+model "*52"
+}
+{
+target "dmg_left_epic_sixteen"
+script_delay "0.1"
+script_noteworthy "brush_model"
+targetname "dmg_left_epic_twentytwo"
+classname "script_brushmodel"
+origin "15416 4632 -192"
+model "*53"
+}
+{
+target "dmg_left_epic_eightteen"
+script_delay "0.1"
+script_noteworthy "brush_model"
+targetname "dmg_left_epic_twentythree"
+classname "script_brushmodel"
+origin "15416 4680 -160"
+model "*54"
+}
+{
+target "dmg_left_epic_seventeen"
+script_delay "0.1"
+script_noteworthy "brush_model"
+targetname "dmg_left_epic_twentyfour"
+classname "script_brushmodel"
+origin "15416 4720 -148"
+model "*55"
+}
+{
+script_noteworthy "brush_model"
+targetname "dmg_left_epic_skele_one"
+classname "script_brushmodel"
+origin "15244 4650 -176"
+model "*56"
+}
+{
+script_noteworthy "brush_model"
+targetname "dmg_left_epic_skele_two"
+classname "script_brushmodel"
+origin "15310 4650 -176"
+model "*57"
+}
+{
+script_noteworthy "brush_model"
+targetname "dmg_left_epic_skele_three"
+classname "script_brushmodel"
+origin "15344 4652 -176"
+model "*58"
+}
+{
+script_noteworthy "brush_model"
+targetname "dmg_top_two"
+classname "script_brushmodel"
+origin "15592 4744 -152"
+model "*59"
+}
+{
+script_noteworthy "brush_model"
+targetname "dmg_top_two_b"
+classname "script_brushmodel"
+origin "15280 4648 -128"
+model "*60"
+}
+{
+script_noteworthy "brush_model"
+targetname "dmg_top_two_c"
+classname "script_brushmodel"
+origin "15464 4744 -120"
+model "*61"
+}
+{
+script_noteworthy "brush_model"
+targetname "dmg_left_one_light"
+classname "script_brushmodel"
+origin "15712 4608 -272"
+model "*62"
+}
+{
+script_noteworthy "brush_model"
+targetname "mov_pipe_left_red"
+classname "script_brushmodel"
+origin "15712 4656 -216"
+model "*63"
+}
+{
+script_noteworthy "brush_model"
+targetname "mov_pipe_left_red_two"
+classname "script_brushmodel"
+origin "15720 4680 -176"
+model "*64"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15650.3 4684 -345.782"
+targetname "jeeps_on_plane"
+origin "15640 4684 -394.9"
+angles "0 0 0"
+model "vehicle_iveco_lynx_iw6_static"
+classname "script_model"
+}
+{
+script_noteworthy "brush_model"
+targetname "door_upper"
+classname "script_brushmodel"
+origin "14524 4744 -263"
+model "*65"
+}
+{
+script_noteworthy "brush_model"
+targetname "left_dmg_one"
+classname "script_brushmodel"
+origin "15786 4598 -296"
+model "*66"
+}
+{
+script_noteworthy "brush_model"
+targetname "left_dmg_two"
+classname "script_brushmodel"
+origin "15712 4600 -296"
+model "*67"
+}
+{
+script_noteworthy "brush_model"
+targetname "left_dmg_three"
+classname "script_brushmodel"
+origin "15776 4568 -296"
+model "*68"
+}
+{
+script_noteworthy "brush_model"
+targetname "dmg_right_one"
+classname "script_brushmodel"
+origin "15720 4856 -168"
+model "*69"
+}
+{
+script_noteworthy "brush_model"
+targetname "dmg_right_two"
+classname "script_brushmodel"
+origin "15760 4824 -168"
+model "*70"
+}
+{
+script_noteworthy "brush_model"
+targetname "dmg_right_three"
+classname "script_brushmodel"
+origin "15760 4848 -180"
+model "*71"
+}
+{
+script_noteworthy "brush_model"
+targetname "dmg_right_four"
+classname "script_brushmodel"
+origin "15760 4864 -196"
+model "*72"
+}
+{
+script_noteworthy "brush_model"
+targetname "dmg_end_red_pipe_long"
+classname "script_brushmodel"
+origin "15312 4644 -190"
+model "*73"
+}
+{
+targetname "engine_bottom"
+classname "script_brushmodel"
+origin "15712 5424 -342"
+model "*74"
+}
+{
+targetname "end_right_holder"
+classname "script_brushmodel"
+origin "15808 5112 -255"
+model "*75"
+}
+{
+targetname "metal_clip_crates_and_jeeps"
+classname "script_brushmodel"
+origin "15679 4745 -335"
+model "*76"
+}
+{
+gndlt "09090d3e01"
+ltorigin "950 3816 4696"
+targetname "jungle_sky_model_ent"
+origin "950 3816 4696"
+model "jungle_sky_model"
+classname "script_model"
+}
+{
+origin "13840 5078 -680"
+targetname "chance_3"
+classname "script_origin"
+}
+{
+script_noteworthy "brush_model"
+classname "script_brushmodel"
+origin "15404 4744 -287"
+model "*77"
+}
+{
+script_noteworthy "brush_model"
+origin "15198 4879 -342"
+targetname "ramp_button"
+angles "346.169 77.065 -2.18431"
+classname "script_origin"
+}
+{
+cursorhint "HINT_ACTIVATE"
+targetname "ramp_button_trigger"
+classname "trigger_use"
+origin "15200 4874 -342"
+model "?0"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15200 4884.75 -342"
+origin "15200 4885 -342"
+script_noteworthy "brush_model"
+targetname "button_model_on"
+model "prague_elevator_button_on"
+classname "script_model"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15200 4884.75 -342"
+origin "15200 4885 -342"
+script_noteworthy "brush_model"
+targetname "button_model_off"
+model "prague_elevator_button"
+classname "script_model"
+}
+{
+script_noteworthy "brush_model"
+origin "15208 4828.5 -396"
+targetname "look_out_org"
+angles "346.169 77.065 -2.1843"
+classname "script_origin"
+}
+{
+script_ignoreall "1"
+spawnflags "1"
+origin "15284 4769.5 -392"
+targetname "fake_gun_fire"
+angles "0 268 0"
+export "9"
+model "body_henchmen_smg_a"
+classname "actor_iw5_enemy_opforce_henchmen_kriss"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15042 4884.75 -298"
+origin "15042 4885 -298"
+script_noteworthy "little_lights"
+targetname "tail_lights_red_off_one"
+model "prague_elevator_button"
+classname "script_model"
+}
+{
+gndlt "09090d3e01"
+ltorigin "14948 4884.75 -298"
+origin "14948 4885 -298"
+script_noteworthy "little_lights"
+targetname "tail_lights_red_off_two"
+model "prague_elevator_button"
+classname "script_model"
+}
+{
+gndlt "09090d3e01"
+ltorigin "14850 4884.75 -298"
+origin "14850 4885 -298"
+script_noteworthy "little_lights"
+targetname "tail_lights_red_off_three"
+model "prague_elevator_button"
+classname "script_model"
+}
+{
+gndlt "09090d3e01"
+ltorigin "14854 4603.25 -298"
+angles "0 180 0"
+origin "14854 4603 -298"
+script_noteworthy "little_lights"
+targetname "tail_lights_red_off_three"
+model "prague_elevator_button"
+classname "script_model"
+}
+{
+gndlt "09090d3e01"
+ltorigin "14948 4603.25 -298"
+angles "0 180 0"
+origin "14948 4603 -298"
+script_noteworthy "little_lights"
+targetname "tail_lights_red_off_two"
+model "prague_elevator_button"
+classname "script_model"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15046 4603.25 -298"
+angles "0 180 0"
+origin "15046 4603 -298"
+script_noteworthy "little_lights"
+targetname "tail_lights_red_off_one"
+model "prague_elevator_button"
+classname "script_model"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15046 4604.04 -298"
+script_noteworthy "tail_lights_script_models"
+origin "15046 4604 -298"
+targetname "tail_lights_red_off_one_model"
+model "empty_model"
+classname "script_model"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15042 4884.04 -298"
+script_noteworthy "tail_lights_script_models"
+origin "15042 4884 -298"
+targetname "tail_lights_red_off_one_model"
+model "empty_model"
+classname "script_model"
+}
+{
+gndlt "09090d3e01"
+ltorigin "14948 4604.04 -298"
+script_noteworthy "tail_lights_script_models"
+origin "14948 4604 -298"
+targetname "tail_lights_red_off_two_model"
+model "empty_model"
+classname "script_model"
+}
+{
+gndlt "09090d3e01"
+ltorigin "14948 4884.04 -298"
+script_noteworthy "tail_lights_script_models"
+origin "14948 4884 -298"
+targetname "tail_lights_red_off_two_model"
+model "empty_model"
+classname "script_model"
+}
+{
+gndlt "09090d3e01"
+ltorigin "14850 4884.04 -298"
+script_noteworthy "tail_lights_script_models"
+origin "14850 4884 -298"
+targetname "tail_lights_red_off_three_model"
+model "empty_model"
+classname "script_model"
+}
+{
+gndlt "09090d3e01"
+ltorigin "14854 4604.04 -298"
+script_noteworthy "tail_lights_script_models"
+origin "14854 4604 -298"
+targetname "tail_lights_red_off_three_model"
+model "empty_model"
+classname "script_model"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15200.8 4885.98 -313.779"
+script_noteworthy "brush_model"
+origin "15200 4878 -316"
+angles "0 180 75"
+model "character_prop_dufflebag"
+classname "script_model"
+}
+{
+origin "15042 4714 -332"
+classname "script_origin"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15200.8 4885.98 -325.779"
+script_noteworthy "brush_model"
+origin "15200 4878 -328"
+angles "0 180 75"
+model "character_prop_dufflebag"
+classname "script_model"
+}
+{
+script_noteworthy "window_volumetric_blinds"
+targetname "god_ray_emitter"
+origin "15336 4588 -334"
+angles "14 114 -1.84556e-006"
+classname "script_origin"
+}
+{
+script_noteworthy "window_volumetric_blinds"
+targetname "god_ray_emitter"
+origin "15300 4588 -334"
+angles "14 114 -1.84556e-006"
+classname "script_origin"
+}
+{
+script_noteworthy "window_volumetric_blinds"
+targetname "god_ray_emitter"
+origin "15264 4588 -334"
+angles "14 114 -1.84556e-006"
+classname "script_origin"
+}
+{
+script_noteworthy "window_volumetric_blinds"
+targetname "god_ray_emitter"
+origin "15228 4588 -334"
+angles "14 114 -1.84556e-006"
+classname "script_origin"
+}
+{
+script_noteworthy "window_volumetric_open"
+targetname "god_ray_emitter"
+origin "15408 4590 -334"
+angles "14 114 -1.84556e-006"
+classname "script_origin"
+}
+{
+script_noteworthy "window_volumetric_open"
+targetname "god_ray_emitter"
+origin "15372 4590 -334"
+angles "14 114 -1.84556e-006"
+classname "script_origin"
+}
+{
+script_noteworthy "window_volumetric_open_l"
+targetname "god_ray_emitter"
+origin "15370 4904 -332"
+angles "14 246 0"
+classname "script_origin"
+}
+{
+script_noteworthy "window_volumetric_open_l"
+targetname "god_ray_emitter"
+origin "15334 4904 -332"
+angles "14 246 0"
+classname "script_origin"
+}
+{
+script_noteworthy "window_volumetric_blinds_l"
+targetname "god_ray_emitter"
+origin "15298 4902 -332"
+angles "14 246 0"
+classname "script_origin"
+}
+{
+script_noteworthy "window_volumetric_blinds_l"
+targetname "god_ray_emitter"
+origin "15264 4902 -332"
+angles "14 246 0"
+classname "script_origin"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15259 4876.04 -274"
+origin "15259 4876 -274"
+targetname "lights_red_fuselage"
+model "empty_model"
+classname "script_model"
+}
+{
+script_noteworthy "window_volumetric_open_l"
+targetname "god_ray_emitter"
+origin "15408 4904 -332"
+angles "14 246 0"
+classname "script_origin"
+}
+{
+script_noteworthy "window_volumetric_blinds_l"
+targetname "god_ray_emitter"
+origin "15228 4902 -332"
+angles "14 246 0"
+classname "script_origin"
+}
+{
+script_noteworthy "window_volumetric_blinds"
+targetname "god_ray_emitter"
+origin "15160 4590 -334"
+angles "14 114 -1.84556e-006"
+classname "script_origin"
+}
+{
+script_noteworthy "window_volumetric_blinds_l"
+targetname "god_ray_emitter"
+origin "15161 4899 -334"
+angles "14 250 0"
+classname "script_origin"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15429 4876.04 -274"
+origin "15429 4876 -274"
+targetname "lights_red_fuselage"
+model "empty_model"
+classname "script_model"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15637 4876.04 -274"
+origin "15637 4876 -274"
+targetname "lights_red_fuselage"
+model "empty_model"
+classname "script_model"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15563 4876.04 -274"
+origin "15563 4876 -274"
+targetname "lights_red_fuselage"
+model "empty_model"
+classname "script_model"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15676 4876.04 -274"
+origin "15676 4876 -274"
+targetname "lights_red_fuselage"
+model "empty_model"
+classname "script_model"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15788 4876.04 -274"
+origin "15788 4876 -274"
+targetname "lights_red_fuselage"
+model "empty_model"
+classname "script_model"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15785 4742.04 -284"
+origin "15785 4742 -284"
+targetname "middle_d_lights"
+model "empty_model"
+classname "script_model"
+}
+{
+gndlt "08080c3e01"
+ltorigin "3375.57 4096 -2797.37"
+origin "3632 4096 -2992"
+targetname "baddy_plane"
+model "vehicle_y_8"
+classname "script_model"
+}
+{
+target "auto6"
+targetname "auto5"
+script_noteworthy "climb_out_origin"
+angles "270 180 180"
+origin "15739.6 4706.5 -149.1"
+classname "script_origin"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15567 4742.04 -284"
+origin "15567 4742 -284"
+targetname "middle_d_lights"
+model "empty_model"
+classname "script_model"
+}
+{
+target "auto7"
+targetname "auto6"
+script_noteworthy "climb_out_origin"
+angles "270 180 180"
+origin "15739.6 4702.5 -121.1"
+classname "script_origin"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15349 4742.04 -284"
+origin "15349 4742 -284"
+targetname "middle_d_lights"
+model "empty_model"
+classname "script_model"
+}
+{
+target "auto8"
+targetname "auto7"
+script_noteworthy "climb_out_origin"
+angles "270 180 180"
+origin "15741.6 4704.5 -95.1"
+classname "script_origin"
+}
+{
+gndlt "09090d3e01"
+ltorigin "15131 4740.04 -284"
+origin "15131 4740 -284"
+targetname "middle_d_lights"
+model "empty_model"
+classname "script_model"
+}
+{
+target "auto9"
+targetname "auto8"
+script_noteworthy "climb_out_origin"
+angles "270 180 180"
+origin "15741.6 4700.5 -69.1"
+classname "script_origin"
+}
+{
+gndlt "09090d3e01"
+ltorigin "14913 4740.04 -284"
+origin "14913 4740 -284"
+targetname "tail_d_lights"
+model "empty_model"
+classname "script_model"
+}
+{
+target "r_plane_player_climb_fourteen"
+targetname "auto9"
+script_noteworthy "climb_out_origin"
+angles "270 180 180"
+origin "15741.6 4704.5 -47.1"
+classname "script_origin"
+}
+{
+gndlt "09090d3e01"
+ltorigin "14693 4740.04 -228"
+origin "14693 4740 -228"
+targetname "tail_d_lights"
+model "empty_model"
+classname "script_model"
+}

@@ -1,0 +1,260 @@
+{
+classname "worldspawn"
+sundirection "-30 300 0"
+suncolor "1 0.929412 0.756863"
+sunlight "1.5"
+_color "0.533333 0.654902 0.878431"
+ambient ".18"
+spawnflags "0"
+maxbounces "2"
+skylight "0.5"
+skycolor "0.45 0.9 1"
+}
+{
+classname "info_player_start"
+angles "0 150 0"
+origin "224 -1096 0"
+}
+{
+model "*1"
+origin "-4622 9102 80"
+classname "script_brushmodel"
+targetname "trench_tower_garage_entrance"
+spawnflags "1"
+}
+{
+classname "script_model"
+model "nol_vehicle_m1a1_abrams_turret_barrel"
+angles "350 180 -2.3721e-006"
+origin "988.1 1814.5 657.5"
+target "pf478_auto1"
+targetname "pf478_auto3"
+}
+{
+classname "script_struct"
+angles "350 180 -2.3721e-006"
+origin "831 1891 685"
+targetname "pf478_auto2"
+}
+{
+classname "script_model"
+model "nol_vehicle_m1a1_abrams_turret_barrel"
+angles "350 180 -2.3721e-006"
+origin "988.1 1891 657.5"
+target "pf478_auto2"
+targetname "pf478_auto3"
+}
+{
+classname "script_struct"
+angles "350 180 -2.3721e-006"
+origin "831 1815 685"
+targetname "pf478_auto1"
+}
+{
+classname "script_struct"
+target "pf478_auto3"
+origin "997 1856 656"
+targetname "intro_bunker_turret"
+angles "0 180 0"
+}
+{
+classname "script_model"
+model "nol_vehicle_m1a1_abrams_turret_barrel"
+angles "350 180 -2.3721e-006"
+origin "988.1 3647 657.5"
+target "pf480_auto1"
+targetname "pf480_auto3"
+}
+{
+classname "script_struct"
+angles "350 180 -2.3721e-006"
+origin "831 3723.5 685"
+targetname "pf480_auto2"
+}
+{
+classname "script_model"
+model "nol_vehicle_m1a1_abrams_turret_barrel"
+angles "350 180 -2.3721e-006"
+origin "988.1 3723.5 657.5"
+target "pf480_auto2"
+targetname "pf480_auto3"
+}
+{
+classname "script_struct"
+angles "350 180 -2.3721e-006"
+origin "831 3647.5 685"
+targetname "pf480_auto1"
+}
+{
+classname "script_struct"
+target "pf480_auto3"
+origin "997 3688.5 656"
+targetname "intro_bunker_turret"
+angles "0 180 0"
+}
+{
+classname "script_model"
+model "nol_vehicle_m1a1_abrams_turret_barrel"
+angles "350 180 -2.3721e-006"
+origin "988.1 -18 657.5"
+target "pf482_auto1"
+targetname "pf482_auto3"
+}
+{
+classname "script_struct"
+angles "350 180 -2.3721e-006"
+origin "831 58.5 685"
+targetname "pf482_auto2"
+}
+{
+classname "script_model"
+model "nol_vehicle_m1a1_abrams_turret_barrel"
+angles "350 180 -2.3721e-006"
+origin "988.1 58.5 657.5"
+target "pf482_auto2"
+targetname "pf482_auto3"
+}
+{
+classname "script_struct"
+angles "350 180 -2.3721e-006"
+origin "831 -17.5 685"
+targetname "pf482_auto1"
+}
+{
+classname "script_struct"
+target "pf482_auto3"
+origin "997 23.5 656"
+targetname "intro_bunker_turret"
+angles "0 180 0"
+}
+{
+classname "script_model"
+model "nol_vehicle_m1a1_abrams_turret_barrel"
+angles "350 180 -2.3721e-006"
+origin "988.1 -1850.5 657.5"
+target "pf500_auto1"
+targetname "pf500_auto3"
+}
+{
+classname "script_struct"
+angles "350 180 -2.3721e-006"
+origin "831 -1774 685"
+targetname "pf500_auto2"
+}
+{
+classname "script_model"
+model "nol_vehicle_m1a1_abrams_turret_barrel"
+angles "350 180 -2.3721e-006"
+origin "988.1 -1774 657.5"
+target "pf500_auto2"
+targetname "pf500_auto3"
+}
+{
+classname "script_struct"
+angles "350 180 -2.3721e-006"
+origin "831 -1850 685"
+targetname "pf500_auto1"
+}
+{
+classname "script_struct"
+target "pf500_auto3"
+origin "997 -1809 656"
+targetname "intro_bunker_turret"
+angles "0 180 0"
+}
+{
+model "*2"
+origin "-2393 2624 243"
+classname "script_brushmodel"
+targetname "bunker_mg_nonbroken"
+}
+{
+model "*3"
+origin "-2394 2624 248"
+classname "script_brushmodel"
+script_noteworthy "hide_on_load"
+targetname "bunker_mg_broken"
+}
+{
+model "*4"
+origin "-2246 2656 308"
+classname "script_brushmodel"
+targetname "bunker_roof_nonbroken"
+}
+{
+model "*5"
+origin "-2246 2656 308"
+classname "script_brushmodel"
+targetname "bunker_roof_broken"
+script_noteworthy "hide_on_load"
+}
+{
+classname "script_model"
+model "nol_vehicle_m1a1_abrams_turret_barrel"
+angles "350 180 -2.3721e-006"
+origin "988.1 -3683 657.5"
+target "pf704_auto1"
+targetname "pf704_auto3"
+}
+{
+classname "script_struct"
+angles "350 180 -2.3721e-006"
+origin "831 -3606.5 685"
+targetname "pf704_auto2"
+}
+{
+classname "script_model"
+model "nol_vehicle_m1a1_abrams_turret_barrel"
+angles "350 180 -2.3721e-006"
+origin "988.1 -3606.5 657.5"
+target "pf704_auto2"
+targetname "pf704_auto3"
+}
+{
+classname "script_struct"
+angles "350 180 -2.3721e-006"
+origin "831 -3682.5 685"
+targetname "pf704_auto1"
+}
+{
+classname "script_struct"
+target "pf704_auto3"
+origin "997 -3641.5 656"
+targetname "intro_bunker_turret"
+angles "0 180 0"
+}
+{
+classname "script_model"
+model "nol_vehicle_m1a1_abrams_turret_barrel"
+angles "350 180 -2.3721e-006"
+origin "988.1 -5515.5 657.5"
+target "pf1404_auto1"
+targetname "pf1404_auto3"
+}
+{
+classname "script_struct"
+angles "350 180 -2.3721e-006"
+origin "831 -5439 685"
+targetname "pf1404_auto2"
+}
+{
+classname "script_model"
+model "nol_vehicle_m1a1_abrams_turret_barrel"
+angles "350 180 -2.3721e-006"
+origin "988.1 -5439 657.5"
+target "pf1404_auto2"
+targetname "pf1404_auto3"
+}
+{
+classname "script_struct"
+angles "350 180 -2.3721e-006"
+origin "831 -5515 685"
+targetname "pf1404_auto1"
+}
+{
+classname "script_struct"
+target "pf1404_auto3"
+origin "997 -5474 656"
+targetname "intro_bunker_turret"
+angles "0 180 0"
+}

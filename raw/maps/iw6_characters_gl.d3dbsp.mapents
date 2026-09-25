@@ -1,0 +1,387 @@
+{
+radiosityscale "1"
+sunradiosity "1"
+maxbounces "3"
+sunlight "1.5"
+suncolor "1 0.945098 0.823529"
+sundirection "-20 -40 0"
+classname "worldspawn"
+ambient ".116"
+_color "0.807843 0.937255 1"
+skylight "0.8"
+skycolor "0.686275 0.843137 1"
+}
+{
+model "?0"
+__smid "36"
+__smname "prefabs/nextgentest/nextgentest_diner_day.map"
+__smangles "0 0 0"
+__smorigin "0 -336 12"
+origin "-96 -109 86"
+classname "stage"
+radiosity "1.7"
+maxbounces "8"
+radiosityscale "1"
+ambient "0"
+}
+{
+model "?1"
+__smid "345"
+__smname "prefabs/nextgentest/nextgentest_diner_day.map"
+__smangles "0 0 0"
+__smorigin "0 -336 12"
+origin "-8 100 86"
+classname "stage"
+radiosity "1.7"
+maxbounces "8"
+radiosityscale "1"
+ambient "0"
+}
+{
+model "?2"
+origin "-184 -134 65"
+classname "trigger_multiple_visionset"
+script_delay ".2"
+script_visionset "nextgen_interior_day"
+}
+{
+model "?3"
+origin "-184 -145 65"
+classname "trigger_multiple_visionset"
+script_delay ".2"
+script_visionset "nextgentest_day"
+}
+{
+classname "actor_gallery_russian_military_black"
+model "body_russian_military_assault_a_black"
+export "1"
+angles "0 352 0"
+origin "-294 -436 12"
+target "auto129"
+spawnflags "19"
+targetname "bad_guys"
+script_patroller "1"
+}
+{
+classname "actor_test_hero_keegan_africa_silencer"
+model "fullbody_keegan_africa_assault_a"
+export "2"
+origin "266 96 20"
+angles "0 90 0"
+target "auto14"
+spawnflags "19"
+targetname "good_guys"
+}
+{
+classname "actor_iw5_ally_hero_price_payback"
+model "fullbody_price_africa_assault_a"
+export "3"
+origin "250 -58 20"
+target "auto12"
+spawnflags "19"
+targetname "good_guys"
+}
+{
+classname "actor_iw5_ally_hero_soap_payback"
+model "fullbody_soap_africa_assault_a"
+export "4"
+origin "256 18 20"
+script_ignoreall "1"
+}
+{
+classname "actor_gallery_russian_military_black"
+model "body_russian_military_assault_a_black"
+export "5"
+angles "0 270 0"
+origin "-188 -92 20"
+spawnflags "19"
+targetname "bad_guys"
+target "auto3575"
+script_idlereach "1"
+script_patroller "1"
+}
+{
+classname "script_struct"
+origin "-28 -215 42"
+target "auto3573"
+angles "0 359 0"
+targetname "auto3589"
+}
+{
+classname "actor_gallery_russian_military_black"
+model "body_russian_military_assault_a_black"
+export "19"
+angles "0 180 0"
+origin "-272 -108 20"
+spawnflags "19"
+targetname "bad_guys"
+target "auto3594"
+script_idlereach "1"
+script_patroller "1"
+}
+{
+classname "node_pathnode"
+origin "-112 -456 32"
+}
+{
+classname "node_pathnode"
+origin "-224 -456 32"
+}
+{
+classname "node_pathnode"
+origin "8 -456 32"
+}
+{
+classname "node_pathnode"
+origin "8 -352 32"
+}
+{
+classname "node_pathnode"
+origin "8 -248 32"
+}
+{
+classname "node_pathnode"
+origin "-344 -336 32"
+angles "0 270 0"
+}
+{
+classname "node_pathnode"
+origin "-344 -456 32"
+angles "0 270 0"
+}
+{
+classname "node_pathnode"
+origin "-344 -96 32"
+angles "0 270 0"
+}
+{
+classname "node_pathnode"
+origin "-336 -220 32"
+angles "0 310 0"
+}
+{
+classname "node_pathnode"
+origin "-344 136 32"
+angles "0 270 0"
+}
+{
+classname "node_pathnode"
+origin "-344 16 32"
+angles "0 270 0"
+targetname "auto11"
+}
+{
+classname "node_pathnode"
+origin "-440 136 32"
+angles "0 270 0"
+}
+{
+classname "node_pathnode"
+origin "-440 16 32"
+angles "0 270 0"
+}
+{
+classname "node_pathnode"
+origin "-440 -96 32"
+angles "0 270 0"
+}
+{
+classname "node_pathnode"
+origin "-440 -216 32"
+angles "0 270 0"
+}
+{
+classname "node_pathnode"
+origin "352 -60 32"
+angles "0 270 0"
+}
+{
+classname "node_pathnode"
+origin "352 36 32"
+angles "0 270 0"
+}
+{
+classname "node_cover_left"
+angles "0 216 0"
+spawnflags "24"
+targetname "auto12"
+origin "268 -34 40"
+radius "32"
+}
+{
+classname "info_player_start"
+angles "0 180 0"
+origin "560 -368 20"
+}
+{
+origin "-340 -356 44"
+classname "script_struct"
+script_animation "phone"
+targetname "auto3596"
+angles "0 318 0"
+}
+{
+classname "node_exposed"
+angles "0 90 0"
+targetname "auto14"
+origin "268 96 48"
+}
+{
+classname "script_struct"
+origin "-340 -212 36"
+target "auto3596"
+angles "0 270 0"
+targetname "auto3594"
+}
+{
+classname "actor_gallery_russian_military_black"
+model "body_russian_military_assault_a_black"
+export "18"
+angles "0 262 0"
+origin "-348 94 20"
+target "auto3590"
+spawnflags "19"
+targetname "bad_guys"
+script_patroller "1"
+}
+{
+classname "script_struct"
+origin "-368 80 32"
+angles "0 270 0"
+targetname "auto3590"
+target "auto3592"
+script_delay "0.4"
+}
+{
+classname "script_struct"
+targetname "auto3592"
+origin "-368 34 32"
+target "auto3593"
+script_animation "turn_180"
+angles "0 270 0"
+}
+{
+classname "script_struct"
+targetname "auto3593"
+origin "-368 -132 32"
+target "auto3592"
+script_animation "turn_180"
+angles "0 270 0"
+}
+{
+classname "actor_test_hero_keegan_africa_silencer"
+model "fullbody_keegan_africa_assault_a"
+export "9"
+origin "574 -866 12"
+angles "0 268 0"
+script_ignoreall "1"
+}
+{
+classname "actor_iw5_ally_hero_price_payback"
+model "fullbody_price_africa_assault_a"
+export "10"
+origin "446.1 -870.4 12"
+angles "0 272 0"
+script_ignoreall "1"
+}
+{
+classname "actor_iw5_ally_hero_soap_payback"
+model "fullbody_soap_africa_assault_a"
+export "11"
+origin "510 -868.2 12"
+angles "0 272 0"
+script_ignoreall "1"
+}
+{
+classname "actor_gallery_russian_military_black"
+model "body_russian_military_assault_a_black"
+export "12"
+angles "0 276 0"
+origin "684 -860.5 12"
+script_ignoreall "1"
+}
+{
+classname "actor_gallery_russian_military_black"
+model "body_russian_military_assault_a_black"
+export "13"
+angles "0 276 0"
+origin "747.6 -853.8 12"
+script_ignoreall "1"
+}
+{
+classname "actor_gallery_russian_military_black"
+model "body_russian_military_assault_a_black"
+export "14"
+angles "0 276 0"
+origin "811.3 -847.1 12"
+script_ignoreall "1"
+}
+{
+classname "script_struct"
+origin "-280 -456 32"
+angles "0 0 0"
+targetname "auto129"
+target "auto128"
+script_delay "0.4"
+}
+{
+classname "script_struct"
+targetname "auto128"
+origin "-234 -456 32"
+target "auto132"
+script_animation "turn_180"
+angles "0 0 0"
+}
+{
+classname "script_struct"
+targetname "auto132"
+origin "-68 -456 32"
+target "auto128"
+script_animation "turn_180"
+angles "0 0 0"
+}
+{
+origin "52 -196 44"
+classname "script_struct"
+script_animation "phone"
+targetname "auto3573"
+angles "0 348 0"
+}
+{
+classname "script_struct"
+origin "-188 -172 40"
+target "auto3589"
+angles "0 305 0"
+targetname "auto3574"
+}
+{
+classname "node_pathnode"
+origin "-112 -248 32"
+}
+{
+classname "node_pathnode"
+origin "-220 -232 32"
+}
+{
+classname "node_pathnode"
+origin "-184 -172 36"
+}
+{
+classname "node_pathnode"
+origin "-184 -80 36"
+}
+{
+classname "node_pathnode"
+origin "-124 -28 36"
+}
+{
+classname "node_pathnode"
+origin "-32 -28 36"
+}
+{
+classname "script_struct"
+origin "-188 -112 36"
+target "auto3574"
+angles "0 270 0"
+targetname "auto3575"
+}

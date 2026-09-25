@@ -1,0 +1,861 @@
+{
+skycolor "0 0 0"
+skylight "0.001"
+_color "0.137255 0.137255 0.137255"
+ambient "0.15"
+classname "worldspawn"
+sundirection "-70 72 0"
+suncolor "0 0 0"
+sunlight "0.001"
+}
+{
+targetname "white_walls"
+classname "script_brushmodel"
+origin "12 -8 1568"
+model "*1"
+}
+{
+origin "0 -320 -56"
+angles "0 90 0"
+classname "info_player_start"
+}
+{
+targetname "black_walls"
+classname "script_brushmodel"
+origin "12 -8 1564"
+model "*2"
+}
+{
+origin "448 -192 -32"
+classname "node_pathnode"
+}
+{
+origin "448 -320 -32"
+classname "node_pathnode"
+}
+{
+origin "320 -320 -32"
+classname "node_pathnode"
+}
+{
+origin "320 -192 -32"
+classname "node_pathnode"
+}
+{
+origin "704 -192 -32"
+classname "node_pathnode"
+}
+{
+origin "704 -320 -32"
+classname "node_pathnode"
+}
+{
+origin "576 -320 -32"
+classname "node_pathnode"
+}
+{
+origin "576 -192 -32"
+classname "node_pathnode"
+}
+{
+origin "704 -448 -32"
+classname "node_pathnode"
+}
+{
+origin "704 -576 -32"
+classname "node_pathnode"
+}
+{
+origin "576 -576 -32"
+classname "node_pathnode"
+}
+{
+origin "576 -448 -32"
+classname "node_pathnode"
+}
+{
+origin "448 -448 -32"
+classname "node_pathnode"
+}
+{
+origin "448 -576 -32"
+classname "node_pathnode"
+}
+{
+origin "320 -576 -32"
+classname "node_pathnode"
+}
+{
+origin "320 -448 -32"
+classname "node_pathnode"
+}
+{
+origin "448 320 -32"
+classname "node_pathnode"
+}
+{
+origin "448 192 -32"
+classname "node_pathnode"
+}
+{
+origin "320 192 -32"
+classname "node_pathnode"
+}
+{
+origin "320 320 -32"
+classname "node_pathnode"
+}
+{
+origin "704 320 -32"
+classname "node_pathnode"
+}
+{
+origin "704 192 -32"
+classname "node_pathnode"
+}
+{
+origin "576 192 -32"
+classname "node_pathnode"
+}
+{
+origin "576 320 -32"
+classname "node_pathnode"
+}
+{
+origin "704 64 -32"
+classname "node_pathnode"
+}
+{
+origin "704 -64 -32"
+classname "node_pathnode"
+}
+{
+origin "576 -64 -32"
+classname "node_pathnode"
+}
+{
+origin "576 64 -32"
+classname "node_pathnode"
+}
+{
+origin "448 64 -32"
+classname "node_pathnode"
+}
+{
+origin "448 -64 -32"
+classname "node_pathnode"
+}
+{
+origin "320 -64 -32"
+classname "node_pathnode"
+}
+{
+origin "320 64 -32"
+classname "node_pathnode"
+}
+{
+origin "-64 -192 -32"
+classname "node_pathnode"
+}
+{
+origin "-64 -320 -32"
+classname "node_pathnode"
+}
+{
+origin "-192 -320 -32"
+classname "node_pathnode"
+}
+{
+origin "-192 -192 -32"
+classname "node_pathnode"
+}
+{
+origin "192 -192 -32"
+classname "node_pathnode"
+}
+{
+origin "192 -320 -32"
+classname "node_pathnode"
+}
+{
+origin "64 -320 -32"
+classname "node_pathnode"
+}
+{
+origin "64 -192 -32"
+classname "node_pathnode"
+}
+{
+origin "192 -448 -32"
+classname "node_pathnode"
+}
+{
+origin "192 -576 -32"
+classname "node_pathnode"
+}
+{
+origin "64 -576 -32"
+classname "node_pathnode"
+}
+{
+origin "64 -448 -32"
+classname "node_pathnode"
+}
+{
+origin "-64 -448 -32"
+classname "node_pathnode"
+}
+{
+origin "-64 -576 -32"
+classname "node_pathnode"
+}
+{
+origin "-192 -576 -32"
+classname "node_pathnode"
+}
+{
+origin "-192 -448 -32"
+classname "node_pathnode"
+}
+{
+origin "-64 320 -32"
+classname "node_pathnode"
+}
+{
+origin "-64 192 -32"
+classname "node_pathnode"
+}
+{
+origin "-192 192 -32"
+classname "node_pathnode"
+}
+{
+origin "-192 320 -32"
+classname "node_pathnode"
+}
+{
+origin "192 320 -32"
+classname "node_pathnode"
+}
+{
+origin "192 192 -32"
+classname "node_pathnode"
+}
+{
+origin "64 192 -32"
+classname "node_pathnode"
+}
+{
+origin "64 320 -32"
+classname "node_pathnode"
+}
+{
+origin "192 64 -32"
+classname "node_pathnode"
+}
+{
+origin "192 -64 -32"
+classname "node_pathnode"
+}
+{
+origin "64 -64 -32"
+classname "node_pathnode"
+}
+{
+origin "64 64 -32"
+classname "node_pathnode"
+}
+{
+origin "-64 64 -32"
+classname "node_pathnode"
+}
+{
+origin "-64 -64 -32"
+classname "node_pathnode"
+}
+{
+origin "-192 -64 -32"
+classname "node_pathnode"
+}
+{
+origin "-192 64 -32"
+classname "node_pathnode"
+}
+{
+origin "-576 -192 -32"
+classname "node_pathnode"
+}
+{
+origin "-576 -320 -32"
+classname "node_pathnode"
+}
+{
+origin "-704 -320 -32"
+classname "node_pathnode"
+}
+{
+origin "-704 -192 -32"
+classname "node_pathnode"
+}
+{
+origin "-320 -192 -32"
+classname "node_pathnode"
+}
+{
+origin "-320 -320 -32"
+classname "node_pathnode"
+}
+{
+origin "-448 -320 -32"
+classname "node_pathnode"
+}
+{
+origin "-448 -192 -32"
+classname "node_pathnode"
+}
+{
+origin "-320 -448 -32"
+classname "node_pathnode"
+}
+{
+origin "-320 -576 -32"
+classname "node_pathnode"
+}
+{
+origin "-448 -576 -32"
+classname "node_pathnode"
+}
+{
+origin "-448 -448 -32"
+classname "node_pathnode"
+}
+{
+origin "-576 -448 -32"
+classname "node_pathnode"
+}
+{
+origin "-576 -576 -32"
+classname "node_pathnode"
+}
+{
+origin "-704 -576 -32"
+classname "node_pathnode"
+}
+{
+origin "-704 -448 -32"
+classname "node_pathnode"
+}
+{
+origin "-576 320 -32"
+classname "node_pathnode"
+}
+{
+origin "-576 192 -32"
+classname "node_pathnode"
+}
+{
+origin "-704 192 -32"
+classname "node_pathnode"
+}
+{
+origin "-704 320 -32"
+classname "node_pathnode"
+}
+{
+origin "-320 320 -32"
+classname "node_pathnode"
+}
+{
+origin "-320 192 -32"
+classname "node_pathnode"
+}
+{
+origin "-448 192 -32"
+classname "node_pathnode"
+}
+{
+origin "-448 320 -32"
+classname "node_pathnode"
+}
+{
+origin "-320 64 -32"
+classname "node_pathnode"
+}
+{
+origin "-320 -64 -32"
+classname "node_pathnode"
+}
+{
+origin "-448 -64 -32"
+classname "node_pathnode"
+}
+{
+origin "-448 64 -32"
+classname "node_pathnode"
+}
+{
+origin "-576 64 -32"
+classname "node_pathnode"
+}
+{
+origin "-576 -64 -32"
+classname "node_pathnode"
+}
+{
+origin "-704 -64 -32"
+classname "node_pathnode"
+}
+{
+origin "-704 64 -32"
+classname "node_pathnode"
+}
+{
+origin "-252 32 -56"
+targetname "highlight_model_point"
+angles "0 0 0"
+classname "script_struct"
+}
+{
+origin "448 576 -32"
+classname "node_pathnode"
+}
+{
+origin "448 448 -32"
+classname "node_pathnode"
+}
+{
+origin "320 448 -32"
+classname "node_pathnode"
+}
+{
+origin "320 576 -32"
+classname "node_pathnode"
+}
+{
+origin "704 576 -32"
+classname "node_pathnode"
+}
+{
+origin "704 448 -32"
+classname "node_pathnode"
+}
+{
+origin "576 448 -32"
+classname "node_pathnode"
+}
+{
+origin "576 576 -32"
+classname "node_pathnode"
+}
+{
+origin "-64 576 -32"
+classname "node_pathnode"
+}
+{
+origin "-64 448 -32"
+classname "node_pathnode"
+}
+{
+origin "-192 448 -32"
+classname "node_pathnode"
+}
+{
+origin "-192 576 -32"
+classname "node_pathnode"
+}
+{
+origin "192 576 -32"
+classname "node_pathnode"
+}
+{
+origin "192 448 -32"
+classname "node_pathnode"
+}
+{
+origin "64 448 -32"
+classname "node_pathnode"
+}
+{
+origin "64 576 -32"
+classname "node_pathnode"
+}
+{
+origin "-576 576 -32"
+classname "node_pathnode"
+}
+{
+origin "-576 448 -32"
+classname "node_pathnode"
+}
+{
+origin "-704 448 -32"
+classname "node_pathnode"
+}
+{
+origin "-704 576 -32"
+classname "node_pathnode"
+}
+{
+origin "-320 576 -32"
+classname "node_pathnode"
+}
+{
+origin "-320 448 -32"
+classname "node_pathnode"
+}
+{
+origin "-448 448 -32"
+classname "node_pathnode"
+}
+{
+origin "-448 576 -32"
+classname "node_pathnode"
+}
+{
+origin "-252 -32 -56"
+targetname "highlight_model_point"
+angles "0 0 0"
+classname "script_struct"
+}
+{
+origin "-252 -96 -56"
+targetname "highlight_model_point"
+angles "0 0 0"
+classname "script_struct"
+}
+{
+origin "-252 -160 -56"
+targetname "highlight_model_point"
+angles "0 0 0"
+classname "script_struct"
+}
+{
+targetname "spawnpoint_1"
+origin "252 60 -56"
+angles "0 180 0"
+classname "script_struct"
+}
+{
+targetname "spawnpoint_2"
+origin "252 -24 -56"
+angles "0 180 0"
+classname "script_struct"
+}
+{
+targetname "spawnpoint_3"
+origin "252 -88 -56"
+angles "0 180 0"
+classname "script_struct"
+}
+{
+targetname "spawnpoint_4"
+origin "252 -156 -56"
+angles "0 180 0"
+classname "script_struct"
+}
+{
+origin "-5464 -832 3104"
+spawnflags "1"
+export "124"
+model "fullbody_gs_hostage_assault_a"
+classname "actor_ally_hesh_hostage_kriss"
+}
+{
+origin "-5400 -832 3104"
+spawnflags "1"
+export "126"
+model "fullbody_gs_hostage_assault_b"
+classname "actor_ally_merrick_hostage_kriss"
+}
+{
+origin "-5464 -1280 3104"
+spawnflags "1"
+export "128"
+model "fullbody_elite_pmc_assault_a"
+classname "actor_enemy_elite_pmc_kriss"
+}
+{
+gndlt "1313130000"
+ltorigin "-5032 -1344 3148"
+angles "0 90 0"
+origin "-5032 -1344 3148"
+model "shader_dev_cloth_a_base"
+classname "script_model"
+}
+{
+origin "-5464 -880 3104"
+spawnflags "1"
+export "130"
+model "fullbody_ppilot_crew_a"
+classname "actor_prototype_ppilot_crew_a"
+}
+{
+gndlt "0303030000"
+ltorigin "-4984 -1342 3160"
+angles "0 90 0"
+origin "-4984 -1342 3160"
+model "head_ngcg_head_b"
+classname "script_model"
+}
+{
+gndlt "0303030000"
+ltorigin "-4952 -1342 3160"
+angles "0 90 0"
+origin "-4952 -1342 3160"
+model "head_ngcg_head_c"
+classname "script_model"
+}
+{
+origin "-5400 -880 3104"
+spawnflags "1"
+export "132"
+model "fullbody_ppilot_crew_b"
+classname "actor_prototype_ppilot_crew_b"
+}
+{
+origin "-5464 -1360 3104"
+spawnflags "1"
+export "134"
+model "body_venezuela_army_smg_a"
+classname "actor_enemy_venezuela_army_smg"
+}
+{
+gndlt "1313130000"
+ltorigin "-4984.3 -1372.78 3121.35"
+origin "-4984 -1376 3100"
+model "fullbody_dog_a"
+classname "script_model"
+}
+{
+gndlt "1313130000"
+ltorigin "-4984.08 -1404.78 3121.35"
+origin "-4984 -1408 3100"
+model "fullbody_dog_b"
+classname "script_model"
+}
+{
+gndlt "1313130000"
+ltorigin "-4984 -1436.78 3121.35"
+origin "-4984 -1440 3100"
+model "fullbody_dog_c"
+classname "script_model"
+}
+{
+gndlt "1313130000"
+ltorigin "-4882 -1376 3144.54"
+angles "0 90 0"
+origin "-4888 -1376 3100"
+model "fullbody_deer_a"
+classname "script_model"
+}
+{
+gndlt "1313130000"
+ltorigin "-4882.5 -1408 3137.49"
+angles "0 90 0"
+origin "-4888 -1408 3100"
+model "fullbody_deer_b"
+classname "script_model"
+}
+{
+gndlt "1313130000"
+ltorigin "-4882.51 -1440 3143.25"
+angles "0 90 0"
+origin "-4888 -1440 3100"
+model "fullbody_deer_c"
+classname "script_model"
+}
+{
+gndlt "0303030000"
+ltorigin "-5072.85 -1345.88 3159.44"
+origin "-5074 -1346 3162"
+model "viewmodel_kriss"
+classname "script_model"
+}
+{
+gndlt "0303030000"
+ltorigin "-5074.08 -1369.7 3154.76"
+origin "-5074 -1370 3160"
+model "viewmodel_tar21"
+classname "script_model"
+}
+{
+origin "-5400 -1360 3104"
+spawnflags "1"
+export "136"
+model "body_venezuela_army_assault_a"
+classname "actor_enemy_venezuela_army_assault"
+}
+{
+origin "-5464 -1440 3104"
+spawnflags "1"
+export "138"
+model "fullbody_hazmat_a"
+classname "actor_enemy_hazmat_a_smg"
+}
+{
+origin "-5400 -1440 3104"
+spawnflags "1"
+export "141"
+model "fullbody_hazmat_b"
+classname "actor_enemy_hazmat_b_smg"
+}
+{
+origin "-5464 -576 3104"
+spawnflags "1"
+export "143"
+model "body_scientist_a"
+classname "actor_civilian_scientist_a"
+}
+{
+origin "-5400 -576 3104"
+spawnflags "1"
+export "145"
+model "body_scientist_b"
+classname "actor_civilian_scientist_b"
+}
+{
+origin "-5336 -576 3104"
+spawnflags "1"
+export "147"
+model "fullbody_scientist_c"
+classname "actor_civilian_scientist_c"
+}
+{
+origin "-5272 -576 3104"
+spawnflags "1"
+export "149"
+model "fullbody_scientist_d"
+classname "actor_civilian_scientist_d"
+}
+{
+origin "-5464 -1200 3104"
+spawnflags "1"
+export "151"
+model "body_elite_pmc_assault_b_arctic"
+classname "actor_enemy_elite_pmc_arctic_kriss"
+}
+{
+origin "-5400 -1200 3104"
+spawnflags "1"
+export "153"
+model "body_elite_pmc_assault_b_desert"
+classname "actor_enemy_elite_pmc_desert_kriss"
+}
+{
+origin "-5336 -1200 3104"
+spawnflags "1"
+export "155"
+model "body_elite_pmc_assault_b_elite"
+classname "actor_enemy_elite_pmc_kriss"
+}
+{
+origin "-5272 -1200 3104"
+spawnflags "1"
+export "157"
+model "body_elite_pmc_assault_b_urban"
+classname "actor_enemy_elite_pmc_urban_kriss"
+}
+{
+origin "-5208 -1200 3104"
+spawnflags "1"
+export "159"
+model "body_elite_pmc_assault_b_woodland"
+classname "actor_enemy_elite_pmc_woodland_kriss"
+}
+{
+origin "-5336 -832 3104"
+spawnflags "1"
+export "161"
+model "body_us_rangers_assault_a"
+classname "actor_ally_us_rangers_kriss"
+}
+{
+origin "-5400 -1520 3104"
+spawnflags "1"
+export "163"
+model "body_fed_udt_assault_a"
+classname "actor_enemy_fed_udt_smg"
+}
+{
+origin "-5336 -752 3108"
+spawnflags "1"
+export "164"
+model "body_us_rangers_assault_a_urban"
+classname "actor_ally_us_rangers_urban_kriss"
+}
+{
+origin "-5272 -432 3104"
+spawnflags "1"
+export "165"
+model "fullbody_hesh_ranger_assault_a"
+classname "actor_hero_hesh_ranger_jacket"
+}
+{
+origin "-5400 -432 3104"
+spawnflags "1"
+export "167"
+model "fullbody_hesh_ranger_assault_a"
+classname "actor_hero_hesh_ranger_light"
+}
+{
+origin "-5336 -432 3104"
+spawnflags "1"
+export "168"
+model "fullbody_hesh_ranger_assault_a"
+classname "actor_hero_hesh_ranger_heavy"
+}
+{
+origin "-5576 -1280 3104"
+spawnflags "1"
+export "57"
+model "body_russian_military_assault_a_woodland"
+classname "actor_gallery_russian_military_wood_assault"
+}
+{
+origin "-5576 -832 3104"
+spawnflags "1"
+export "92"
+model "fullbody_price_africa_assault_a"
+classname "actor_gallery_hero_price_africa"
+}
+{
+spawnflags "1"
+origin "-6472 -1600 3104"
+export "121"
+model "fullbody_def_mesh_body_a"
+classname "actor_gallery_def_mesh_body_a"
+}
+{
+spawnflags "1"
+origin "-6408 -1600 3104"
+export "122"
+model "fullbody_def_mesh_soldier_a"
+classname "actor_gallery_def_mesh_soldier_a"
+}
+{
+targetname "spawner_volume"
+classname "trigger_multiple"
+origin "-4984 -120 3484"
+model "?1"
+}
+{
+origin "-5128 -1440 3100"
+targetname "spawner_ground"
+classname "script_struct"
+}
+{
+gndlt "0303030000"
+ltorigin "-5122.06 -1344 3160.67"
+origin "-5128 -1344 3110"
+model "viewhands_player_gs_hostage"
+classname "script_model"
+}
+{
+classname "stage"
+origin "12 -8 1568"
+__smorigin "0 0 0"
+__smangles "0 0 0"
+__smname "test\iw6_characters_whiteroom.map"
+__smid "159"
+model "?0"
+}

@@ -1,0 +1,535 @@
+{
+skycolor "0.686275 0.843137 1"
+skylight "0.8"
+_color "0.807843 0.937255 1"
+ambient ".116"
+classname "worldspawn"
+sundirection "-20 -50 0"
+suncolor "1 0.945098 0.823529"
+sunlight "1.5"
+maxbounces "3"
+sunradiosity "1"
+radiosityscale "1"
+}
+{
+ltorigin "356 306.886 -33.8958"
+origin "356 312 -64"
+angles "0 270 0"
+model "vehicle_civilian_80_coupe_2tone_red_iw6"
+classname "script_model"
+}
+{
+ltorigin "3185 2233.88 13.3653"
+origin "3185 2239.5 4"
+angles "0 270 0"
+model "vehicle_mini_sub_iw6"
+classname "script_model"
+}
+{
+ltorigin "2870.5 2667.03 49.0581"
+origin "2870.5 2607 102"
+angles "0 270 0"
+model "vehicle_apache_iw6"
+classname "script_model"
+}
+{
+ltorigin "2596.5 299.196 -28.9066"
+origin "2596.5 301 -64"
+angles "0 270 0"
+model "vehicle_city_car"
+classname "script_model"
+}
+{
+ltorigin "128 238.886 -33.8958"
+origin "128 244 -64"
+angles "0 270 0"
+model "vehicle_civilian_80_coupe_2tone_black_iw6"
+classname "script_model"
+}
+{
+ltorigin "238.596 279.241 -36.4455"
+origin "240 284 -64"
+angles "0 270 0"
+model "vehicle_civilian_80_coupe_2tone_black_destroy_iw6"
+classname "script_model"
+}
+{
+ltorigin "161.5 2063.66 40.2957"
+origin "161.5 2010.5 -42"
+angles "0 270 0"
+model "vehicle_a10_warthog_iw6"
+classname "script_model"
+}
+{
+ltorigin "780 2473.14 33.9092"
+origin "780 2427.5 100"
+angles "0 270 0"
+model "vehicle_aas_72x"
+classname "script_model"
+}
+{
+ltorigin "2963.5 336.498 8.32528"
+origin "2963.5 301.5 -64"
+angles "0 270 0"
+model "vehicle_ad_truck_black"
+classname "script_model"
+}
+{
+ltorigin "3213 1240.45 -7.63"
+angles "0 0 0"
+origin "3213 1219 -64"
+model "vehicle_artemis_30"
+classname "script_model"
+}
+{
+ltorigin "2201.5 2737.52 62.1217"
+origin "2201.5 2678 152"
+angles "0 270 0"
+model "vehicle_battle_hind"
+classname "script_model"
+}
+{
+ltorigin "2688.5 299.353 -35.9781"
+origin "2689.5 301 -64"
+angles "0 270 0"
+model "fah_city_car_husk01"
+classname "script_model"
+}
+{
+ltorigin "462.596 327.241 -36.4455"
+origin "464 332 -64"
+angles "0 270 0"
+model "vehicle_civilian_80_coupe_2tone_red_destroy_iw6"
+classname "script_model"
+}
+{
+ltorigin "686.596 327.241 -36.4455"
+origin "688 332 -64"
+angles "0 270 0"
+model "vehicle_civilian_80_coupe_2tone_blue_destroy_iw6"
+classname "script_model"
+}
+{
+ltorigin "576 326.886 -33.8958"
+origin "576 332 -64"
+angles "0 270 0"
+model "vehicle_civilian_80_coupe_2tone_blue_iw6"
+classname "script_model"
+}
+{
+ltorigin "926.596 327.241 -36.4455"
+origin "928 332 -64"
+angles "0 270 0"
+model "vehicle_civilian_80_coupe_2tone_grey_destroy_iw6"
+classname "script_model"
+}
+{
+ltorigin "812 326.886 -33.8958"
+origin "812 332 -64"
+angles "0 270 0"
+model "vehicle_civilian_80_coupe_2tone_grey_iw6"
+classname "script_model"
+}
+{
+ltorigin "2070 2097.55 -38.0236"
+origin "2070 2097.5 -40"
+angles "0 270 0"
+model "vehicle_dominator_uav"
+classname "script_model"
+}
+{
+ltorigin "2006 2097.5 -32.5798"
+origin "2006 2097.5 -32"
+model "vehicle_drone_ball"
+classname "script_model"
+}
+{
+ltorigin "1957.32 2102.22 -30.2567"
+origin "1958 2097.5 -32"
+angles "0 270 0"
+model "vehicle_drone_tricopter"
+classname "script_model"
+}
+{
+ltorigin "1741.5 1265.76 -11.9763"
+origin "1741.5 1293 -64"
+angles "0 270 0"
+model "vehicle_excavator_small"
+classname "script_model"
+}
+{
+ltorigin "1845.5 1258.46 -18.4035"
+angles "0 0 0"
+origin "1845.5 1277 -64"
+model "vehicle_forklift_01"
+classname "script_model"
+}
+{
+ltorigin "149.5 1217.66 -28.0502"
+origin "149.5 1216 -64"
+angles "0 270 0"
+model "vehicle_gaz71_iw6"
+classname "script_model"
+}
+{
+ltorigin "3910.5 2387.53 64.3241"
+origin "3910.5 2357.5 -16"
+angles "0 270 0"
+model "vehicle_gun_boat_iw6"
+classname "script_model"
+}
+{
+ltorigin "2395.5 1291.69 -14.8822"
+origin "2395.5 1302 -64"
+angles "0 270 0"
+model "vehicle_iveco_lynx_iw6"
+classname "script_model"
+}
+{
+ltorigin "2968.56 1232.84 -14.9971"
+origin "2963.5 1230 -64"
+angles "0 270 0"
+model "vehicle_iveco_lynx_op_destroyed_iw6_static"
+classname "script_model"
+}
+{
+ltorigin "2771.5 1271.39 0.623047"
+angles "0 270 0"
+model "vehicle_iveco_lynx_op_iw6"
+origin "2771.5 1274 -64"
+classname "script_model"
+}
+{
+ltorigin "2575.02 1298.49 -7.6513"
+origin "2571.5 1306 -64"
+angles "0 270 0"
+model "vehicle_iveco_lynx_destroyed_iw6_static"
+classname "script_model"
+}
+{
+ltorigin "4559 2852.83 337.282"
+origin "4559 3197.5 128"
+angles "0 270 0"
+model "vehicle_lcs"
+classname "script_model"
+}
+{
+ltorigin "472 1355.11 9.32005"
+origin "472 1344 -64"
+angles "0 270 0"
+model "vehicle_tatra_t815_iw6_covered"
+classname "script_model"
+}
+{
+ltorigin "3500 1196.97 30.4581"
+origin "3500 1157.5 -64"
+angles "0 270 0"
+model "vehicle_mobile_railgun_cab"
+classname "script_model"
+}
+{
+ltorigin "3497.11 1562.87 10.54"
+origin "3500 1269.5 -64"
+angles "0 270 0"
+model "vehicle_mobile_railgun_trailer"
+classname "script_model"
+}
+{
+ltorigin "1991.98 1291.64 -24.0571"
+origin "1992 1280 -64"
+angles "0 270 0"
+model "vehicle_chinese_brave_warrior_anim"
+classname "script_model"
+}
+{
+ltorigin "3268 274.196 75.9042"
+angles "0 0 0"
+origin "3268 342 -52"
+model "vehicle_fema_truck_ac_unit"
+classname "script_model"
+}
+{
+ltorigin "3268 213.233 -10.0107"
+angles "0 0 0"
+origin "3268 320 -60"
+model "vehicle_fema_truck_cabin"
+classname "script_model"
+}
+{
+ltorigin "2191.04 1360.06 77.9311"
+origin "2190.9 1362.2 -63.5"
+angles "0 270 0"
+model "vehicle_m880_launcher"
+classname "script_model"
+}
+{
+ltorigin "1045.5 1379.49 -2.24395"
+origin "1045.5 1368.5 -64"
+angles "0 270 0"
+model "vehicle_man_7t_iw6"
+classname "script_model"
+}
+{
+ltorigin "1221.48 1378.81 -1.23225"
+origin "1226 1368.5 -64"
+angles "0 270 0"
+model "vehicle_man_7t_destroy_iw6"
+classname "script_model"
+}
+{
+ltorigin "3728.5 175.213 27.8099"
+angles "0 180 0"
+origin "3728.5 348 96"
+model "vehicle_metro_bus_cabin_back_vegas"
+classname "script_model"
+}
+{
+ltorigin "3728.5 631.664 16.6715"
+angles "0 180 0"
+origin "3728.5 412 88"
+model "vehicle_metro_bus_cabin_front_vegas"
+classname "script_model"
+}
+{
+ltorigin "3728.49 374.96 13.6608"
+angles "0 180 0"
+origin "3728.5 412 88"
+model "vehicle_metro_bus_cabin_middle_vegas"
+classname "script_model"
+}
+{
+ltorigin "3221.07 457.032 -47.355"
+origin "3268 424 -68"
+angles "0 0 0"
+model "vehicle_fema_truck_stairs"
+classname "script_model"
+}
+{
+ltorigin "3266.64 398.72 7.63445"
+angles "0 0 0"
+origin "3268 344 -60"
+model "vehicle_fema_truck_trailer"
+classname "script_model"
+}
+{
+ltorigin "3267.42 279.298 9.54323"
+angles "0 0 0"
+origin "3268 104 -68"
+model "vehicle_fema_truck_trailer_ext"
+classname "script_model"
+}
+{
+ltorigin "3272 352.569 11.8448"
+angles "0 0 0"
+origin "3272 280 -62"
+model "vehicle_fema_truck_vents"
+classname "script_model"
+}
+{
+ltorigin "1454.46 2687.19 64.6207"
+origin "1454.5 2595 68"
+angles "0 270 0"
+model "vehicle_nh90"
+classname "script_model"
+}
+{
+ltorigin "-88 112.947 -33.3192"
+origin "-88 116 -64"
+angles "0 270 0"
+model "ls_vehicle_police_sedan_flat_iw6"
+classname "script_model"
+}
+{
+ltorigin "20 200.947 -32.0798"
+origin "20 204 -64"
+angles "0 270 0"
+model "vehicle_police_sedan_iw6"
+classname "script_model"
+}
+{
+ltorigin "2817.19 320.88 -33.5488"
+origin "2815 322.5 -68"
+angles "0 270 0"
+model "vehicle_police_sedan_d_iw6"
+classname "script_model"
+}
+{
+ltorigin "1878 2113.92 -48.1894"
+origin "1878 2113.5 -48"
+angles "0 270 0"
+model "vehicle_remote_torpedo"
+classname "script_model"
+}
+{
+ltorigin "1351.99 1291.05 1.08158"
+origin "1352 1303.5 -64"
+angles "0 270 0"
+model "vehicle_scissor_lift"
+classname "script_model"
+}
+{
+ltorigin "1448.99 1294.05 -18.7414"
+origin "1449 1306.5 -64"
+angles "0 270 0"
+model "vehicle_scissor_lift_down"
+classname "script_model"
+}
+{
+ltorigin "3526 2398.53 12.098"
+origin "3526 2408 -64"
+angles "0 270 0"
+model "vehicle_seal_boat"
+classname "script_model"
+}
+{
+ltorigin "1814 2118.06 -43.4529"
+origin "1814 2113.5 -48"
+angles "0 270 0"
+model "vehicle_skylark"
+classname "script_model"
+}
+{
+ltorigin "299.713 1287.73 0.584053"
+origin "299.5 1270 -64"
+angles "0 270 0"
+model "vehicle_snowcat"
+classname "script_model"
+}
+{
+ltorigin "25 1103.26 -37.0467"
+origin "25 1096.5 -64"
+angles "0 270 0"
+model "vehicle_snowmobile_iw6"
+classname "script_model"
+}
+{
+ltorigin "3095.5 281.146 -26.6485"
+origin "3095.5 276 -64"
+angles "0 270 0"
+model "vehicle_station_wagon"
+classname "script_model"
+}
+{
+ltorigin "670.5 1365.03 -2.24395"
+origin "670.5 1354 -64"
+angles "0 270 0"
+model "vehicle_tatra_t815_iw6"
+classname "script_model"
+}
+{
+ltorigin "861.504 1365.92 -0.560249"
+origin "871 1362 -64"
+angles "0 270 0"
+model "vehicle_tatra_t815_destroy_iw6"
+classname "script_model"
+}
+{
+ltorigin "3488.52 359.874 26.5558"
+origin "3601.5 261 -483"
+angles "0 270 0"
+model "lv_train_falling"
+classname "script_model"
+}
+{
+ltorigin "1182 320.733 -34.3131"
+origin "1182 321 -64"
+angles "0 270 0"
+model "vehicle_civilian_sedan_black_iw6"
+classname "script_model"
+}
+{
+ltorigin "1060.32 320.315 -34.8057"
+origin "1058 321 -64"
+angles "0 270 0"
+model "vehicle_civilian_sedan_black_destroy_iw6"
+classname "script_model"
+}
+{
+ltorigin "1312.32 320.315 -34.8057"
+origin "1310 321 -64"
+angles "0 270 0"
+model "vehicle_civilian_sedan_blue_destroy_iw6"
+classname "script_model"
+}
+{
+ltorigin "1438 320.733 -34.3131"
+origin "1438 321 -64"
+angles "0 270 0"
+model "vehicle_civilian_sedan_blue_iw6"
+classname "script_model"
+}
+{
+ltorigin "1568.32 320.315 -34.8057"
+origin "1566 321 -64"
+angles "0 270 0"
+model "vehicle_civilian_sedan_bronze_destroy_iw6"
+classname "script_model"
+}
+{
+ltorigin "1694 320.733 -34.3131"
+origin "1694 321 -64"
+angles "0 270 0"
+model "vehicle_civilian_sedan_bronze_iw6"
+classname "script_model"
+}
+{
+ltorigin "1824.32 320.315 -34.8057"
+origin "1822 321 -64"
+angles "0 270 0"
+model "vehicle_civilian_sedan_gray_destroy_iw6"
+classname "script_model"
+}
+{
+ltorigin "1962 320.733 -34.3131"
+origin "1962 321 -64"
+angles "0 270 0"
+model "vehicle_civilian_sedan_gray_iw6"
+classname "script_model"
+}
+{
+ltorigin "2092.32 320.315 -34.8057"
+origin "2090 321 -64"
+angles "0 270 0"
+model "vehicle_civilian_sedan_red_destroy_iw6"
+classname "script_model"
+}
+{
+ltorigin "2226 320.733 -34.3131"
+origin "2226 321 -64"
+angles "0 270 0"
+model "vehicle_civilian_sedan_red_iw6"
+classname "script_model"
+}
+{
+ltorigin "2494 320.733 -34.3131"
+origin "2494 321 -64"
+angles "0 270 0"
+model "vehicle_civilian_sedan_white_iw6"
+classname "script_model"
+}
+{
+ltorigin "2360.32 320.315 -34.8057"
+origin "2358 321 -64"
+angles "0 270 0"
+model "vehicle_civilian_sedan_white_destroy_iw6"
+classname "script_model"
+}
+{
+ltorigin "-774.5 3176.43 354.633"
+origin "-774.5 2920 160"
+angles "0 270 0"
+model "vehicle_y_8"
+classname "script_model"
+}
+{
+origin "1671.5 -326 -32"
+angles "0 90 0"
+classname "info_player_start"
+}
+{
+ltorigin "1594 1380.65 30.6019"
+origin "1594 1595.5 -64"
+angles "0 270 0"
+model "vehicle_18wheeler_cab"
+classname "script_model"
+}

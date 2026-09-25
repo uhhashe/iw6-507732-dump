@@ -1,0 +1,1050 @@
+{
+classname "worldspawn"
+skycolor "0.99 1 1"
+skylight "0.9"
+radiosityscale "1.0"
+sunradiosity "1.3"
+contrastgain "0.425"
+_color ".8 .9 1"
+sunlight "1.3"
+sundirection "-30 299 0"
+suncolor "0.99 1 0.97"
+ambient ".0"
+maxbounces "2"
+}
+{
+origin "-5316 -240 -4"
+spawnflags "1"
+export "124"
+model "fullbody_gs_hostage_assault_a"
+classname "actor_ally_hesh_hostage_kriss"
+}
+{
+origin "-5252 -240 -4"
+spawnflags "1"
+export "126"
+model "fullbody_gs_hostage_assault_b"
+classname "actor_ally_merrick_hostage_kriss"
+}
+{
+origin "-5316 -688 -4"
+spawnflags "1"
+export "128"
+model "fullbody_elite_pmc_assault_a"
+classname "actor_enemy_elite_pmc_kriss"
+}
+{
+gndlt "0000000000"
+ltorigin "-4884 -752 40"
+angles "0 90 0"
+origin "-4884 -752 40"
+model "shader_dev_cloth_a_base"
+classname "script_model"
+}
+{
+origin "-5316 -288 -4"
+spawnflags "1"
+export "130"
+model "fullbody_ppilot_crew_a"
+classname "actor_prototype_ppilot_crew_a"
+}
+{
+gndlt "0000000000"
+ltorigin "-4836 -750 52"
+angles "0 90 0"
+origin "-4836 -750 52"
+model "head_ngcg_head_b"
+classname "script_model"
+}
+{
+gndlt "0000000000"
+ltorigin "-4804 -750 52"
+angles "0 90 0"
+origin "-4804 -750 52"
+model "head_ngcg_head_c"
+classname "script_model"
+}
+{
+origin "-5252 -288 -4"
+spawnflags "1"
+export "132"
+model "fullbody_ppilot_crew_b"
+classname "actor_prototype_ppilot_crew_b"
+}
+{
+origin "-5316 -768 -4"
+spawnflags "1"
+export "134"
+model "body_venezuela_army_smg_a"
+classname "actor_enemy_venezuela_army_smg"
+}
+{
+gndlt "0000000000"
+ltorigin "-4836.3 -780.777 13.3466"
+origin "-4836 -784 -8"
+model "fullbody_dog_a"
+classname "script_model"
+}
+{
+gndlt "0000000000"
+ltorigin "-4836.08 -812.777 13.3466"
+origin "-4836 -816 -8"
+model "fullbody_dog_b"
+classname "script_model"
+}
+{
+gndlt "0000000000"
+ltorigin "-4836 -844.777 13.3466"
+origin "-4836 -848 -8"
+model "fullbody_dog_c"
+classname "script_model"
+}
+{
+gndlt "0000000000"
+ltorigin "-4734 -784 36.5384"
+angles "0 90 0"
+origin "-4740 -784 -8"
+model "fullbody_deer_a"
+classname "script_model"
+}
+{
+gndlt "0000000000"
+ltorigin "-4734.5 -816 29.4878"
+angles "0 90 0"
+origin "-4740 -816 -8"
+model "fullbody_deer_b"
+classname "script_model"
+}
+{
+gndlt "0000000000"
+ltorigin "-4734.51 -848 35.2546"
+angles "0 90 0"
+origin "-4740 -848 -8"
+model "fullbody_deer_c"
+classname "script_model"
+}
+{
+gndlt "0000000000"
+ltorigin "-4924.85 -753.876 51.4382"
+origin "-4926 -754 54"
+model "viewmodel_kriss"
+classname "script_model"
+}
+{
+gndlt "0000000000"
+ltorigin "-4926.08 -777.702 46.7565"
+origin "-4926 -778 52"
+model "viewmodel_tar21"
+classname "script_model"
+}
+{
+origin "-5252 -768 -4"
+spawnflags "1"
+export "136"
+model "body_venezuela_army_assault_a"
+classname "actor_enemy_venezuela_army_assault"
+}
+{
+origin "-5316 -848 -4"
+spawnflags "1"
+export "138"
+model "fullbody_hazmat_a"
+classname "actor_enemy_hazmat_a_smg"
+}
+{
+origin "-5252 -848 -4"
+spawnflags "1"
+export "141"
+model "fullbody_hazmat_b"
+classname "actor_enemy_hazmat_b_smg"
+}
+{
+origin "-5316 16 -4"
+spawnflags "1"
+export "143"
+model "body_scientist_a"
+classname "actor_civilian_scientist_a"
+}
+{
+origin "-5252 16 -4"
+spawnflags "1"
+export "145"
+model "body_scientist_b"
+classname "actor_civilian_scientist_b"
+}
+{
+origin "-5188 16 -4"
+spawnflags "1"
+export "147"
+model "fullbody_scientist_c"
+classname "actor_civilian_scientist_c"
+}
+{
+origin "-5124 16 -4"
+spawnflags "1"
+export "149"
+model "fullbody_scientist_d"
+classname "actor_civilian_scientist_d"
+}
+{
+origin "-5316 -608 -4"
+spawnflags "1"
+export "151"
+model "body_elite_pmc_assault_b_arctic"
+classname "actor_enemy_elite_pmc_arctic_kriss"
+}
+{
+origin "-5252 -608 -4"
+spawnflags "1"
+export "153"
+model "body_elite_pmc_assault_b_desert"
+classname "actor_enemy_elite_pmc_desert_kriss"
+}
+{
+origin "-5188 -608 -4"
+spawnflags "1"
+export "155"
+model "body_elite_pmc_assault_b_elite"
+classname "actor_enemy_elite_pmc_kriss"
+}
+{
+origin "-5124 -608 -4"
+spawnflags "1"
+export "157"
+model "body_elite_pmc_assault_b_urban"
+classname "actor_enemy_elite_pmc_urban_kriss"
+}
+{
+origin "-5060 -608 -4"
+spawnflags "1"
+export "159"
+model "body_elite_pmc_assault_b_woodland"
+classname "actor_enemy_elite_pmc_woodland_kriss"
+}
+{
+origin "-5188 -240 -4"
+spawnflags "1"
+export "161"
+model "body_us_rangers_assault_a"
+classname "actor_ally_us_rangers_kriss"
+}
+{
+origin "-5252 -928 -4"
+spawnflags "1"
+export "163"
+model "body_fed_udt_assault_a"
+classname "actor_enemy_fed_udt_smg"
+}
+{
+origin "-5188 -160 0"
+spawnflags "1"
+export "164"
+model "body_us_rangers_assault_a_urban"
+classname "actor_ally_us_rangers_urban_kriss"
+}
+{
+origin "-5124 160 -4"
+spawnflags "1"
+export "165"
+model "fullbody_hesh_ranger_assault_a"
+classname "actor_hero_hesh_ranger_jacket"
+}
+{
+origin "-5252 160 -4"
+spawnflags "1"
+export "167"
+model "fullbody_hesh_ranger_assault_a"
+classname "actor_hero_hesh_ranger_light"
+}
+{
+origin "-5188 160 -4"
+spawnflags "1"
+export "168"
+model "fullbody_hesh_ranger_assault_a"
+classname "actor_hero_hesh_ranger_heavy"
+}
+{
+origin "-5428 -688 -4"
+spawnflags "1"
+export "57"
+model "body_russian_military_assault_a_woodland"
+classname "actor_gallery_russian_military_wood_assault"
+}
+{
+origin "-5428 -240 -4"
+spawnflags "1"
+export "92"
+model "fullbody_price_africa_assault_a"
+classname "actor_gallery_hero_price_africa"
+}
+{
+spawnflags "1"
+origin "-6324 -1008 -4"
+export "121"
+model "fullbody_def_mesh_body_a"
+classname "actor_gallery_def_mesh_body_a"
+}
+{
+spawnflags "1"
+origin "-6260 -1008 -4"
+export "122"
+model "fullbody_def_mesh_soldier_a"
+classname "actor_gallery_def_mesh_soldier_a"
+}
+{
+targetname "spawner_volume"
+classname "trigger_multiple"
+origin "-4836 472 376"
+model "?0"
+}
+{
+origin "-4980 -848 -8"
+targetname "spawner_ground"
+classname "script_struct"
+}
+{
+gndlt "0000000000"
+ltorigin "-4974.06 -752 52.6733"
+origin "-4980 -752 2"
+model "viewhands_player_gs_hostage"
+classname "script_model"
+}
+{
+origin "-8 148 48"
+targetname "highlight_model_point"
+angles "0 270 0"
+classname "script_struct"
+}
+{
+origin "56 148 48"
+targetname "highlight_model_point"
+angles "0 270 0"
+classname "script_struct"
+}
+{
+origin "120 148 48"
+targetname "highlight_model_point"
+angles "0 270 0"
+classname "script_struct"
+}
+{
+origin "184 148 48"
+targetname "highlight_model_point"
+angles "0 270 0"
+classname "script_struct"
+}
+{
+targetname "spawnpoint_1"
+origin "0 512 48"
+angles "0 270 0"
+classname "script_struct"
+}
+{
+targetname "spawnpoint_1"
+origin "-998 1750 20"
+angles "0 243 0"
+classname "script_struct"
+}
+{
+targetname "spawnpoint_2"
+origin "64 512 48"
+angles "0 270 0"
+classname "script_struct"
+}
+{
+targetname "spawnpoint_3"
+origin "128 512 48"
+angles "0 270 0"
+classname "script_struct"
+}
+{
+targetname "spawnpoint_4"
+origin "192 512 48"
+angles "0 270 0"
+classname "script_struct"
+}
+{
+targetname "spawnpoint_2"
+origin "-964 1698 20"
+angles "0 225 0"
+classname "script_struct"
+}
+{
+targetname "spawnpoint_3"
+origin "-496 1248 20"
+angles "0 72 0"
+classname "script_struct"
+}
+{
+targetname "spawnpoint_4"
+origin "-432 1248 20"
+angles "0 104 0"
+classname "script_struct"
+}
+{
+angles "0 30 0"
+targetname "auto1"
+origin "-1048 1688 8"
+_color "1.000000 1.000000 1.000000"
+classname "script_struct"
+}
+{
+classname "script_struct"
+_color "1.000000 1.000000 1.000000"
+origin "104 -40 8"
+target "auto1"
+targetname "move_player_start"
+angles "0 90 0"
+}
+{
+angles "90 45 -180"
+targetname "ch_streetlight_02_FX_origin"
+origin "424.487 840.787 212"
+classname "script_struct"
+}
+{
+classname "script_struct"
+origin "572.756 854.496 42.0301"
+targetname "fluorescent_glow_FX_origin"
+angles "30 93.3 -90"
+}
+{
+classname "script_struct"
+origin "515.213 853.5 41.0287"
+targetname "fluorescent_glow_FX_origin"
+angles "29.9881 90.8658 -88.2681"
+}
+{
+classname "script_struct"
+origin "629 853.5 42.0301"
+targetname "fluorescent_glow_FX_origin"
+angles "30 90 -90"
+}
+{
+classname "script_struct"
+origin "685.029 853.475 42.0443"
+targetname "fluorescent_glow_FX_origin"
+angles "29.6537 87.036 -91.1353"
+}
+{
+classname "script_struct"
+origin "437.5 919 42.0301"
+targetname "fluorescent_glow_FX_origin"
+angles "30 3.18772e-006 -90"
+}
+{
+classname "script_struct"
+origin "462.468 875.468 42.0301"
+targetname "fluorescent_glow_FX_origin"
+angles "30 45 -90"
+}
+{
+classname "script_struct"
+origin "461.5 1107 42.0301"
+targetname "fluorescent_glow_FX_origin"
+angles "30 3.18772e-006 -90"
+}
+{
+classname "script_struct"
+origin "436.5 1633.5 43.8301"
+targetname "fluorescent_glow_FX_origin"
+angles "30 3.18772e-006 -90"
+}
+{
+classname "script_struct"
+origin "436.5 1758.5 44.0301"
+targetname "fluorescent_glow_FX_origin"
+angles "30 3.18772e-006 -90"
+}
+{
+angles "90 45 -180"
+targetname "ch_streetlight_02_FX_origin"
+origin "1688.49 -663.213 212"
+classname "script_struct"
+}
+{
+classname "script_struct"
+origin "1836.76 -649.504 42.0301"
+targetname "fluorescent_glow_FX_origin"
+angles "30 93.3 -90"
+}
+{
+classname "script_struct"
+origin "1779.21 -650.5 41.0287"
+targetname "fluorescent_glow_FX_origin"
+angles "29.9881 90.8658 -88.2681"
+}
+{
+classname "script_struct"
+origin "1893 -650.5 42.0301"
+targetname "fluorescent_glow_FX_origin"
+angles "30 90 -90"
+}
+{
+classname "script_struct"
+origin "1949.03 -650.525 42.0443"
+targetname "fluorescent_glow_FX_origin"
+angles "29.6537 87.036 -91.1353"
+}
+{
+classname "script_struct"
+origin "1701.5 -585 42.0301"
+targetname "fluorescent_glow_FX_origin"
+angles "30 3.18772e-006 -90"
+}
+{
+classname "script_struct"
+origin "1726.47 -628.532 42.0301"
+targetname "fluorescent_glow_FX_origin"
+angles "30 45 -90"
+}
+{
+classname "script_struct"
+origin "1725.5 -397 42.0301"
+targetname "fluorescent_glow_FX_origin"
+angles "30 3.18772e-006 -90"
+}
+{
+classname "script_struct"
+origin "1700.5 129.5 43.8301"
+targetname "fluorescent_glow_FX_origin"
+angles "30 3.18772e-006 -90"
+}
+{
+classname "script_struct"
+origin "1700.5 254.5 44.0301"
+targetname "fluorescent_glow_FX_origin"
+angles "30 3.18772e-006 -90"
+}
+{
+angles "90 225 180"
+targetname "ch_streetlight_02_FX_origin"
+origin "-360.487 -72.7868 196"
+classname "script_struct"
+}
+{
+classname "script_struct"
+origin "-508.756 -86.4959 26.0301"
+targetname "fluorescent_glow_FX_origin"
+angles "30 273.3 -90"
+}
+{
+classname "script_struct"
+origin "-451.213 -85.5 25.0287"
+targetname "fluorescent_glow_FX_origin"
+angles "29.9881 270.866 -88.2681"
+}
+{
+classname "script_struct"
+origin "-565 -85.5 26.0301"
+targetname "fluorescent_glow_FX_origin"
+angles "30 270 -90"
+}
+{
+classname "script_struct"
+origin "-621.029 -85.4751 26.0443"
+targetname "fluorescent_glow_FX_origin"
+angles "29.6537 267.036 -91.1353"
+}
+{
+classname "script_struct"
+origin "-373.5 -151 26.0301"
+targetname "fluorescent_glow_FX_origin"
+angles "30 180 -90"
+}
+{
+classname "script_struct"
+origin "-398.468 -107.468 26.0301"
+targetname "fluorescent_glow_FX_origin"
+angles "30 225 -90"
+}
+{
+classname "script_struct"
+origin "-397.5 -339 26.0301"
+targetname "fluorescent_glow_FX_origin"
+angles "30 180 -90"
+}
+{
+classname "script_struct"
+origin "-372.5 -865.5 27.8301"
+targetname "fluorescent_glow_FX_origin"
+angles "30 180 -90"
+}
+{
+classname "script_struct"
+origin "-372.5 -990.5 28.0301"
+targetname "fluorescent_glow_FX_origin"
+angles "30 180 -90"
+}
+{
+gndlt "5556568001"
+ltorigin "-233.759 -1007.81 0.577721"
+sound_csv_include "destruct_firehydrant"
+csv_include "destructible_firehydrant"
+origin "-236 -1010 -16"
+targetname "destructible_toy"
+destructible_type "toy_firehydrant"
+model "com_firehydrant"
+classname "script_model"
+angles "0 180 0"
+}
+{
+gndlt "5454520000"
+ltorigin "299 1191 19.4557"
+sound_csv_include "destruct_parkingmeter"
+csv_include "destructible_parkingmeter"
+angles "0 180 0"
+destructible_type "toy_parkingmeter"
+targetname "destructible_toy"
+origin "299 1191 -8"
+model "com_parkingmeter_destructible"
+classname "script_model"
+}
+{
+gndlt "615d565e01"
+ltorigin "-101 1191 19.4557"
+sound_csv_include "destruct_parkingmeter"
+csv_include "destructible_parkingmeter"
+angles "0 180 0"
+destructible_type "toy_parkingmeter"
+targetname "destructible_toy"
+origin "-101 1191 -8"
+model "com_parkingmeter_destructible"
+classname "script_model"
+}
+{
+gndlt "5657558001"
+ltorigin "-101 1703 19.4557"
+sound_csv_include "destruct_parkingmeter"
+csv_include "destructible_parkingmeter"
+angles "0 180 0"
+destructible_type "toy_parkingmeter"
+targetname "destructible_toy"
+origin "-101 1703 -8"
+model "com_parkingmeter_destructible"
+classname "script_model"
+}
+{
+gndlt "5554508001"
+ltorigin "-101 1447 19.4557"
+sound_csv_include "destruct_parkingmeter"
+csv_include "destructible_parkingmeter"
+angles "0 180 0"
+destructible_type "toy_parkingmeter"
+targetname "destructible_toy"
+origin "-101 1447 -8"
+model "com_parkingmeter_destructible"
+classname "script_model"
+}
+{
+gndlt "5454530001"
+ltorigin "-101 1959 19.4557"
+sound_csv_include "destruct_parkingmeter"
+csv_include "destructible_parkingmeter"
+angles "0 180 0"
+destructible_type "toy_parkingmeter"
+targetname "destructible_toy"
+origin "-101 1959 -8"
+model "com_parkingmeter_destructible"
+classname "script_model"
+}
+{
+gndlt "4d4d4c0000"
+ltorigin "299 1703 27.4557"
+sound_csv_include "destruct_parkingmeter"
+csv_include "destructible_parkingmeter"
+angles "0 180 0"
+destructible_type "toy_parkingmeter"
+targetname "destructible_toy"
+origin "299 1703 0"
+model "com_parkingmeter_destructible"
+classname "script_model"
+}
+{
+gndlt "5353500000"
+ltorigin "299 1447 27.4557"
+sound_csv_include "destruct_parkingmeter"
+csv_include "destructible_parkingmeter"
+angles "0 180 0"
+destructible_type "toy_parkingmeter"
+targetname "destructible_toy"
+origin "299 1447 0"
+model "com_parkingmeter_destructible"
+classname "script_model"
+}
+{
+gndlt "4a4a480000"
+ltorigin "299 2215 27.4557"
+sound_csv_include "destruct_parkingmeter"
+csv_include "destructible_parkingmeter"
+angles "0 180 0"
+destructible_type "toy_parkingmeter"
+targetname "destructible_toy"
+origin "299 2215 0"
+model "com_parkingmeter_destructible"
+classname "script_model"
+}
+{
+gndlt "4c4d4c0000"
+ltorigin "299 1959 27.4557"
+sound_csv_include "destruct_parkingmeter"
+csv_include "destructible_parkingmeter"
+angles "0 180 0"
+destructible_type "toy_parkingmeter"
+targetname "destructible_toy"
+origin "299 1959 0"
+model "com_parkingmeter_destructible"
+classname "script_model"
+}
+{
+gndlt "6162606701"
+ltorigin "-110.241 847.812 8.57772"
+sound_csv_include "destruct_firehydrant"
+csv_include "destructible_firehydrant"
+origin "-108 850 -8"
+targetname "destructible_toy"
+destructible_type "toy_firehydrant"
+model "com_firehydrant"
+classname "script_model"
+}
+{
+gndlt "5a5b597401"
+ltorigin "297.726 935.774 22.2687"
+sound_csv_include "destruct_newspaperbox"
+csv_include "destructible_newspaperbox_blue"
+destructible_type "toy_newspaper_stand_blue"
+targetname "destructible_toy"
+origin "296 934 0"
+model "com_newspaperbox_blue"
+classname "script_model"
+}
+{
+gndlt "5a5b5a6401"
+ltorigin "296.678 906.175 22.2884"
+sound_csv_include "destruct_newspaperbox"
+csv_include "destructible_newspaperbox_red"
+targetname "destructible_toy"
+destructible_type "toy_newspaper_stand_red"
+origin "296 906 0"
+model "com_newspaperbox_red"
+classname "script_model"
+}
+{
+gndlt "3e3e3d7c01"
+ltorigin "-161.726 -147.774 6.26869"
+sound_csv_include "destruct_newspaperbox"
+csv_include "destructible_newspaperbox_blue"
+destructible_type "toy_newspaper_stand_blue"
+targetname "destructible_toy"
+origin "-160 -146 -16"
+model "com_newspaperbox_blue"
+classname "script_model"
+angles "0 180 0"
+}
+{
+gndlt "4748467901"
+ltorigin "-160.678 -118.175 6.28836"
+sound_csv_include "destruct_newspaperbox"
+csv_include "destructible_newspaperbox_red"
+targetname "destructible_toy"
+destructible_type "toy_newspaper_stand_red"
+origin "-160 -118 -16"
+model "com_newspaperbox_red"
+classname "script_model"
+angles "0 180 0"
+}
+{
+classname "script_struct"
+origin "-408 1853 97"
+targetname "light_red_steady_FX_origin"
+angles "0 180 -90"
+}
+{
+classname "script_struct"
+origin "-496 1875 97"
+targetname "light_red_steady_FX_origin"
+angles "0 0 -90"
+}
+{
+classname "script_struct"
+origin "-1286 1434 97"
+targetname "light_orange_steady_FX_origin"
+angles "0 90 -90"
+}
+{
+targetname "pf684_auto1"
+classname "trigger_use"
+origin "-783 1179 126"
+model "?1"
+}
+{
+gndlt "0202010000"
+ltorigin "-786.364 1176.4 125.868"
+sound_csv_include "destruct_tv_exp"
+csv_include "destructible_tubetv_tv1"
+targetname "interactive_tv"
+classname "script_model"
+model "com_tv1_cinematic"
+origin "-790.2 1172.6 116.8"
+angles "20 45 0"
+target "pf684_auto1"
+}
+{
+targetname "pf689_auto1"
+classname "trigger_use"
+origin "-667 1160 142"
+model "?2"
+}
+{
+gndlt "0101010000"
+ltorigin "-666.996 1155.64 141.868"
+sound_csv_include "destruct_tv_exp"
+csv_include "destructible_tubetv_tv1"
+targetname "interactive_tv"
+classname "script_model"
+model "com_tv1_cinematic"
+origin "-667 1150.6 132.8"
+angles "20 90 0"
+target "pf689_auto1"
+}
+{
+targetname "pf690_auto1"
+classname "trigger_use"
+origin "-634 1160 142"
+model "?3"
+}
+{
+gndlt "0201010000"
+ltorigin "-633.996 1155.64 141.868"
+sound_csv_include "destruct_tv_exp"
+csv_include "destructible_tubetv_tv1"
+targetname "interactive_tv"
+classname "script_model"
+model "com_tv1_cinematic"
+origin "-634 1150.6 132.8"
+angles "20 90 0"
+target "pf690_auto1"
+}
+{
+gndlt "1412140000"
+ltorigin "-530.57 1835.09 16.9774"
+sound_csv_include "destruct_filecabinet"
+csv_include "destructible_filecabinet"
+targetname "destructible_toy"
+destructible_type "toy_filecabinet"
+origin "-530.5 1835 -8"
+model "com_filecabinetblackclosed"
+classname "script_model"
+angles "0 276.3 0"
+}
+{
+origin "-1243 1477.5 580"
+targetname "light_glow_industrial_FX_origin"
+classname "script_struct"
+angles "0 90 -90"
+}
+{
+origin "-815 1293.5 580"
+targetname "light_glow_industrial_FX_origin"
+classname "script_struct"
+angles "0 90 -90"
+}
+{
+origin "-815 1661.5 580"
+targetname "light_glow_industrial_FX_origin"
+classname "script_struct"
+angles "0 90 -90"
+}
+{
+origin "-815 1477.5 580"
+targetname "light_glow_industrial_FX_origin"
+classname "script_struct"
+angles "0 90 -90"
+}
+{
+origin "-841 1661.5 580"
+targetname "light_glow_industrial_FX_origin"
+classname "script_struct"
+angles "0 270 -90"
+}
+{
+origin "-841 1293.5 580"
+targetname "light_glow_industrial_FX_origin"
+classname "script_struct"
+angles "0 270 -90"
+}
+{
+origin "-841 1477.5 580"
+targetname "light_glow_industrial_FX_origin"
+classname "script_struct"
+angles "0 270 -90"
+}
+{
+gndlt "09090b0000"
+ltorigin "-560.004 1823.86 50.8679"
+csv_include "destructible_tubetv_tv1"
+sound_csv_include "destruct_tv_exp"
+targetname "interactive_tv"
+classname "script_model"
+model "com_tv1_cinematic"
+origin "-560 1828.9 41.8"
+angles "20 270 -2.33606e-006"
+}
+{
+gndlt "09090b0000"
+ltorigin "-560.004 1827.9 75.003"
+csv_include "destructible_tubetv_tv1"
+sound_csv_include "destruct_tv_exp"
+targetname "interactive_tv"
+classname "script_model"
+model "com_tv1_cinematic"
+origin "-560 1827.9 63.8"
+angles "0 270 0"
+}
+{
+gndlt "1d1e1f0006"
+ltorigin "-385.288 1139.2 50.8679"
+csv_include "destructible_tubetv_tv1"
+sound_csv_include "destruct_tv_exp"
+targetname "interactive_tv"
+classname "script_model"
+model "com_tv1_cinematic"
+origin "-381.485 1135.36 41.8"
+angles "20 135 -1.65185e-006"
+}
+{
+gndlt "1f1f200006"
+ltorigin "-383.002 1136.91 75.003"
+csv_include "destructible_tubetv_tv1"
+sound_csv_include "destruct_tv_exp"
+targetname "interactive_tv"
+classname "script_model"
+model "com_tv1_cinematic"
+origin "-382.192 1136.07 63.8"
+angles "0 135 0"
+}
+{
+gndlt "2324260006"
+ltorigin "-362.388 1283.74 16.9774"
+sound_csv_include "destruct_filecabinet"
+csv_include "destructible_filecabinet"
+targetname "destructible_toy"
+destructible_type "toy_filecabinet"
+origin "-362.5 1284 -8"
+model "com_filecabinetblackclosed"
+classname "script_model"
+angles "0 100 0"
+}
+{
+targetname "pf806_auto1"
+classname "trigger_use"
+origin "-804 1264 39"
+model "?4"
+}
+{
+gndlt "1b1a190006"
+ltorigin "-809.732 1262.95 38.203"
+sound_csv_include "destruct_tv_exp"
+csv_include "destructible_tubetv_tv1"
+targetname "interactive_tv"
+classname "script_model"
+model "com_tv1_cinematic"
+origin "-810 1262.5 27"
+angles "0 15 0"
+target "pf806_auto1"
+}
+{
+targetname "pf807_auto1"
+classname "trigger_use"
+origin "-801 1346 39"
+model "?5"
+}
+{
+gndlt "18191c0000"
+ltorigin "-804.69 1349.16 38.203"
+sound_csv_include "destruct_tv_exp"
+csv_include "destructible_tubetv_tv1"
+targetname "interactive_tv"
+classname "script_model"
+model "com_tv1_cinematic"
+origin "-805.5 1350 27"
+angles "0 315 0"
+target "pf807_auto1"
+}
+{
+targetname "pf808_auto1"
+classname "trigger_use"
+origin "-375 1186 39"
+model "?6"
+}
+{
+gndlt "1d1f200006"
+ltorigin "-371.31 1182.84 38.203"
+sound_csv_include "destruct_tv_exp"
+csv_include "destructible_tubetv_tv1"
+targetname "interactive_tv"
+classname "script_model"
+model "com_tv1_cinematic"
+origin "-370.5 1182 27"
+angles "0 135 0"
+target "pf808_auto1"
+}
+{
+classname "script_struct"
+origin "-1150 1932 97"
+targetname "light_orange_steady_FX_origin"
+angles "0 0 -90"
+}
+{
+classname "script_struct"
+origin "-1150 1916 97"
+targetname "light_orange_steady_FX_origin"
+angles "0 180 -90"
+}
+{
+classname "script_struct"
+origin "-954 1932 97"
+targetname "light_orange_steady_FX_origin"
+angles "0 0 -90"
+}
+{
+classname "script_struct"
+origin "-954 1916 97"
+targetname "light_orange_steady_FX_origin"
+angles "0 180 -90"
+}
+{
+classname "script_struct"
+origin "-954 1084 97"
+targetname "light_orange_steady_FX_origin"
+angles "0 180 -90"
+}
+{
+classname "script_struct"
+origin "-954 1100 97"
+targetname "light_orange_steady_FX_origin"
+angles "0 0 -90"
+}
+{
+classname "script_struct"
+origin "-1150 1084 97"
+targetname "light_orange_steady_FX_origin"
+angles "0 180 -90"
+}
+{
+classname "script_struct"
+origin "-1150 1100 97"
+targetname "light_orange_steady_FX_origin"
+angles "0 0 -90"
+}
+{
+classname "script_struct"
+angles "0 180 0"
+targetname "ending_breach_org"
+origin "-432 1474 -8"
+}
+{
+classname "info_player_start"
+origin "32 -640 0"
+angles "0 90 0"
+}

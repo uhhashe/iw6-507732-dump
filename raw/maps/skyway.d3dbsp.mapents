@@ -1,0 +1,6482 @@
+{
+origin "0 0 0"
+sunlight "1.5"
+suncolor "1 0.94902 0.882353"
+sundirection "-48.295 61.617 0"
+classname "worldspawn"
+ambient "0.1"
+_color "1 0.905882 0.721569"
+skylight "1"
+skycolor "1 0.886275 0.776471"
+sunradiosity "0.25"
+sunlight_ng "8"
+}
+{
+classname "script_struct"
+angles "0 270 0"
+targetname "anim_track_loop_a_end"
+origin "51856 42032 -63216"
+}
+{
+classname "script_struct"
+targetname "anim_train_test"
+origin "-113600 66400 36192"
+angles "0 270 0"
+}
+{
+classname "script_model"
+model "sw_traincar_pass_body"
+origin "-76900 118832 33428"
+targetname "pass_car_body_1"
+}
+{
+classname "script_model"
+model "sw_traincar_pass_suspension"
+origin "-76342 118832 33325"
+targetname "pass_car_sus_f_1"
+}
+{
+classname "script_model"
+model "sw_traincar_pass_suspension"
+angles "0 180 0"
+origin "-77468 118832 33325"
+targetname "pass_car_sus_b_1"
+}
+{
+model "*1"
+origin "-76187 118938 33376"
+classname "script_brushmodel"
+script_noteworthy "sus_train_traincar_1_link"
+}
+{
+model "*2"
+origin "-76904 118832 33353"
+classname "script_brushmodel"
+script_noteworthy "sus_train_traincar_1_link"
+}
+{
+model "*3"
+origin "-78793 118832 33353"
+classname "script_brushmodel"
+script_noteworthy "sus_train_traincar_2_link"
+}
+{
+model "*4"
+origin "-76409 118952 33376"
+classname "script_brushmodel"
+script_noteworthy "sus_train_traincar_1_link"
+}
+{
+classname "script_model"
+model "sw_traincar_pass_body"
+origin "-78788 118832 33428"
+targetname "pass_car_body_2"
+}
+{
+model "*5"
+origin "-76371 118954 33376"
+classname "script_brushmodel"
+script_noteworthy "sus_train_traincar_1_link"
+}
+{
+classname "script_model"
+model "sw_traincar_pass_suspension"
+origin "-78230 118832 33325"
+targetname "pass_car_sus_f_2"
+}
+{
+model "*6"
+origin "-76340 118963 33376"
+classname "script_brushmodel"
+script_noteworthy "sus_train_traincar_1_link"
+}
+{
+model "*7"
+origin "-76269 118951 33376"
+classname "script_brushmodel"
+script_noteworthy "sus_train_traincar_1_link"
+}
+{
+model "*8"
+origin "-76225 118942 33376"
+classname "script_brushmodel"
+script_noteworthy "sus_train_traincar_1_link"
+}
+{
+classname "script_model"
+model "sw_traincar_pass_suspension"
+angles "0 180 0"
+origin "-79356 118832 33325"
+targetname "pass_car_sus_b_2"
+}
+{
+model "*9"
+origin "-80681 118832 33353"
+classname "script_brushmodel"
+script_noteworthy "sus_train_traincar_3_link"
+}
+{
+classname "script_origin"
+angles "0 0 0"
+targetname "rooftops_player_start"
+origin "-77698 118846 33326"
+script_noteworthy "sus_train_traincar_1_link"
+}
+{
+classname "script_model"
+model "sw_traincar_pass_body"
+origin "-80676 118832 33428"
+targetname "pass_car_body_3"
+}
+{
+classname "script_model"
+model "sw_traincar_pass_suspension"
+origin "-80118 118832 33325"
+targetname "pass_car_sus_f_3"
+}
+{
+classname "script_model"
+model "sw_traincar_pass_suspension"
+angles "0 180 0"
+origin "-81244 118832 33325"
+targetname "pass_car_sus_b_3"
+}
+{
+classname "script_model"
+model "sw_traincar_pass_body"
+origin "-82564 118832 33428"
+targetname "pass_car_body_4"
+}
+{
+classname "script_model"
+model "sw_traincar_pass_suspension"
+origin "-82006 118832 33325"
+targetname "pass_car_sus_b_4"
+}
+{
+classname "script_model"
+model "sw_traincar_pass_suspension"
+angles "0 180 0"
+origin "-83132 118832 33325"
+targetname "pass_car_sus_b_4"
+}
+{
+model "*10"
+origin "-82569 118832 33353"
+classname "script_brushmodel"
+script_noteworthy "sus_train_traincar_4_link"
+}
+{
+classname "script_origin"
+angles "0 0 0"
+targetname "test_02_player_start"
+origin "-83378 118830 33326"
+script_noteworthy "sus_train_traincar_1_link"
+}
+{
+classname "script_model"
+origin "-122882 123614 436"
+targetname "model_pass_dark"
+model "skyway_car_pass_interior_01"
+}
+{
+classname "script_model"
+model "sw_intro_cloth"
+origin "-122851 123803 93"
+targetname "model_pass_curtain"
+}
+{
+classname "script_struct"
+angles "0 270 0"
+targetname "anim_track_loop_a_start"
+origin "584 -60808 -63216"
+}
+{
+model "?0"
+origin "51712 42784 -63520"
+classname "trigger_multiple"
+script_noteworthy "player_train_trig_teleport"
+}
+{
+classname "actor_test_ally_rangers_flood_m4"
+model "body_rangers_bdu_assault_a"
+export "1"
+targetname "ally_01"
+origin "-129924 126272 28"
+script_noteworthy "spawner_allies"
+script_forcecolor "r"
+script_forcespawn "1"
+spawnflags "3"
+angles "0 0 0"
+lighttarget "null_pass_cargo_lighting"
+}
+{
+classname "actor_test_hero_ally01_udt_ar"
+model "body_hero_sandman_seal_udt_b"
+export "2"
+targetname "ally_02"
+origin "-129920 126208 28"
+script_noteworthy "spawner_allies_old"
+script_forcecolor "y"
+script_forcespawn "1"
+spawnflags "3"
+angles "0 0 0"
+lighttarget "null_pass_cargo_lighting"
+}
+{
+classname "script_struct"
+angles "0 90 0"
+targetname "anim_track__a3_end"
+origin "-15328 85552 -122776"
+}
+{
+classname "script_struct"
+angles "0 90 0"
+targetname "anim_track__a3_start"
+origin "106304 -51408 -122776"
+}
+{
+model "?1"
+origin "-16936 -696 -54400"
+classname "trigger_hurt"
+spawnflags "2"
+dmg "1000"
+}
+{
+model "?2"
+origin "73854 64700 14817"
+classname "trigger_multiple"
+script_noteworthy "player_train_trig_teleport"
+}
+{
+classname "script_struct"
+origin "-35072 -117792 17336"
+angles "0 270 0"
+targetname "anim_track_bc_start"
+}
+{
+model "?3"
+origin "86518 103108 -21551"
+classname "trigger_multiple"
+script_noteworthy "player_train_trig_teleport"
+}
+{
+classname "script_struct"
+angles "0 270 0"
+targetname "anim_track_bc_end"
+origin "73998 63380 15561"
+}
+{
+classname "script_struct"
+angles "0 270 0"
+targetname "anim_track_loop_b_end"
+origin "81133.5 104244 -20715"
+}
+{
+classname "script_struct"
+origin "14945.5 6686.5 -20715"
+angles "0 270 0"
+targetname "anim_track_loop_b_start"
+}
+{
+classname "script_model"
+model "sw_rog_hit_ref"
+origin "-23292 2440 -2048"
+targetname "model_rog_hit_ref_1"
+angles "0 225 0"
+}
+{
+model "?4"
+origin "18722 14130 43152"
+classname "trigger_multiple"
+script_noteworthy "player_train_trig_teleport"
+}
+{
+classname "script_struct"
+angles "0 270 0"
+targetname "anim_track_ab_end"
+origin "13337 15265.5 43988"
+}
+{
+classname "script_model"
+model "sw_rog_hit_ref"
+origin "58524 -38444 16232"
+targetname "model_rog_hit_ref_3"
+angles "0 225 0"
+}
+{
+classname "script_struct"
+angles "0 270 0"
+targetname "anim_track_ab_start"
+origin "-29685 -76754 43958"
+}
+{
+classname "script_model"
+model "sw_rog_hit_ref"
+origin "24612 22400 25036"
+targetname "model_rog_hit_ref_2"
+angles "0 225 0"
+}
+{
+classname "actor_villian_vargas_skyway"
+model "body_russian_military_assault_a_woodland"
+export "3"
+script_friendname "Vargas"
+spawnflags "1"
+origin "-129844 126308 24"
+targetname "actor_boss"
+script_ignoreall "1"
+script_ignoreme "1"
+angles "0 180 0"
+}
+{
+classname "info_player_start"
+angles "0 90 0"
+origin "-129920 126080 28"
+}
+{
+classname "script_model"
+model "lowerdeck_engine"
+origin "10548 48162 -49348"
+angles "0 180 0"
+}
+{
+classname "script_model"
+model "lowerdeck_engine"
+origin "10548 48318 -49348"
+angles "0 180 0"
+}
+{
+classname "script_model"
+model "lowerdeck_engine"
+origin "10838 48162 -49348"
+angles "0 180 0"
+}
+{
+classname "script_model"
+model "lowerdeck_engine"
+origin "10838 48318 -49348"
+angles "0 180 0"
+}
+{
+classname "script_model"
+model "sub_chair"
+origin "11503 48199 -49316"
+angles "0 270 0"
+}
+{
+classname "script_model"
+model "sub_chair"
+origin "11503 48293 -49316"
+angles "0 270 0"
+}
+{
+model "*11"
+origin "10786 48241 -49275"
+classname "script_brushmodel"
+targetname "loco"
+}
+{
+classname "script_struct"
+origin "584 -60808 -63216"
+}
+{
+classname "script_struct"
+origin "51856 42032 -63216"
+}
+{
+classname "script_struct"
+tagetname "anim_track_ref_prefab_tunnel"
+origin "-41487 5362.5 84196"
+angles "0 90 0"
+}
+{
+classname "script_model"
+model "lowerdeck_engine"
+origin "17534 -32405.2 74033.4"
+angles "333.6 270 180"
+}
+{
+classname "script_model"
+model "lowerdeck_engine"
+origin "17690 -32405.2 74033.4"
+angles "333.6 270 180"
+}
+{
+classname "script_model"
+model "lowerdeck_engine"
+origin "17534 -32145.5 73904.5"
+angles "333.6 270 180"
+}
+{
+classname "script_model"
+model "lowerdeck_engine"
+origin "17690 -32145.5 73904.5"
+angles "333.6 270 180"
+}
+{
+classname "script_model"
+model "sub_chair"
+origin "17571 -31564.1 73580.1"
+angles "0 180 -153.6"
+}
+{
+classname "script_model"
+model "sub_chair"
+origin "17665 -31564.1 73580.1"
+angles "0 180 -153.6"
+}
+{
+model "*12"
+origin "17613 -32181 73890"
+classname "script_brushmodel"
+targetname "loco"
+}
+{
+classname "script_struct"
+origin "-29685 -76754 43958"
+}
+{
+angles "0 90 0"
+classname "script_struct"
+tagetname "anim_track_ref_prefab_tunnel"
+origin "79525 112823 43988"
+}
+{
+angles "0 90 0"
+classname "script_struct"
+origin "79525 113575 44756"
+}
+{
+angles "0 90 0"
+classname "script_struct"
+tagetname "anim_track_ref_prefab_tunnel"
+origin "13337 15265.5 43988"
+}
+{
+angles "0 90 0"
+classname "script_struct"
+origin "13337 16017.5 44756"
+}
+{
+classname "script_struct"
+origin "11462 -89178 15561"
+angles "0 270 0"
+}
+{
+classname "script_struct"
+origin "73998 63380 15561"
+angles "0 0 0"
+}
+{
+script_noteworthy "train_sat_1"
+classname "node_negotiation_end"
+targetname "node_sat_1_jump_1"
+origin "-116936 123984 2456"
+angles "0 0 0"
+parentname "sat_01"
+}
+{
+script_noteworthy "train_sat_1"
+classname "script_origin"
+origin "-113942 123776 2784"
+targetname "train_rail_sfx"
+}
+{
+script_noteworthy "train_sat_1"
+classname "script_model"
+model "sw_traincar_loco_suspension"
+origin "-114301 123776 2673"
+angles "0 180 0"
+script_parameters "sus_f"
+}
+{
+script_noteworthy "train_sat_1"
+classname "script_model"
+model "sw_traincar_loco_suspension"
+origin "-116694 123776 2673"
+angles "0 180 0"
+script_parameters "sus_b"
+}
+{
+script_noteworthy "train_sat_1"
+classname "script_model"
+model "sw_traincar_satb_body"
+angles "0 0 0"
+script_parameters "body"
+origin "-115430 123776 2783"
+targetname "model_sat_1_body"
+}
+{
+model "*13"
+script_noteworthy "train_sat_1"
+origin "-115670 123780 2482"
+classname "script_brushmodel"
+targetname "sat_01"
+}
+{
+model "*14"
+script_noteworthy "train_sat_1"
+targetname "brush_cargo_01"
+origin "-115304 123932 2385"
+classname "script_brushmodel"
+script_parameters "dont_link"
+}
+{
+script_noteworthy "train_sat_1"
+targetname "brush_cargo_01"
+classname "script_model"
+model "blackice_refinery_tank_cap"
+angles "0 90 0"
+origin "-115164 123934 2366"
+script_parameters "dont_link"
+}
+{
+script_noteworthy "train_sat_1"
+targetname "brush_cargo_01"
+classname "script_model"
+model "blackice_refinery_tank_cap"
+angles "0 270 0"
+origin "-115444 123934 2366"
+script_parameters "dont_link"
+}
+{
+model "*15"
+script_noteworthy "train_sat_1"
+targetname "brush_cargo_02"
+origin "-115304 123620 2385"
+classname "script_brushmodel"
+script_parameters "dont_link"
+}
+{
+script_noteworthy "train_sat_1"
+targetname "brush_cargo_02"
+classname "script_model"
+model "blackice_refinery_tank_cap"
+angles "0 90 0"
+origin "-115164 123622 2366"
+script_parameters "dont_link"
+}
+{
+script_noteworthy "train_sat_1"
+targetname "brush_cargo_02"
+classname "script_model"
+model "blackice_refinery_tank_cap"
+angles "0 270 0"
+origin "-115444 123622 2366"
+script_parameters "dont_link"
+}
+{
+script_noteworthy "train_sat_1"
+classname "script_model"
+model "sw_traincar_satb_satellite_1"
+origin "-115302 123378 2362"
+targetname "model_sat_1_satellite_1"
+angles "0 180 0"
+target "brush_cargo_02"
+}
+{
+script_noteworthy "train_sat_1"
+classname "script_model"
+model "sw_traincar_satb_satellite_1"
+origin "-115304 124158 2362"
+targetname "model_sat_1_satellite_2"
+target "brush_cargo_01"
+angles "0 180 0"
+}
+{
+script_noteworthy "train_sat_1"
+classname "script_model"
+model "cnd_railing_roof_01"
+origin "-114710 123956 2736"
+angles "0 180 0"
+}
+{
+script_noteworthy "train_sat_1"
+classname "script_model"
+model "cnd_railing_roof_01"
+origin "-114632 123956 2736"
+angles "0 180 0"
+}
+{
+script_noteworthy "train_sat_1"
+classname "script_model"
+model "cnd_railing_roof_01"
+origin "-114788 123956 2736"
+angles "0 180 0"
+}
+{
+script_noteworthy "train_sat_1"
+classname "script_model"
+model "cnd_railing_roof_01"
+origin "-114866 123956 2736"
+angles "0 180 0"
+}
+{
+script_noteworthy "train_sat_1"
+classname "script_model"
+model "cnd_railing_roof_01"
+origin "-114944 123956 2736"
+angles "0 180 0"
+}
+{
+script_noteworthy "train_sat_1"
+classname "script_model"
+model "cnd_railing_roof_01_union"
+origin "-115022 123956 2736"
+angles "0 180 0"
+}
+{
+script_noteworthy "train_sat_1"
+classname "script_model"
+model "cnd_railing_roof_01"
+origin "-114950 123596 2736"
+angles "0 0 0"
+}
+{
+script_noteworthy "train_sat_1"
+classname "script_model"
+model "cnd_railing_roof_01"
+origin "-115028 123596 2736"
+angles "0 0 0"
+}
+{
+script_noteworthy "train_sat_1"
+classname "script_model"
+model "cnd_railing_roof_01"
+origin "-114872 123596 2736"
+angles "0 0 0"
+}
+{
+script_noteworthy "train_sat_1"
+classname "script_model"
+model "cnd_railing_roof_01"
+origin "-114794 123596 2736"
+angles "0 0 0"
+}
+{
+script_noteworthy "train_sat_1"
+classname "script_model"
+model "cnd_railing_roof_01"
+origin "-114716 123596 2736"
+angles "0 0 0"
+}
+{
+script_noteworthy "train_sat_1"
+classname "script_model"
+model "cnd_railing_roof_01_union"
+origin "-114638 123596 2736"
+angles "0 0 0"
+}
+{
+script_noteworthy "train_sat_1"
+classname "script_model"
+model "sw_traincar_satb_satellite_2"
+origin "-115675 123784 2707"
+angles "0 0 0"
+targetname "model_sat_1_satellite_4"
+}
+{
+script_noteworthy "train_sat_1"
+classname "script_model"
+model "cnd_railing_roof_01"
+origin "-116446 123956 2736"
+angles "0 180 0"
+}
+{
+script_noteworthy "train_sat_1"
+classname "script_model"
+model "sw_traincar_satb_satellite_1"
+origin "-116038 123610 2490"
+targetname "model_sat_1_satellite_5"
+}
+{
+script_noteworthy "train_sat_1"
+classname "script_model"
+model "clk_container_liquid"
+angles "0 180 0"
+origin "-116825 123672 2436"
+}
+{
+script_noteworthy "train_sat_1"
+classname "script_model"
+model "sw_traincar_satb_satellite_1"
+origin "-116038 123938 2490"
+targetname "model_sat_1_satellite_6"
+}
+{
+script_noteworthy "train_sat_1"
+classname "script_model"
+model "clk_container_liquid"
+angles "0 180 0"
+origin "-116825 123672 2468"
+}
+{
+script_noteworthy "train_sat_1"
+classname "script_model"
+model "clk_container_liquid"
+angles "0 180 0"
+origin "-116833 123672 2436"
+}
+{
+script_noteworthy "train_sat_1"
+classname "script_model"
+model "clk_container_liquid"
+angles "0 180 0"
+origin "-116825 123640 2436"
+}
+{
+script_noteworthy "train_sat_1"
+classname "script_model"
+model "clk_container_liquid"
+angles "0 180 0"
+origin "-116825 123640 2468"
+}
+{
+script_noteworthy "train_sat_1"
+classname "script_model"
+model "clk_container_liquid"
+angles "0 180 0"
+origin "-116833 123640 2436"
+}
+{
+script_noteworthy "train_sat_1"
+classname "script_model"
+model "clk_container_liquid"
+angles "0 180 0"
+origin "-116833 123640 2468"
+}
+{
+script_noteworthy "train_sat_1"
+classname "script_model"
+model "clk_container_liquid"
+angles "0 0 0"
+origin "-116873 123640 2436"
+}
+{
+script_noteworthy "train_sat_1"
+classname "script_model"
+model "clk_nitrogen_tank"
+origin "-116834 123694 2436"
+}
+{
+script_noteworthy "train_sat_1"
+classname "script_model"
+model "clk_nitrogen_tank"
+origin "-116820 123694 2436"
+angles "0 270 0"
+}
+{
+script_noteworthy "train_sat_1"
+classname "script_model"
+model "clk_nitrogen_tank"
+origin "-116832 123694 2436"
+angles "0 270 0"
+}
+{
+script_noteworthy "train_sat_1"
+classname "script_model"
+model "clk_exterior_catwalk_02"
+origin "-114966 123859 2544"
+angles "0 0 0"
+}
+{
+script_noteworthy "train_sat_1"
+classname "script_model"
+model "clk_exterior_catwalk_02"
+origin "-114965 123628 2544"
+angles "0 0 0"
+}
+{
+script_noteworthy "train_sat_1"
+classname "script_model"
+model "cnd_railing_roof_01"
+origin "-116368 123956 2736"
+angles "0 180 0"
+}
+{
+script_noteworthy "train_sat_1"
+classname "script_model"
+model "cnd_railing_roof_01"
+origin "-116524 123956 2736"
+angles "0 180 0"
+}
+{
+script_noteworthy "train_sat_1"
+classname "script_model"
+model "cnd_railing_roof_01"
+origin "-116602 123956 2736"
+angles "0 180 0"
+}
+{
+script_noteworthy "train_sat_1"
+classname "script_model"
+model "cnd_railing_roof_01"
+origin "-116680 123956 2736"
+angles "0 180 0"
+}
+{
+script_noteworthy "train_sat_1"
+classname "script_model"
+model "cnd_railing_roof_01_union"
+origin "-116758 123956 2736"
+angles "0 180 0"
+}
+{
+script_noteworthy "train_sat_1"
+classname "script_model"
+model "cnd_railing_roof_01"
+origin "-116686 123596 2736"
+angles "0 0 0"
+}
+{
+script_noteworthy "train_sat_1"
+classname "script_model"
+model "cnd_railing_roof_01"
+origin "-116764 123596 2736"
+angles "0 0 0"
+}
+{
+script_noteworthy "train_sat_1"
+classname "script_model"
+model "cnd_railing_roof_01"
+origin "-116608 123596 2736"
+angles "0 0 0"
+}
+{
+script_noteworthy "train_sat_1"
+classname "script_model"
+model "cnd_railing_roof_01"
+origin "-116530 123596 2736"
+angles "0 0 0"
+}
+{
+script_noteworthy "train_sat_1"
+classname "script_model"
+model "cnd_railing_roof_01"
+origin "-116452 123596 2736"
+angles "0 0 0"
+}
+{
+script_noteworthy "train_sat_1"
+classname "script_model"
+model "cnd_railing_roof_01_union"
+origin "-116374 123596 2736"
+angles "0 0 0"
+}
+{
+script_noteworthy "train_sat_1"
+classname "script_origin"
+origin "-116934 123776 2784"
+targetname "train_rail_sfx"
+}
+{
+script_noteworthy "train_sat_1"
+classname "node_pathnode"
+origin "-116822 123984 2456"
+parentname "sat_01"
+}
+{
+model "?5"
+script_noteworthy "train_sat_1"
+origin "-115618 123788 1720"
+classname "trigger_multiple_flag_set"
+script_flag "flag_kill_plane"
+}
+{
+script_noteworthy "train_sat_1"
+classname "node_cover_left"
+script_color_allies "r0"
+origin "-116822 123920 2456"
+spawnflags "4"
+parentname "sat_01"
+angles "0 0 0"
+}
+{
+script_noteworthy "train_sat_1"
+classname "node_pathnode"
+origin "-115378 123760 2456"
+parentname "sat_01"
+}
+{
+model "?6"
+script_noteworthy "train_sat_1"
+origin "-117042 123804 2600"
+classname "trigger_multiple_friendly"
+script_color_allies "r1"
+targetname "trig_sat_1_allies_1"
+target "pf755_auto2131"
+}
+{
+script_noteworthy "train_sat_1"
+classname "script_origin"
+angles "0 0 0"
+targetname "ally1_start_sat1"
+origin "-116720 123984 2432"
+}
+{
+script_noteworthy "train_sat_1"
+classname "node_cover_left"
+script_color_allies "r1"
+origin "-116314 123960 2456"
+spawnflags "4"
+parentname "sat_01"
+angles "0 270 0"
+}
+{
+model "?7"
+script_noteworthy "train_sat_1"
+origin "-115554 123772 2480"
+classname "trigger_multiple_friendly"
+script_color_allies "r2"
+targetname "pf755_auto7"
+target "pf755_auto2125"
+script_namenumber "1"
+script_parameters "20"
+}
+{
+script_noteworthy "train_sat_1"
+classname "node_exposed"
+angles "0 0 0"
+parentname "sat_01"
+script_color_allies "r3"
+origin "-114606 123872 2576"
+spawnflags "4"
+}
+{
+script_noteworthy "train_sat_1"
+classname "node_cover_right"
+angles "0 1.00179e-005 0"
+script_color_allies "r4"
+origin "-115518 123824 2448"
+spawnflags "4"
+parentname "sat_01"
+targetname "pf755_auto2129"
+}
+{
+script_noteworthy "train_sat_1"
+classname "node_pathnode"
+origin "-115790 123944 2448"
+parentname "sat_01"
+}
+{
+script_noteworthy "train_sat_1"
+classname "node_pathnode"
+origin "-115790 123608 2448"
+parentname "sat_01"
+}
+{
+script_noteworthy "train_sat_1"
+classname "node_pathnode"
+origin "-115678 123944 2448"
+parentname "sat_01"
+}
+{
+script_noteworthy "train_sat_1"
+classname "node_pathnode"
+origin "-114838 123656 2572"
+parentname "sat_01"
+}
+{
+script_noteworthy "train_sat_1"
+classname "node_negotiation_end"
+angles "0 270 0"
+targetname "pf755_auto2141"
+origin "-115274 123708 2480"
+parentname "brush_cargo_02"
+}
+{
+script_noteworthy "train_sat_1"
+classname "node_pathnode"
+origin "-115518 123792 2448"
+parentname "sat_01"
+}
+{
+script_noteworthy "train_sat_1"
+classname "node_pathnode"
+origin "-115454 123792 2448"
+parentname "sat_01"
+}
+{
+script_noteworthy "train_sat_1"
+classname "node_concealment_crouch"
+angles "0 180 0"
+parentname "sat_01"
+origin "-115030 123664 2568"
+}
+{
+script_noteworthy "train_sat_1"
+classname "node_pathnode"
+origin "-115030 123720 2568"
+parentname "sat_01"
+}
+{
+script_noteworthy "train_sat_1"
+classname "node_pathnode"
+origin "-114838 123896 2572"
+parentname "sat_01"
+}
+{
+script_noteworthy "train_sat_1"
+classname "node_pathnode"
+origin "-115030 123832 2568"
+parentname "sat_01"
+}
+{
+script_noteworthy "train_sat_1"
+classname "node_pathnode"
+origin "-114942 123968 2572"
+parentname "sat_01"
+}
+{
+script_noteworthy "train_sat_1"
+classname "node_pathnode"
+origin "-115006 123968 2508"
+parentname "sat_01"
+}
+{
+script_noteworthy "train_sat_1"
+classname "node_pathnode"
+origin "-115518 123760 2448"
+parentname "sat_01"
+}
+{
+script_noteworthy "train_sat_1"
+classname "node_pathnode"
+origin "-115070 123968 2460"
+parentname "sat_01"
+}
+{
+script_noteworthy "train_sat_1"
+classname "node_pathnode"
+origin "-114678 123904 2576"
+parentname "sat_01"
+}
+{
+script_noteworthy "train_sat_1"
+classname "node_pathnode"
+origin "-115454 123760 2448"
+parentname "sat_01"
+}
+{
+script_noteworthy "train_sat_1"
+classname "node_cover_left"
+angles "0 0 0"
+origin "-115070 123928 2456"
+spawnflags "4"
+parentname "sat_01"
+script_color_allies "r2"
+targetname "pf755_auto9"
+}
+{
+script_noteworthy "train_sat_1"
+classname "node_cover_left"
+angles "0 1.00179e-005 0"
+script_color_allies "r4"
+origin "-115518 123728 2448"
+spawnflags "4"
+parentname "sat_01"
+targetname "pf755_auto2134"
+}
+{
+model "*16"
+script_noteworthy "train_sat_1"
+origin "-114298 123776 2564"
+classname "script_brushmodel"
+}
+{
+script_noteworthy "train_sat_1"
+classname "node_pathnode"
+origin "-114782 123960 2576"
+parentname "sat_01"
+}
+{
+script_noteworthy "train_sat_1"
+classname "node_concealment_stand"
+angles "0 180 0"
+origin "-115382 123852 2456"
+spawnflags "4"
+parentname "brush_cargo_01"
+targetname "pf755_auto2135"
+target "pf755_auto24"
+radius "16"
+script_flag_wait "flag_sat_retreat_1"
+}
+{
+script_noteworthy "train_sat_1"
+classname "node_pathnode"
+origin "-115378 123792 2456"
+parentname "sat_01"
+}
+{
+script_noteworthy "train_sat_1"
+classname "node_pathnode"
+origin "-115830 123760 2448"
+parentname "sat_01"
+}
+{
+script_noteworthy "train_sat_1"
+target "pf755_auto2141"
+origin "-115274 123778 2480"
+animscript "wall_hop"
+angles "0 270 0"
+classname "node_negotiation_begin"
+targetname "traverse"
+parentname "sat_01"
+}
+{
+script_noteworthy "train_sat_1"
+classname "script_origin"
+targetname "player_start_sat1"
+origin "-116998 123984 2432"
+angles "0 0 0"
+}
+{
+script_noteworthy "train_sat_1"
+classname "node_pathnode"
+origin "-116054 123760 2456"
+parentname "sat_01"
+}
+{
+script_noteworthy "train_sat_1"
+classname "node_cover_right"
+script_color_allies "r5"
+origin "-116238 123842 2456"
+spawnflags "0"
+parentname "sat_01"
+angles "0 0 0"
+}
+{
+script_noteworthy "train_sat_1"
+classname "node_pathnode"
+origin "-116270 123960 2456"
+parentname "sat_01"
+}
+{
+model "?8"
+script_noteworthy "train_sat_1"
+origin "-117420 123808 2596"
+classname "trigger_multiple_friendly"
+script_color_allies "r0"
+}
+{
+model "?9"
+script_noteworthy "train_sat_1"
+origin "-116270 123980 2496"
+classname "trigger_multiple_friendly"
+script_color_allies "r6"
+targetname "pf755_auto2132"
+target "trig_sat_enemy_spawn"
+}
+{
+script_noteworthy "train_sat_1"
+classname "node_pathnode"
+origin "-115830 123792 2448"
+parentname "sat_01"
+}
+{
+script_noteworthy "train_sat_1"
+classname "node_cover_stand"
+angles "0 180 0"
+origin "-115382 123700 2456"
+spawnflags "4"
+parentname "brush_cargo_02"
+targetname "pf755_auto2136"
+radius "16"
+target "pf755_auto24"
+script_flag_wait "flag_sat_retreat_1"
+}
+{
+script_noteworthy "train_sat_1"
+classname "node_negotiation_end"
+angles "0 90 0"
+targetname "pf755_auto2140"
+origin "-115306 123768 2480"
+parentname "sat_01"
+}
+{
+script_noteworthy "train_sat_1"
+classname "node_pathnode"
+origin "-115894 123760 2448"
+parentname "sat_01"
+}
+{
+model "?10"
+script_noteworthy "train_sat_1"
+origin "-116652 123984 2496"
+classname "trigger_multiple_friendly"
+script_color_allies "r5"
+targetname "pf755_auto2131"
+target "pf755_auto2132"
+}
+{
+script_noteworthy "train_sat_1"
+classname "node_pathnode"
+origin "-116238 123760 2456"
+parentname "sat_01"
+}
+{
+model "?11"
+script_noteworthy "train_sat_1"
+origin "-116238 123780 2432"
+classname "trigger_multiple_friendly"
+script_color_allies "r6"
+target "pf755_auto2124"
+targetname "trig_sat_enemy_spawn"
+}
+{
+script_noteworthy "train_sat_1"
+classname "node_negotiation_end"
+angles "0 270 0"
+targetname "pf755_auto2139"
+origin "-115242 123782 2480"
+parentname "sat_01"
+}
+{
+script_noteworthy "train_sat_1"
+classname "node_pathnode"
+origin "-114950 123656 2572"
+parentname "sat_01"
+}
+{
+script_noteworthy "train_sat_1"
+classname "node_pathnode"
+origin "-115306 123852 2456"
+parentname "brush_cargo_01"
+}
+{
+script_noteworthy "train_sat_1"
+classname "script_origin"
+angles "0 0 0"
+targetname "ally_start_sat2"
+origin "-114450 123872 2576"
+}
+{
+script_noteworthy "train_sat_1"
+classname "script_origin"
+targetname "player_start_sat2"
+origin "-114720 123922 2544"
+angles "0 0 0"
+}
+{
+script_noteworthy "train_sat_1"
+classname "node_pathnode"
+origin "-115350 123700 2456"
+parentname "brush_cargo_02"
+}
+{
+script_noteworthy "train_sat_1"
+classname "node_pathnode"
+origin "-115186 123760 2456"
+parentname "sat_01"
+}
+{
+script_noteworthy "train_sat_1"
+classname "node_pathnode"
+origin "-116238 123792 2456"
+parentname "sat_01"
+}
+{
+script_noteworthy "train_sat_1"
+classname "node_pathnode"
+origin "-116054 123792 2456"
+parentname "sat_01"
+}
+{
+script_noteworthy "train_sat_1"
+classname "node_pathnode"
+origin "-115894 123792 2448"
+parentname "sat_01"
+}
+{
+script_noteworthy "train_sat_1"
+classname "node_concealment_stand"
+angles "0 1.00179e-005 0"
+script_color_allies "r6"
+origin "-115790 123656 2448"
+spawnflags "4"
+parentname "sat_01"
+}
+{
+script_noteworthy "train_sat_1"
+classname "node_negotiation_end"
+angles "0 90 0"
+targetname "pf755_auto2108"
+origin "-115338 123842 2480"
+parentname "brush_cargo_01"
+}
+{
+script_noteworthy "train_sat_1"
+classname "node_exposed"
+angles "0 0 0"
+parentname "sat_01"
+script_color_allies "r3"
+origin "-114606 123680 2572"
+spawnflags "4"
+}
+{
+script_noteworthy "train_sat_1"
+classname "node_pathnode"
+origin "-114950 123896 2572"
+parentname "sat_01"
+}
+{
+model "?12"
+script_noteworthy "train_sat_1"
+origin "-114722 123768 2664"
+classname "trigger_multiple_flag_set"
+script_flag "flag_sat_end"
+targetname "pf755_auto2142"
+}
+{
+script_noteworthy "train_sat_1"
+classname "actor_enemy_elite_pmc_kriss"
+model "fullbody_elite_pmc_assault_a"
+export "10"
+angles "0 90 0"
+origin "-115090 123682 2432"
+spawnflags "1"
+count "3"
+script_forcespawn "1"
+targetname "actor_sat1_1"
+target "pf755_auto2136"
+}
+{
+script_noteworthy "train_sat_1"
+classname "node_pathnode"
+origin "-115186 123792 2456"
+parentname "sat_01"
+}
+{
+script_noteworthy "train_sat_1"
+target "pf755_auto2108"
+origin "-115338 123772 2480"
+animscript "wall_hop"
+angles "0 90 0"
+classname "node_negotiation_begin"
+targetname "traverse"
+parentname "sat_01"
+}
+{
+model "?13"
+script_noteworthy "train_sat_1"
+origin "-115266 123760 2504"
+classname "trigger_multiple_friendly"
+script_color_allies "r3"
+targetname "pf755_auto2125"
+target "pf755_auto2127"
+}
+{
+script_noteworthy "train_sat_1"
+classname "script_origin"
+origin "-115338 123812 2472"
+targetname "pf755_auto2108"
+angles "0 90 0"
+}
+{
+script_noteworthy "train_sat_1"
+classname "node_pathnode"
+origin "-114910 123968 2572"
+parentname "sat_01"
+}
+{
+script_noteworthy "train_sat_1"
+classname "node_pathnode"
+origin "-114910 123584 2572"
+parentname "sat_01"
+}
+{
+script_noteworthy "train_sat_1"
+classname "node_pathnode"
+origin "-114782 123592 2572"
+parentname "sat_01"
+}
+{
+script_noteworthy "train_sat_1"
+classname "node_pathnode"
+origin "-115078 123792 2456"
+parentname "sat_01"
+}
+{
+script_noteworthy "train_sat_1"
+classname "node_pathnode"
+origin "-115078 123760 2456"
+parentname "sat_01"
+}
+{
+script_noteworthy "train_sat_1"
+target "pf755_auto2139"
+origin "-115242 123852 2480"
+animscript "wall_hop"
+angles "0 270 0"
+classname "node_negotiation_begin"
+targetname "traverse"
+parentname "brush_cargo_01"
+}
+{
+script_noteworthy "train_sat_1"
+classname "node_pathnode"
+origin "-114942 123584 2572"
+parentname "sat_01"
+}
+{
+script_noteworthy "train_sat_1"
+classname "node_pathnode"
+origin "-115006 123584 2508"
+parentname "sat_01"
+}
+{
+script_noteworthy "train_sat_1"
+classname "script_origin"
+origin "-115242 123812 2472"
+targetname "pf755_auto2139"
+angles "0 270 0"
+}
+{
+script_noteworthy "train_sat_1"
+classname "node_pathnode"
+origin "-115070 123584 2460"
+parentname "sat_01"
+}
+{
+script_noteworthy "train_sat_1"
+classname "node_pathnode"
+origin "-115674 123608 2448"
+parentname "sat_01"
+}
+{
+script_noteworthy "train_sat_1"
+classname "script_origin"
+origin "-115274 123738 2472"
+targetname "pf755_auto2141"
+angles "0 270 0"
+}
+{
+script_noteworthy "train_sat_1"
+classname "node_pathnode"
+origin "-115110 123760 2456"
+parentname "sat_01"
+}
+{
+script_noteworthy "train_sat_1"
+classname "node_pathnode"
+origin "-115110 123792 2456"
+parentname "sat_01"
+}
+{
+script_noteworthy "train_sat_1"
+classname "node_cover_left"
+angles "0 180 0"
+origin "-115110 123838 2456"
+spawnflags "0"
+parentname "sat_01"
+targetname "pf755_auto2143"
+script_flag_wait "flag_sat_retreat_2"
+target "pf755_auto2126"
+radius "16"
+}
+{
+script_noteworthy "train_sat_1"
+classname "node_exposed"
+angles "0 195 0"
+parentname "sat_01"
+origin "-114644 123720 2572"
+spawnflags "4"
+targetname "pf755_auto2145"
+}
+{
+script_noteworthy "train_sat_1"
+target "pf755_auto2140"
+origin "-115306 123698 2480"
+animscript "wall_hop"
+angles "0 90 0"
+classname "node_negotiation_begin"
+targetname "traverse"
+parentname "brush_cargo_02"
+}
+{
+script_noteworthy "train_sat_1"
+classname "script_origin"
+origin "-115306 123738 2472"
+targetname "pf755_auto2140"
+angles "0 90 0"
+}
+{
+script_noteworthy "train_sat_1"
+classname "node_exposed"
+angles "0 165 0"
+parentname "sat_01"
+origin "-114652 123848 2572"
+spawnflags "4"
+targetname "pf755_auto2146"
+}
+{
+model "*17"
+script_noteworthy "train_sat_1"
+origin "-115674 123776 2424"
+classname "script_brushmodel"
+}
+{
+script_noteworthy "train_sat_1"
+classname "node_pathnode"
+origin "-114678 123648 2572"
+parentname "sat_01"
+}
+{
+script_noteworthy "train_sat_1"
+classname "node_cover_right"
+angles "0 0 0"
+origin "-115070 123624 2460"
+spawnflags "4"
+parentname "sat_01"
+script_color_allies "r2"
+targetname "pf755_auto11"
+}
+{
+script_noteworthy "train_sat_1"
+classname "actor_enemy_elite_pmc_kriss"
+model "fullbody_elite_pmc_assault_a"
+export "9"
+angles "0 270 0"
+origin "-115082 123958 2432"
+spawnflags "1"
+count "3"
+script_forcespawn "1"
+targetname "actor_sat1_1"
+target "pf755_auto2135"
+}
+{
+model "?14"
+script_noteworthy "train_sat_1"
+origin "-115714 124480 2460"
+classname "trigger_multiple_flag_set"
+script_flag "flag_sat_retreat_1"
+script_parameters "dont_link"
+targetname "pf755_auto7"
+}
+{
+script_noteworthy "train_sat_1"
+classname "node_cover_right"
+angles "0 180 0"
+parentname "sat_01"
+origin "-114716 123812 2572"
+spawnflags "64"
+}
+{
+script_noteworthy "train_sat_1"
+classname "node_pathnode"
+origin "-115558 123608 2448"
+parentname "sat_01"
+}
+{
+script_noteworthy "train_sat_1"
+classname "node_cover_left"
+angles "0 180 0"
+parentname "sat_01"
+origin "-114716 123740 2572"
+spawnflags "64"
+}
+{
+script_noteworthy "train_sat_1"
+classname "node_guard"
+angles "0 180 0"
+parentname "sat_01"
+origin "-114716 123776 2572"
+spawnflags "1"
+radius "150"
+targetname "pf755_auto2126"
+}
+{
+model "?15"
+script_noteworthy "train_sat_1"
+origin "-115534 124496 2460"
+classname "trigger_multiple_flag_set"
+script_flag "flag_sat_retreat_2"
+script_parameters "dont_link"
+targetname "pf755_auto2125"
+}
+{
+model "?16"
+script_noteworthy "train_sat_1"
+origin "-114481 124488 2460"
+classname "trigger_multiple_spawn"
+target "actor_sat1_1"
+script_parameters "dont_link"
+targetname "pf755_auto2124"
+}
+{
+script_noteworthy "train_sat_1"
+classname "actor_enemy_elite_pmc_kriss"
+model "fullbody_elite_pmc_assault_a"
+export "4"
+angles "0 180 0"
+origin "-114874 123972 2560"
+spawnflags "1"
+count "3"
+script_forcespawn "1"
+targetname "actor_sat1_1"
+target "pf755_auto2143"
+}
+{
+model "?17"
+script_noteworthy "train_sat_1"
+origin "-115270 124440 2460"
+classname "trigger_multiple_flag_set"
+script_flag "flag_sat_retreat_3"
+script_parameters "dont_link"
+targetname "pf755_auto2127"
+}
+{
+script_noteworthy "train_sat_1"
+classname "node_concealment_crouch"
+angles "0 180 0"
+parentname "sat_01"
+origin "-115030 123888 2568"
+}
+{
+script_noteworthy "train_sat_1"
+classname "node_concealment_prone"
+angles "0 180 0"
+parentname "sat_01"
+origin "-115030 123776 2568"
+radius "128"
+targetname "pf755_auto24"
+script_flag_wait "flag_sat_retreat_3"
+spawnflags "4"
+}
+{
+script_noteworthy "train_sat_1"
+classname "actor_test_enemy_pmc_sniper"
+model "fullbody_elite_pmc_assault_a"
+export "7"
+angles "0 180 0"
+origin "-114742 123656 2544"
+spawnflags "1"
+count "3"
+script_forcespawn "1"
+targetname "actor_sat1_1"
+target "pf755_auto24"
+script_fixednode "1"
+}
+{
+script_noteworthy "train_sat_1"
+classname "node_pathnode"
+origin "-115558 123944 2448"
+parentname "sat_01"
+}
+{
+script_noteworthy "train_sat_1"
+classname "node_pathnode"
+origin "-114566 123680 2576"
+parentname "sat_01"
+}
+{
+script_noteworthy "train_sat_1"
+classname "node_pathnode"
+origin "-115078 123664 2456"
+parentname "sat_01"
+}
+{
+script_noteworthy "train_sat_1"
+classname "node_pathnode"
+origin "-115078 123888 2456"
+parentname "sat_01"
+}
+{
+script_noteworthy "train_sat_1"
+classname "node_pathnode"
+origin "-116630 123984 2456"
+parentname "sat_01"
+}
+{
+script_noteworthy "train_sat_1"
+classname "node_pathnode"
+origin "-116438 123984 2456"
+parentname "sat_01"
+}
+{
+model "?18"
+script_noteworthy "train_sat_1"
+origin "-115698 123776 2480"
+classname "trigger_multiple_friendly"
+script_color_allies "r4"
+targetname "pf755_auto2124"
+target "pf755_auto7"
+script_parameters "20"
+script_namenumber "2"
+}
+{
+script_noteworthy "train_sat_1"
+classname "node_pathnode"
+origin "-114494 123680 2608"
+parentname "sat_01"
+}
+{
+script_noteworthy "train_sat_1"
+classname "node_pathnode"
+origin "-114390 123680 2608"
+parentname "sat_01"
+}
+{
+script_noteworthy "train_sat_1"
+classname "node_pathnode"
+origin "-114566 123872 2576"
+parentname "sat_01"
+}
+{
+script_noteworthy "train_sat_1"
+classname "node_pathnode"
+origin "-114494 123872 2608"
+parentname "sat_01"
+}
+{
+script_noteworthy "train_sat_1"
+classname "node_pathnode"
+origin "-114390 123872 2608"
+parentname "sat_01"
+}
+{
+script_noteworthy "train_sat_1"
+classname "node_pathnode"
+origin "-114526 123680 2584"
+parentname "sat_01"
+}
+{
+script_noteworthy "train_sat_1"
+classname "node_pathnode"
+origin "-114526 123872 2584"
+parentname "sat_01"
+}
+{
+script_noteworthy "train_sat_1"
+target "node_rt_traverse_1"
+origin "-114294 123872 2604"
+animscript "stepup_52"
+angles "0 0 0"
+classname "node_negotiation_begin"
+targetname "traverse"
+parentname "sat_01"
+}
+{
+script_noteworthy "train_sat_1"
+classname "script_origin"
+origin "-114270 123872 2640"
+targetname "node_rt_traverse_1"
+_color "0.000000 1.000000 0.250980"
+angles "0 0 0"
+}
+{
+model "?19"
+script_noteworthy "train_sat_1"
+origin "-114274 123872 2603"
+classname "trigger_multiple"
+targetname "delete_on_load"
+}
+{
+script_noteworthy "train_sat_1"
+target "node_rt_traverse_2"
+origin "-114294 123680 2604"
+animscript "stepup_52"
+angles "0 0 0"
+classname "node_negotiation_begin"
+targetname "traverse"
+parentname "sat_01"
+}
+{
+script_noteworthy "train_sat_1"
+classname "script_origin"
+origin "-114270 123680 2640"
+targetname "node_rt_traverse_2"
+_color "0.000000 1.000000 0.250980"
+angles "0 0 0"
+}
+{
+model "?20"
+script_noteworthy "train_sat_1"
+origin "-114274 123680 2603"
+classname "trigger_multiple"
+targetname "delete_on_load"
+}
+{
+script_noteworthy "train_sat_1"
+classname "node_concealment_stand"
+angles "0 1.00179e-005 0"
+script_color_allies "r6"
+origin "-115790 123744 2448"
+spawnflags "4"
+parentname "sat_01"
+}
+{
+script_noteworthy "train_sat_1"
+classname "node_concealment_stand"
+angles "0 1.00179e-005 0"
+script_color_allies "r6"
+origin "-115790 123808 2448"
+spawnflags "4"
+parentname "sat_01"
+}
+{
+script_noteworthy "train_sat_1"
+classname "node_concealment_stand"
+angles "0 1.00179e-005 0"
+script_color_allies "r6"
+origin "-115790 123896 2448"
+spawnflags "4"
+parentname "sat_01"
+}
+{
+model "?21"
+script_noteworthy "train_passenger_1"
+origin "-120486 123777 2466"
+classname "trigger_multiple"
+targetname "skyway_amb"
+script_audio_zone "skyway_train_int skyway_train_ext"
+script_audio_zones "skyway_train_int skyway_train_ext"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "sw_traincar_pass_suspension"
+origin "-119891 123776 2673"
+angles "0 180 0"
+script_parameters "sus_f"
+}
+{
+model "*18"
+script_noteworthy "train_passenger_1"
+origin "-119889 123776 2669"
+classname "script_brushmodel"
+script_parameters "sus_f_link"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "sw_traincar_pass_suspension"
+origin "-120979 123776 2673"
+angles "0 180 0"
+script_parameters "sus_b"
+}
+{
+model "*19"
+script_noteworthy "train_passenger_1"
+origin "-120977 123776 2669"
+classname "script_brushmodel"
+script_parameters "sus_b_link"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "sw_traincar_pass_body"
+angles "0 0 0"
+script_parameters "body"
+origin "-120434 123776 2783"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "ow_electricbox4_ns"
+angles "0 0 0"
+origin "-120762 123576 2498"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "com_fire_light"
+origin "-120466 123576 2538"
+angles "0 270 0"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "me_electricbox2"
+angles "0 0 0"
+origin "-120682 123576 2514"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "clk_electric_pipes_01"
+angles "0 90 0"
+origin "-119928 123576 2432"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "clk_container_liquid"
+angles "0 267.4 0"
+origin "-120477 123830 2426"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "cargo_cage_64x96x48"
+angles "0 180 0"
+origin "-121234 123636 2426"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "cnd_pallet_ammo_02"
+origin "-121234 123930 2426"
+angles "0 270 0"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "cargo_cage_64x96x48"
+angles "0 0 0"
+origin "-121298 123904 2426"
+}
+{
+model "*20"
+script_noteworthy "train_passenger_1"
+origin "-120470 123788 2412"
+classname "script_brushmodel"
+targetname "passenger_01"
+}
+{
+model "*21"
+script_noteworthy "train_passenger_1"
+origin "-119566 123844 2474"
+classname "script_brushmodel"
+targetname "passenger_01"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "727_seats_row_left"
+origin "-120842 123776 2426"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "com_plasticcase_green_big_idf_iw6"
+origin "-120299 123755 2425"
+angles "0 180 0"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "com_plasticcase_green_big_idf_iw6"
+origin "-120123 123777 2461.5"
+angles "0 270 0"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "com_plasticcase_green_big_idf_iw6"
+origin "-120123 123777 2429.5"
+angles "0 270 0"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "cnd_pallet_ammo_02"
+origin "-121234 123880 2426"
+angles "0 270 0"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "sw_hatch_01"
+origin "-121298 123644 2426"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "com_plasticcase_green_big_idf_iw6"
+origin "-120303 123757 2461.5"
+angles "0 180 0"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "com_plasticcase_green_big_idf_iw6"
+origin "-120315 123801 2425"
+angles "0 90 0"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "com_plasticcase_green_big_idf_iw6"
+origin "-120275 123779 2514"
+angles "0 90 0"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "cardboard_box3"
+origin "-120320 123832 2445"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "bi_command_center_panel_2"
+origin "-120543 123648 2441"
+modelscale ".7"
+angles "0 270 0"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "bi_command_center_panel_22"
+origin "-120544 123648 2452.5"
+angles "0 270 0"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "cardboard_box1"
+origin "-120320 123832 2426"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "ny_harbor_sub_command_switch_08"
+angles "0 0 0"
+modelscale "2"
+origin "-121059 123967 2480"
+targertname "door_button"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "hind_arena_tarp_orange"
+angles "355.1 89.7 5.83405e-007"
+origin "-120934 123591 2482.5"
+}
+{
+script_noteworthy "train_passenger_1"
+origin "-120940 123975 2424"
+angles "90 5.00896e-006 -89.9999"
+classname "script_model"
+model "ch_bunker_wires_01"
+}
+{
+script_noteworthy "train_passenger_1"
+origin "-121011 123975 2424"
+angles "90 5.00896e-006 -89.9999"
+classname "script_model"
+model "ch_bunker_wires_01"
+}
+{
+angles "1.00179e-005 180 -90"
+origin "-120949 123959 2533.8"
+classname "script_model"
+model "com_airduct_square"
+script_noteworthy "train_passenger_1"
+}
+{
+angles "1.00179e-005 180 -90"
+origin "-121012 123959 2533.8"
+classname "script_model"
+model "com_airduct_square"
+script_noteworthy "train_passenger_1"
+}
+{
+script_noteworthy "train_passenger_1"
+origin "-121078 123975 2424"
+angles "90 5.00896e-006 -89.9999"
+classname "script_model"
+model "ch_bunker_wires_01"
+}
+{
+script_noteworthy "train_passenger_1"
+origin "-121148 123975 2424"
+angles "90 5.00896e-006 -89.9999"
+classname "script_model"
+model "ch_bunker_wires_01"
+}
+{
+script_noteworthy "train_passenger_1"
+origin "-121219 123975 2424"
+angles "90 5.00896e-006 -89.9999"
+classname "script_model"
+model "ch_bunker_wires_01"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "bi_command_center_panel_22"
+origin "-120544 123632 2444.5"
+angles "0 270 0"
+}
+{
+angles "1.00179e-005 180 -90"
+origin "-121199 123959 2533.8"
+classname "script_model"
+model "com_airduct_square"
+script_noteworthy "train_passenger_1"
+}
+{
+angles "1.00179e-005 180 -90"
+origin "-121262 123959 2533.8"
+classname "script_model"
+model "com_airduct_square"
+script_noteworthy "train_passenger_1"
+}
+{
+angles "1.00179e-005 180 -90"
+origin "-121074 123959 2533.8"
+classname "script_model"
+model "com_airduct_square"
+script_noteworthy "train_passenger_1"
+}
+{
+angles "1.00179e-005 180 -90"
+origin "-121137 123959 2533.8"
+classname "script_model"
+model "com_airduct_square"
+script_noteworthy "train_passenger_1"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "machinery_railing_single_short02"
+angles "0 0 0"
+origin "-120584 124044 2427"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "cnd_office_chair_01"
+angles "0 116 0"
+origin "-120560 123614 2426"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "clk_container_liquid"
+angles "0 270 0"
+origin "-120476 123854 2426"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "clk_computercontrolbox_02"
+angles "0 270 0"
+origin "-120539 123632 2470"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "bi_command_center_panel_22"
+origin "-120544 123632 2450.5"
+angles "0 270 0"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "clk_computercontrolbox_01"
+angles "0 270 0"
+origin "-120539 123644 2470"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "ma_computer_monitor_mount"
+angles "4.89999 146 -1.05175e-006"
+origin "-120517 123609 2534.7"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "com_emergencylightcase_blue"
+origin "-120420 123940 2546"
+angles "0 180 -180"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "com_emergencylightcase_blue"
+origin "-120244 123940 2546"
+angles "0 180 -180"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "clk_lab_compoundanalyzer_01_device04"
+angles "0 180 0"
+origin "-120437 123701 2455.5"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "clk_lab_compoundanalyzer_01_device05"
+angles "0 270 0"
+origin "-120453 123718 2455.5"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "sor_monitor_01"
+angles "0 236 15"
+modelscale ".65"
+origin "-120521 123613 2512.8"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "com_plasticcase_green_big_idf_iw6"
+origin "-120315 123779 2514"
+angles "0 90 0"
+}
+{
+model "*22"
+script_noteworthy "train_passenger_1"
+origin "-119494 123908 2486"
+classname "script_brushmodel"
+targetname "passenger_01"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "727_coach_seat01"
+origin "-120842 123728 2426"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "727_coach_seat01"
+origin "-120842 123824 2426"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "sub_bridge_console_03"
+origin "-119858 123624 2462"
+angles "0 180 0"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "sub_bridge_console_03"
+origin "-119810 123624 2462"
+angles "0 180 0"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "sub_bridge_console_03"
+origin "-119906 123624 2462"
+angles "0 180 0"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "hind_arena_tarp_orange"
+angles "355.1 179.7 1.16681e-006"
+origin "-119719 123700 2478.5"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "727_coach_seat01"
+angles "0 90 0"
+origin "-119866 123808 2426"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "727_coach_seat01"
+angles "0 270 0"
+origin "-119894 123752 2426"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "727_coach_seat01"
+angles "0 90 0"
+origin "-119894 123808 2426"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "727_coach_seat01"
+angles "0 270 0"
+origin "-119922 123752 2426"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "727_coach_seat01"
+angles "0 90 0"
+origin "-119922 123808 2426"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "727_coach_seat01"
+angles "0 270 0"
+origin "-119950 123752 2426"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "727_coach_seat01"
+angles "0 90 0"
+origin "-119950 123808 2426"
+}
+{
+angles "1.00179e-005 180 -90"
+origin "-120469 123599 2509.8"
+classname "script_model"
+model "com_airduct_square"
+script_noteworthy "train_passenger_1"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "machinery_railing_single_short02"
+angles "0 270 0"
+origin "-119494 124034 2427"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "machinery_railing_single_short02"
+angles "0 180 0"
+origin "-119493 124044 2427"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "floor_grate_catwalk_metal"
+origin "-119786 124008 2426"
+angles "0 270 0"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "com_plasticcase_green_big_idf_iw6"
+origin "-120235 123771 2514"
+angles "0 90 0"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "floor_grate_catwalk_metal"
+origin "-120018 124008 2426"
+angles "0 270 0"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "floor_grate_catwalk_metal"
+origin "-120250 124008 2426"
+angles "0 270 0"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "floor_grate_catwalk_metal"
+origin "-120482 124008 2426"
+angles "0 270 0"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "machinery_railing_single_short02"
+angles "0 90 0"
+origin "-121526 123506 2427"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "machinery_railing_single_short02"
+angles "0 0 0"
+origin "-121511 123508 2427"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "machinery_railing_single_short02"
+angles "0 270 0"
+origin "-121502 124046 2146"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "machinery_railing_single_long02"
+angles "0 180 0"
+origin "-121106 123508 2427"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "floor_grate_catwalk_metal"
+origin "-120714 124008 2426"
+angles "0 270 0"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "floor_grate_catwalk_metal"
+origin "-120946 124008 2426"
+angles "0 270 0"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "floor_grate_catwalk_metal"
+origin "-121154 124008 2426"
+angles "0 270 0"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "floor_grate_catwalk_metal"
+origin "-119786 123544 2426"
+angles "0 270 0"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "floor_grate_catwalk_metal"
+origin "-120018 123544 2426"
+angles "0 270 0"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "floor_grate_catwalk_metal"
+origin "-120250 123544 2426"
+angles "0 270 0"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "floor_grate_catwalk_metal"
+origin "-120482 123544 2426"
+angles "0 270 0"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "floor_grate_catwalk_metal"
+origin "-120714 123544 2426"
+angles "0 270 0"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "floor_grate_catwalk_metal"
+origin "-120946 123544 2426"
+angles "0 270 0"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "machinery_railing_single_long02"
+angles "0 180 0"
+origin "-121218 123508 2427"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "machinery_railing_single_long02"
+angles "0 180 0"
+origin "-120994 123508 2427"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "machinery_railing_single_long02"
+angles "0 180 0"
+origin "-120882 123508 2427"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "machinery_railing_single_long02"
+angles "0 180 0"
+origin "-120658 123508 2427"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "machinery_railing_single_long02"
+angles "0 180 0"
+origin "-120770 123508 2427"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "machinery_railing_single_long02"
+angles "0 180 0"
+origin "-120546 123508 2427"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "machinery_railing_single_long02"
+angles "0 180 0"
+origin "-120434 123508 2427"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "machinery_railing_single_long02"
+angles "0 180 0"
+origin "-120210 123508 2427"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "machinery_railing_single_long02"
+angles "0 180 0"
+origin "-120322 123508 2427"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "machinery_railing_single_long02"
+angles "0 180 0"
+origin "-120098 123508 2427"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "machinery_railing_single_long02"
+angles "0 180 0"
+origin "-119986 123508 2427"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "machinery_railing_single_long02"
+angles "0 180 0"
+origin "-119874 123508 2427"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "machinery_railing_single_long02"
+angles "0 180 0"
+origin "-119762 123508 2427"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "floor_grate_catwalk_metal"
+origin "-121154 123544 2426"
+angles "0 270 0"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "floor_grate_catwalk_metal"
+origin "-121458 123544 2426"
+angles "0 270 0"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "clk_electric_pipes_01"
+angles "0 90 0"
+origin "-121080 123576 2432"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "machinery_railing_single_short02"
+angles "0 90 0"
+origin "-119493 123520 2146"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "ny_harbor_sub_int_light_3"
+angles "1.00179e-005 180 90"
+origin "-120667 123968 2531"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "cnd_exit_door_right"
+angles "0 0 0"
+origin "-121494 123580 2146"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "machinery_railing_single_long02"
+angles "0 180 0"
+origin "-121330 123508 2427"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "machinery_railing_single_long02"
+angles "0 180 0"
+origin "-121338 123508 2146"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "machinery_railing_single_short02"
+angles "0 90 0"
+origin "-121502 123506 2146"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "machinery_railing_single_short02"
+angles "0 0 0"
+origin "-121500 123508 2146"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "dt_mirror_large"
+angles "270 0 0"
+origin "-120684 123974 2522"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "mp_prison_sink_toilet"
+angles "0 270 0"
+origin "-120666 123968 2426"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "usa_toiletpaper_dispenser"
+angles "0 270 0"
+origin "-120634 123926 2482"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "machinery_railing_single_long02"
+angles "0 180 0"
+origin "-119509 123508 2146"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "cnd_exit_door_right"
+angles "0 0 0"
+origin "-119658 123580 2146"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "machinery_railing_single_short02"
+angles "0 90 0"
+origin "-119672 123520 2146"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "machinery_railing_single_short02"
+angles "0 0 0"
+origin "-119670 123508 2146"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "bi_command_center_panel_16_b"
+origin "-120544 123653 2462"
+modelscale ".75"
+angles "90 60.187 150.187"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "bi_command_center_panel_17_a"
+origin "-120544 123637 2458.5"
+angles "0 270 0"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "bi_command_center_panel_22"
+origin "-120544 123648 2458.5"
+angles "0 270 0"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "bi_command_center_panel_26_c"
+origin "-120544 123649 2466"
+modelscale ".5"
+angles "0 270 0"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "bi_command_center_panel_27_b"
+angles "0 270 0"
+origin "-120542 123637 2465"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "clk_container_liquid"
+angles "0 270 0"
+origin "-120476 123854 2458"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "bi_command_center_button_10"
+origin "-120544 123626 2466.5"
+angles "0 90 -90"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "bi_command_center_button_11"
+origin "-120544 123626 2464.5"
+angles "0 90 -90"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "machinery_railing_single_long02"
+angles "0 0 0"
+origin "-121116 124044 2427"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "com_plasticcase_green_big_idf_iw6"
+origin "-120286 123625 2457"
+angles "90 90 -180"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "bi_command_center_panel_23_b"
+origin "-120544 123630 2465.4"
+angles "0 270 0"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "machinery_railing_single_long02"
+angles "0 0 0"
+origin "-121222 124044 2427"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "machinery_railing_single_long02"
+angles "0 0 0"
+origin "-121010 124044 2427"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "machinery_railing_single_long02"
+angles "0 0 0"
+origin "-120904 124044 2427"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "machinery_railing_single_long02"
+angles "0 0 0"
+origin "-120526 124044 2427"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "machinery_railing_single_long02"
+angles "0 0 0"
+origin "-120798 124044 2427"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "machinery_railing_single_long02"
+angles "0 0 0"
+origin "-120418 124044 2427"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "machinery_railing_single_long02"
+angles "0 0 0"
+origin "-120202 124044 2427"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "machinery_railing_single_long02"
+angles "0 0 0"
+origin "-120310 124044 2427"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "machinery_railing_single_long02"
+angles "0 0 0"
+origin "-120094 124044 2427"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "machinery_railing_single_long02"
+angles "0 0 0"
+origin "-119986 124044 2427"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "machinery_railing_single_long02"
+angles "0 0 0"
+origin "-119874 124044 2427"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "machinery_railing_single_long02"
+angles "0 0 0"
+origin "-119762 124044 2427"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "ow_electricbox4_ns"
+angles "0 180 0"
+origin "-121274 123976 2498"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "clk_electric_pipes_01"
+angles "0 270 0"
+origin "-121096 123976 2428"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "me_electricbox2"
+angles "0 180 0"
+origin "-121354 123976 2514"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "com_fire_light"
+origin "-120802 123976 2538"
+angles "0 90 0"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "com_fire_bell"
+origin "-120834 123976 2522"
+angles "0 90 0"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "clk_container_liquid"
+angles "0 180 0"
+origin "-120116 123939 2426"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "clk_container_liquid"
+angles "0 180 0"
+origin "-120116 123939 2458"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "ow_electricbox4_ns"
+angles "0 180 0"
+origin "-120114 123976 2498"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "cnd_exit_door_right"
+angles "0 180 0"
+origin "-121446 123972 2146"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "machinery_railing_single_long02"
+angles "0 0 0"
+origin "-121328 124044 2427"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "machinery_railing_single_long02"
+angles "0 0 0"
+origin "-121442 124044 2146"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "machinery_railing_single_short02"
+angles "0 0 0"
+origin "-121500 124044 2146"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "machinery_railing_single_short02"
+angles "0 270 0"
+origin "-121332 124042 2146"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "clk_electric_pipes_01"
+angles "0 270 0"
+origin "-120744 123976 2432"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "me_electricbox2"
+angles "0 180 0"
+origin "-120194 123976 2514"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "com_fire_light"
+origin "-119810 123976 2538"
+angles "0 90 0"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "com_fire_bell"
+origin "-119834 123976 2522"
+angles "0 90 0"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "ow_electricbox4_ns"
+angles "0 180 0"
+origin "-119578 123976 2498"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "me_electricbox2"
+angles "0 180 0"
+origin "-119658 123976 2514"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "machinery_railing_single_long02"
+angles "0 0 0"
+origin "-119605 124038 2146"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "cnd_exit_door_right"
+angles "0 180 0"
+origin "-119610 123972 2146"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "machinery_railing_single_short02"
+angles "0 0 0"
+origin "-119670 124070 2146"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "machinery_railing_single_long02"
+angles "0 0 0"
+origin "-121434 124044 2427"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "machinery_railing_single_long02"
+angles "0 0 0"
+origin "-119654 124044 2427"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "machinery_railing_single_long02"
+angles "0 180 0"
+origin "-119650 123508 2427"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "machinery_railing_single_long02"
+angles "0 180 0"
+origin "-119538 123508 2427"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "machinery_railing_single_short02"
+angles "0 0 0"
+origin "-120692 124044 2427"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "machinery_railing_single_long02"
+angles "0 0 0"
+origin "-119777 124070 2146"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "machinery_railing_single_long02"
+angles "0 0 0"
+origin "-119887 124070 2146"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "machinery_railing_single_long02"
+angles "0 0 0"
+origin "-119997 124070 2146"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "machinery_railing_single_long02"
+angles "0 0 0"
+origin "-120105 124070 2146"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "machinery_railing_single_long02"
+angles "0 0 0"
+origin "-120215 124070 2146"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "machinery_railing_single_long02"
+angles "0 0 0"
+origin "-120321 124070 2146"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "machinery_railing_single_long02"
+angles "0 0 0"
+origin "-120431 124070 2146"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "machinery_railing_single_long02"
+angles "0 0 0"
+origin "-120539 124070 2146"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "machinery_railing_single_short02"
+angles "0 0 0"
+origin "-120598 124070 2146"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "machinery_railing_single_short02"
+angles "0 0 0"
+origin "-120658 124070 2146"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "machinery_railing_single_short02"
+angles "0 270 0"
+origin "-120656 124066 2146"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "machinery_railing_single_short02"
+angles "0 270 0"
+origin "-119484 124034 2146"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "727_seats_row_left"
+origin "-119854 123928 2426"
+angles "0 270 0"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "727_seats_row_left"
+origin "-119926 123928 2426"
+angles "0 270 0"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "727_coach_seat01"
+angles "0 270 0"
+origin "-119866 123752 2426"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "727_seats_row_left"
+origin "-121022 123624 2426"
+angles "0 90 0"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "727_seats_row_left"
+origin "-120950 123624 2426"
+angles "0 90 0"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "727_seats_row_left"
+origin "-120970 123776 2426"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "727_seats_row_left"
+origin "-121034 123776 2426"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "727_seats_row_left"
+origin "-120906 123776 2426"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "727_coach_seat01"
+origin "-120906 123728 2426"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "727_coach_seat01"
+origin "-120970 123728 2426"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "727_coach_seat01"
+origin "-121034 123728 2426"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "727_coach_seat01"
+origin "-120906 123824 2426"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "727_coach_seat01"
+origin "-120970 123824 2426"
+}
+{
+script_noteworthy "train_passenger_1"
+classname "script_model"
+model "727_coach_seat01"
+origin "-121034 123824 2426"
+}
+{
+script_noteworthy "train_loco"
+classname "script_origin"
+angles "0 0 0"
+targetname "ally1_start_loco1"
+origin "-106160 123776 2515"
+}
+{
+script_noteworthy "train_loco"
+origin "-104716 123698 2539"
+targetname "loco_breach_enemy"
+angles "0 180 0"
+classname "actor_test_enemy_pmc_smg"
+model "fullbody_elite_pmc_assault_a"
+export "1"
+spawnflags "3"
+}
+{
+model "*23"
+script_noteworthy "train_loco"
+origin "-105004 123776 2671"
+classname "script_brushmodel"
+script_parameters "sus_f_link"
+}
+{
+script_noteworthy "train_loco"
+classname "script_model"
+model "sw_traincar_loco_suspension"
+angles "0 180 0"
+origin "-105184 123776 2673"
+script_parameters "sus_f"
+}
+{
+script_noteworthy "train_loco"
+classname "script_model"
+model "sw_traincar_loco_suspension"
+angles "0 180 0"
+origin "-105872 123776 2673"
+script_parameters "sus_b"
+}
+{
+script_noteworthy "train_loco"
+classname "script_model"
+model "sw_traincar_loco_body"
+origin "-105528 123776 2783"
+script_parameters "body"
+}
+{
+script_noteworthy "train_loco"
+classname "script_model"
+model "lowerdeck_engine"
+origin "-105679 123697 2505"
+angles "0 180 0"
+}
+{
+script_noteworthy "train_loco"
+classname "script_model"
+model "lowerdeck_engine"
+origin "-105679 123853 2505"
+angles "0 180 0"
+}
+{
+script_noteworthy "train_loco"
+classname "script_model"
+model "lowerdeck_engine"
+origin "-105389 123697 2505"
+angles "0 180 0"
+}
+{
+script_noteworthy "train_loco"
+classname "script_model"
+model "lowerdeck_engine"
+origin "-105389 123853 2505"
+angles "0 180 0"
+}
+{
+script_noteworthy "train_loco"
+classname "script_model"
+model "sub_chair"
+origin "-104724 123734 2537"
+angles "0 270 0"
+}
+{
+script_noteworthy "train_loco"
+classname "script_model"
+model "sub_chair"
+origin "-104724 123828 2537"
+angles "0 270 0"
+}
+{
+model "*24"
+script_noteworthy "train_loco"
+origin "-105441 123776 2578"
+classname "script_brushmodel"
+targetname "loco"
+}
+{
+script_noteworthy "train_loco"
+classname "script_struct"
+angles "0 270 0"
+origin "-105039 123776 2543"
+targetname "vignette_vargasstandoff"
+}
+{
+script_noteworthy "train_loco"
+origin "-104748 123698 2539"
+targetname "loco_breach_enemy"
+angles "0 180 0"
+classname "actor_test_enemy_pmc_smg"
+model "fullbody_elite_pmc_assault_a"
+export "2"
+spawnflags "3"
+}
+{
+script_noteworthy "train_loco"
+origin "-104780 123698 2539"
+targetname "loco_breach_enemy"
+angles "0 180 0"
+classname "actor_test_enemy_pmc_smg"
+model "fullbody_elite_pmc_assault_a"
+export "3"
+spawnflags "3"
+}
+{
+script_noteworthy "train_loco"
+origin "-104812 123698 2539"
+targetname "loco_breach_enemy"
+angles "0 180 0"
+classname "actor_test_enemy_pmc_smg"
+model "fullbody_elite_pmc_assault_a"
+export "4"
+spawnflags "3"
+}
+{
+script_noteworthy "train_loco"
+classname "script_model"
+model "breach_door_metal_right"
+origin "-105040 123748 2535"
+targetname "loco_breach_door"
+}
+{
+script_noteworthy "train_loco"
+classname "actor_villian_vargas_skyway"
+model "body_russian_military_assault_a_woodland"
+export "6"
+angles "0 180 0"
+origin "-104776 123740 2539"
+spawnflags "3"
+targetname "vargas"
+}
+{
+script_noteworthy "train_loco"
+classname "script_struct"
+angles "0 270 0"
+origin "-105617 123792 2505"
+targetname "vignette_heshbombplace1"
+}
+{
+script_noteworthy "train_loco"
+classname "script_struct"
+angles "0 270 0"
+origin "-105328 123793 2505"
+targetname "vignette_heshbombplace2"
+}
+{
+script_noteworthy "train_loco"
+classname "script_struct"
+angles "270.3 270 -180"
+origin "-105747 123755 2513.2"
+targetname "vignette_playerbombplant1"
+}
+{
+script_noteworthy "train_loco"
+classname "script_struct"
+angles "270.3 270 -180"
+origin "-105451 123755 2513.8"
+targetname "vignette_playerbombplant2"
+}
+{
+script_noteworthy "train_loco"
+classname "script_origin"
+angles "0 0 0"
+targetname "player_start_loco1"
+origin "-106248 123776 2515"
+}
+{
+script_noteworthy "train_loco"
+classname "node_cover_right"
+script_color_allies "r7"
+origin "-106088 123818 2523"
+spawnflags "0"
+parentname "loco"
+angles "0 0 0"
+}
+{
+model "?22"
+script_noteworthy "train_loco"
+origin "-106572 123768 2587"
+classname "trigger_multiple_friendly"
+script_color_allies "r7"
+}
+{
+script_noteworthy "train_loco"
+classname "node_pathnode"
+origin "-106088 123778 2523"
+parentname "loco"
+}
+{
+script_noteworthy "train_loco"
+classname "node_cover_left"
+script_color_allies "r7"
+origin "-106088 123734 2523"
+spawnflags "0"
+parentname "loco"
+angles "0 0 0"
+}
+{
+script_noteworthy "train_loco"
+classname "node_cover_right"
+script_color_allies "r8"
+origin "-105059 123818 2555"
+spawnflags "0"
+parentname "loco"
+angles "0 0 0"
+targetname "loco_breach_ally_cover_node"
+}
+{
+model "?23"
+script_noteworthy "train_loco"
+origin "-106460 123768 2587"
+classname "trigger_multiple_friendly"
+script_color_allies "r8"
+}
+{
+script_noteworthy "train_loco"
+classname "node_pathnode"
+origin "-106048 123778 2523"
+parentname "loco"
+}
+{
+script_noteworthy "train_loco"
+classname "node_pathnode"
+origin "-106160 123778 2523"
+parentname "loco"
+}
+{
+script_noteworthy "train_loco"
+classname "node_pathnode"
+origin "-105968 123778 2523"
+parentname "loco"
+}
+{
+script_noteworthy "train_loco"
+classname "node_pathnode"
+origin "-105776 123778 2523"
+parentname "loco"
+}
+{
+script_noteworthy "train_loco"
+classname "node_pathnode"
+origin "-105584 123778 2523"
+parentname "loco"
+}
+{
+script_noteworthy "train_loco"
+classname "node_pathnode"
+origin "-105392 123778 2523"
+parentname "loco"
+}
+{
+script_noteworthy "train_loco"
+classname "node_pathnode"
+origin "-105256 123778 2523"
+parentname "loco"
+}
+{
+script_noteworthy "train_loco"
+classname "node_pathnode"
+origin "-105152 123778 2555"
+parentname "loco"
+}
+{
+script_noteworthy "train_loco"
+classname "node_pathnode"
+origin "-106208 123818 2523"
+parentname "loco"
+}
+{
+script_noteworthy "train_loco"
+classname "node_pathnode"
+origin "-106208 123730 2523"
+parentname "loco"
+}
+{
+script_noteworthy "train_loco"
+classname "script_origin"
+angles "0 0 0"
+targetname "ally1_start_loco2"
+origin "-105096 123816 2551"
+}
+{
+script_noteworthy "train_loco"
+classname "script_origin"
+angles "0 0 0"
+targetname "player_start_loco2"
+origin "-105128 123776 2551"
+}
+{
+model "?24"
+script_noteworthy "train_loco"
+origin "-105132 123752 2587"
+classname "trigger_multiple_friendly"
+script_color_allies "r8"
+}
+{
+model "?25"
+script_noteworthy "train_loco"
+origin "-104851 123776 2600"
+classname "info_volume_breachroom"
+targetname "loco_breachroom_volume"
+script_flag "room_0_cleared"
+}
+{
+script_noteworthy "train_loco"
+classname "script_struct"
+targetname "loco_breach_org"
+origin "-105040 123776 2583"
+}
+{
+script_noteworthy "train_rt2"
+classname "node_pathnode"
+origin "-112028 123728 2672.2"
+parentname "train_rt2_col"
+}
+{
+script_noteworthy "train_rt2"
+classname "node_pathnode"
+origin "-111620 123824 2672.2"
+parentname "train_rt2_col"
+}
+{
+script_noteworthy "train_rt2"
+classname "node_pathnode"
+origin "-111620 123728 2672.2"
+parentname "train_rt2_col"
+}
+{
+script_noteworthy "train_rt2"
+classname "node_pathnode"
+origin "-110940 123824 2672.2"
+parentname "train_rt2_col"
+}
+{
+script_noteworthy "train_rt2"
+classname "node_pathnode"
+origin "-110940 123728 2672.2"
+parentname "train_rt2_col"
+}
+{
+script_noteworthy "train_rt2"
+classname "node_pathnode"
+origin "-110532 123824 2672.2"
+parentname "train_rt2_col"
+}
+{
+script_noteworthy "train_rt2"
+classname "node_pathnode"
+origin "-110532 123728 2672.2"
+parentname "train_rt2_col"
+}
+{
+script_noteworthy "train_rt2"
+classname "node_cover_right"
+origin "-110838 123938 2672.2"
+angles "0 270 0"
+spawnflags "0"
+parentname "train_rt2_col"
+script_color_allies "b0"
+}
+{
+script_noteworthy "train_rt2"
+classname "node_pathnode"
+origin "-111374 123732 2669.2"
+parentname "train_rt2_col"
+}
+{
+script_noteworthy "train_rt2"
+classname "node_pathnode"
+origin "-111374 123820 2669.2"
+parentname "train_rt2_col"
+}
+{
+script_noteworthy "train_rt2"
+classname "node_cover_stand"
+angles "0 0 0"
+origin "-111934 123622 2649"
+parentname "train_rt2_col"
+script_color_allies "r9"
+}
+{
+script_noteworthy "train_rt2"
+classname "node_pathnode"
+origin "-112216 123872 2667.4"
+parentname "train_rt2_col"
+}
+{
+model "?26"
+script_noteworthy "train_rt2"
+origin "-111280 123776 1717"
+classname "trigger_multiple_flag_set"
+script_flag "flag_kill_plane"
+}
+{
+script_noteworthy "train_rt2"
+classname "node_pathnode"
+origin "-112088 123680 2667.4"
+parentname "train_rt2_col"
+}
+{
+script_noteworthy "train_rt2"
+classname "node_pathnode"
+origin "-112088 123872 2667.4"
+parentname "train_rt2_col"
+}
+{
+script_noteworthy "train_rt2"
+classname "node_pathnode"
+origin "-112028 123824 2672.2"
+parentname "train_rt2_col"
+}
+{
+script_noteworthy "train_rt2"
+classname "node_pathnode"
+origin "-112064 123974 2649"
+parentname "train_rt2_col"
+}
+{
+script_noteworthy "train_rt2"
+classname "node_pathnode"
+origin "-111824 123974 2649"
+parentname "train_rt2_col"
+}
+{
+script_noteworthy "train_rt2"
+classname "node_pathnode"
+origin "-111584 123974 2649"
+parentname "train_rt2_col"
+}
+{
+script_noteworthy "train_rt2"
+classname "script_model"
+model "sw_traincar_pass_skel"
+angles "0 0 0"
+script_parameters "body"
+origin "-111280 123776 2783"
+}
+{
+model "*25"
+script_noteworthy "train_rt2"
+origin "-111824 123776 2715"
+classname "script_brushmodel"
+targetname "train_rt2b_col"
+script_parameters "sus_b_link"
+}
+{
+model "*26"
+script_noteworthy "train_rt2"
+origin "-110736 123776 2715"
+classname "script_brushmodel"
+targetname "train_rt2f_col"
+script_parameters "sus_f_link"
+}
+{
+model "*27"
+script_noteworthy "train_rt2"
+origin "-111280 123776 2553"
+classname "script_brushmodel"
+targetname "train_rt2_col"
+}
+{
+script_noteworthy "train_rt2"
+classname "script_model"
+model "sw_traincar_pass_body"
+angles "0 0 0"
+origin "-111280 123776 2783"
+script_parameters "body_ext"
+}
+{
+script_noteworthy "train_rt2"
+classname "script_model"
+model "sw_traincar_pass_suspension"
+origin "-111824 123776 2673"
+script_parameters "sus_b"
+angles "0 180 0"
+}
+{
+script_noteworthy "train_rt2"
+classname "script_model"
+model "sw_traincar_pass_suspension"
+origin "-110736 123776 2673"
+script_parameters "sus_f"
+angles "0 180 0"
+}
+{
+script_noteworthy "train_rt2"
+classname "node_pathnode"
+origin "-111934 123964 2649"
+parentname "train_rt2_col"
+}
+{
+script_noteworthy "train_rt2"
+classname "node_pathnode"
+origin "-111714 123964 2649"
+parentname "train_rt2_col"
+}
+{
+script_noteworthy "train_rt2"
+classname "node_concealment_stand"
+origin "-111714 123930 2649"
+angles "0 180 0"
+parentname "train_rt2_col"
+}
+{
+script_noteworthy "train_rt2"
+classname "node_pathnode"
+origin "-111584 123578 2649"
+parentname "train_rt2_col"
+}
+{
+script_noteworthy "train_rt2"
+classname "node_pathnode"
+origin "-111824 123578 2649"
+parentname "train_rt2_col"
+}
+{
+script_noteworthy "train_rt2"
+classname "node_pathnode"
+origin "-112064 123578 2649"
+parentname "train_rt2_col"
+}
+{
+script_noteworthy "train_rt2"
+classname "node_pathnode"
+origin "-111714 123578 2649"
+parentname "train_rt2_col"
+}
+{
+script_noteworthy "train_rt2"
+classname "node_pathnode"
+origin "-111934 123588 2649"
+parentname "train_rt2_col"
+}
+{
+script_noteworthy "train_rt2"
+classname "node_pathnode"
+origin "-111992 123664 2665"
+parentname "train_rt2_col"
+}
+{
+script_noteworthy "train_rt2"
+classname "node_pathnode"
+origin "-111992 123888 2665"
+parentname "train_rt2_col"
+}
+{
+script_noteworthy "train_rt2"
+classname "node_pathnode"
+origin "-111660 123888 2665"
+parentname "train_rt2_col"
+}
+{
+script_noteworthy "train_rt2"
+classname "node_pathnode"
+origin "-111660 123664 2665"
+parentname "train_rt2_col"
+}
+{
+script_noteworthy "train_rt2"
+classname "node_pathnode"
+origin "-111560 123680 2667.4"
+parentname "train_rt2_col"
+}
+{
+script_noteworthy "train_rt2"
+classname "node_pathnode"
+origin "-111560 123872 2667.4"
+parentname "train_rt2_col"
+}
+{
+script_noteworthy "train_rt2"
+classname "node_pathnode"
+origin "-111474 123732 2669.2"
+parentname "train_rt2_col"
+}
+{
+script_noteworthy "train_rt2"
+classname "node_pathnode"
+origin "-111474 123820 2669.2"
+parentname "train_rt2_col"
+}
+{
+script_noteworthy "train_rt2"
+classname "node_pathnode"
+origin "-111086 123692 2669.2"
+parentname "train_rt2_col"
+}
+{
+script_noteworthy "train_rt2"
+classname "node_pathnode"
+origin "-111086 123860 2669.2"
+parentname "train_rt2_col"
+}
+{
+script_noteworthy "train_rt2"
+classname "node_pathnode"
+origin "-111152 123680 2669.2"
+parentname "train_rt2_col"
+}
+{
+script_noteworthy "train_rt2"
+classname "node_pathnode"
+origin "-111152 123872 2669.2"
+parentname "train_rt2_col"
+}
+{
+script_noteworthy "train_rt2"
+classname "node_pathnode"
+origin "-111218 123692 2669.2"
+parentname "train_rt2_col"
+}
+{
+script_noteworthy "train_rt2"
+classname "node_pathnode"
+origin "-111218 123860 2669.2"
+parentname "train_rt2_col"
+}
+{
+script_noteworthy "train_rt2"
+classname "node_cover_crouch"
+origin "-111374 123856 2672.2"
+angles "0 180 0"
+spawnflags "4"
+parentname "train_rt2_col"
+}
+{
+script_noteworthy "train_rt2"
+classname "node_cover_right"
+origin "-111374 123696 2672.2"
+angles "0 180 0"
+spawnflags "4"
+parentname "train_rt2_col"
+}
+{
+script_noteworthy "train_rt2"
+classname "node_cover_left"
+origin "-111714 123612 2649"
+angles "0 180 0"
+spawnflags "4"
+parentname "train_rt2_col"
+}
+{
+script_noteworthy "train_rt2"
+classname "node_cover_crouch"
+origin "-111474 123696 2672.2"
+angles "0 0 0"
+spawnflags "4"
+parentname "train_rt2_col"
+script_color_allies "r10"
+}
+{
+script_noteworthy "train_rt2"
+classname "node_cover_right"
+origin "-111474 123856 2672.2"
+angles "0 0 0"
+spawnflags "4"
+parentname "train_rt2_col"
+}
+{
+script_noteworthy "train_rt2"
+classname "node_negotiation_begin"
+angles "0 0 0"
+origin "-110384 123760 2673"
+target "pf775_auto110"
+animscript "jump_across_100"
+parentname "train_rt2_col"
+}
+{
+script_noteworthy "train_rt2"
+classname "node_cover_left"
+origin "-111086 123728 2672.2"
+angles "0 180 0"
+spawnflags "4"
+parentname "train_rt2_col"
+}
+{
+script_noteworthy "train_rt2"
+classname "node_cover_right"
+origin "-111086 123824 2672.2"
+angles "0 180 0"
+spawnflags "4"
+parentname "train_rt2_col"
+}
+{
+script_noteworthy "train_rt2"
+classname "node_cover_crouch"
+origin "-111086 123770 2673"
+angles "0 180 0"
+spawnflags "4"
+parentname "train_rt2_col"
+radius "340"
+targetname "rt2_node_end"
+target "rt2_node_fin"
+script_flag_wait "flag_rt2_combat_fin"
+script_wait_min "0.0"
+script_wait_max "1.0"
+}
+{
+script_noteworthy "train_rt2"
+classname "node_cover_left"
+origin "-111652 123846 2671.1"
+angles "0 196 0"
+spawnflags "4"
+parentname "train_rt2_col"
+}
+{
+script_noteworthy "train_rt2"
+classname "node_cover_right"
+origin "-111658 123702 2670.7"
+angles "0 164 0"
+spawnflags "4"
+parentname "train_rt2_col"
+}
+{
+script_noteworthy "train_rt2"
+classname "node_cover_left"
+origin "-111996 123706 2671.1"
+angles "0 16 0"
+spawnflags "4"
+parentname "train_rt2_col"
+script_color_allies "r9"
+}
+{
+script_noteworthy "train_rt2"
+classname "node_cover_right"
+origin "-111990 123850 2670.7"
+angles "0 344 0"
+spawnflags "4"
+parentname "train_rt2_col"
+script_color_allies "b1"
+}
+{
+script_noteworthy "train_rt2"
+classname "node_cover_stand"
+angles "0 180 0"
+origin "-110626 123624 2649"
+parentname "train_rt2_col"
+}
+{
+script_noteworthy "train_rt2"
+classname "node_pathnode"
+origin "-110344 123872 2667.4"
+parentname "train_rt2_col"
+}
+{
+script_noteworthy "train_rt2"
+classname "node_negotiation_end"
+targetname "pf775_auto110"
+origin "-110200 123760 2673"
+angles "0 0 0"
+parentname "train_rt3_col"
+}
+{
+script_noteworthy "train_rt2"
+classname "node_cover_stand"
+angles "0 180 0"
+origin "-110626 123930 2649"
+parentname "train_rt2_col"
+}
+{
+script_noteworthy "train_rt2"
+classname "node_pathnode"
+origin "-110344 123680 2667.4"
+parentname "train_rt2_col"
+}
+{
+script_noteworthy "train_rt2"
+classname "node_negotiation_begin"
+angles "0 180 0"
+origin "-112176 123792 2673"
+target "pf775_auto111"
+animscript "jump_across_100"
+parentname "train_rt2_col"
+}
+{
+script_noteworthy "train_rt2"
+classname "node_pathnode"
+origin "-110472 123872 2667.4"
+parentname "train_rt2_col"
+}
+{
+script_noteworthy "train_rt2"
+classname "node_pathnode"
+origin "-110472 123680 2667.4"
+parentname "train_rt2_col"
+}
+{
+script_noteworthy "train_rt2"
+classname "node_pathnode"
+origin "-110496 123578 2649"
+parentname "train_rt2_col"
+}
+{
+script_noteworthy "train_rt2"
+classname "node_pathnode"
+origin "-110736 123578 2649"
+parentname "train_rt2_col"
+}
+{
+script_noteworthy "train_rt2"
+classname "node_pathnode"
+origin "-110976 123578 2649"
+parentname "train_rt2_col"
+}
+{
+script_noteworthy "train_rt2"
+classname "node_pathnode"
+origin "-110626 123588 2649"
+parentname "train_rt2_col"
+}
+{
+script_noteworthy "train_rt2"
+classname "node_pathnode"
+origin "-110846 123588 2649"
+parentname "train_rt2_col"
+}
+{
+script_noteworthy "train_rt2"
+classname "node_concealment_stand"
+origin "-110846 123622 2649"
+angles "0 0 0"
+parentname "train_rt2_col"
+script_color_allies "r11"
+}
+{
+script_noteworthy "train_rt2"
+classname "node_pathnode"
+origin "-110976 123974 2649"
+parentname "train_rt2_col"
+}
+{
+script_noteworthy "train_rt2"
+classname "node_pathnode"
+origin "-110736 123974 2649"
+parentname "train_rt2_col"
+}
+{
+script_noteworthy "train_rt2"
+classname "node_pathnode"
+origin "-110496 123974 2649"
+parentname "train_rt2_col"
+}
+{
+script_noteworthy "train_rt2"
+classname "node_pathnode"
+origin "-110846 123974 2649"
+parentname "train_rt2_col"
+}
+{
+script_noteworthy "train_rt2"
+classname "node_pathnode"
+origin "-110626 123964 2649"
+parentname "train_rt2_col"
+}
+{
+script_noteworthy "train_rt2"
+classname "node_pathnode"
+origin "-110568 123888 2665"
+parentname "train_rt2_col"
+}
+{
+script_noteworthy "train_rt2"
+classname "node_pathnode"
+origin "-110568 123664 2665"
+parentname "train_rt2_col"
+}
+{
+script_noteworthy "train_rt2"
+classname "node_pathnode"
+origin "-110900 123664 2665"
+parentname "train_rt2_col"
+}
+{
+script_noteworthy "train_rt2"
+classname "node_pathnode"
+origin "-110900 123888 2665"
+parentname "train_rt2_col"
+}
+{
+script_noteworthy "train_rt2"
+classname "node_pathnode"
+origin "-111000 123872 2667.4"
+parentname "train_rt2_col"
+}
+{
+script_noteworthy "train_rt2"
+classname "node_pathnode"
+origin "-111000 123680 2667.4"
+parentname "train_rt2_col"
+}
+{
+script_noteworthy "train_rt2"
+classname "node_cover_left"
+origin "-110908 123706 2671.1"
+angles "0 16 0"
+spawnflags "4"
+parentname "train_rt2_col"
+script_color_allies "r11"
+}
+{
+script_noteworthy "train_rt2"
+classname "node_cover_right"
+origin "-110908 123846 2671.1"
+angles "0 344 0"
+spawnflags "4"
+parentname "train_rt2_col"
+script_color_allies "b0"
+}
+{
+script_noteworthy "train_rt2"
+classname "node_cover_left"
+origin "-110564 123846 2671.1"
+angles "0 196 0"
+spawnflags "4"
+parentname "train_rt2_col"
+}
+{
+script_noteworthy "train_rt2"
+classname "node_cover_right"
+origin "-110564 123706 2671.1"
+angles "0 164 0"
+spawnflags "4"
+parentname "train_rt2_col"
+radius "260"
+targetname "rt2_node_fin"
+target "rt3_node_mid"
+script_flag_wait "flag_rt2_combat_retreat"
+script_wait_max "0.5"
+script_wait_min "0.0"
+}
+{
+script_noteworthy "train_rt2"
+classname "node_pathnode"
+origin "-112216 123680 2667.4"
+parentname "train_rt2_col"
+}
+{
+script_noteworthy "train_rt2"
+classname "node_negotiation_end"
+targetname "pf775_auto111"
+origin "-112360 123792 2673"
+angles "0 180 0"
+parentname "train_rt1_col"
+}
+{
+script_noteworthy "train_rt2"
+classname "actor_enemy_elite_pmc_kriss"
+model "body_venezuela_army_assault_a"
+export "1"
+origin "-111152 124160 2749"
+angles "0 180 0"
+spawnflags "1"
+targetname "rt2_opfor_test_pyr"
+script_aigroup "rt_opfor"
+script_grenades "0"
+script_killspawner "32"
+script_wtf "rt2_infil_fin"
+script_force_count "1"
+}
+{
+script_noteworthy "train_rt2"
+classname "actor_enemy_elite_pmc_ar"
+model "fullbody_elite_pmc_assault_a"
+export "2"
+origin "-111152 124096 2749"
+angles "0 180 0"
+spawnflags "1"
+targetname "rt2_opfor_test_pyr"
+script_aigroup "rt_opfor"
+script_grenades "0"
+script_killspawner "32"
+script_wtf "rt2_infil_fin"
+}
+{
+script_noteworthy "train_rt2"
+classname "actor_enemy_elite_pmc_ar"
+model "fullbody_elite_pmc_assault_a"
+export "3"
+origin "-111088 124096 2749"
+angles "0 180 0"
+spawnflags "1"
+count "4"
+script_aigroup "rt_opfor"
+script_force_count "1"
+script_grenades "0"
+script_killspawner "32"
+script_delay_min "0"
+script_delay_max "1"
+script_wait_min "0"
+script_wait_max "1"
+script_wtf "rt2_infil_fin"
+targetname "rt2_opfor_test"
+}
+{
+script_noteworthy "train_rt2"
+classname "actor_enemy_elite_pmc_kriss"
+model "body_venezuela_army_assault_a"
+export "4"
+origin "-111088 124160 2749"
+angles "0 180 0"
+spawnflags "1"
+count "4"
+script_aigroup "rt_opfor"
+script_force_count "1"
+script_grenades "0"
+script_killspawner "32"
+script_delay_min "0"
+script_delay_max "1"
+script_wait_min "0"
+script_wait_max "1"
+script_wtf "rt2_infil_fin"
+targetname "rt2_opfor_test"
+}
+{
+model "?27"
+script_noteworthy "train_rt2"
+origin "-112088 123776 2725"
+classname "trigger_multiple_flag_set"
+spawnflags "64"
+script_flag "flag_rt2_combat_start"
+script_color_allies "r10 b2"
+}
+{
+model "?28"
+script_noteworthy "train_rt2"
+origin "-112208 124064 2725"
+classname "trigger_multiple"
+script_parameters "dont_link"
+spawnflags "64"
+script_color_allies "r9 b1"
+targetname "rt2_color_start"
+}
+{
+script_noteworthy "train_rt2"
+classname "actor_enemy_elite_pmc_kriss"
+model "body_venezuela_army_assault_a"
+export "5"
+origin "-110912 123968 2621"
+angles "0 180 0"
+spawnflags "1"
+targetname "rt2_oprfor_pyr"
+script_aigroup "rt_opfor"
+script_grenades "0"
+script_killspawner "320"
+script_force_count "1"
+script_forcespawn "1"
+target "rt2_node_end"
+_color "1.000000 0.501961 0.000000"
+}
+{
+script_noteworthy "train_rt2"
+classname "actor_enemy_elite_pmc_kriss"
+model "body_venezuela_army_assault_a"
+export "6"
+origin "-110784 123584 2621"
+angles "0 180 0"
+spawnflags "1"
+targetname "rt2_oprfor_pyr"
+script_aigroup "rt_opfor"
+script_grenades "0"
+script_killspawner "320"
+script_force_count "1"
+script_forcespawn "1"
+target "rt2_node_end"
+_color "1.000000 0.501961 0.000000"
+}
+{
+script_noteworthy "train_rt2"
+classname "actor_enemy_elite_pmc_ar"
+model "fullbody_elite_pmc_assault_a"
+export "7"
+origin "-110432 123872 2639.4"
+angles "0 180 0"
+spawnflags "1"
+targetname "rt2_oprfor_pyr"
+script_aigroup "rt_opfor"
+script_grenades "0"
+script_killspawner "320"
+script_forcespawn "1"
+target "rt2_node_fin"
+_color "1.000000 0.501961 0.000000"
+}
+{
+model "?29"
+script_noteworthy "train_rt2"
+origin "-111320 123776 2725"
+classname "trigger_multiple_flag_set"
+spawnflags "64"
+script_flag "flag_rt2_combat_fin"
+script_color_allies "r11 b0"
+targetname "rt2_color_end"
+}
+{
+script_noteworthy "train_rt2"
+classname "node_cover_right"
+origin "-111218 123728 2672.2"
+angles "0 0 0"
+spawnflags "4"
+parentname "train_rt2_col"
+script_color_allies "r11"
+}
+{
+script_noteworthy "train_rt2"
+classname "node_cover_crouch"
+origin "-111218 123760 2673"
+angles "0 0 0"
+spawnflags "4"
+parentname "train_rt2_col"
+script_color_allies "r11"
+}
+{
+script_noteworthy "train_rt2"
+classname "script_model"
+model "cnd_exit_door_right"
+angles "0 0 0"
+origin "-110392 123634 2397"
+targetname "rt2_infil_fin"
+script_index "50"
+script_namenumber "sw_door_l"
+script_side "U"
+script_parameters "2.5"
+}
+{
+script_noteworthy "train_rt2"
+classname "script_model"
+model "cnd_exit_door_right"
+angles "0 180 0"
+origin "-110344 123918 2397"
+targetname "rt2_infil_fin"
+script_index "50"
+script_namenumber "sw_door_r"
+script_side "U"
+script_parameters "2.5"
+}
+{
+script_noteworthy "train_rt2"
+classname "node_cover_right"
+origin "-111926 123938 2672.2"
+angles "0 270 0"
+spawnflags "0"
+parentname "train_rt2_col"
+script_color_allies "b1 b2"
+}
+{
+script_noteworthy "train_rt2"
+classname "actor_enemy_elite_pmc_ar"
+model "fullbody_elite_pmc_assault_a"
+export "8"
+origin "-110432 123776 2397"
+angles "0 180 0"
+spawnflags "1"
+count "6"
+script_aigroup "rt_opfor"
+script_force_count "1"
+script_grenades "0"
+script_killspawner "320"
+script_wait_min "0"
+script_wait_max "1"
+script_wtf "rt2_infil_fin"
+targetname "rt2_opfor"
+target "rt2_oprfor_pyr"
+}
+{
+script_noteworthy "train_rt2"
+classname "node_cover_crouch"
+origin "-111000 123952 2649"
+parentname "train_rt2_col"
+angles "0 180 0"
+}
+{
+script_noteworthy "train_rt2"
+classname "node_cover_crouch"
+origin "-111000 123600 2649"
+parentname "train_rt2_col"
+angles "0 180 0"
+}
+{
+script_noteworthy "train_rt2"
+classname "node_cover_crouch"
+origin "-111560 123612 2649"
+angles "0 0 0"
+spawnflags "4"
+parentname "train_rt2_col"
+script_color_allies "r10"
+}
+{
+model "?30"
+script_noteworthy "train_rt2"
+origin "-110680 123776 2725"
+classname "trigger_multiple_flag_set"
+script_flag "flag_rt2_combat_retreat"
+targetname "rt2_color_fin"
+script_killspawner "320"
+}
+{
+script_noteworthy "train_hangar"
+classname "script_origin"
+origin "-118154 123888 2443"
+angles "0 180 0"
+targetname "ally1_start_hangar"
+}
+{
+script_noteworthy "train_hangar"
+classname "script_origin"
+origin "-118154 123840 2443"
+targetname "player_start_hangar"
+angles "0 180 0"
+}
+{
+script_noteworthy "train_hangar"
+classname "node_exposed"
+angles "0 0 0"
+origin "-117170 123984 2463"
+script_color_allies "r12"
+parentname "hangar_col"
+spawnflags "4"
+}
+{
+script_noteworthy "train_hangar"
+classname "node_pathnode"
+origin "-117946 124000 2463"
+parentname "hangar_col"
+}
+{
+script_noteworthy "train_hangar"
+classname "node_pathnode"
+origin "-118218 124000 2463"
+parentname "hangar_col"
+}
+{
+model "?31"
+script_noteworthy "train_hangar"
+origin "-117906 124000 2535"
+classname "trigger_multiple_flag_set"
+script_flag "flag_sat1_rog_hit"
+}
+{
+script_noteworthy "train_hangar"
+classname "node_pathnode"
+origin "-117754 124000 2463"
+parentname "hangar_col"
+}
+{
+script_noteworthy "train_hangar"
+classname "node_pathnode"
+origin "-117562 124000 2463"
+parentname "hangar_col"
+}
+{
+script_noteworthy "train_hangar"
+classname "node_pathnode"
+origin "-117370 123984 2463"
+parentname "hangar_col"
+}
+{
+script_noteworthy "train_hangar"
+classname "node_pathnode"
+origin "-117210 123984 2463"
+parentname "hangar_col"
+}
+{
+script_noteworthy "train_hangar"
+classname "node_pathnode"
+origin "-118090 124000 2463"
+parentname "hangar_col"
+}
+{
+script_noteworthy "train_hangar"
+classname "node_negotiation_begin"
+angles "0 0 0"
+origin "-117106 123984 2463"
+target "node_sat_1_jump_1"
+animscript "jump_across_100"
+parentname "hangar_col"
+}
+{
+model "?32"
+script_noteworthy "train_hangar"
+origin "-118142 123820 1723"
+classname "trigger_multiple_flag_set"
+script_flag "flag_kill_plane"
+}
+{
+model "*28"
+script_noteworthy "train_hangar"
+origin "-118140 123954 2535"
+classname "script_brushmodel"
+targetname "brush_hangar_door"
+script_parameters "dont_link"
+}
+{
+script_noteworthy "train_hangar"
+classname "script_origin"
+angles "0 180 0"
+origin "-118258 123952 2445.5"
+targetname "origin_hangar_intro"
+}
+{
+script_noteworthy "train_hangar"
+classname "actor_enemy_elite_pmc_ar"
+model "fullbody_elite_pmc_assault_a"
+export "2"
+angles "0 270 0"
+origin "-118230 124132 2499"
+script_parameters "enemy_hangar_2"
+spawnflags "1"
+targetname "actor_hangar_enemy_intro"
+}
+{
+script_noteworthy "train_hangar"
+classname "actor_enemy_elite_pmc_ar"
+model "fullbody_elite_pmc_assault_a"
+export "1"
+angles "0 270 0"
+origin "-118278 124132 2499"
+script_parameters "enemy_hangar_1"
+spawnflags "1"
+targetname "actor_hangar_enemy_intro"
+}
+{
+script_noteworthy "train_hangar"
+classname "script_origin"
+origin "-118271 123855 2507"
+angles "0 0 0"
+targetname "origin_hangar_tv_static"
+}
+{
+model "*29"
+script_noteworthy "train_hangar"
+origin "-118273 123855 2507"
+classname "script_brushmodel"
+targetname "brush_hangar_pip_screen"
+}
+{
+model "*30"
+script_noteworthy "train_hangar"
+origin "-118271 123855 2507"
+classname "script_brushmodel"
+targetname "brush_hangar_pip_screen_broken"
+}
+{
+model "*31"
+script_noteworthy "train_hangar"
+origin "-118297 123820 2555"
+classname "script_brushmodel"
+}
+{
+script_noteworthy "train_hangar"
+classname "script_model"
+model "sw_traincar_loco_suspension"
+origin "-117508 123776 2673"
+angles "0 180 0"
+script_parameters "sus_f"
+}
+{
+script_noteworthy "train_hangar"
+classname "script_model"
+model "sw_traincar_pass_body"
+angles "0 0 0"
+script_parameters "body"
+origin "-118052 123776 2783"
+}
+{
+script_noteworthy "train_hangar"
+classname "script_model"
+model "sw_traincar_loco_suspension"
+origin "-118596 123776 2673"
+angles "0 180 0"
+script_parameters "sus_b"
+}
+{
+model "*32"
+script_noteworthy "train_hangar"
+origin "-117766 123812 2531"
+classname "script_brushmodel"
+targetname "hangar_col"
+}
+{
+model "*33"
+script_noteworthy "train_hangar"
+origin "-118162 123851 2440"
+classname "script_brushmodel"
+targetname "hangar_col"
+}
+{
+script_noteworthy "train_hangar"
+classname "script_model"
+model "machinery_railing_single_short02"
+angles "0 180 0"
+origin "-117085 124036 2436"
+}
+{
+script_noteworthy "train_hangar"
+classname "script_model"
+model "floor_grate_catwalk_metal"
+origin "-117154 124000 2435"
+angles "0 270 0"
+}
+{
+script_noteworthy "train_hangar"
+classname "script_model"
+model "floor_grate_catwalk_metal"
+origin "-117386 124000 2435"
+angles "0 270 0"
+}
+{
+script_noteworthy "train_hangar"
+classname "script_model"
+model "floor_grate_catwalk_metal"
+origin "-117618 124000 2435"
+angles "0 270 0"
+}
+{
+script_noteworthy "train_hangar"
+classname "script_model"
+model "floor_grate_catwalk_metal"
+origin "-117850 124000 2435"
+angles "0 270 0"
+}
+{
+script_noteworthy "train_hangar"
+classname "script_model"
+model "machinery_railing_single_long02"
+angles "0 0 0"
+origin "-117890 124036 2436"
+}
+{
+script_noteworthy "train_hangar"
+classname "script_model"
+model "machinery_railing_single_long02"
+angles "0 0 0"
+origin "-117782 124036 2436"
+}
+{
+script_noteworthy "train_hangar"
+classname "script_model"
+model "machinery_railing_single_long02"
+angles "0 0 0"
+origin "-117566 124036 2436"
+}
+{
+script_noteworthy "train_hangar"
+classname "script_model"
+model "machinery_railing_single_long02"
+angles "0 0 0"
+origin "-117674 124036 2436"
+}
+{
+script_noteworthy "train_hangar"
+classname "script_model"
+model "machinery_railing_single_long02"
+angles "0 0 0"
+origin "-117458 124036 2436"
+}
+{
+script_noteworthy "train_hangar"
+classname "script_model"
+model "machinery_railing_single_long02"
+angles "0 0 0"
+origin "-117352 124036 2436"
+}
+{
+script_noteworthy "train_hangar"
+classname "script_model"
+model "machinery_railing_single_long02"
+angles "0 0 0"
+origin "-117246 124036 2436"
+}
+{
+script_noteworthy "train_hangar"
+classname "script_model"
+model "skyway_car_hangar_interior_stacker_01"
+origin "-118099 123792 2868"
+}
+{
+script_noteworthy "train_hangar"
+classname "script_model"
+model "skyway_car_hangar_interior_stacker_02"
+origin "-118099 123792 2868"
+}
+{
+script_noteworthy "train_hangar"
+classname "script_model"
+model "skyway_car_hangar_interior_stacker_03"
+origin "-118099 123792 2868"
+}
+{
+script_noteworthy "train_hangar"
+classname "script_model"
+model "skyway_car_hangar_interior_stacker_04"
+origin "-118099 123792 2868"
+}
+{
+script_noteworthy "train_hangar"
+classname "script_model"
+model "skyway_car_hangar_interior_stacker_05"
+origin "-118099 123792 2868"
+}
+{
+script_noteworthy "train_hangar"
+classname "script_model"
+model "skyway_car_hangar_interior_stacker_06"
+origin "-118099 123792 2868"
+}
+{
+script_noteworthy "train_hangar"
+classname "script_model"
+model "skyway_car_hangar_interior_lynx_01"
+origin "-118099 123792 2868"
+}
+{
+script_noteworthy "train_hangar"
+classname "script_model"
+model "skyway_car_hangar_interior_lynx_02"
+origin "-118099 123792 2868"
+}
+{
+script_noteworthy "train_hangar"
+classname "script_model"
+model "skyway_car_hangar_interior_lynx_03"
+origin "-118099 123792 2868"
+}
+{
+script_noteworthy "train_hangar"
+classname "script_model"
+model "skyway_car_hangar_interior_lynx_04"
+origin "-118099 123792 2868"
+}
+{
+script_noteworthy "train_hangar"
+classname "script_model"
+model "skyway_car_hangar_interior_lynx_05"
+origin "-118099 123792 2868"
+}
+{
+script_noteworthy "train_hangar"
+classname "script_model"
+model "skyway_car_hangar_interior_lynx_06"
+origin "-118099 123792 2868"
+}
+{
+script_noteworthy "train_hangar"
+classname "script_model"
+model "skyway_car_hangar_interior_ceiling_01"
+origin "-118099 123792 2868"
+}
+{
+script_noteworthy "train_hangar"
+classname "script_model"
+model "skyway_car_hangar_exterior_01"
+origin "-118099 123792 2868"
+}
+{
+script_noteworthy "train_hangar"
+classname "script_model"
+model "skyway_car_hangar_exterior_02"
+origin "-118099 123792 2868"
+}
+{
+script_noteworthy "train_hangar"
+classname "script_model"
+model "skyway_car_hangar_interior_floor_01"
+origin "-118099 123792 2868"
+}
+{
+script_noteworthy "train_hangar"
+classname "script_model"
+model "floor_grate_catwalk_metal"
+origin "-118082 124000 2435"
+angles "0 270 0"
+}
+{
+script_noteworthy "train_hangar"
+classname "script_model"
+model "floor_grate_catwalk_metal"
+origin "-118314 124000 2435"
+angles "0 270 0"
+}
+{
+script_noteworthy "train_hangar"
+classname "script_model"
+model "machinery_railing_single_long02"
+angles "0 0 0"
+origin "-118430 124036 2436"
+}
+{
+script_noteworthy "train_hangar"
+classname "script_model"
+model "machinery_railing_single_long02"
+angles "0 0 0"
+origin "-118322 124036 2436"
+}
+{
+script_noteworthy "train_hangar"
+classname "script_model"
+model "machinery_railing_single_long02"
+angles "0 0 0"
+origin "-118106 124036 2436"
+}
+{
+script_noteworthy "train_hangar"
+classname "script_model"
+model "machinery_railing_single_long02"
+angles "0 0 0"
+origin "-118214 124036 2436"
+}
+{
+script_noteworthy "train_hangar"
+classname "script_model"
+model "machinery_railing_single_long02"
+angles "0 0 0"
+origin "-117998 124036 2436"
+}
+{
+script_noteworthy "train_hangar"
+classname "script_model"
+model "machinery_railing_single_short02"
+angles "0 270 0"
+origin "-118428 124030 2436"
+}
+{
+model "?33"
+script_noteworthy "train_hangar"
+origin "-117510 123980 2536"
+classname "trigger_multiple_flag_set_touching"
+script_flag "flag_hangar_end"
+}
+{
+model "?34"
+script_noteworthy "train_hangar"
+origin "-117984 124672 2535"
+classname "trigger_multiple_friendly"
+script_color_allies "r12"
+script_parameters "dont_link"
+targetname "trig_ally_hangar"
+}
+{
+classname "script_origin"
+origin "-118966 122812 2420"
+angles "0 1.00179e-005 0"
+targetname "origin_pip_camera"
+}
+{
+classname "actor_enemy_elite_pmc_ar"
+model "fullbody_elite_pmc_assault_a"
+export "1"
+angles "0 180 0"
+origin "-118862 122812 2354"
+script_parameters "enemy_hangar_pip"
+spawnflags "1"
+targetname "actor_hangar_enemy_pip"
+}
+{
+classname "script_struct"
+origin "-118942 122812 2370"
+angles "0 0 0"
+targetname "struct_hangar_pip"
+}
+{
+model "*34"
+origin "-118950 122812 2420"
+classname "script_brushmodel"
+}
+{
+script_noteworthy "train_rt1"
+classname "script_origin"
+angles "0 0 0"
+targetname "rt1_start_player"
+origin "-114224 123776 2645"
+}
+{
+script_noteworthy "train_rt1"
+classname "script_origin"
+angles "0 0 0"
+targetname "rt1_start_ally"
+origin "-114048 123712 2643.4"
+}
+{
+script_noteworthy "train_rt1"
+classname "actor_enemy_elite_pmc_kriss"
+model "body_venezuela_army_assault_a"
+export "1"
+origin "-113168 124160 2749"
+angles "0 180 0"
+spawnflags "1"
+targetname "rt1_opfor_test_pyr"
+script_aigroup "rt_opfor"
+script_forcegoal "1"
+script_grenades "0"
+script_killspawner "32"
+script_wtf "rt1_infil_end"
+script_force_count "1"
+}
+{
+script_noteworthy "train_rt1"
+classname "actor_enemy_elite_pmc_ar"
+model "fullbody_elite_pmc_assault_a"
+export "2"
+origin "-113168 124096 2749"
+angles "0 180 0"
+spawnflags "1"
+targetname "rt1_opfor_test_pyr"
+script_aigroup "rt_opfor"
+script_forcegoal "1"
+script_grenades "0"
+script_killspawner "32"
+script_wtf "rt1_infil_end"
+}
+{
+script_noteworthy "train_rt1"
+classname "actor_enemy_elite_pmc_ar"
+model "fullbody_elite_pmc_assault_a"
+export "3"
+origin "-113104 124096 2749"
+angles "0 180 0"
+spawnflags "1"
+count "4"
+script_aigroup "rt_opfor"
+script_force_count "1"
+script_grenades "0"
+script_killspawner "32"
+script_delay_min "0"
+script_delay_max "1"
+script_wait_min "0"
+script_wait_max "1"
+script_wtf "rt1_infil_end"
+targetname "rt1_opfor_test"
+}
+{
+script_noteworthy "train_rt1"
+classname "actor_enemy_elite_pmc_kriss"
+model "body_venezuela_army_assault_a"
+export "4"
+origin "-113104 124160 2749"
+angles "0 180 0"
+spawnflags "1"
+count "4"
+script_aigroup "rt_opfor"
+script_force_count "1"
+script_grenades "0"
+script_killspawner "32"
+script_delay_min "0"
+script_delay_max "1"
+script_wait_min "0"
+script_wait_max "1"
+script_wtf "rt1_infil_end"
+targetname "rt1_opfor_test"
+}
+{
+script_noteworthy "train_rt1"
+classname "node_pathnode"
+origin "-114044 123728 2672.2"
+parentname "train_rt1_col"
+}
+{
+script_noteworthy "train_rt1"
+classname "node_pathnode"
+origin "-113636 123824 2672.2"
+parentname "train_rt1_col"
+}
+{
+script_noteworthy "train_rt1"
+classname "node_pathnode"
+origin "-113636 123728 2672.2"
+parentname "train_rt1_col"
+}
+{
+script_noteworthy "train_rt1"
+classname "node_pathnode"
+origin "-112956 123824 2672.2"
+parentname "train_rt1_col"
+}
+{
+script_noteworthy "train_rt1"
+classname "node_pathnode"
+origin "-112956 123728 2672.2"
+parentname "train_rt1_col"
+}
+{
+script_noteworthy "train_rt1"
+classname "node_pathnode"
+origin "-112548 123824 2672.2"
+parentname "train_rt1_col"
+}
+{
+script_noteworthy "train_rt1"
+classname "node_pathnode"
+origin "-112548 123728 2672.2"
+parentname "train_rt1_col"
+}
+{
+script_noteworthy "train_rt1"
+classname "node_cover_right"
+origin "-112854 123938 2672.2"
+angles "0 270 0"
+spawnflags "0"
+parentname "train_rt1_col"
+script_color_allies "b3"
+}
+{
+script_noteworthy "train_rt1"
+classname "node_pathnode"
+origin "-113532 123776 2673"
+parentname "train_rt1_col"
+}
+{
+script_noteworthy "train_rt1"
+classname "node_cover_stand"
+angles "0 0 0"
+origin "-113950 123622 2649"
+parentname "train_rt1_col"
+targetname "rt1_node_start_ally"
+}
+{
+model "*35"
+script_noteworthy "train_rt1"
+origin "-114248 123776 2605"
+classname "script_brushmodel"
+}
+{
+script_noteworthy "train_rt1"
+classname "node_negotiation_end"
+angles "0 0 0"
+targetname "node_rt_traverse_1"
+origin "-114216 123872 2676"
+parentname "train_rt1_col"
+}
+{
+script_noteworthy "train_rt1"
+classname "node_negotiation_end"
+angles "0 0 0"
+targetname "node_rt_traverse_2"
+origin "-114216 123680 2676"
+parentname "train_rt1_col"
+}
+{
+model "?35"
+script_noteworthy "train_rt1"
+origin "-114348 123768 2685"
+classname "trigger_multiple_flag_set_touching"
+script_flag "flag_rt_mantle"
+}
+{
+model "*36"
+script_noteworthy "train_rt1"
+origin "-113840 123776 2715"
+classname "script_brushmodel"
+script_parameters "sus_b_link"
+targetname "train_rt1b_col"
+}
+{
+model "*37"
+script_noteworthy "train_rt1"
+origin "-112752 123776 2715"
+classname "script_brushmodel"
+targetname "train_rt1f_col"
+script_parameters "sus_f_link"
+}
+{
+model "*38"
+script_noteworthy "train_rt1"
+origin "-113296 123776 2557"
+classname "script_brushmodel"
+targetname "train_rt1_col"
+}
+{
+script_noteworthy "train_rt1"
+classname "script_model"
+model "sw_traincar_pass_skel"
+angles "0 0 0"
+script_parameters "body"
+origin "-113296 123776 2783"
+}
+{
+script_noteworthy "train_rt1"
+classname "script_model"
+model "sw_traincar_pass_body"
+angles "0 0 0"
+origin "-113296 123776 2783"
+script_parameters "body_ext"
+}
+{
+model "*39"
+script_noteworthy "train_rt1"
+origin "-114251 123776 2443"
+classname "script_brushmodel"
+targetname "train_rt1_col"
+}
+{
+script_noteworthy "train_rt1"
+classname "script_model"
+model "sw_traincar_pass_suspension"
+origin "-113840 123776 2673"
+script_parameters "sus_b"
+angles "0 180 0"
+}
+{
+script_noteworthy "train_rt1"
+classname "script_model"
+model "sw_traincar_pass_suspension"
+origin "-112752 123776 2673"
+script_parameters "sus_f"
+angles "0 180 0"
+}
+{
+script_noteworthy "train_rt1"
+classname "node_pathnode"
+origin "-114104 123680 2667.4"
+parentname "train_rt1_col"
+}
+{
+script_noteworthy "train_rt1"
+classname "node_pathnode"
+origin "-114104 123872 2667.4"
+parentname "train_rt1_col"
+}
+{
+script_noteworthy "train_rt1"
+classname "node_pathnode"
+origin "-114044 123824 2672.2"
+parentname "train_rt1_col"
+}
+{
+script_noteworthy "train_rt1"
+classname "node_pathnode"
+origin "-114080 123974 2649"
+parentname "train_rt1_col"
+}
+{
+script_noteworthy "train_rt1"
+classname "node_pathnode"
+origin "-113840 123974 2649"
+parentname "train_rt1_col"
+}
+{
+script_noteworthy "train_rt1"
+classname "node_pathnode"
+origin "-113600 123974 2649"
+parentname "train_rt1_col"
+}
+{
+script_noteworthy "train_rt1"
+classname "node_pathnode"
+origin "-113950 123964 2649"
+parentname "train_rt1_col"
+}
+{
+script_noteworthy "train_rt1"
+classname "node_pathnode"
+origin "-113730 123974 2649"
+parentname "train_rt1_col"
+}
+{
+script_noteworthy "train_rt1"
+classname "node_cover_left"
+origin "-113738 123938 2649"
+angles "0 270 0"
+spawnflags "0"
+parentname "train_rt1_col"
+script_color_allies "b3"
+}
+{
+script_noteworthy "train_rt1"
+classname "node_pathnode"
+origin "-113600 123578 2649"
+parentname "train_rt1_col"
+}
+{
+script_noteworthy "train_rt1"
+classname "node_pathnode"
+origin "-113840 123578 2649"
+parentname "train_rt1_col"
+}
+{
+script_noteworthy "train_rt1"
+classname "node_pathnode"
+origin "-114080 123578 2649"
+parentname "train_rt1_col"
+}
+{
+script_noteworthy "train_rt1"
+classname "node_pathnode"
+origin "-113730 123578 2649"
+parentname "train_rt1_col"
+}
+{
+script_noteworthy "train_rt1"
+classname "node_pathnode"
+origin "-113950 123588 2649"
+parentname "train_rt1_col"
+}
+{
+script_noteworthy "train_rt1"
+classname "node_pathnode"
+origin "-114008 123664 2665"
+parentname "train_rt1_col"
+}
+{
+script_noteworthy "train_rt1"
+classname "node_pathnode"
+origin "-114008 123888 2665"
+parentname "train_rt1_col"
+}
+{
+script_noteworthy "train_rt1"
+classname "node_pathnode"
+origin "-113676 123888 2665"
+parentname "train_rt1_col"
+}
+{
+script_noteworthy "train_rt1"
+classname "node_pathnode"
+origin "-113676 123664 2665"
+parentname "train_rt1_col"
+}
+{
+script_noteworthy "train_rt1"
+classname "node_pathnode"
+origin "-113576 123680 2667.4"
+parentname "train_rt1_col"
+}
+{
+script_noteworthy "train_rt1"
+classname "node_pathnode"
+origin "-113576 123872 2667.4"
+parentname "train_rt1_col"
+}
+{
+model "?36"
+script_noteworthy "train_rt1"
+origin "-113264 123776 1717"
+classname "trigger_multiple_flag_set"
+script_flag "flag_kill_plane"
+}
+{
+script_noteworthy "train_rt1"
+classname "node_pathnode"
+origin "-113474 123692 2669.2"
+parentname "train_rt1_col"
+}
+{
+script_noteworthy "train_rt1"
+classname "node_pathnode"
+origin "-113474 123858 2669.2"
+parentname "train_rt1_col"
+}
+{
+script_noteworthy "train_rt1"
+classname "node_pathnode"
+origin "-113118 123692 2669.2"
+parentname "train_rt1_col"
+}
+{
+script_noteworthy "train_rt1"
+classname "node_pathnode"
+origin "-113118 123858 2669.2"
+parentname "train_rt1_col"
+}
+{
+script_noteworthy "train_rt1"
+classname "node_pathnode"
+origin "-113296 123692 2669.2"
+parentname "train_rt1_col"
+}
+{
+script_noteworthy "train_rt1"
+classname "node_pathnode"
+origin "-113296 123858 2669.2"
+parentname "train_rt1_col"
+}
+{
+script_noteworthy "train_rt1"
+classname "node_pathnode"
+origin "-113392 123872 2667.4"
+parentname "train_rt1_col"
+}
+{
+script_noteworthy "train_rt1"
+classname "node_pathnode"
+origin "-113200 123872 2667.4"
+parentname "train_rt1_col"
+}
+{
+script_noteworthy "train_rt1"
+classname "node_pathnode"
+origin "-113392 123680 2667.4"
+parentname "train_rt1_col"
+}
+{
+script_noteworthy "train_rt1"
+classname "node_pathnode"
+origin "-113200 123680 2667.4"
+parentname "train_rt1_col"
+}
+{
+script_noteworthy "train_rt1"
+classname "node_cover_stand"
+angles "0 0 0"
+origin "-112862 123622 2649"
+parentname "train_rt1_col"
+targetname "rt1_node_start_ally"
+script_color_allies "r13"
+}
+{
+script_noteworthy "train_rt1"
+classname "node_cover_left"
+origin "-112924 123706 2671.1"
+angles "0 16 0"
+spawnflags "4"
+parentname "train_rt1_col"
+targetname "rt1_node_start_ally"
+script_color_allies "r13"
+}
+{
+script_noteworthy "train_rt1"
+classname "node_cover_right"
+origin "-113474 123728 2672.2"
+angles "0 0 0"
+spawnflags "4"
+parentname "train_rt1_col"
+script_color_allies "r14"
+}
+{
+script_noteworthy "train_rt1"
+classname "node_cover_crouch"
+origin "-113474 123782 2673"
+angles "0 0 0"
+spawnflags "4"
+parentname "train_rt1_col"
+script_color_allies "r14"
+}
+{
+script_noteworthy "train_rt1"
+classname "node_cover_left"
+origin "-112650 123938 2649"
+angles "0 270 0"
+spawnflags "0"
+parentname "train_rt1_col"
+script_color_allies "b3"
+}
+{
+script_noteworthy "train_rt1"
+classname "node_cover_left"
+origin "-114012 123706 2671.1"
+angles "0 16 0"
+spawnflags "4"
+parentname "train_rt1_col"
+targetname "rt1_node_start_ally"
+}
+{
+script_noteworthy "train_rt1"
+classname "node_pathnode"
+origin "-112360 123872 2667.4"
+parentname "train_rt1_col"
+}
+{
+script_noteworthy "train_rt1"
+classname "node_pathnode"
+origin "-113060 123776 2673"
+parentname "train_rt1_col"
+}
+{
+script_noteworthy "train_rt1"
+classname "node_pathnode"
+origin "-112360 123680 2667.4"
+parentname "train_rt1_col"
+}
+{
+script_noteworthy "train_rt1"
+classname "node_pathnode"
+origin "-112488 123872 2667.4"
+parentname "train_rt1_col"
+}
+{
+script_noteworthy "train_rt1"
+classname "node_pathnode"
+origin "-112488 123680 2667.4"
+parentname "train_rt1_col"
+}
+{
+script_noteworthy "train_rt1"
+classname "node_pathnode"
+origin "-112512 123578 2649"
+parentname "train_rt1_col"
+}
+{
+script_noteworthy "train_rt1"
+classname "node_pathnode"
+origin "-112752 123578 2649"
+parentname "train_rt1_col"
+}
+{
+script_noteworthy "train_rt1"
+classname "node_pathnode"
+origin "-112992 123578 2649"
+parentname "train_rt1_col"
+}
+{
+script_noteworthy "train_rt1"
+classname "node_pathnode"
+origin "-112642 123588 2649"
+parentname "train_rt1_col"
+}
+{
+script_noteworthy "train_rt1"
+classname "node_pathnode"
+origin "-112862 123588 2649"
+parentname "train_rt1_col"
+}
+{
+script_noteworthy "train_rt1"
+classname "node_pathnode"
+origin "-112992 123974 2649"
+parentname "train_rt1_col"
+}
+{
+script_noteworthy "train_rt1"
+classname "node_pathnode"
+origin "-112752 123974 2649"
+parentname "train_rt1_col"
+}
+{
+script_noteworthy "train_rt1"
+classname "node_pathnode"
+origin "-112512 123974 2649"
+parentname "train_rt1_col"
+}
+{
+script_noteworthy "train_rt1"
+classname "node_pathnode"
+origin "-112862 123974 2649"
+parentname "train_rt1_col"
+}
+{
+script_noteworthy "train_rt1"
+classname "node_pathnode"
+origin "-112642 123964 2649"
+parentname "train_rt1_col"
+}
+{
+script_noteworthy "train_rt1"
+classname "node_pathnode"
+origin "-112584 123888 2665"
+parentname "train_rt1_col"
+}
+{
+script_noteworthy "train_rt1"
+classname "node_pathnode"
+origin "-112584 123664 2665"
+parentname "train_rt1_col"
+}
+{
+script_noteworthy "train_rt1"
+classname "node_pathnode"
+origin "-112916 123664 2665"
+parentname "train_rt1_col"
+}
+{
+script_noteworthy "train_rt1"
+classname "node_pathnode"
+origin "-112916 123888 2665"
+parentname "train_rt1_col"
+}
+{
+script_noteworthy "train_rt1"
+classname "node_pathnode"
+origin "-113016 123872 2667.4"
+parentname "train_rt1_col"
+}
+{
+script_noteworthy "train_rt1"
+classname "node_pathnode"
+origin "-113016 123680 2667.4"
+parentname "train_rt1_col"
+}
+{
+script_noteworthy "train_rt1"
+classname "node_negotiation_begin"
+angles "0 0 0"
+origin "-112400 123760 2673"
+target "pf787_auto110"
+animscript "jump_across_100"
+parentname "train_rt1_col"
+}
+{
+model "?37"
+script_noteworthy "train_rt1"
+origin "-114232 123776 2725"
+classname "trigger_multiple_flag_set"
+script_flag "flag_rooftops_start"
+spawnflags "64"
+script_color_allies "r14"
+}
+{
+script_noteworthy "train_rt1"
+classname "node_negotiation_end"
+targetname "pf787_auto110"
+origin "-112216 123760 2673"
+angles "0 0 0"
+parentname "train_rt2_col"
+}
+{
+model "?38"
+script_noteworthy "train_rt1"
+origin "-113752 123776 2725"
+classname "trigger_multiple_flag_set"
+script_flag "flag_rt1_helo_start"
+script_color_allies "b3 r13"
+}
+{
+script_noteworthy "train_rt3"
+classname "node_pathnode"
+origin "-110012 123728 2672.2"
+parentname "train_rt3_col"
+}
+{
+script_noteworthy "train_rt3"
+classname "node_pathnode"
+origin "-109604 123824 2672.2"
+parentname "train_rt3_col"
+}
+{
+script_noteworthy "train_rt3"
+classname "node_pathnode"
+origin "-109604 123728 2672.2"
+parentname "train_rt3_col"
+}
+{
+script_noteworthy "train_rt3"
+classname "node_pathnode"
+origin "-108924 123824 2672.2"
+parentname "train_rt3_col"
+}
+{
+script_noteworthy "train_rt3"
+classname "node_pathnode"
+origin "-108924 123728 2672.2"
+parentname "train_rt3_col"
+}
+{
+script_noteworthy "train_rt3"
+classname "node_pathnode"
+origin "-108516 123824 2672.2"
+parentname "train_rt3_col"
+}
+{
+script_noteworthy "train_rt3"
+classname "node_pathnode"
+origin "-108516 123728 2672.2"
+parentname "train_rt3_col"
+}
+{
+script_noteworthy "train_rt3"
+classname "actor_enemy_elite_pmc_kriss"
+model "body_venezuela_army_assault_a"
+export "5"
+origin "-110064 123696 2641.8"
+angles "0 180 0"
+spawnflags "1"
+targetname "rt3_opfor_pyr_2"
+script_aigroup "rt_opfor"
+script_grenades "0"
+script_killspawner "330"
+script_force_count "1"
+script_forcespawn "1"
+target "rt3_node_mid"
+_color "1.000000 0.501961 0.000000"
+}
+{
+script_noteworthy "train_rt3"
+classname "node_pathnode"
+origin "-109170 123820 2669.2"
+parentname "train_rt3_col"
+}
+{
+script_noteworthy "train_rt3"
+classname "node_pathnode"
+origin "-109170 123732 2669.2"
+parentname "train_rt3_col"
+}
+{
+script_noteworthy "train_rt3"
+classname "node_cover_stand"
+angles "0 0 0"
+origin "-109918 123622 2649"
+parentname "train_rt3_col"
+script_color_allies "r15"
+}
+{
+script_noteworthy "train_rt3"
+classname "node_pathnode"
+origin "-110200 123872 2667.4"
+parentname "train_rt3_col"
+}
+{
+script_noteworthy "train_rt3"
+classname "node_pathnode"
+origin "-110072 123680 2667.4"
+parentname "train_rt3_col"
+}
+{
+script_noteworthy "train_rt3"
+classname "node_pathnode"
+origin "-110072 123872 2667.4"
+parentname "train_rt3_col"
+}
+{
+script_noteworthy "train_rt3"
+classname "node_pathnode"
+origin "-110012 123824 2672.2"
+parentname "train_rt3_col"
+}
+{
+script_noteworthy "train_rt3"
+classname "node_pathnode"
+origin "-110048 123974 2649"
+parentname "train_rt3_col"
+}
+{
+script_noteworthy "train_rt3"
+classname "node_pathnode"
+origin "-109808 123974 2649"
+parentname "train_rt3_col"
+}
+{
+script_noteworthy "train_rt3"
+classname "node_pathnode"
+origin "-109568 123974 2649"
+parentname "train_rt3_col"
+}
+{
+script_noteworthy "train_rt3"
+classname "node_pathnode"
+origin "-109918 123964 2649"
+parentname "train_rt3_col"
+}
+{
+script_noteworthy "train_rt3"
+classname "node_pathnode"
+origin "-109698 123964 2649"
+parentname "train_rt3_col"
+}
+{
+script_noteworthy "train_rt3"
+classname "script_model"
+model "sw_traincar_pass_skel"
+angles "0 0 0"
+script_parameters "body"
+origin "-109264 123776 2783"
+}
+{
+model "*40"
+script_noteworthy "train_rt3"
+origin "-109808 123776 2715"
+classname "script_brushmodel"
+script_parameters "sus_b_link"
+targetname "train_rt3b_col"
+}
+{
+model "*41"
+script_noteworthy "train_rt3"
+origin "-108720 123776 2715"
+classname "script_brushmodel"
+script_parameters "sus_f_link"
+targetname "train_rt3f_col"
+}
+{
+model "*42"
+script_noteworthy "train_rt3"
+origin "-109264 123776 2553"
+classname "script_brushmodel"
+targetname "train_rt3_col"
+}
+{
+script_noteworthy "train_rt3"
+classname "script_model"
+model "sw_traincar_pass_body"
+angles "0 0 0"
+origin "-109264 123776 2783"
+script_parameters "body_ext"
+}
+{
+script_noteworthy "train_rt3"
+classname "script_model"
+model "sw_traincar_pass_suspension"
+origin "-109808 123776 2673"
+script_parameters "sus_b"
+angles "0 180 0"
+}
+{
+script_noteworthy "train_rt3"
+classname "script_model"
+model "sw_traincar_pass_suspension"
+origin "-108720 123776 2673"
+script_parameters "sus_f"
+angles "0 180 0"
+}
+{
+script_noteworthy "train_rt3"
+classname "node_concealment_stand"
+origin "-109698 123930 2649"
+angles "0 180 0"
+parentname "train_rt3_col"
+}
+{
+script_noteworthy "train_rt3"
+classname "node_pathnode"
+origin "-109568 123578 2649"
+parentname "train_rt3_col"
+}
+{
+script_noteworthy "train_rt3"
+classname "node_pathnode"
+origin "-109808 123578 2649"
+parentname "train_rt3_col"
+}
+{
+script_noteworthy "train_rt3"
+classname "node_pathnode"
+origin "-110048 123578 2649"
+parentname "train_rt3_col"
+}
+{
+script_noteworthy "train_rt3"
+classname "node_pathnode"
+origin "-109698 123578 2649"
+parentname "train_rt3_col"
+}
+{
+script_noteworthy "train_rt3"
+classname "node_pathnode"
+origin "-109918 123588 2649"
+parentname "train_rt3_col"
+}
+{
+script_noteworthy "train_rt3"
+classname "node_pathnode"
+origin "-109976 123664 2665"
+parentname "train_rt3_col"
+}
+{
+script_noteworthy "train_rt3"
+classname "node_pathnode"
+origin "-109976 123888 2665"
+parentname "train_rt3_col"
+}
+{
+script_noteworthy "train_rt3"
+classname "node_pathnode"
+origin "-109644 123888 2665"
+parentname "train_rt3_col"
+}
+{
+script_noteworthy "train_rt3"
+classname "node_pathnode"
+origin "-109644 123664 2665"
+parentname "train_rt3_col"
+}
+{
+script_noteworthy "train_rt3"
+classname "node_pathnode"
+origin "-109544 123680 2667.4"
+parentname "train_rt3_col"
+}
+{
+script_noteworthy "train_rt3"
+classname "node_pathnode"
+origin "-109544 123872 2667.4"
+parentname "train_rt3_col"
+}
+{
+script_noteworthy "train_rt3"
+classname "node_pathnode"
+origin "-109070 123820 2669.2"
+parentname "train_rt3_col"
+}
+{
+script_noteworthy "train_rt3"
+classname "node_pathnode"
+origin "-109070 123732 2669.2"
+parentname "train_rt3_col"
+}
+{
+script_noteworthy "train_rt3"
+classname "node_pathnode"
+origin "-109458 123860 2669.2"
+parentname "train_rt3_col"
+}
+{
+script_noteworthy "train_rt3"
+classname "node_pathnode"
+origin "-109458 123692 2669.2"
+parentname "train_rt3_col"
+}
+{
+script_noteworthy "train_rt3"
+classname "node_pathnode"
+origin "-109392 123872 2669.2"
+parentname "train_rt3_col"
+}
+{
+script_noteworthy "train_rt3"
+classname "node_pathnode"
+origin "-109392 123680 2669.2"
+parentname "train_rt3_col"
+}
+{
+script_noteworthy "train_rt3"
+classname "node_pathnode"
+origin "-109326 123860 2669.2"
+parentname "train_rt3_col"
+}
+{
+script_noteworthy "train_rt3"
+classname "node_pathnode"
+origin "-109326 123692 2669.2"
+parentname "train_rt3_col"
+}
+{
+script_noteworthy "train_rt3"
+classname "node_cover_crouch"
+origin "-109070 123696 2672.2"
+angles "0 180 0"
+spawnflags "4"
+parentname "train_rt3_col"
+}
+{
+script_noteworthy "train_rt3"
+classname "node_cover_left"
+origin "-109070 123856 2672.2"
+angles "0 180 0"
+spawnflags "4"
+parentname "train_rt3_col"
+}
+{
+script_noteworthy "train_rt3"
+classname "node_cover_left"
+origin "-109698 123612 2649"
+angles "0 180 0"
+spawnflags "4"
+parentname "train_rt3_col"
+}
+{
+script_noteworthy "train_rt3"
+classname "node_cover_crouch"
+origin "-109170 123856 2672.2"
+angles "0 0 0"
+spawnflags "4"
+parentname "train_rt3_col"
+}
+{
+script_noteworthy "train_rt3"
+classname "node_cover_left"
+origin "-109170 123696 2672.2"
+angles "0 0 0"
+spawnflags "4"
+parentname "train_rt3_col"
+}
+{
+script_noteworthy "train_rt3"
+classname "node_negotiation_begin"
+angles "0 0 0"
+origin "-108368 123760 2673"
+target "pf792_auto110"
+animscript "jump_across_100"
+parentname "train_rt3_col"
+}
+{
+script_noteworthy "train_rt3"
+classname "node_cover_left"
+origin "-109458 123824 2672.2"
+angles "0 0 0"
+spawnflags "4"
+parentname "train_rt3_col"
+}
+{
+script_noteworthy "train_rt3"
+classname "node_cover_right"
+origin "-109458 123728 2672.2"
+angles "0 0 0"
+spawnflags "4"
+parentname "train_rt3_col"
+script_color_allies "r16"
+}
+{
+script_noteworthy "train_rt3"
+classname "node_cover_crouch"
+origin "-109458 123760 2673"
+angles "0 0 0"
+spawnflags "4"
+parentname "train_rt3_col"
+script_color_allies "r16"
+}
+{
+script_noteworthy "train_rt3"
+classname "node_cover_left"
+origin "-109636 123846 2671.1"
+angles "0 196 0"
+spawnflags "4"
+parentname "train_rt3_col"
+}
+{
+script_noteworthy "train_rt3"
+classname "node_cover_right"
+origin "-109642 123702 2670.7"
+angles "0 164 0"
+spawnflags "4"
+parentname "train_rt3_col"
+radius "550"
+targetname "rt3_node_mid"
+script_flag_wait "flag_rt3_combat_fin"
+script_wait_min "0.0"
+script_wait_max "1.0"
+target "rt3_node_end"
+}
+{
+script_noteworthy "train_rt3"
+classname "node_cover_left"
+origin "-109980 123706 2671.1"
+angles "0 16 0"
+spawnflags "4"
+parentname "train_rt3_col"
+script_color_allies "r15"
+}
+{
+script_noteworthy "train_rt3"
+classname "node_cover_right"
+origin "-109974 123850 2670.7"
+angles "0 344 0"
+spawnflags "4"
+parentname "train_rt3_col"
+script_color_allies "b4 b5"
+}
+{
+script_noteworthy "train_rt3"
+classname "node_cover_stand"
+angles "0 180 0"
+origin "-108610 123624 2649"
+parentname "train_rt3_col"
+}
+{
+script_noteworthy "train_rt3"
+classname "node_pathnode"
+origin "-108328 123872 2667.4"
+parentname "train_rt3_col"
+}
+{
+script_noteworthy "train_rt3"
+classname "node_negotiation_end"
+targetname "pf792_auto110"
+origin "-108184 123760 2673"
+angles "0 0 0"
+parentname "train_rt4_col"
+}
+{
+script_noteworthy "train_rt3"
+classname "node_cover_stand"
+angles "0 180 0"
+origin "-108610 123930 2649"
+parentname "train_rt3_col"
+}
+{
+script_noteworthy "train_rt3"
+classname "node_pathnode"
+origin "-108328 123680 2667.4"
+parentname "train_rt3_col"
+}
+{
+script_noteworthy "train_rt3"
+classname "node_negotiation_begin"
+angles "0 180 0"
+origin "-110160 123792 2673"
+target "pf792_auto111"
+animscript "jump_across_100"
+parentname "train_rt3_col"
+}
+{
+script_noteworthy "train_rt3"
+classname "node_pathnode"
+origin "-108456 123872 2667.4"
+parentname "train_rt3_col"
+}
+{
+script_noteworthy "train_rt3"
+classname "node_pathnode"
+origin "-108456 123680 2667.4"
+parentname "train_rt3_col"
+}
+{
+script_noteworthy "train_rt3"
+classname "node_pathnode"
+origin "-108480 123578 2649"
+parentname "train_rt3_col"
+}
+{
+script_noteworthy "train_rt3"
+classname "node_pathnode"
+origin "-108720 123578 2649"
+parentname "train_rt3_col"
+}
+{
+script_noteworthy "train_rt3"
+classname "node_pathnode"
+origin "-108960 123578 2649"
+parentname "train_rt3_col"
+}
+{
+script_noteworthy "train_rt3"
+classname "node_pathnode"
+origin "-108610 123588 2649"
+parentname "train_rt3_col"
+}
+{
+script_noteworthy "train_rt3"
+classname "node_pathnode"
+origin "-108830 123588 2649"
+parentname "train_rt3_col"
+}
+{
+script_noteworthy "train_rt3"
+classname "node_concealment_stand"
+origin "-108830 123622 2649"
+angles "0 0 0"
+parentname "train_rt3_col"
+}
+{
+script_noteworthy "train_rt3"
+classname "node_pathnode"
+origin "-108960 123974 2649"
+parentname "train_rt3_col"
+}
+{
+script_noteworthy "train_rt3"
+classname "node_pathnode"
+origin "-108720 123974 2649"
+parentname "train_rt3_col"
+}
+{
+script_noteworthy "train_rt3"
+classname "node_pathnode"
+origin "-108480 123974 2649"
+parentname "train_rt3_col"
+}
+{
+script_noteworthy "train_rt3"
+classname "node_pathnode"
+origin "-108830 123974 2649"
+parentname "train_rt3_col"
+}
+{
+script_noteworthy "train_rt3"
+classname "node_pathnode"
+origin "-108610 123964 2649"
+parentname "train_rt3_col"
+}
+{
+script_noteworthy "train_rt3"
+classname "node_pathnode"
+origin "-108552 123888 2665"
+parentname "train_rt3_col"
+}
+{
+script_noteworthy "train_rt3"
+classname "node_pathnode"
+origin "-108552 123664 2665"
+parentname "train_rt3_col"
+}
+{
+script_noteworthy "train_rt3"
+classname "node_pathnode"
+origin "-108884 123664 2665"
+parentname "train_rt3_col"
+}
+{
+script_noteworthy "train_rt3"
+classname "node_pathnode"
+origin "-108884 123888 2665"
+parentname "train_rt3_col"
+}
+{
+script_noteworthy "train_rt3"
+classname "node_pathnode"
+origin "-108984 123872 2667.4"
+parentname "train_rt3_col"
+}
+{
+script_noteworthy "train_rt3"
+classname "node_pathnode"
+origin "-108984 123680 2667.4"
+parentname "train_rt3_col"
+}
+{
+script_noteworthy "train_rt3"
+classname "actor_enemy_elite_pmc_ar"
+model "fullbody_elite_pmc_assault_a"
+export "6"
+origin "-109248 123680 2639.4"
+angles "0 180 0"
+spawnflags "1"
+targetname "rt3_opfor_pyr_2"
+script_aigroup "rt_opfor"
+script_grenades "0"
+script_killspawner "330"
+script_force_count "1"
+script_forcespawn "1"
+target "rt3_node_mid"
+_color "1.000000 0.501961 0.000000"
+}
+{
+script_noteworthy "train_rt3"
+classname "node_cover_left"
+origin "-108892 123706 2671.1"
+angles "0 16 0"
+spawnflags "4"
+parentname "train_rt3_col"
+}
+{
+script_noteworthy "train_rt3"
+classname "node_cover_right"
+origin "-108892 123846 2671.1"
+angles "0 344 0"
+spawnflags "4"
+parentname "train_rt3_col"
+}
+{
+script_noteworthy "train_rt3"
+classname "node_cover_left"
+origin "-108548 123846 2671.1"
+angles "0 196 0"
+spawnflags "4"
+parentname "train_rt3_col"
+}
+{
+script_noteworthy "train_rt3"
+classname "node_cover_right"
+origin "-108548 123706 2671.1"
+angles "0 164 0"
+spawnflags "4"
+parentname "train_rt3_col"
+}
+{
+script_noteworthy "train_rt3"
+classname "node_pathnode"
+origin "-110158 123732 2667.4"
+parentname "train_rt3_col"
+}
+{
+script_noteworthy "train_rt3"
+classname "node_negotiation_end"
+targetname "pf792_auto111"
+origin "-110344 123792 2673"
+angles "0 180 0"
+parentname "train_rt2_col"
+}
+{
+script_noteworthy "train_rt3"
+classname "node_concealment_stand"
+origin "-109326 123772 2672.2"
+angles "0 180 0"
+spawnflags "4"
+parentname "train_rt3_col"
+}
+{
+script_noteworthy "train_rt3"
+classname "node_cover_crouch"
+origin "-109326 123728 2672.2"
+angles "0 180 0"
+spawnflags "4"
+parentname "train_rt3_col"
+}
+{
+script_noteworthy "train_rt3"
+classname "node_cover_right"
+origin "-109326 123824 2672.2"
+angles "0 180 0"
+spawnflags "4"
+parentname "train_rt3_col"
+}
+{
+model "?39"
+script_noteworthy "train_rt3"
+origin "-109232 123776 1717"
+classname "trigger_multiple_flag_set"
+script_flag "flag_kill_plane"
+}
+{
+script_noteworthy "train_rt3"
+classname "actor_enemy_elite_pmc_kriss"
+model "body_venezuela_army_assault_a"
+export "1"
+origin "-109136 124160 2749"
+angles "0 180 0"
+spawnflags "1"
+targetname "rt3_opfor_test_pyr"
+script_aigroup "rt_opfor"
+script_grenades "0"
+script_killspawner "33"
+script_wtf "rt3_infil_fin"
+script_force_count "1"
+}
+{
+script_noteworthy "train_rt3"
+classname "actor_enemy_elite_pmc_ar"
+model "fullbody_elite_pmc_assault_a"
+export "2"
+origin "-109136 124096 2749"
+angles "0 180 0"
+spawnflags "1"
+targetname "rt3_opfor_test_pyr"
+script_aigroup "rt_opfor"
+script_grenades "0"
+script_killspawner "33"
+script_wtf "rt3_infil_fin"
+}
+{
+script_noteworthy "train_rt3"
+classname "actor_enemy_elite_pmc_ar"
+model "fullbody_elite_pmc_assault_a"
+export "3"
+origin "-109072 124096 2749"
+angles "0 180 0"
+spawnflags "1"
+count "4"
+script_aigroup "rt_opfor"
+script_force_count "1"
+script_grenades "0"
+script_killspawner "33"
+script_delay_min "0"
+script_delay_max "1"
+script_wait_min "0"
+script_wait_max "1"
+script_wtf "rt3_infil_fin"
+targetname "rt3_opfor_test"
+}
+{
+script_noteworthy "train_rt3"
+classname "actor_enemy_elite_pmc_kriss"
+model "body_venezuela_army_assault_a"
+export "4"
+origin "-109072 124160 2749"
+angles "0 180 0"
+spawnflags "1"
+count "4"
+script_aigroup "rt_opfor"
+script_force_count "1"
+script_grenades "0"
+script_killspawner "33"
+script_delay_min "0"
+script_delay_max "1"
+script_wait_min "0"
+script_wait_max "1"
+script_wtf "rt3_infil_fin"
+targetname "rt3_opfor_test"
+}
+{
+model "?40"
+script_noteworthy "train_rt3"
+origin "-110192 124064 2725"
+classname "trigger_multiple"
+script_parameters "dont_link"
+spawnflags "64"
+script_killspawner "320"
+script_color_allies "r15 b4"
+}
+{
+script_noteworthy "train_rt3"
+classname "node_cover_stand"
+origin "-110158 123696 2667.4"
+parentname "train_rt3_col"
+angles "0 180 0"
+}
+{
+script_noteworthy "train_rt3"
+classname "actor_enemy_elite_pmc_ar"
+model "fullbody_elite_pmc_assault_a"
+export "7"
+origin "-109024 123872 2639.4"
+angles "0 180 0"
+spawnflags "1"
+targetname "rt3_opfor_pyr_1"
+script_aigroup "rt_opfor"
+script_grenades "0"
+script_killspawner "330"
+script_force_count "1"
+script_forcespawn "1"
+target "rt3_node_mid"
+_color "1.000000 0.501961 0.000000"
+}
+{
+script_noteworthy "train_rt3"
+classname "actor_enemy_elite_pmc_kriss"
+model "body_venezuela_army_assault_a"
+export "8"
+origin "-109856 123968 2621"
+angles "0 180 0"
+spawnflags "1"
+targetname "rt3_opfor_pyr_1"
+script_aigroup "rt_opfor"
+script_grenades "0"
+script_killspawner "330"
+script_force_count "1"
+script_forcespawn "1"
+target "rt3_node_mid"
+_color "1.000000 0.501961 0.000000"
+}
+{
+script_noteworthy "train_rt3"
+classname "node_guard"
+origin "-108928 123776 2673"
+parentname "train_rt3_col"
+angles "0 180 0"
+spawnflags "1"
+radius "450"
+targetname "rt3_node_end"
+}
+{
+model "?41"
+script_noteworthy "train_rt3"
+origin "-109752 123776 2677"
+classname "trigger_multiple_flag_set"
+spawnflags "64"
+script_flag "flag_rt3_combat_fin"
+script_color_allies "r16 b5"
+}
+{
+script_noteworthy "train_rt3"
+classname "actor_enemy_elite_pmc_kriss"
+model "body_venezuela_army_assault_a"
+export "9"
+origin "-108544 123968 2621"
+angles "0 180 0"
+spawnflags "1"
+count "4"
+script_aigroup "rt_opfor"
+script_force_count "1"
+script_grenades "0"
+script_killspawner "330"
+script_wait_min "0"
+script_wait_max "1"
+targetname "rt3_opfor"
+script_forcespawn "1"
+target "rt3_opfor_pyr_1"
+}
+{
+script_noteworthy "train_rt3"
+classname "actor_enemy_elite_pmc_ar"
+model "fullbody_elite_pmc_assault_a"
+export "10"
+origin "-108544 123584 2621"
+angles "0 180 0"
+spawnflags "1"
+count "4"
+script_aigroup "rt_opfor"
+script_force_count "1"
+script_grenades "0"
+script_killspawner "330"
+script_wait_min "0"
+script_wait_max "1"
+targetname "rt3_opfor"
+script_forcespawn "1"
+target "rt3_opfor_pyr_2"
+}
+{
+script_noteworthy "train_rt3"
+classname "node_cover_crouch"
+origin "-110072 123952 2649"
+parentname "train_rt3_col"
+angles "0 180 0"
+}
+{
+script_noteworthy "train_rt3"
+classname "node_concealment_stand"
+origin "-110072 123614 2649"
+parentname "train_rt3_col"
+angles "0 180 0"
+}
+{
+script_noteworthy "train_rt3"
+classname "node_cover_crouch"
+origin "-108984 123952 2649"
+parentname "train_rt3_col"
+angles "0 180 0"
+}
+{
+script_noteworthy "train_rt3"
+classname "node_cover_crouch"
+origin "-108984 123600 2649"
+parentname "train_rt3_col"
+angles "0 180 0"
+}
+{
+script_noteworthy "train_rt3"
+classname "node_cover_crouch"
+origin "-109544 123612 2649"
+angles "0 0 0"
+spawnflags "4"
+parentname "train_rt3_col"
+script_color_allies "r16"
+}
+{
+script_noteworthy "train_rt3"
+classname "node_cover_right"
+origin "-108822 123938 2672.2"
+angles "0 270 0"
+spawnflags "0"
+parentname "train_rt3_col"
+}
+{
+script_noteworthy "train_rt3"
+classname "node_cover_right"
+origin "-109910 123938 2672.2"
+angles "0 270 0"
+spawnflags "0"
+parentname "train_rt3_col"
+script_color_allies "b4 b5"
+}
+{
+model "?42"
+script_noteworthy "train_rt4"
+origin "-107216 123776 1717"
+classname "trigger_multiple_flag_set"
+script_flag "flag_kill_plane"
+}
+{
+script_noteworthy "train_rt4"
+classname "script_model"
+model "sw_traincar_pass_skel"
+angles "0 0 0"
+script_parameters "body"
+origin "-107248 123776 2783"
+}
+{
+model "*43"
+script_noteworthy "train_rt4"
+origin "-107248 123776 2553"
+classname "script_brushmodel"
+targetname "train_rt4_col"
+}
+{
+script_noteworthy "train_rt4"
+classname "script_model"
+model "sw_traincar_pass_body"
+angles "0 0 0"
+origin "-107248 123776 2783"
+script_parameters "body_ext"
+}
+{
+script_noteworthy "train_rt4"
+classname "script_model"
+model "sw_traincar_pass_suspension"
+origin "-107792 123776 2673"
+script_parameters "sus_b"
+angles "0 180 0"
+}
+{
+script_noteworthy "train_rt4"
+classname "script_model"
+model "sw_traincar_pass_suspension"
+origin "-106704 123776 2673"
+script_parameters "sus_f"
+angles "0 180 0"
+}

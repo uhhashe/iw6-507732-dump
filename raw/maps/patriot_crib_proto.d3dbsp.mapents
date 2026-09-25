@@ -1,0 +1,4088 @@
+{
+skycolor "1 0.98 0.88"
+skylight "0.25"
+sunradiosity "1.3"
+radiosityscale "1.8"
+contrastgain "0.425"
+_color ".8 .9 1"
+sunlight "0.75"
+sundirection "-30 -95 0"
+suncolor "1 0.95 0.9"
+ambient ".075"
+bouncefraction ".7"
+classname "worldspawn"
+origin "0 0 0"
+}
+{
+target "pf0_auto295"
+origin "460.107 2119.68 0"
+targetname "pf0_auto296"
+angles "0 255 0"
+classname "script_origin"
+script_linkname "23"
+}
+{
+target "pf0_auto296"
+script_noteworthy "target_enemy"
+classname "script_brushmodel"
+origin "459 2120 0"
+script_linkname "23"
+model "*1"
+}
+{
+targetname "pf0_auto295"
+classname "script_brushmodel"
+origin "457 2110 56"
+script_linkname "23"
+model "*2"
+}
+{
+gndlt "24221d0009"
+ltorigin "459.15 2115.91 42.4046"
+targetname "pf0_auto296"
+origin "458.106 2116.07 4"
+model "com_mannequin1"
+classname "script_model"
+angles "0 345 0"
+script_linkname "23"
+}
+{
+script_friendname "Axe"
+targetname "npc_axe"
+script_char_index "0"
+angles "0 132 0"
+script_forcespawn "1"
+origin "-435.4 1012 -16"
+spawnflags "3"
+export "2"
+model "body_us_army_dmg_a_blk"
+classname "actor_iw5_ally_us_army_casual"
+}
+{
+classname "script_struct"
+origin "442.9 1672.4 114"
+targetname "fluorescent_glow_FX_origin"
+angles "0 180 -90"
+}
+{
+count "999"
+angles "0 270 0"
+spawnflags "1"
+origin "455.5 1644 51"
+model "weapon_ump45_iw5"
+classname "weapon_iw5_ump45_mp"
+}
+{
+count "999"
+angles "0 270 0"
+spawnflags "1"
+origin "455.5 1644 67"
+model "weapon_mp5_iw5"
+classname "weapon_iw5_mp5_mp"
+}
+{
+count "999"
+angles "0 270 0"
+spawnflags "1"
+origin "455.5 1690 67"
+model "weapon_remington_acr_iw5"
+classname "weapon_iw5_acr_mp"
+}
+{
+classname "script_struct"
+origin "442.9 1564.4 114"
+targetname "fluorescent_glow_FX_origin"
+angles "0 180 -90"
+}
+{
+count "999"
+angles "0 270 0"
+spawnflags "1"
+origin "455.5 1690 51"
+model "weapon_ak47_iw5"
+classname "weapon_iw5_ak47_mp"
+}
+{
+targetname "torture_door"
+classname "script_brushmodel"
+origin "-544 1212 13"
+model "*3"
+}
+{
+spawnflags "1"
+targetname "entrance_door"
+classname "script_brushmodel"
+origin "-778 1031 0"
+model "*4"
+}
+{
+count "999"
+angles "0 270 -44"
+spawnflags "1"
+origin "450.5 1644 32"
+model "weapon_mp7_iw5"
+classname "weapon_iw5_mp7_mp"
+}
+{
+ltorigin "-204 1248.06 350.83"
+targetname "hanging_light_off"
+spawnflags "6"
+origin "-204 1248 416"
+model "afr_industrial_light_animated_01_off"
+classname "script_model"
+}
+{
+ltorigin "-660 816.058 350.83"
+targetname "hanging_light_off"
+spawnflags "6"
+origin "-660 816 416"
+model "afr_industrial_light_animated_01_off"
+classname "script_model"
+}
+{
+gndlt "685c450001"
+ltorigin "-630 1321.06 178.83"
+targetname "hanging_light_off"
+spawnflags "6"
+origin "-630 1321 244"
+model "afr_industrial_light_animated_01_off"
+classname "script_model"
+}
+{
+ltorigin "252 816.058 350.83"
+targetname "hanging_light_off"
+spawnflags "6"
+origin "252 816 416"
+model "afr_industrial_light_animated_01_off"
+classname "script_model"
+}
+{
+ltorigin "252 1248.06 350.83"
+targetname "hanging_light_off"
+spawnflags "6"
+origin "252 1248 416"
+model "afr_industrial_light_animated_01_off"
+classname "script_model"
+}
+{
+gndlt "34302a0003"
+ltorigin "46.5713 903.943 141.394"
+script_noteworthy "light_model_on"
+script_linkname "pf3_7"
+origin "35 899.3 170"
+angles "37.4 202.557 0.081678"
+model "utility_clamp_light_on"
+classname "script_model"
+}
+{
+classname "script_struct"
+origin "405 1776 111"
+targetname "fluorescent_glow_FX_origin"
+angles "0 90 -90"
+}
+{
+classname "script_struct"
+origin "323 1776 111"
+targetname "fluorescent_glow_FX_origin"
+angles "0 90 -90"
+}
+{
+ltorigin "-67.6 215.6 10.2772"
+sound_csv_include "destruct_generator"
+classname "script_model"
+model "machinery_generator"
+origin "-67.6 215.6 0"
+targetname "destructible_toy"
+destructible_type "toy_generator_on"
+csv_include "destructible_generator"
+angles "0 319.9 0"
+}
+{
+classname "script_struct"
+origin "672 1252 111"
+targetname "fluorescent_glow_FX_origin"
+angles "0 3.18772e-006 -90"
+}
+{
+classname "script_struct"
+origin "672 1334 111"
+targetname "fluorescent_glow_FX_origin"
+angles "0 3.18772e-006 -90"
+}
+{
+count "999"
+angles "0 77.4 90"
+spawnflags "1"
+origin "457.7 1758.4 38"
+model "weapon_pp90m1_iw5"
+classname "weapon_iw5_pp90m1_mp"
+}
+{
+gndlt "1a18150003"
+ltorigin "3 890.205 8.9774"
+sound_csv_include "destruct_filecabinet"
+csv_include "destructible_filecabinet"
+targetname "destructible_toy"
+destructible_type "toy_filecabinet"
+origin "3 890 -16"
+model "com_filecabinetblackclosed"
+classname "script_model"
+angles "0 90 0"
+}
+{
+gndlt "1614120003"
+ltorigin "-29 890.205 8.9774"
+sound_csv_include "destruct_filecabinet"
+csv_include "destructible_filecabinet"
+targetname "destructible_toy"
+destructible_type "toy_filecabinet"
+origin "-29 890 -16"
+model "com_filecabinetblackclosed"
+classname "script_model"
+angles "0 90 0"
+}
+{
+count "999"
+angles "0 270 -44.4"
+spawnflags "1"
+origin "448.9 1582 29.7"
+model "weapon_usas12_iw5"
+classname "weapon_iw5_usas12_mp"
+}
+{
+count "999"
+angles "0 270 0"
+spawnflags "1"
+origin "455.5 1536 67"
+model "weapon_mp9_iw5"
+classname "weapon_iw5_mp9_mp"
+}
+{
+count "999"
+angles "0 270 0"
+spawnflags "1"
+origin "455.4 1536 51.2"
+model "weapon_skorpion_iw5"
+classname "weapon_iw5_skorpion_mp"
+}
+{
+count "999"
+angles "0 270 -41.4"
+spawnflags "1"
+origin "448.3 1536 29.3"
+model "weapon_g18_iw5"
+classname "weapon_iw5_g18_mp"
+}
+{
+gndlt "443f380002"
+ltorigin "-229.341 986.87 203.284"
+script_noteworthy "light_model_on"
+script_linkname "pf3_15"
+origin "-212 980.5 228.5"
+angles "50 340.5 0"
+model "utility_clamp_light_on"
+classname "script_model"
+}
+{
+gndlt "4f4a3d0006"
+ltorigin "240.759 1603.58 113.784"
+script_noteworthy "light_model_on"
+script_linkname "pf3_1"
+spawnflags "6"
+origin "252 1589 139"
+angles "50 308.1 0"
+model "utility_clamp_light_on"
+classname "script_model"
+}
+{
+count "999"
+angles "0 270 -44"
+spawnflags "1"
+origin "450.5 1690 32"
+model "weapon_scar_iw5"
+classname "weapon_iw5_scar_mp"
+}
+{
+count "999"
+angles "0 270 0"
+spawnflags "1"
+origin "455.5 1582 67"
+model "weapon_spas12_iw5"
+classname "weapon_iw5_spas12_mp"
+}
+{
+count "999"
+angles "0 270 0"
+spawnflags "1"
+origin "455.5 1582 51"
+model "weapon_ksg_iw5"
+classname "weapon_iw5_ksg_mp"
+}
+{
+classname "script_struct"
+origin "413.272 1482.86 114"
+targetname "fluorescent_glow_FX_origin"
+angles "0 140.5 -90"
+}
+{
+count "999"
+angles "0 230.5 -44.4"
+spawnflags "1"
+origin "429 1492.5 29.5"
+model "weapon_desert_eagle_iw5"
+classname "weapon_iw5_deserteagle_mp"
+}
+{
+count "999"
+angles "0 230.5 0"
+spawnflags "1"
+origin "405 1453 67"
+model "weapon_usp45_iw5"
+classname "weapon_iw5_usp45_mp"
+}
+{
+count "999"
+angles "0 230.5 0"
+spawnflags "1"
+origin "405 1453 51"
+model "weapon_walther_p99_iw5"
+classname "weapon_iw5_p99_mp"
+}
+{
+count "999"
+angles "0 230.5 -41.4"
+spawnflags "1"
+origin "399.5 1457.5 29.5"
+model "weapon_44_magnum_iw5"
+classname "weapon_iw5_44magnum_mp"
+}
+{
+count "999"
+angles "0 230.5 0"
+spawnflags "1"
+origin "434 1488.5 67"
+model "weapon_fn_fiveseven_iw5"
+classname "weapon_iw5_fnfiveseven_mp"
+}
+{
+count "999"
+angles "0 230.5 0"
+spawnflags "1"
+origin "434 1488.5 51"
+model "weapon_44_magnum_iw5"
+classname "weapon_iw5_44magnum_mp"
+}
+{
+ltorigin "249.616 1418.26 163.909"
+script_noteworthy "light_model_off"
+script_linkname "pf3_3"
+spawnflags "6"
+origin "251 1424.9 168.6"
+angles "353.567 270.19 -7.55202"
+model "utility_clamp_light_off"
+classname "script_model"
+}
+{
+ltorigin "249.99 1590.94 131.332"
+script_noteworthy "light_model_off"
+script_linkname "pf3_2"
+spawnflags "6"
+origin "252 1589 139"
+angles "50 308.1 0"
+model "utility_clamp_light_off"
+classname "script_model"
+}
+{
+ltorigin "249.911 1496.76 386.832"
+spawnflags "6"
+script_noteworthy "light_model_off"
+script_linkname "pf3_18"
+origin "251.5 1498 394.5"
+angles "50 22.1 0"
+model "utility_clamp_light_off"
+classname "script_model"
+}
+{
+ltorigin "341.629 2097.8 116.353"
+spawnflags "6"
+script_noteworthy "light_model_off"
+script_linkname "pf3_12"
+origin "342 2098.5 123.5"
+angles "32 245 0"
+model "utility_clamp_light_off"
+classname "script_model"
+}
+{
+ltorigin "187.905 2191 121.863"
+spawnflags "6"
+script_noteworthy "light_model_off"
+script_linkname "pf3_14"
+origin "186 2188.5 129.5"
+angles "59.5676 257.772 4.71382"
+model "utility_clamp_light_off"
+classname "script_model"
+}
+{
+ltorigin "35.1603 899.481 162.619"
+spawnflags "6"
+script_noteworthy "light_model_off"
+script_linkname "pf3_8"
+origin "35 899.3 170"
+angles "37.4 202.557 0.081678"
+model "utility_clamp_light_off"
+classname "script_model"
+}
+{
+ltorigin "-213.568 981.535 220.832"
+spawnflags "6"
+script_noteworthy "light_model_off"
+script_linkname "pf3_16"
+origin "-212 980.5 228.5"
+angles "50 340.5 0"
+model "utility_clamp_light_off"
+classname "script_model"
+}
+{
+angles "18.7473 263.642 -53.9947"
+target "pf3_auto3695"
+script_linkto "pf3_15 pf3_16"
+targetname "p_light"
+spawnflags "4"
+origin "-214.1 981 215"
+fov_outer "100"
+fov_inner "80"
+exponent "1"
+def "light_point_linear"
+radius "600"
+_color "1 0.95 0.775"
+intensity "1.3"
+classname "light_spot"
+__smorigin "0 0 0"
+__smangles "0 0 0"
+__smname "test/patriot_crib_proto_geo.map"
+__smid "977"
+pl# "2"
+}
+{
+target "pf3_auto3696"
+angles "0 106 48"
+script_linkto "pf3_17 pf3_18"
+targetname "p_light"
+spawnflags "4"
+origin "250 1497 384"
+fov_outer "100"
+fov_inner "80"
+exponent "1"
+def "light_point_linear"
+radius "400"
+_color "1 0.95 0.775"
+intensity "1.3"
+classname "light_spot"
+__smorigin "0 0 0"
+__smangles "0 0 0"
+__smname "test/patriot_crib_proto_geo.map"
+__smid "978"
+pl# "5"
+}
+{
+gndlt "433e330001"
+ltorigin "92.2 664 10.2772"
+sound_csv_include "destruct_generator"
+classname "script_model"
+model "machinery_generator"
+origin "92.2 664 0"
+targetname "destructible_toy"
+destructible_type "toy_generator_on"
+csv_include "destructible_generator"
+angles "0 329.5 0"
+}
+{
+gndlt "39342b0001"
+ltorigin "120.3 659.9 10.2772"
+sound_csv_include "destruct_generator"
+classname "script_model"
+model "machinery_generator"
+origin "120.3 659.9 0"
+targetname "destructible_toy"
+destructible_type "toy_generator_on"
+csv_include "destructible_generator"
+angles "0 319.9 0"
+}
+{
+ltorigin "-790.771 899.43 137.766"
+sound_csv_include "destruct_security_camera"
+targetname "destructible_toy"
+destructible_type "toy_security_camera"
+csv_include "destructible_security_camera"
+origin "-786 899 136"
+model "com_security_camera_tilt_animated"
+classname "script_model"
+angles "0 270 0"
+}
+{
+targetname "clip_block_trace_grinch"
+classname "script_brushmodel"
+origin "181 1427 45"
+model "*5"
+}
+{
+classname "script_struct"
+origin "572 1252 111"
+targetname "fluorescent_glow_FX_origin"
+angles "0 3.18772e-006 -90"
+}
+{
+classname "script_struct"
+origin "572 1334 111"
+targetname "fluorescent_glow_FX_origin"
+angles "0 3.18772e-006 -90"
+}
+{
+ltorigin "260 2098.06 348.83"
+targetname "hanging_light_off"
+spawnflags "6"
+origin "260 2098 414"
+model "afr_industrial_light_animated_01_off"
+classname "script_model"
+}
+{
+ltorigin "436 2098.06 348.83"
+targetname "hanging_light_off"
+spawnflags "6"
+origin "436 2098 414"
+model "afr_industrial_light_animated_01_off"
+classname "script_model"
+}
+{
+ltorigin "-324 2098.06 348.83"
+targetname "hanging_light_off"
+spawnflags "6"
+origin "-324 2098 414"
+model "afr_industrial_light_animated_01_off"
+classname "script_model"
+}
+{
+ltorigin "-668 2098.06 348.83"
+targetname "hanging_light_off"
+spawnflags "6"
+origin "-668 2098 414"
+model "afr_industrial_light_animated_01_off"
+classname "script_model"
+}
+{
+gndlt "484b4e0006"
+ltorigin "-40.06 1797.68 206.973"
+angles "0 90 0"
+targetname "glowing_rope"
+origin "-32.5 1764 0"
+model "com_drop_rope"
+classname "script_model"
+}
+{
+ltorigin "188.232 2063.7 37.52"
+origin "186.8 2066.3 36.9"
+angles "342.55 299.39 17.2914"
+model "weapon_commando_knife"
+classname "script_model"
+}
+{
+gndlt "3f3a300009"
+ltorigin "346.321 2107.3 93.8555"
+script_noteworthy "light_model_on"
+script_linkname "pf3_11"
+origin "342 2098.5 123.5"
+angles "32 245 0"
+model "utility_clamp_light_on"
+classname "script_model"
+}
+{
+gndlt "3f392f0004"
+ltorigin "193.38 2209.71 107.734"
+script_noteworthy "light_model_on"
+script_linkname "pf3_13"
+origin "186 2188.5 129.5"
+angles "59.5676 257.772 4.71382"
+model "utility_clamp_light_on"
+classname "script_model"
+}
+{
+ltorigin "545.132 2325.93 115.832"
+spawnflags "6"
+script_noteworthy "light_model_off"
+origin "546 2324.5 123.5"
+angles "50 285 0"
+model "utility_clamp_light_off"
+classname "script_model"
+}
+{
+script_linkto "pf3_13 pf3_14"
+targetname "p_light"
+spawnflags "4"
+exponent "1"
+target "pf3_auto3685"
+origin "187.3 2192.5 118"
+angles "301.846 43.8105 23.6652"
+fov_outer "80"
+fov_inner "60"
+def "light_point_linear"
+radius "350"
+_color "1 0.95 0.75"
+intensity "1.55"
+classname "light_spot"
+__smorigin "0 0 0"
+__smangles "0 0 0"
+__smname "test/patriot_crib_proto_geo.map"
+__smid "2191"
+pl# "4"
+}
+{
+targetname "p_light"
+spawnflags "4"
+exponent "1"
+target "pf3_auto3686"
+origin "497.8 2330 8.5"
+angles "0 76 0"
+fov_outer "80"
+fov_inner "60"
+def "light_point_linear"
+radius "325"
+_color "1 0.95 0.75"
+intensity "1.75"
+classname "light_spot"
+__smorigin "0 0 0"
+__smangles "0 0 0"
+__smname "test/patriot_crib_proto_geo.map"
+__smid "2195"
+pl# "10"
+}
+{
+gndlt "3f382b0007"
+ltorigin "214.911 1326.42 25.8203"
+origin "215.2 1326.7 28.9"
+angles "81.0602 215.321 123.477"
+model "weapon_commando_knife"
+classname "script_model"
+}
+{
+classname "script_struct"
+origin "-17 1882 111"
+targetname "fluorescent_glow_FX_origin"
+angles "0 270 -90"
+}
+{
+classname "script_struct"
+origin "65 1882 111"
+targetname "fluorescent_glow_FX_origin"
+angles "0 270 -90"
+}
+{
+angles "0 30 48"
+script_linkto "pf3_1 pf3_2"
+targetname "p_light"
+spawnflags "4"
+origin "250 1591 128"
+fov_outer "100"
+fov_inner "80"
+exponent "1"
+target "pf3_auto3688"
+def "light_point_linear"
+radius "400"
+_color "1 0.95 0.775"
+intensity "1.3"
+classname "light_spot"
+__smorigin "0 0 0"
+__smangles "0 0 0"
+__smname "test/patriot_crib_proto_geo.map"
+__smid "2252"
+pl# "6"
+}
+{
+gndlt "3630250007"
+ltorigin "247.131 1414.05 139.586"
+script_noteworthy "light_model_on"
+script_linkname "pf3_4"
+spawnflags "6"
+origin "251 1424.9 168.6"
+angles "353.567 270.19 -7.55202"
+model "utility_clamp_light_on"
+classname "script_model"
+}
+{
+script_linkto "pf3_3 pf3_4"
+targetname "p_light"
+spawnflags "4"
+origin "251.5 1415.5 160"
+fov_outer "85"
+fov_inner "75"
+exponent "1"
+target "pf3_auto3689"
+def "light_point_linear"
+radius "500"
+_color "1 0.95 0.775"
+intensity "1.5"
+classname "light_spot"
+__smorigin "0 0 0"
+__smangles "0 0 0"
+__smname "test/patriot_crib_proto_geo.map"
+__smid "2264"
+pl# "7"
+}
+{
+script_linkto "pf3_11 pf3_12"
+targetname "p_light"
+spawnflags "4"
+exponent "1"
+target "pf3_auto3687"
+origin "340.8 2099 112.5"
+angles "325.879 68.4998 -5.5186"
+fov_outer "85"
+fov_inner "45"
+def "light_point_linear"
+radius "300"
+_color "1 0.95 0.75"
+intensity "1.75"
+classname "light_spot"
+__smorigin "0 0 0"
+__smangles "0 0 0"
+__smname "test/patriot_crib_proto_geo.map"
+__smid "2279"
+pl# "9"
+}
+{
+targetname "p_light"
+spawnflags "4"
+exponent "1"
+target "pf3_auto3690"
+origin "276.8 2028 9.5"
+angles "0 76 0"
+fov_outer "80"
+fov_inner "65"
+def "light_point_linear"
+radius "275"
+_color "1 0.95 0.75"
+intensity "1.75"
+classname "light_spot"
+__smorigin "0 0 0"
+__smangles "0 0 0"
+__smname "test/patriot_crib_proto_geo.map"
+__smid "2298"
+pl# "8"
+}
+{
+ltorigin "348 1578.06 490.83"
+targetname "hanging_light_off"
+spawnflags "6"
+origin "348 1578 556"
+model "afr_industrial_light_animated_01_off"
+classname "script_model"
+}
+{
+ltorigin "476 1578.06 490.83"
+targetname "hanging_light_off"
+spawnflags "6"
+origin "476 1578 556"
+model "afr_industrial_light_animated_01_off"
+classname "script_model"
+}
+{
+ltorigin "92 1578.06 490.83"
+targetname "hanging_light_off"
+spawnflags "6"
+origin "92 1578 556"
+model "afr_industrial_light_animated_01_off"
+classname "script_model"
+}
+{
+ltorigin "-36 1578.06 490.83"
+targetname "hanging_light_off"
+spawnflags "6"
+origin "-36 1578 556"
+model "afr_industrial_light_animated_01_off"
+classname "script_model"
+}
+{
+ltorigin "-207.57 909.771 137.766"
+sound_csv_include "destruct_security_camera"
+targetname "destructible_toy"
+destructible_type "toy_security_camera"
+csv_include "destructible_security_camera"
+origin "-208 905 136"
+model "com_security_camera_tilt_animated"
+classname "script_model"
+angles "0 180 0"
+}
+{
+ltorigin "-207.57 1174.77 137.766"
+sound_csv_include "destruct_security_camera"
+targetname "destructible_toy"
+destructible_type "toy_security_camera"
+csv_include "destructible_security_camera"
+origin "-208 1170 136"
+model "com_security_camera_tilt_animated"
+classname "script_model"
+angles "0 180 0"
+}
+{
+ltorigin "-794.955 1449.21 137.766"
+sound_csv_include "destruct_security_camera"
+targetname "destructible_toy"
+destructible_type "toy_security_camera"
+csv_include "destructible_security_camera"
+origin "-792 1443 136"
+model "com_security_camera_tilt_animated"
+classname "script_model"
+angles "0 218 0"
+}
+{
+angles "317.7 21.789 -0.383139"
+script_linkto "pf3_7 pf3_8"
+targetname "p_light"
+spawnflags "4"
+origin "35 899.3 158"
+fov_outer "75"
+fov_inner "60"
+exponent "1"
+target "pf3_auto3694"
+def "light_point_linear"
+radius "450"
+_color "1 0.95 0.775"
+intensity "1.45"
+classname "light_spot"
+__smorigin "0 0 0"
+__smangles "0 0 0"
+__smname "test/patriot_crib_proto_geo.map"
+__smid "2914"
+pl# "3"
+}
+{
+gndlt "443d2f0000"
+ltorigin "234.416 1491.18 369.284"
+script_noteworthy "light_model_on"
+script_linkname "pf3_17"
+origin "251.5 1498 394.5"
+angles "50 22.1 0"
+model "utility_clamp_light_on"
+classname "script_model"
+}
+{
+ltorigin "261.771 904.57 113.766"
+sound_csv_include "destruct_security_camera"
+targetname "destructible_toy"
+destructible_type "toy_security_camera"
+csv_include "destructible_security_camera"
+origin "257 905 112"
+model "com_security_camera_tilt_animated"
+classname "script_model"
+angles "0 90 0"
+}
+{
+ltorigin "442.366 1440.53 171.766"
+sound_csv_include "destruct_security_camera"
+targetname "destructible_toy"
+destructible_type "toy_security_camera"
+csv_include "destructible_security_camera"
+origin "440 1436 170"
+model "com_security_camera_tilt_animated"
+classname "script_model"
+angles "0 163.8 0"
+}
+{
+ltorigin "202.533 2100.63 115.766"
+sound_csv_include "destruct_security_camera"
+targetname "destructible_toy"
+destructible_type "toy_security_camera"
+csv_include "destructible_security_camera"
+origin "198 2103 114"
+model "com_security_camera_tilt_animated"
+classname "script_model"
+angles "0 73.8 0"
+}
+{
+ltorigin "-446.43 1205.23 149.766"
+sound_csv_include "destruct_security_camera"
+targetname "destructible_toy"
+destructible_type "toy_security_camera"
+csv_include "destructible_security_camera"
+origin "-446 1210 148"
+model "com_security_camera_tilt_animated"
+classname "script_model"
+}
+{
+spawnflags "1"
+targetname "torture_door_2"
+classname "script_brushmodel"
+origin "-446 1310 13"
+model "*6"
+}
+{
+gndlt "5852425901"
+ltorigin "-509.961 822.82 42.0984"
+spawnflags "4"
+origin "-514.6 818.8 -14.5"
+targetname "hummer_end_01"
+animation "training_humvee_door"
+angles "359.031 208.985 1.74941"
+model "vehicle_armored_van_destroyed"
+classname "script_model"
+}
+{
+script_friendname "C-Los"
+targetname "npc_carlos"
+classname "actor_iw5_ally_us_army_casual"
+model "body_us_army_dmg_a_blk"
+export "3"
+spawnflags "1"
+animation "training_pushups_guy1"
+origin "623.9 1289.2 0"
+script_noteworthy "npcs"
+script_forcespawn "1"
+angles "0 210 0"
+}
+{
+origin "-550 1341 10.5"
+angles "0 270 0"
+targetname "torture_node_chair_battery"
+classname "script_origin"
+}
+{
+target "pf2_auto12"
+targetname "spawner_veh_intro_player"
+spawnflags "2"
+origin "-2639.5 807 0"
+angles "0 8.89996 0"
+export "27"
+model "vehicle_hummer"
+vehicletype "humvee"
+script_team "allies"
+classname "script_vehicle_hummer"
+}
+{
+script_friendname "L.T."
+targetname "npc_lt"
+script_char_index "0"
+angles "0 187.4 0"
+script_forcespawn "1"
+script_noteworthy "npcs"
+origin "675.3 870.4 0"
+animation "civilian_reader_2"
+spawnflags "3"
+export "4"
+model "body_us_army_dmg_a_blk"
+classname "actor_iw5_ally_us_army_casual"
+}
+{
+targetname "npc_mechanic"
+name "Jet"
+script_char_index "0"
+angles "0 78.3 0"
+script_drone "1"
+script_forcespawn "1"
+script_noteworthy "npcs"
+origin "-550.4 777.8 -16"
+animation "training_humvee_repair"
+spawnflags "1"
+export "5"
+model "body_us_army_dmg_a_blk"
+classname "actor_iw5_ally_us_army_casual"
+}
+{
+script_friendname "Tommy"
+targetname "npc_tommy"
+script_linkto "pf2_1"
+script_char_index "0"
+angles "0 182 0"
+script_forcespawn "1"
+script_noteworthy "npcs"
+origin "-544 948.6 22"
+animation "cliffhanger_welder_wing"
+spawnflags "1"
+export "6"
+model "body_us_army_dmg_a_blk"
+classname "actor_iw5_ally_us_army_casual"
+}
+{
+radius "150"
+speed "40"
+target "pf2_auto3"
+targetname "pf2_auto2"
+origin "2856 4072 464"
+classname "script_struct_heli"
+}
+{
+radius "150"
+speed "40"
+target "pf2_auto4"
+targetname "pf2_auto3"
+origin "1608 1592 584"
+classname "script_struct_heli"
+}
+{
+radius "150"
+target "pf2_auto2"
+targetname "pf2_auto1"
+spawnflags "1"
+script_accel "15"
+speed "40"
+origin "3808 4920 464"
+classname "script_struct_heli"
+}
+{
+ltorigin "202.161 1466.98 36.133"
+origin "202 1467 35.5"
+angles "0 70 0"
+model "weapon_m67_grenade"
+classname "script_model"
+}
+{
+ltorigin "204.986 1468.83 36.133"
+origin "205 1469 35.5"
+angles "0 345 0"
+model "weapon_m67_grenade"
+classname "script_model"
+}
+{
+ltorigin "205.508 1464.82 36.133"
+origin "205.5 1465 35.5"
+angles "0 17.3 0"
+model "weapon_m67_grenade"
+classname "script_model"
+}
+{
+ltorigin "198.661 1462.98 36.133"
+origin "198.5 1463 35.5"
+angles "0 70 0"
+model "weapon_m67_grenade"
+classname "script_model"
+}
+{
+ltorigin "177.159 1464.77 36.0313"
+origin "177 1465 36"
+angles "90 244 1.68068e-005"
+model "weapon_semtex_grenade"
+classname "script_model"
+}
+{
+ltorigin "182.994 1469.05 36.3538"
+origin "183 1469 36"
+angles "1.61787 271.176 -1.98325"
+model "weapon_semtex_grenade"
+classname "script_model"
+}
+{
+ltorigin "185.106 1452.66 38.0313"
+origin "185 1453 38"
+angles "90 262.2 1.7381e-005"
+model "weapon_semtex_grenade"
+classname "script_model"
+}
+{
+ltorigin "165.515 1465.42 35.2329"
+angles "90 125.3 180"
+origin "163.5 1468 35.5"
+model "weapon_claymore"
+classname "script_model"
+}
+{
+ltorigin "180.888 1452.66 38.0766"
+origin "181 1453 38"
+angles "315 0 97.8"
+model "weapon_semtex_grenade"
+classname "script_model"
+}
+{
+ltorigin "154.733 1463.55 35.2329"
+angles "90 105 180"
+origin "153.5 1467 35.5"
+model "weapon_claymore"
+classname "script_model"
+}
+{
+ltorigin "159.617 1464.17 37.2329"
+angles "90 271.2 1.68583e-005"
+origin "159.5 1468 37.5"
+model "weapon_claymore"
+classname "script_model"
+}
+{
+ltorigin "136.829 1441.69 40.8097"
+origin "136.8 1441.3 43.9"
+angles "82.2591 83.357 130.6"
+model "weapon_commando_knife"
+classname "script_model"
+}
+{
+ltorigin "203.912 1455.54 38.0037"
+angles "90 100.3 -180"
+origin "204.1 1456.2 38"
+model "weapon_m67_grenade"
+classname "script_model"
+}
+{
+ltorigin "204.712 1451.14 38.0037"
+angles "90 100.3 -180"
+origin "204.9 1451.8 38"
+model "weapon_m67_grenade"
+classname "script_model"
+}
+{
+ltorigin "199.512 1454.74 38.0037"
+angles "90 100.3 -180"
+origin "199.7 1455.4 38"
+model "weapon_m67_grenade"
+classname "script_model"
+}
+{
+ltorigin "200.312 1450.34 38.0037"
+angles "90 100.3 -180"
+origin "200.5 1451 38"
+model "weapon_m67_grenade"
+classname "script_model"
+}
+{
+ltorigin "176.606 1453.16 38.0313"
+origin "176.5 1453.5 38"
+angles "90 262.2 1.7381e-005"
+model "weapon_semtex_grenade"
+classname "script_model"
+}
+{
+ltorigin "195.012 1453.94 38.0037"
+angles "90 100.3 -180"
+origin "195.2 1454.6 38"
+model "weapon_m67_grenade"
+classname "script_model"
+}
+{
+ltorigin "195.812 1449.44 38.0037"
+angles "90 100.3 -180"
+origin "196 1450.1 38"
+model "weapon_m67_grenade"
+classname "script_model"
+}
+{
+script_friendname "Sandman"
+targetname "npc_sandman"
+angles "0 270 0"
+spawnflags "3"
+origin "-624 1392 10.5"
+export "7"
+model "body_hero_sandman_delta_dusty"
+classname "actor_iw5_ally_hero_sandman_delta_dusty"
+}
+{
+ltorigin "138.186 1464.32 34"
+angles "0 285 -90"
+origin "137.7 1467.4 34"
+model "weapon_commando_knife"
+classname "script_model"
+}
+{
+ltorigin "143.761 1460.02 34"
+angles "0 251 -90"
+origin "144.7 1462.9 34"
+model "weapon_commando_knife"
+classname "script_model"
+}
+{
+ltorigin "133.603 1454.86 34"
+angles "0 259.2 -90"
+origin "134.2 1457.9 34"
+model "weapon_commando_knife"
+classname "script_model"
+}
+{
+ltorigin "180.064 1631.19 38.1406"
+origin "180 1631 37.5"
+angles "0 234 90"
+model "weapon_m84_flashbang_grenade"
+classname "script_model"
+}
+{
+ltorigin "176 1631.38 38.1406"
+origin "176 1631 37.5"
+angles "0 270 90"
+model "weapon_m84_flashbang_grenade"
+classname "script_model"
+}
+{
+ltorigin "179.353 1634 38.1406"
+origin "179 1634 37.5"
+angles "0 174 90"
+model "weapon_m84_flashbang_grenade"
+classname "script_model"
+}
+{
+ltorigin "175.353 1636 38.1406"
+origin "175 1636 37.5"
+angles "0 174 90"
+model "weapon_m84_flashbang_grenade"
+classname "script_model"
+}
+{
+ltorigin "200.19 1637.06 38.1406"
+origin "200 1637 37.5"
+angles "0 216 90"
+model "weapon_concussion_grenade"
+classname "script_model"
+}
+{
+ltorigin "202 1635.38 38.1406"
+origin "202 1635 37.5"
+angles "0 270 90"
+model "weapon_concussion_grenade"
+classname "script_model"
+}
+{
+ltorigin "200 1633.29 38.1406"
+origin "200 1633 37.5"
+angles "0 290 90"
+model "weapon_concussion_grenade"
+classname "script_model"
+}
+{
+ltorigin "204.353 1633 38.1406"
+origin "204 1633 37.5"
+angles "0 174 90"
+model "weapon_concussion_grenade"
+classname "script_model"
+}
+{
+ltorigin "236.323 1632.67 37.4217"
+origin "236 1633 38.5"
+angles "0 306 0"
+model "weapon_us_smoke_grenade"
+classname "script_model"
+}
+{
+ltorigin "233.637 1634.73 37.4217"
+origin "234 1635 38.5"
+angles "0 210 0"
+model "weapon_us_smoke_grenade"
+classname "script_model"
+}
+{
+ltorigin "233.871 1632.38 37.4217"
+origin "233.5 1632.5 38.5"
+angles "0 336 0"
+model "weapon_us_smoke_grenade"
+classname "script_model"
+}
+{
+ltorigin "239.37 1633.85 35.5878"
+angles "350.8 45 90"
+origin "240 1632.5 35.5"
+model "weapon_us_smoke_grenade"
+classname "script_model"
+}
+{
+ltorigin "171.5 1647.14 38.1248"
+origin "171.5 1646.5 38.5"
+angles "270 90 -90"
+model "weapon_m84_flashbang_grenade"
+classname "script_model"
+}
+{
+ltorigin "174.5 1647.14 38.1248"
+origin "174.5 1646.5 38.5"
+angles "270 90 -90"
+model "weapon_m84_flashbang_grenade"
+classname "script_model"
+}
+{
+ltorigin "177.5 1647.14 38.1248"
+origin "177.5 1646.5 38.5"
+angles "270 90 -90"
+model "weapon_m84_flashbang_grenade"
+classname "script_model"
+}
+{
+ltorigin "180.5 1647.14 38.1248"
+origin "180.5 1646.5 38.5"
+angles "270 90 -90"
+model "weapon_m84_flashbang_grenade"
+classname "script_model"
+}
+{
+ltorigin "199.542 1646.04 38.5"
+angles "0 359.2 0"
+origin "199.9 1645.4 38.5"
+model "weapon_concussion_grenade"
+classname "script_model"
+}
+{
+ltorigin "203.542 1646.04 38.5"
+angles "0 359.2 0"
+origin "203.9 1645.4 38.5"
+model "weapon_concussion_grenade"
+classname "script_model"
+}
+{
+ltorigin "207.542 1645.94 38.5"
+angles "0 359.2 0"
+origin "207.9 1645.3 38.5"
+model "weapon_concussion_grenade"
+classname "script_model"
+}
+{
+ltorigin "230.605 1647.8 38.4034"
+angles "270 94 -180"
+origin "230.5 1648.9 38"
+model "weapon_us_smoke_grenade"
+classname "script_model"
+}
+{
+ltorigin "233.717 1648.06 38.3669"
+angles "315 184 90"
+origin "234 1649.2 38"
+model "weapon_us_smoke_grenade"
+classname "script_model"
+}
+{
+ltorigin "236.605 1648.3 38.4034"
+angles "270 94 -180"
+origin "236.5 1649.4 38"
+model "weapon_us_smoke_grenade"
+classname "script_model"
+}
+{
+ltorigin "239.605 1648.5 38.4034"
+angles "270 94 -180"
+origin "239.5 1649.6 38"
+model "weapon_us_smoke_grenade"
+classname "script_model"
+}
+{
+ltorigin "181.019 1464.65 36.0313"
+origin "181 1465 36"
+angles "90 270 3.18772e-006"
+model "weapon_semtex_grenade"
+classname "script_model"
+}
+{
+script_friendname "Grinch"
+targetname "npc_grinch"
+angles "0 270 0"
+spawnflags "3"
+origin "-1912 1895 0"
+export "8"
+model "body_delta_elite_assault_bb"
+classname "actor_iw5_ally_hero_grinch_delta"
+}
+{
+script_friendname "Truck"
+name "Truck"
+targetname "npc_truck"
+angles "0 270 0"
+origin "-668 1392 10.5"
+spawnflags "3"
+export "10"
+model "body_hero_truck_delta"
+classname "actor_iw5_ally_hero_truck_delta_m4"
+}
+{
+script_ent_flag_set "flag_ent_chopper_landed"
+script_ent_flag "test"
+script_goalyaw "1"
+script_land "1"
+speed "40"
+targetname "pf2_auto4"
+model "vehicle_little_bird_bench"
+angles "0 131.9 0"
+origin "1264 1123 104.3"
+classname "script_struct_heli"
+}
+{
+script_ent_flag_set "flag_ent_chopper_landed"
+script_ent_flag "test"
+script_goalyaw "1"
+script_land "1"
+speed "40"
+targetname "pf2_auto8"
+model "vehicle_little_bird_bench"
+angles "0 211.6 0"
+origin "1400.5 736 104.8"
+classname "script_struct_heli"
+}
+{
+radius "150"
+speed "40"
+target "pf2_auto7"
+targetname "pf2_auto6"
+origin "3416 2896 240"
+classname "script_struct_heli"
+}
+{
+radius "150"
+speed "40"
+target "pf2_auto8"
+targetname "pf2_auto7"
+origin "2000 1504 496"
+classname "script_struct_heli"
+}
+{
+radius "150"
+target "pf2_auto6"
+targetname "pf2_auto5"
+spawnflags "1"
+script_accel "15"
+speed "40"
+origin "4288 4184 240"
+classname "script_struct_heli"
+}
+{
+target "pf2_auto19"
+targetname "trig_spawn_choppers_outro"
+classname "trigger_multiple_spawn"
+origin "4716 5724 140"
+model "?0"
+}
+{
+targetname "exit_npc_grinch"
+angles "0 349 0"
+origin "512 1101 0"
+classname "script_struct"
+}
+{
+targetname "chopper_npc_grinch"
+angles "0 94 0"
+origin "1220.9 1049.3 -19.3"
+classname "script_struct"
+}
+{
+target "pf2_auto13"
+speed "15"
+targetname "pf2_auto10"
+origin "-1094.8 934 28"
+angles "0 40 0"
+classname "info_vehicle_node"
+}
+{
+origin "-896 1088 28"
+classname "node_pathnode"
+}
+{
+targetname "pf2_auto12"
+lookahead ".5"
+speed "10"
+spawnflags "1"
+target "pf2_auto10"
+origin "-2639.5 807 28"
+angles "0 8.89996 0"
+classname "info_vehicle_node"
+}
+{
+targetname "pf2_auto13"
+speed "0"
+origin "-1055 966.6 28"
+angles "0 40 0"
+classname "info_vehicle_node"
+}
+{
+speed "10"
+target "pf2_auto26"
+origin "-2300.2 1185.3 0"
+spawnflags "2"
+targetname "spawner_veh_intro_lead"
+angles "0 357 0"
+export "30"
+model "vehicle_armored_van"
+vehicletype "armored_van"
+script_team "allies"
+classname "script_vehicle_armored_van"
+}
+{
+targetname "ent_grinch_torture_look"
+origin "-506 1224 92"
+classname "script_origin"
+}
+{
+origin "-458 1303 10.5"
+angles "0 270 0"
+targetname "torture_node_door"
+classname "script_origin"
+}
+{
+origin "-896 960 28"
+classname "node_pathnode"
+}
+{
+origin "-784 972 28"
+classname "node_pathnode"
+}
+{
+script_friendname "H.V.T."
+script_drone "1"
+spawnflags "3"
+targetname "spawner_hostage"
+origin "-580 1392 10.5"
+angles "0 270 0"
+export "38"
+model "body_volk_a"
+classname "actor_iw5_ally_ac130_hostage"
+}
+{
+script_flag "flag_torture_sequence_intro_start"
+classname "trigger_multiple_flag_set"
+origin "-614 923 119"
+model "?1"
+}
+{
+script_vehicleride "1"
+targetname "pf2_auto19"
+script_godmode "1"
+script_noteworthy "outro_chopper_b"
+speed "40"
+target "pf2_auto1"
+spawnflags "2"
+origin "4925 6968 304.3"
+angles "0 236.9 0"
+export "14"
+model "vehicle_little_bird_bench"
+vehicletype "littlebird"
+script_team "axis"
+classname "script_vehicle_littlebird_bench"
+}
+{
+script_vehicleride "0"
+targetname "pf2_auto19"
+script_godmode "1"
+script_noteworthy "outro_chopper_a"
+speed "40"
+target "pf2_auto5"
+spawnflags "2"
+origin "4424.5 5368 104.8"
+angles "0 241.6 0"
+export "13"
+model "vehicle_little_bird_bench"
+vehicletype "littlebird"
+script_team "axis"
+classname "script_vehicle_littlebird_bench"
+}
+{
+angles "0 270 0"
+origin "-1952 1895 0"
+classname "info_player_start"
+}
+{
+origin "-784 1072 28"
+classname "node_pathnode"
+}
+{
+origin "-672 960 12"
+classname "node_pathnode"
+}
+{
+origin "-672 1072 12"
+classname "node_pathnode"
+}
+{
+origin "-560 960 12"
+classname "node_pathnode"
+}
+{
+origin "-560 1072 12"
+classname "node_pathnode"
+}
+{
+origin "-448 960 12"
+classname "node_pathnode"
+}
+{
+origin "-448 1072 12"
+classname "node_pathnode"
+}
+{
+origin "-348 953.5 12"
+classname "node_pathnode"
+}
+{
+origin "-336 1072 12"
+classname "node_pathnode"
+}
+{
+origin "-448 1168 28"
+classname "node_pathnode"
+}
+{
+origin "-336 1168 28"
+classname "node_pathnode"
+}
+{
+origin "-416 1272 28"
+classname "node_pathnode"
+}
+{
+origin "-336 1264 28"
+classname "node_pathnode"
+}
+{
+origin "-336 1360 28"
+classname "node_pathnode"
+}
+{
+origin "-416 1352 28"
+classname "node_pathnode"
+}
+{
+origin "-208 1232 28"
+classname "node_pathnode"
+}
+{
+origin "-208 1328 28"
+classname "node_pathnode"
+}
+{
+origin "-80 1232 28"
+classname "node_pathnode"
+}
+{
+origin "-80 1328 28"
+classname "node_pathnode"
+}
+{
+animation "crowdsniper_crowdwatchidle_3"
+targetname "brief_npc_tommy"
+angles "0 60 0"
+origin "-388 992 -16"
+classname "script_struct"
+}
+{
+origin "-16 960 12"
+classname "node_pathnode"
+}
+{
+origin "32 1024 12"
+classname "node_pathnode"
+}
+{
+origin "-176 960 12"
+classname "node_pathnode"
+}
+{
+origin "-176 1072 12"
+classname "node_pathnode"
+}
+{
+origin "-112 960 12"
+classname "node_pathnode"
+}
+{
+animation "crowdsniper_crowdwatchidle_3"
+targetname "brief_npc_mechanic"
+angles "0 65 0"
+origin "-356 1196 0"
+classname "script_struct"
+}
+{
+origin "112 1072 12"
+classname "node_pathnode"
+}
+{
+origin "128 960 12"
+classname "node_pathnode"
+}
+{
+origin "224 1072 12"
+classname "node_pathnode"
+}
+{
+origin "336 1104 28"
+classname "node_pathnode"
+}
+{
+targetname "brief_npc_grinch"
+angles "0 256.1 0"
+origin "76 1393 0"
+classname "script_struct"
+}
+{
+origin "16 1328 28"
+classname "node_pathnode"
+}
+{
+origin "0 1408 28"
+classname "node_pathnode"
+}
+{
+origin "0 1504 28"
+classname "node_pathnode"
+}
+{
+origin "0 1648 28"
+classname "node_pathnode"
+}
+{
+origin "-96 1648 28"
+classname "node_pathnode"
+}
+{
+origin "-96 1552 28"
+classname "node_pathnode"
+}
+{
+origin "96 1504 28"
+classname "node_pathnode"
+}
+{
+origin "96 1648 28"
+classname "node_pathnode"
+}
+{
+origin "176 1552 28"
+classname "node_pathnode"
+}
+{
+origin "304 1552 28"
+classname "node_pathnode"
+}
+{
+origin "312 1680 28"
+classname "node_pathnode"
+}
+{
+origin "384 1680 28"
+classname "node_pathnode"
+}
+{
+origin "384 1552 28"
+classname "node_pathnode"
+}
+{
+origin "384 1760 28"
+classname "node_pathnode"
+}
+{
+origin "312 1756 28"
+classname "node_pathnode"
+}
+{
+origin "336 1440 28"
+classname "node_pathnode"
+}
+{
+origin "336 1312 28"
+classname "node_pathnode"
+}
+{
+origin "112 1264 28"
+classname "node_pathnode"
+}
+{
+origin "240 1264 28"
+classname "node_pathnode"
+}
+{
+origin "336 1216 28"
+classname "node_pathnode"
+}
+{
+origin "336 1008 28"
+classname "node_pathnode"
+}
+{
+origin "336 864 28"
+classname "node_pathnode"
+}
+{
+origin "224 768 28"
+classname "node_pathnode"
+}
+{
+origin "336 768 28"
+classname "node_pathnode"
+}
+{
+origin "160 816 28"
+classname "node_pathnode"
+}
+{
+origin "98.5 763 28"
+classname "node_pathnode"
+}
+{
+origin "133.5 696.5 28"
+classname "node_pathnode"
+}
+{
+origin "-16 752 28"
+classname "node_pathnode"
+}
+{
+origin "-112 720 28"
+classname "node_pathnode"
+}
+{
+origin "-208 672 28"
+classname "node_pathnode"
+}
+{
+origin "-304 672 28"
+classname "node_pathnode"
+}
+{
+origin "-432 672 28"
+classname "node_pathnode"
+}
+{
+origin "-560 672 28"
+classname "node_pathnode"
+}
+{
+origin "-642.5 705 28"
+classname "node_pathnode"
+}
+{
+origin "-640 838 28"
+classname "node_pathnode"
+}
+{
+origin "-384 768 28"
+classname "node_pathnode"
+}
+{
+origin "-372.5 882.5 28"
+classname "node_pathnode"
+}
+{
+origin "448 1104 28"
+classname "node_pathnode"
+}
+{
+origin "448 1312 28"
+classname "node_pathnode"
+}
+{
+origin "448 1216 28"
+classname "node_pathnode"
+}
+{
+origin "448 992 28"
+classname "node_pathnode"
+}
+{
+origin "433 791 28"
+classname "node_pathnode"
+}
+{
+origin "510.5 698.5 28"
+classname "node_pathnode"
+}
+{
+origin "560 1104 28"
+classname "node_pathnode"
+}
+{
+origin "560 1328 28"
+classname "node_pathnode"
+}
+{
+origin "560 1216 28"
+classname "node_pathnode"
+}
+{
+origin "560 992 28"
+classname "node_pathnode"
+}
+{
+origin "560 880 28"
+classname "node_pathnode"
+}
+{
+origin "113 1364 28"
+classname "node_pathnode"
+}
+{
+origin "672 1368 28"
+classname "node_pathnode"
+}
+{
+script_team "allies"
+targetname "npc_cairo"
+name "Cairo"
+script_forcespawn "1"
+spawnflags "3"
+script_noteworthy "npcs"
+origin "645 795.5 0"
+angles "0 101 0"
+animation "german_shepherd_sleeping"
+export "31"
+model "german_sheperd_dog"
+classname "actor_iw5_enemy_dog"
+}
+{
+origin "672 1104 28"
+classname "node_pathnode"
+}
+{
+origin "672 992 28"
+classname "node_pathnode"
+}
+{
+origin "672 880 28"
+classname "node_pathnode"
+}
+{
+animation "crowdsniper_civ_sitting1"
+origin "159 1398 1"
+angles "0 81.6 0"
+targetname "struct_grinch_sit"
+classname "script_struct"
+}
+{
+origin "784 1104 28"
+classname "node_pathnode"
+}
+{
+origin "784 976 28"
+classname "node_pathnode"
+}
+{
+origin "912 1104 28"
+classname "node_pathnode"
+}
+{
+origin "912 976 28"
+classname "node_pathnode"
+}
+{
+origin "1040 1104 28"
+classname "node_pathnode"
+}
+{
+origin "1040 976 28"
+classname "node_pathnode"
+}
+{
+origin "784 704 28"
+classname "node_pathnode"
+}
+{
+origin "784 848 28"
+classname "node_pathnode"
+}
+{
+origin "784 576 28"
+classname "node_pathnode"
+}
+{
+origin "912 848 28"
+classname "node_pathnode"
+}
+{
+origin "912 704 28"
+classname "node_pathnode"
+}
+{
+origin "1040 848 28"
+classname "node_pathnode"
+}
+{
+origin "912 576 28"
+classname "node_pathnode"
+}
+{
+origin "1040 704 28"
+classname "node_pathnode"
+}
+{
+origin "1040 576 28"
+classname "node_pathnode"
+}
+{
+origin "784 448 28"
+classname "node_pathnode"
+}
+{
+origin "912 448 28"
+classname "node_pathnode"
+}
+{
+origin "1040 448 28"
+classname "node_pathnode"
+}
+{
+origin "1168 1104 28"
+classname "node_pathnode"
+}
+{
+origin "1168 976 28"
+classname "node_pathnode"
+}
+{
+origin "1296 1104 28"
+classname "node_pathnode"
+}
+{
+origin "1296 976 28"
+classname "node_pathnode"
+}
+{
+origin "1424 1104 28"
+classname "node_pathnode"
+}
+{
+origin "1424 976 28"
+classname "node_pathnode"
+}
+{
+origin "1168 848 28"
+classname "node_pathnode"
+}
+{
+origin "1296 848 28"
+classname "node_pathnode"
+}
+{
+origin "1424 848 28"
+classname "node_pathnode"
+}
+{
+origin "1168 704 28"
+classname "node_pathnode"
+}
+{
+origin "1168 576 28"
+classname "node_pathnode"
+}
+{
+origin "1296 704 28"
+classname "node_pathnode"
+}
+{
+origin "1296 576 28"
+classname "node_pathnode"
+}
+{
+origin "1424 704 28"
+classname "node_pathnode"
+}
+{
+origin "1424 576 28"
+classname "node_pathnode"
+}
+{
+origin "1168 448 28"
+classname "node_pathnode"
+}
+{
+origin "1296 448 28"
+classname "node_pathnode"
+}
+{
+origin "1424 448 28"
+classname "node_pathnode"
+}
+{
+origin "784 1488 32.1"
+classname "node_pathnode"
+}
+{
+origin "784 1360 32.1"
+classname "node_pathnode"
+}
+{
+origin "912 1488 42.7"
+classname "node_pathnode"
+}
+{
+origin "912 1376 36.6"
+classname "node_pathnode"
+}
+{
+origin "1040 1488 46.6"
+classname "node_pathnode"
+}
+{
+origin "1040 1360 39.7"
+classname "node_pathnode"
+}
+{
+origin "784 1232 28"
+classname "node_pathnode"
+}
+{
+origin "912 1232 28"
+classname "node_pathnode"
+}
+{
+origin "1040 1232 28"
+classname "node_pathnode"
+}
+{
+origin "1168 1488 52.5"
+classname "node_pathnode"
+}
+{
+origin "1168 1360 41.6"
+classname "node_pathnode"
+}
+{
+origin "1296 1488 56.7"
+classname "node_pathnode"
+}
+{
+origin "1296 1360 49.2"
+classname "node_pathnode"
+}
+{
+origin "1424 1488 63"
+classname "node_pathnode"
+}
+{
+origin "1424 1360 51.7"
+classname "node_pathnode"
+}
+{
+origin "1168 1232 28"
+classname "node_pathnode"
+}
+{
+origin "1296 1232 28"
+classname "node_pathnode"
+}
+{
+origin "1424 1232 28"
+classname "node_pathnode"
+}
+{
+origin "1552 1104 28"
+classname "node_pathnode"
+}
+{
+origin "1552 976 28"
+classname "node_pathnode"
+}
+{
+origin "1680 1104 41.1"
+classname "node_pathnode"
+}
+{
+origin "1680 976 55"
+classname "node_pathnode"
+}
+{
+origin "1808 1104 47.9"
+classname "node_pathnode"
+}
+{
+origin "1808 976 59.3"
+classname "node_pathnode"
+}
+{
+origin "1552 848 28"
+classname "node_pathnode"
+}
+{
+origin "1680 848 56.8"
+classname "node_pathnode"
+}
+{
+origin "1808 848 59.8"
+classname "node_pathnode"
+}
+{
+origin "1552 704 28"
+classname "node_pathnode"
+}
+{
+origin "1552 576 28"
+classname "node_pathnode"
+}
+{
+origin "1680 704 31.5"
+classname "node_pathnode"
+}
+{
+origin "1680 576 28"
+classname "node_pathnode"
+}
+{
+origin "1808 704 36.7"
+classname "node_pathnode"
+}
+{
+origin "1808 576 28"
+classname "node_pathnode"
+}
+{
+origin "1552 448 28"
+classname "node_pathnode"
+}
+{
+origin "1680 448 28"
+classname "node_pathnode"
+}
+{
+origin "1808 448 28"
+classname "node_pathnode"
+}
+{
+origin "1808 1232 28.5"
+classname "node_pathnode"
+}
+{
+origin "1808 1360 40"
+classname "node_pathnode"
+}
+{
+origin "1808 1488 49.7"
+classname "node_pathnode"
+}
+{
+origin "1680 1232 28.3"
+classname "node_pathnode"
+}
+{
+origin "1552 1232 28"
+classname "node_pathnode"
+}
+{
+origin "1680 1360 49.7"
+classname "node_pathnode"
+}
+{
+origin "1680 1488 60"
+classname "node_pathnode"
+}
+{
+origin "1552 1360 49.7"
+classname "node_pathnode"
+}
+{
+origin "1552 1488 63.8"
+classname "node_pathnode"
+}
+{
+origin "-896 1216 28"
+classname "node_pathnode"
+}
+{
+origin "-1024 1088 28"
+classname "node_pathnode"
+}
+{
+origin "-1024 960 28"
+classname "node_pathnode"
+}
+{
+origin "-1024 1216 28"
+classname "node_pathnode"
+}
+{
+origin "-1152 1088 28"
+classname "node_pathnode"
+}
+{
+origin "-1152 960 28"
+classname "node_pathnode"
+}
+{
+origin "-1152 1216 28"
+classname "node_pathnode"
+}
+{
+origin "-1280 1088 28"
+classname "node_pathnode"
+}
+{
+origin "-1280 960 28"
+classname "node_pathnode"
+}
+{
+origin "-1280 1216 28"
+classname "node_pathnode"
+}
+{
+origin "-896 1472 28"
+classname "node_pathnode"
+}
+{
+origin "-896 1344 28"
+classname "node_pathnode"
+}
+{
+origin "-896 1600 28"
+classname "node_pathnode"
+}
+{
+origin "-1024 1472 28"
+classname "node_pathnode"
+}
+{
+origin "-1024 1344 28"
+classname "node_pathnode"
+}
+{
+origin "-1024 1600 28"
+classname "node_pathnode"
+}
+{
+origin "-1152 1472 28"
+classname "node_pathnode"
+}
+{
+origin "-1152 1344 28"
+classname "node_pathnode"
+}
+{
+origin "-1152 1600 28"
+classname "node_pathnode"
+}
+{
+origin "-1280 1472 28"
+classname "node_pathnode"
+}
+{
+origin "-1280 1344 28"
+classname "node_pathnode"
+}
+{
+origin "-1280 1600 28"
+classname "node_pathnode"
+}
+{
+origin "-896 832 28"
+classname "node_pathnode"
+}
+{
+origin "-1024 832 28"
+classname "node_pathnode"
+}
+{
+origin "-1152 832 28"
+classname "node_pathnode"
+}
+{
+origin "-1280 832 28"
+classname "node_pathnode"
+}
+{
+origin "237 1788.5 28"
+classname "node_pathnode"
+}
+{
+origin "-557 1332 12.5"
+angles "0 240 0"
+targetname "brief_npc_hostage"
+classname "script_struct"
+}
+{
+animation "cliffhanger_welder_wing"
+script_linkname "pf2_1"
+origin "-544 948.6 22"
+angles "0 182 0"
+classname "script_struct"
+}
+{
+targetname "brief_sandman_head_track"
+origin "277.5 983 37"
+classname "script_struct"
+}
+{
+angles "0 315 0"
+origin "-728 1384 10.5"
+targetname "brief_npc_truck_start"
+classname "script_struct"
+}
+{
+origin "-480 1320 38.5"
+classname "node_pathnode"
+}
+{
+origin "-480 1272 38.5"
+classname "node_pathnode"
+}
+{
+origin "-592 1320 38.5"
+classname "node_pathnode"
+}
+{
+origin "-592 1240 38.5"
+classname "node_pathnode"
+}
+{
+origin "-728 1320 38.5"
+classname "node_pathnode"
+}
+{
+origin "-728 1240 38.5"
+classname "node_pathnode"
+}
+{
+origin "-728 1400 38.5"
+classname "node_pathnode"
+}
+{
+origin "-592 1400 38.5"
+classname "node_pathnode"
+}
+{
+targetname "trigger_room_main"
+classname "trigger_multiple"
+origin "-22 1004 46"
+model "?2"
+}
+{
+animation "training_intro_foley_idle_1"
+targetname "brief_npc_truck"
+angles "0 90 0"
+origin "112 1112 -16"
+classname "script_struct"
+}
+{
+targetname "brief_npc_sandman"
+angles "0 38.1 0"
+origin "201 960 -16"
+classname "script_struct"
+}
+{
+animation "afgan_caves_sleeping_guard_idle"
+targetname "struct_explore_pos_axe"
+origin "-145.6 1600.7 202.5"
+angles "0 1.5 0"
+classname "script_struct"
+}
+{
+targetname "van_armored_collision"
+classname "script_brushmodel"
+origin "-510 822 38"
+model "*7"
+}
+{
+origin "-32 1760 28"
+classname "node_pathnode"
+}
+{
+origin "64 1760 28"
+classname "node_pathnode"
+}
+{
+origin "-32 1888 28"
+classname "node_pathnode"
+}
+{
+origin "-32 1968 28"
+classname "node_pathnode"
+}
+{
+origin "80 1968 28"
+classname "node_pathnode"
+}
+{
+origin "223 1365 28"
+classname "node_pathnode"
+}
+{
+targetname "ent_torture_sounds"
+origin "-522 1288 92"
+classname "script_origin"
+}
+{
+targetname "struct_player_loc_start_explore"
+script_linkname "pf2_3"
+origin "-603.4 1016 -16"
+angles "0 72 0"
+classname "script_struct"
+}
+{
+angles "0 90 0"
+targetname "struct_player_loc_start_briefing"
+script_linkname "pf2_4"
+origin "348 1736.6 0"
+classname "script_struct"
+}
+{
+angles "0 270 0"
+targetname "struct_grinch_loc_start_briefing"
+script_linkname "pf2_5"
+origin "88 1395.4 0"
+classname "script_struct"
+}
+{
+origin "16 1240 28"
+classname "node_pathnode"
+}
+{
+angles "0 285 0"
+targetname "struct_player_loc_start_loadout"
+script_linkname "pf2_7"
+origin "-40 1223.4 0"
+classname "script_struct"
+}
+{
+radius "150"
+targetname "struct_outro_chopper_a"
+target "pf2_auto20"
+speed "40"
+origin "1400 472 264"
+classname "script_struct_heli"
+}
+{
+angles "0 335 0"
+targetname "struct_player_loc_start_outro"
+script_linkname "pf2_9"
+origin "332.6 1632 0"
+classname "script_struct"
+}
+{
+targetname "trigger_room_range"
+classname "trigger_multiple"
+origin "368 1728 46"
+model "?3"
+}
+{
+animation "crowdsniper_crowdwatchidle_3"
+targetname "brief_npc_lt"
+angles "0 139 0"
+origin "508 1129 0"
+classname "script_struct"
+}
+{
+animation "crowdsniper_crowdwatchidle_3"
+targetname "brief_npc_carlos"
+angles "0 205 0"
+origin "560 1324 0"
+classname "script_struct"
+}
+{
+targetname "trigger_room_armory"
+classname "trigger_multiple"
+origin "266 1732 46"
+model "?4"
+}
+{
+origin "-112 1072 12"
+classname "node_pathnode"
+}
+{
+origin "-112 1144 12"
+classname "node_pathnode"
+}
+{
+targetname "brief_npc_rock"
+angles "0 235 0"
+origin "60 1541 0"
+classname "script_struct"
+}
+{
+animation "crowdsniper_crowdwatchidle_3"
+targetname "loadout_npc_tommy"
+angles "0 270 0"
+origin "184 1496 0"
+classname "script_struct"
+}
+{
+animation "npc_idle_armed"
+targetname "loadout_npc_grinch"
+angles "0 315 0"
+origin "308 1688 0"
+classname "script_struct"
+}
+{
+animation "crowdsniper_crowdwatchidle_3"
+targetname "loadout_npc_lt"
+angles "0 334 0"
+origin "392 1608 0"
+classname "script_struct"
+}
+{
+animation "crowdsniper_crowdwatchidle_3"
+targetname "loadout_npc_carlos"
+angles "0 345 0"
+origin "348 1504 0"
+classname "script_struct"
+}
+{
+targetname "trigger_loadout_sandman_chat"
+classname "trigger_multiple"
+origin "186 980 10"
+model "?5"
+}
+{
+targetname "struct_torture_pos_rock"
+script_linkname "pf2_10"
+origin "-459.4 1080 -16"
+angles "0 132 0"
+classname "script_struct"
+}
+{
+script_linkto "pf2_11"
+angles "0 260.1 0"
+targetname "loadout_player_sandman_chat"
+origin "207.1 992.1 -16"
+classname "script_struct"
+}
+{
+targetname "struct_torture_pos_grinch"
+script_linkname "pf2_16"
+origin "-507.4 1000 -16"
+angles "0 107 0"
+classname "script_struct"
+}
+{
+targetname "exit_npc_tommy"
+angles "0 340 0"
+origin "544 1044 0"
+classname "script_struct"
+}
+{
+targetname "exit_npc_carlos"
+angles "0 230 0"
+origin "660 1089 0"
+classname "script_struct"
+}
+{
+targetname "exit_npc_lt"
+angles "0 64 0"
+origin "560 949 0"
+classname "script_struct"
+}
+{
+targetname "loadout_npc_truck"
+angles "0 130 0"
+origin "692 928 0"
+classname "script_struct"
+}
+{
+targetname "chopper_npc_tommy"
+angles "0 295 0"
+origin "1376 820 0"
+classname "script_struct"
+}
+{
+targetname "chopper_npc_carlos"
+angles "0 335 0"
+origin "1238.6 767.3 0"
+classname "script_struct"
+}
+{
+targetname "chopper_npc_lt"
+angles "0 289 0"
+origin "1290.4 823.7 0"
+classname "script_struct"
+}
+{
+targetname "chopper_npc_truck"
+angles "0 235 0"
+origin "1301.4 1224.1 4.2"
+classname "script_struct"
+}
+{
+targetname "chopper_npc_sandman"
+angles "0 34 0"
+origin "1162.1 1083.3 -4.3"
+classname "script_struct"
+}
+{
+radius "150"
+targetname "struct_outro_chopper_b"
+target "pf2_auto14"
+speed "40"
+origin "1168 1000 264"
+classname "script_struct_heli"
+}
+{
+radius "150"
+target "pf2_auto15"
+targetname "pf2_auto14"
+speed "40"
+origin "640 -8 496"
+classname "script_struct_heli"
+}
+{
+radius "150"
+target "pf2_auto16"
+targetname "pf2_auto15"
+speed "40"
+origin "64 -248 624"
+classname "script_struct_heli"
+}
+{
+radius "150"
+target "pf2_auto17"
+targetname "pf2_auto16"
+speed "40"
+origin "-800 -88 832"
+classname "script_struct_heli"
+}
+{
+radius "150"
+target "pf2_auto18"
+targetname "pf2_auto17"
+speed "40"
+origin "-1008 1128 824"
+classname "script_struct_heli"
+}
+{
+radius "150"
+targetname "pf2_auto18"
+speed "40"
+origin "-312 2712 824"
+classname "script_struct_heli"
+}
+{
+radius "150"
+target "pf2_auto22"
+targetname "pf2_auto20"
+speed "40"
+origin "696 -392 496"
+classname "script_struct_heli"
+}
+{
+radius "150"
+target "pf2_auto23"
+targetname "pf2_auto22"
+speed "40"
+origin "-136 -904 624"
+classname "script_struct_heli"
+}
+{
+radius "150"
+target "pf2_auto24"
+targetname "pf2_auto23"
+speed "40"
+origin "-568 -688 832"
+classname "script_struct_heli"
+}
+{
+radius "150"
+target "pf2_auto25"
+targetname "pf2_auto24"
+speed "40"
+origin "-1720 64 824"
+classname "script_struct_heli"
+}
+{
+radius "150"
+targetname "pf2_auto25"
+speed "40"
+origin "-1328 2416 824"
+classname "script_struct_heli"
+}
+{
+targetname "exit_npc_sandman"
+angles "0 9.99998 0"
+origin "496 988 0"
+classname "script_struct"
+}
+{
+script_friendname "L.T."
+targetname "npc_lt_gear"
+script_char_index "0"
+angles "0 187.4 0"
+script_forcespawn "1"
+origin "627.3 870.4 0"
+spawnflags "3"
+export "40"
+model "body_delta_elite_assault_aa"
+classname "actor_iw5_ally_delta_multicam_m16"
+}
+{
+script_friendname "C-Los"
+targetname "npc_carlos_gear"
+classname "actor_iw5_ally_delta_multicam_m4"
+model "body_delta_elite_assault_aa"
+export "44"
+spawnflags "3"
+origin "583.9 1289.2 0"
+script_forcespawn "1"
+angles "0 210 0"
+}
+{
+script_friendname "Tommy"
+targetname "npc_tommy_gear"
+script_linkto "pf2_6"
+script_char_index "0"
+angles "0 182 0"
+script_forcespawn "1"
+origin "-584 948.6 22"
+spawnflags "1"
+export "43"
+model "body_delta_elite_assault_aa"
+classname "actor_iw5_ally_delta_multicam_m4"
+}
+{
+origin "236 1768 0"
+angles "0 15 0"
+targetname "struct_explore_pos_rock"
+classname "script_struct"
+}
+{
+spawnflags "3"
+script_startingposition "0"
+origin "4496 5312 20"
+script_vehicleride "0"
+script_drone "1"
+angles "0 270 0"
+export "45"
+model "body_delta_elite_assault_aa"
+classname "actor_iw5_ally_delta_multicam_m4"
+}
+{
+spawnflags "3"
+origin "5024 6896 204"
+script_vehicleride "1"
+script_drone "0"
+angles "0 270 0"
+export "46"
+model "body_delta_elite_assault_aa"
+classname "actor_iw5_ally_delta_multicam_m4"
+}
+{
+targetname "trigger_toture_sequence_weapon"
+classname "trigger_multiple"
+origin "-568 1064 48"
+model "?6"
+}
+{
+script_linkname "pf2_11"
+angles "0 80.1 0"
+origin "200.9 959.3 -16"
+classname "script_struct"
+}
+{
+origin "137 1688 28"
+classname "node_pathnode"
+}
+{
+origin "209 1688 28"
+classname "node_pathnode"
+}
+{
+origin "197 1750 28"
+classname "node_pathnode"
+}
+{
+animation "london_inspector_walk"
+model "fullbody_soap_africa_assault_a"
+origin "-88 80 25.1"
+targetname "scene_npc"
+classname "script_struct"
+}
+{
+origin "154 1776 28"
+classname "node_pathnode"
+}
+{
+script_friendname "Catfive"
+targetname "npc_catfive"
+script_linkto "pf2_8 pf2_12"
+script_char_index "0"
+angles "0 1.5 0"
+script_forcespawn "1"
+script_noteworthy "npcs"
+origin "225.4 1035.7 -16"
+spawnflags "1"
+export "47"
+model "body_us_army_dmg_a_blk"
+classname "actor_iw5_ally_us_army_casual"
+}
+{
+animation "laptop_sit_idle_calm"
+targetname "struct_catfive_active"
+angles "0 0 0"
+origin "279 1018 -17"
+classname "script_struct"
+}
+{
+script_friendname "Fletch"
+script_linkto "pf2_13"
+targetname "npc_fletch"
+name "Fletch"
+script_char_index "0"
+angles "0 181.5 0"
+script_forcespawn "1"
+script_noteworthy "npcs"
+origin "93.6 968.3 -16"
+spawnflags "1"
+export "50"
+model "body_us_army_dmg_a_blk"
+classname "actor_iw5_ally_us_army_casual"
+}
+{
+animation "laptop_sit_idle_calm"
+targetname "struct_fletch_active"
+angles "0 171.4 0"
+origin "29.5 920 -17"
+classname "script_struct"
+}
+{
+animation "killhouse_laptop_idle"
+script_linkname "pf2_12"
+angles "0 55.4 0"
+origin "245.5 1011 -15"
+classname "script_struct"
+}
+{
+animation "killhouse_laptop_idle"
+targetname "general_talk_sandman"
+angles "0 344.4 0"
+origin "256 987.5 -16"
+classname "script_struct"
+}
+{
+animation "killhouse_laptop_idle"
+script_linkname "pf2_13"
+angles "0 251.1 0"
+origin "62 930 -17"
+classname "script_struct"
+}
+{
+speed "15"
+target "pf2_auto30"
+targetname "pf2_auto27"
+origin "-1917.4 1184 28"
+angles "0 1.1 0"
+classname "info_vehicle_node"
+}
+{
+target "pf2_auto27"
+targetname "pf2_auto26"
+spawnflags "1"
+lookahead ".5"
+speed "10"
+origin "-2300.2 1185.3 28"
+angles "0 357 0"
+classname "info_vehicle_node"
+}
+{
+origin "-1408 1088 28"
+classname "node_pathnode"
+}
+{
+script_friendname "Rock"
+targetname "npc_rock"
+angles "0 330 0"
+spawnflags "3"
+origin "-996 1343 0"
+export "52"
+model "body_delta_elite_assault_aa"
+classname "actor_iw5_ally_delta_urban_m4"
+}
+{
+speed "15"
+target "pf2_auto31"
+targetname "pf2_auto30"
+origin "-1105.8 1200.5 28"
+angles "0 354.7 0"
+classname "info_vehicle_node"
+}
+{
+script_ent_flag_set "flag_ent_van_arrived"
+speed "0"
+targetname "pf2_auto31"
+origin "-1034.8 1193.5 28"
+angles "0 354.7 0"
+classname "info_vehicle_node"
+}
+{
+origin "-1408 960 28"
+classname "node_pathnode"
+}
+{
+origin "-1408 1216 28"
+classname "node_pathnode"
+}
+{
+origin "-1408 1472 28"
+classname "node_pathnode"
+}
+{
+origin "-1408 1344 28"
+classname "node_pathnode"
+}
+{
+origin "-1408 1600 28"
+classname "node_pathnode"
+}
+{
+origin "-1408 832 28"
+classname "node_pathnode"
+}
+{
+origin "-1536 1600 28"
+classname "node_pathnode"
+}
+{
+origin "-1536 1472 28"
+classname "node_pathnode"
+}
+{
+origin "-1536 1344 28"
+classname "node_pathnode"
+}
+{
+origin "-1536 1216 28"
+classname "node_pathnode"
+}
+{
+origin "-1536 1088 28"
+classname "node_pathnode"
+}
+{
+origin "-1536 960 28"
+classname "node_pathnode"
+}
+{
+origin "-1536 832 28"
+classname "node_pathnode"
+}
+{
+origin "24 128 15.7"
+targetname "scene_npc_test"
+classname "script_struct"
+}
+{
+target "pf2_auto49"
+targetname "struct_patrol_start_after_shoot"
+origin "406.5 1675.6 0"
+classname "script_struct"
+}
+{
+script_friendname "Ace"
+spawnflags "3"
+targetname "npc_ace"
+origin "396.5 1797 0"
+angles "0 90 0"
+export "53"
+model "body_delta_elite_assault_aa"
+classname "actor_iw5_ally_delta_multicam_scar"
+}
+{
+targetname "structs_weapon_test_02"
+origin "282.5 1785 36.5"
+angles "0 195.5 -90"
+classname "script_struct"
+}
+{
+targetname "structs_weapon_test_01"
+origin "280.5 1759.5 36.5"
+angles "0 194.6 -90"
+classname "script_struct"
+}
+{
+target "pf2_auto33"
+targetname "pf2_auto32"
+origin "318 1423.1 0"
+classname "script_struct"
+}
+{
+target "pf2_auto34"
+targetname "pf2_auto33"
+origin "429.5 1262.6 0"
+classname "script_struct"
+}
+{
+target "pf2_auto35"
+targetname "pf2_auto34"
+origin "652 954.1 0"
+classname "script_struct"
+}
+{
+target "pf2_auto36"
+targetname "pf2_auto35"
+origin "518 835.6 0"
+classname "script_struct"
+}
+{
+target "pf2_auto37"
+targetname "pf2_auto36"
+origin "352 789.1 0"
+classname "script_struct"
+}
+{
+target "pf2_auto38"
+targetname "pf2_auto37"
+origin "91 772.1 0"
+classname "script_struct"
+}
+{
+target "pf2_auto39"
+targetname "pf2_auto38"
+origin "-165 687.1 0"
+classname "script_struct"
+}
+{
+target "pf2_auto40"
+targetname "pf2_auto39"
+origin "-372 678.1 0"
+classname "script_struct"
+}
+{
+target "pf2_auto41"
+targetname "pf2_auto40"
+origin "-373 859.1 0"
+classname "script_struct"
+}
+{
+target "pf2_auto42"
+targetname "pf2_auto41"
+origin "-371.5 1053.1 0"
+classname "script_struct"
+}
+{
+target "pf2_auto43"
+targetname "pf2_auto42"
+origin "-335.5 1191.6 0"
+classname "script_struct"
+}
+{
+target "pf2_auto44"
+targetname "pf2_auto43"
+origin "-182.5 1313.1 0"
+classname "script_struct"
+}
+{
+target "pf2_auto45"
+targetname "pf2_auto44"
+origin "83 1251.6 0"
+classname "script_struct"
+}
+{
+target "pf2_auto46"
+targetname "pf2_auto45"
+origin "339.5 1253.1 0"
+classname "script_struct"
+}
+{
+target "pf2_auto47"
+targetname "pf2_auto46"
+origin "331.5 1518.6 0"
+classname "script_struct"
+}
+{
+target "pf2_auto48"
+targetname "pf2_auto47"
+origin "38.5 1545.6 0"
+classname "script_struct"
+}
+{
+target "pf2_auto44"
+targetname "pf2_auto48"
+origin "-68.5 1377.6 0"
+classname "script_struct"
+}
+{
+targetname "struct_shooting_range_ace"
+animation "training_intro_trainee_1_end_idle"
+angles "0 270 0"
+origin "266.5 1806.9 0"
+classname "script_struct"
+}
+{
+script_noteworthy "structs_weapon_test_smoke"
+angles "0 250 0"
+script_linkname "pf2_14"
+origin "524 2127.4 400"
+classname "script_struct"
+}
+{
+script_noteworthy "structs_weapon_test_smoke"
+angles "0 280 0"
+script_linkname "pf2_15"
+origin "186 2135.4 400"
+classname "script_struct"
+}
+{
+target "pf2_auto32"
+targetname "pf2_auto49"
+origin "403.5 1534.6 0"
+classname "script_struct"
+}
+{
+animation "training_jog_guy1"
+model "fullbody_soap_africa_assault_a"
+origin "-88 48 25.1"
+targetname "scene_npc"
+classname "script_struct"
+}
+{
+animation "npc_idle_armed"
+angles "0 75 0"
+targetname "loadout_npc_rock"
+origin "188 1600 0"
+classname "script_struct"
+}
+{
+targetname "brief_npc_sandman_orders"
+angles "0 3.09999 0"
+origin "234 1256.5 0"
+classname "script_struct"
+}
+{
+angles "0 0 0"
+origin "-552 1280 10.5"
+targetname "brief_npc_sandman_start"
+classname "script_struct"
+}
+{
+script_linkto "pf2_17"
+angles "0 299 0"
+targetname "loadout_player_sandman_chat"
+origin "183.6 989.6 -16"
+classname "script_struct"
+}
+{
+script_linkname "pf2_17"
+angles "0 120.5 0"
+origin "201 959.5 -16"
+classname "script_struct"
+}
+{
+script_linkto "pf2_18"
+angles "0 338.9 0"
+targetname "loadout_player_sandman_chat"
+origin "168.5 971.5 -16"
+classname "script_struct"
+}
+{
+script_linkname "pf2_18"
+angles "0 160.4 0"
+origin "201 959.5 -16"
+classname "script_struct"
+}
+{
+targetname "struct_torture_pos_axe"
+script_linkname "pf2_19"
+origin "-435.4 1012 -16"
+angles "0 132 0"
+classname "script_struct"
+}
+{
+origin "-184 1388 221.5"
+classname "node_pathnode"
+}
+{
+origin "-80 1392 221.5"
+classname "node_pathnode"
+}
+{
+origin "16 1392 221.5"
+classname "node_pathnode"
+}
+{
+origin "112 1392 221.5"
+classname "node_pathnode"
+}
+{
+origin "216 1392 221.5"
+classname "node_pathnode"
+}
+{
+origin "16 1512 221.5"
+classname "node_pathnode"
+}
+{
+origin "112 1512 221.5"
+classname "node_pathnode"
+}
+{
+origin "216 1512 221.5"
+classname "node_pathnode"
+}
+{
+origin "16 1616 221.5"
+classname "node_pathnode"
+}
+{
+origin "112 1616 221.5"
+classname "node_pathnode"
+}
+{
+origin "-128 1520 221.5"
+classname "node_pathnode"
+}
+{
+origin "-56 1664 221.5"
+classname "node_pathnode"
+}
+{
+origin "-136 1664 221.5"
+classname "node_pathnode"
+}
+{
+origin "-136 1610 221.5"
+classname "node_pathnode"
+}
+{
+angles "0 0 0"
+animscript "ladder_up"
+origin "-236 1390 32"
+target "pf2_auto50"
+classname "node_negotiation_begin"
+}
+{
+angles "0 0 0"
+origin "-194 1390 214"
+targetname "pf2_auto50"
+classname "node_negotiation_end"
+}
+{
+targetname "trigger_room_armory_perimeter"
+classname "trigger_multiple"
+origin "120 1312 48"
+model "?7"
+}
+{
+script_friendname "Judge"
+targetname "npc_judge"
+script_char_index "0"
+angles "0 162 0"
+script_forcespawn "1"
+origin "-369.1 959.5 -16"
+spawnflags "3"
+export "54"
+model "body_us_army_dmg_a_blk"
+classname "actor_iw5_ally_us_army_casual"
+}
+{
+targetname "struct_torture_pos_judge"
+script_linkname "pf2_2"
+origin "-465.1 943.5 -16"
+angles "0 102 0"
+classname "script_struct"
+}
+{
+targetname "struct_explore_pos_judge"
+angles "0 209 0"
+origin "104 957 -16"
+classname "script_struct"
+}
+{
+origin "210 1687.5 0"
+angles "0 275.1 0"
+targetname "struct_explore_pos_rock_wait"
+classname "script_struct"
+}
+{
+targetname "trigger_exit_door_conversation"
+classname "trigger_multiple"
+origin "574 1040 46"
+model "?8"
+}
+{
+targetname "exit_npc_rock"
+angles "0 34 0"
+origin "432 997 0"
+classname "script_struct"
+}
+{
+animation "npc_idle_armed"
+targetname "loadout_npc_tommy_ready"
+angles "0 270 0"
+origin "184 1504 0"
+classname "script_struct"
+}
+{
+animation "npc_idle_armed"
+targetname "loadout_npc_carlos_ready"
+angles "0 345 0"
+origin "338 1506 0"
+classname "script_struct"
+}
+{
+animation "npc_idle_armed"
+targetname "loadout_npc_lt_ready"
+angles "0 334 0"
+origin "384 1612 0"
+classname "script_struct"
+}
+{
+origin "511 830 28"
+classname "node_pathnode"
+}
+{
+origin "508 2078 172"
+targetname "speakers"
+classname "script_origin"
+}
+{
+targetname "ent_boom_box_loc"
+origin "708 1372 10"
+angles "0 210 0"
+classname "script_origin"
+}
+{
+ambient "patriot_crib_proto_ext patriot_crib_proto_int"
+target "pf1_auto1"
+classname "trigger_multiple_audio"
+origin "-776 1032 120"
+model "?9"
+}
+{
+origin "-848 1040 8"
+target "pf1_auto2"
+targetname "pf1_auto1"
+classname "script_struct"
+}
+{
+origin "-704 1040 -8"
+targetname "pf1_auto2"
+classname "script_struct"
+}
+{
+ambient "patriot_crib_proto_int patriot_crib_proto_ext"
+target "pf1_auto4"
+targetname "pf1_auto3"
+classname "trigger_multiple_audio"
+origin "704 1032 120"
+model "?10"
+}
+{
+origin "624 1040 8"
+target "pf1_auto5"
+targetname "pf1_auto4"
+classname "script_struct"
+}
+{
+origin "784 1040 8"
+targetname "pf1_auto5"
+classname "script_struct"
+}
+{
+target "pf252_auto295"
+origin "270.886 2274.03 0"
+targetname "pf252_auto296"
+angles "0 282 0"
+classname "script_origin"
+script_linkname "19"
+}
+{
+target "pf252_auto296"
+script_noteworthy "target_enemy"
+classname "script_brushmodel"
+origin "270 2274 0"
+script_linkname "19"
+model "*8"
+}
+{
+targetname "pf252_auto295"
+classname "script_brushmodel"
+origin "272 2264 56"
+script_linkname "19"
+model "*9"
+}
+{
+gndlt "4640340004"
+ltorigin "270.276 2269.45 42.4046"
+targetname "pf252_auto296"
+origin "270.74 2269.91 4"
+model "com_mannequin1"
+classname "script_model"
+angles "0 12 0"
+script_linkname "19"
+}
+{
+target "pf253_auto295"
+origin "521 2435 0"
+targetname "pf253_auto296"
+angles "0 270 0"
+classname "script_origin"
+script_linkname "22"
+}
+{
+target "pf253_auto296"
+script_noteworthy "target_enemy"
+classname "script_brushmodel"
+origin "520 2435 0"
+script_linkname "22"
+model "*10"
+}
+{
+targetname "pf253_auto295"
+classname "script_brushmodel"
+origin "520 2425 56"
+script_linkname "22"
+model "*11"
+}
+{
+gndlt "3d3a30000a"
+ltorigin "520.058 2426.11 42.4046"
+target "pf253_auto297"
+targetname "pf253_auto296"
+origin "520 2431 4"
+model "com_mannequin2"
+classname "script_model"
+script_linkname "22"
+}
+{
+ltorigin "519.272 2430.47 76.4172"
+targetname "pf253_auto297"
+origin "519.5 2432.2 75.8"
+angles "0 331.2 0"
+model "dub_juggernaut_helmet"
+classname "script_model"
+script_linkname "22"
+}
+{
+target "pf254_auto295"
+origin "263.8 2475.3 0"
+targetname "pf254_auto296"
+angles "0 270 0"
+classname "script_origin"
+script_linkname "22"
+}
+{
+target "pf254_auto296"
+script_noteworthy "target_enemy"
+classname "script_brushmodel"
+origin "263 2475 0"
+script_linkname "22"
+model "*12"
+}
+{
+targetname "pf254_auto295"
+classname "script_brushmodel"
+origin "263 2465 56"
+script_linkname "22"
+model "*13"
+}
+{
+gndlt "2d2b240004"
+ltorigin "263.047 2470.91 42.4046"
+targetname "pf254_auto296"
+origin "262.8 2471.3 4"
+model "com_mannequin1"
+classname "script_model"
+script_linkname "22"
+}
+{
+target "pf255_auto295"
+origin "369.974 2070.78 0"
+targetname "pf255_auto296"
+angles "0 274.4 0"
+classname "script_origin"
+script_linkname "19"
+}
+{
+target "pf255_auto296"
+script_noteworthy "target_enemy"
+classname "script_brushmodel"
+origin "369 2071 0"
+script_linkname "19"
+model "*14"
+}
+{
+targetname "pf255_auto295"
+classname "script_brushmodel"
+origin "370 2061 56"
+script_linkname "19"
+model "*15"
+}
+{
+gndlt "3e3a310009"
+ltorigin "369.287 2066.26 42.4046"
+target "pf255_auto297"
+targetname "pf255_auto296"
+origin "369.284 2066.71 4"
+model "com_mannequin1"
+classname "script_model"
+angles "0 4.4 0"
+script_linkname "19"
+}
+{
+ltorigin "371.056 2076.57 61.2023"
+targetname "pf255_auto297"
+origin "370.641 2073.84 62.7"
+angles "87.5 146.9 180"
+model "weapon_oma_pack"
+classname "script_model"
+script_linkname "19"
+}
+{
+ltorigin "361.796 2060.59 35.7867"
+targetname "pf255_auto297"
+origin "361.821 2062.03 38.2"
+angles "53.083 275.863 -10.2591"
+model "viewmodel_usp"
+classname "script_model"
+script_linkname "19"
+}
+{
+target "pf256_auto295"
+origin "461.1 2702.7 2.9"
+targetname "pf256_auto296"
+angles "0 270 0"
+classname "script_origin"
+script_linkname "26"
+}
+{
+target "pf256_auto296"
+script_noteworthy "target_enemy"
+classname "script_brushmodel"
+origin "460 2703 3"
+script_linkname "26"
+model "*16"
+}
+{
+targetname "pf256_auto295"
+classname "script_brushmodel"
+origin "460 2693 59"
+script_linkname "26"
+model "*17"
+}
+{
+gndlt "2a2823000a"
+ltorigin "460.347 2698.31 45.3046"
+targetname "pf256_auto296"
+origin "460.1 2698.7 6.9"
+model "com_mannequin1"
+classname "script_model"
+script_linkname "26"
+}
+{
+script_linkto "22"
+origin "704 2232 144"
+targetname "struct_weapons_test_targets_far_01"
+classname "script_struct"
+}
+{
+script_linkto "19"
+origin "704 2192 144"
+targetname "struct_weapons_test_targets_close_01"
+classname "script_struct"
+}
+{
+target "pf257_auto295"
+origin "408.1 2304.7 0"
+targetname "pf257_auto296"
+angles "0 270 0"
+classname "script_origin"
+script_linkname "23"
+}
+{
+target "pf257_auto296"
+script_noteworthy "target_enemy"
+classname "script_brushmodel"
+origin "407 2305 0"
+script_linkname "23"
+model "*18"
+}
+{
+targetname "pf257_auto295"
+classname "script_brushmodel"
+origin "407 2295 56"
+script_linkname "23"
+model "*19"
+}
+{
+gndlt "615a4c0009"
+ltorigin "407.158 2295.81 42.4046"
+target "pf257_auto297"
+targetname "pf257_auto296"
+origin "407.1 2300.7 4"
+model "com_mannequin2"
+classname "script_model"
+script_linkname "23"
+}
+{
+gndlt "615a4c0009"
+ltorigin "407.252 2299.6 50.1171"
+targetname "pf257_auto297"
+origin "406.9 2298.3 6.1"
+angles "0 263.75 0"
+model "body_juggernaut_halfgear"
+classname "script_model"
+script_linkname "23"
+}
+{
+script_linkto "23"
+origin "704 2212 144"
+targetname "struct_weapons_test_targets_close_02"
+classname "script_struct"
+}
+{
+script_linkto "24"
+origin "704 2272 144"
+targetname "struct_weapons_test_targets_thermal_01"
+classname "script_struct"
+}
+{
+target "pf258_auto295"
+origin "293 2487 4"
+targetname "pf258_auto296"
+angles "0 270 0"
+classname "script_origin"
+script_parameters "use_rail"
+script_linkname "24"
+}
+{
+target "pf258_auto296"
+script_noteworthy "target_enemy"
+classname "script_brushmodel"
+origin "292 2487 4"
+script_parameters "use_rail"
+script_linkname "24"
+model "*20"
+}
+{
+targetname "pf258_auto295"
+classname "script_brushmodel"
+origin "292 2477 60"
+script_parameters "use_rail"
+script_linkname "24"
+model "*21"
+}
+{
+gndlt "2c2a230000"
+ltorigin "292.247 2482.61 46.4046"
+targetname "pf258_auto296"
+origin "292 2483 8"
+model "com_mannequin1"
+classname "script_model"
+script_parameters "use_rail"
+script_linkname "24"
+}
+{
+target "pf259_auto295"
+origin "239 2154 4"
+targetname "pf259_auto296"
+angles "0 270 0"
+classname "script_origin"
+script_parameters "use_rail"
+script_linkname "23"
+}
+{
+target "pf259_auto296"
+script_noteworthy "target_enemy"
+classname "script_brushmodel"
+origin "238 2154 4"
+script_parameters "use_rail"
+script_linkname "23"
+model "*22"
+}
+{
+targetname "pf259_auto295"
+classname "script_brushmodel"
+origin "238 2144 60"
+script_parameters "use_rail"
+script_linkname "23"
+model "*23"
+}
+{
+gndlt "3530270000"
+ltorigin "238.058 2145.11 46.4046"
+target "pf259_auto297"
+targetname "pf259_auto296"
+origin "238 2150 8"
+model "com_mannequin2"
+classname "script_model"
+script_parameters "use_rail"
+script_linkname "23"
+}
+{
+ltorigin "236.761 2151.4 83.5049"
+origin "237.1 2151.4 83.5"
+targetname "pf259_auto297"
+angles "344.68 331.2 0"
+model "hjk_russian_military_cap"
+classname "script_model"
+script_parameters "use_rail"
+script_linkname "23"
+}
+{
+target "pf260_auto295"
+origin "412.5 2711 5.2"
+targetname "pf260_auto296"
+angles "0 270 0"
+classname "script_origin"
+script_linkname "24"
+}
+{
+target "pf260_auto296"
+script_noteworthy "target_enemy"
+classname "script_brushmodel"
+origin "412 2711 5"
+script_linkname "24"
+model "*24"
+}
+{
+targetname "pf260_auto295"
+classname "script_brushmodel"
+origin "412 2701 61"
+script_linkname "24"
+model "*25"
+}
+{
+gndlt "2a2822000a"
+ltorigin "411.558 2702.11 47.6046"
+target "pf260_auto297"
+targetname "pf260_auto296"
+origin "411.5 2707 9.2"
+model "com_mannequin2"
+classname "script_model"
+script_linkname "24"
+}
+{
+ltorigin "410.772 2706.47 81.6172"
+targetname "pf260_auto297"
+origin "411 2708.2 81"
+angles "0 331.2 0"
+model "dub_juggernaut_helmet"
+classname "script_model"
+script_linkname "24"
+}
+{
+targetname "auto1"
+origin "481 2487 4"
+angles "0 270 0"
+classname "script_origin"
+}
+{
+script_parameters "force_start_here"
+target "auto1"
+origin "293 2487 4"
+angles "0 180 0"
+targetname "target_rail_start_point"
+classname "script_origin"
+}
+{
+script_parameters "force_start_here"
+target "auto2"
+origin "239 2154 4"
+angles "0 270 0"
+targetname "target_rail_start_point"
+classname "script_origin"
+}
+{
+targetname "auto2"
+origin "431 2154 4"
+angles "0 270 0"
+classname "script_origin"
+}
+{
+target "pf261_auto295"
+origin "231.5 3572 24.7"
+targetname "pf261_auto296"
+angles "0 270 0"
+classname "script_origin"
+script_linkname "25"
+}
+{
+target "pf261_auto296"
+script_noteworthy "target_enemy"
+classname "script_brushmodel"
+origin "231 3572 25"
+script_linkname "25"
+model "*26"
+}
+{
+targetname "pf261_auto295"
+classname "script_brushmodel"
+origin "231 3562 81"
+script_linkname "25"
+model "*27"
+}
+{
+gndlt "1717152501"
+ltorigin "230.558 3563.11 67.1046"
+target "pf261_auto297"
+targetname "pf261_auto296"
+origin "230.5 3568 28.7"
+model "com_mannequin2"
+classname "script_model"
+script_linkname "25"
+}
+{
+gndlt "1617152101"
+ltorigin "230.652 3566.9 74.8171"
+targetname "pf261_auto297"
+origin "230.3 3565.6 30.8"
+angles "0 263.75 0"
+model "body_juggernaut_halfgear"
+classname "script_model"
+script_linkname "25"
+}
+{
+script_linkto "25"
+origin "704 2292 144"
+targetname "struct_weapons_test_targets_thermal_02"
+classname "script_struct"
+}
+{
+target "pf262_auto295"
+origin "459.484 3461.98 5.6"
+targetname "pf262_auto296"
+angles "0 269.1 0"
+classname "script_origin"
+script_linkname "25"
+}
+{
+target "pf262_auto296"
+script_noteworthy "target_enemy"
+classname "script_brushmodel"
+origin "458 3462 6"
+script_linkname "25"
+model "*28"
+}
+{
+targetname "pf262_auto295"
+classname "script_brushmodel"
+origin "458 3452 62"
+script_linkname "25"
+model "*29"
+}
+{
+gndlt "1e1d1b7a01"
+ltorigin "458.721 3457.62 48.0046"
+targetname "pf262_auto296"
+origin "458.421 3458 9.6"
+model "com_mannequin1"
+classname "script_model"
+angles "0 359.1 0"
+script_linkname "25"
+}
+{
+script_linkto "26"
+origin "704 2252 144"
+targetname "struct_weapons_test_targets_far_02"
+classname "script_struct"
+}
+{
+target "pf265_auto295"
+origin "345.183 2954.79 16"
+targetname "pf265_auto296"
+angles "0 275 0"
+classname "script_origin"
+script_linkname "26"
+}
+{
+target "pf265_auto296"
+script_noteworthy "target_enemy"
+classname "script_brushmodel"
+origin "344 2955 16"
+script_linkname "26"
+model "*30"
+}
+{
+targetname "pf265_auto295"
+classname "script_brushmodel"
+origin "345 2945 72"
+script_linkname "26"
+model "*31"
+}
+{
+gndlt "1c1c1a0000"
+ltorigin "344.508 2950.26 58.4046"
+targetname "pf265_auto296"
+origin "344.536 2950.72 20"
+model "com_mannequin1"
+classname "script_model"
+angles "0 4.99996 0"
+script_linkname "26"
+}
+{
+target "pf266_auto295"
+origin "257.183 2730.79 14.2"
+targetname "pf266_auto296"
+angles "0 275 0"
+classname "script_origin"
+script_linkname "26"
+}
+{
+target "pf266_auto296"
+script_noteworthy "target_enemy"
+classname "script_brushmodel"
+origin "256 2731 14"
+script_linkname "26"
+model "*32"
+}
+{
+targetname "pf266_auto295"
+classname "script_brushmodel"
+origin "257 2721 70"
+script_linkname "26"
+model "*33"
+}
+{
+gndlt "2b2a240000"
+ltorigin "256.508 2726.26 56.6046"
+targetname "pf266_auto296"
+origin "256.536 2726.72 18.2"
+model "com_mannequin1"
+classname "script_model"
+angles "0 4.99996 0"
+script_linkname "26"
+}
+{
+target "pf267_auto295"
+origin "400.1 2592.7 5"
+targetname "pf267_auto296"
+angles "0 270 0"
+classname "script_origin"
+script_linkname "22"
+}
+{
+target "pf267_auto296"
+script_noteworthy "target_enemy"
+classname "script_brushmodel"
+origin "399 2593 5"
+script_linkname "22"
+model "*34"
+}
+{
+targetname "pf267_auto295"
+classname "script_brushmodel"
+origin "399 2583 61"
+script_linkname "22"
+model "*35"
+}
+{
+gndlt "5b5748000a"
+ltorigin "399.158 2583.81 47.4046"
+target "pf267_auto297"
+targetname "pf267_auto296"
+origin "399.1 2588.7 9"
+model "com_mannequin2"
+classname "script_model"
+script_linkname "22"
+}
+{
+gndlt "585446000a"
+ltorigin "399.252 2587.6 55.1171"
+targetname "pf267_auto297"
+origin "398.9 2586.3 11.1"
+angles "0 263.75 0"
+model "body_juggernaut_halfgear"
+classname "script_model"
+script_linkname "22"
+}
+{
+script_linkto "24 26"
+origin "704 2312 144"
+targetname "struct_weapons_test_targets_thermal_03"
+classname "script_struct"
+}
+{
+script_linkto "23"
+origin "208 2288 144"
+targetname "struct_weapons_test_targets_repeat_01"
+classname "script_struct"
+}
+{
+script_linkto "19 22"
+origin "208 2312 144"
+targetname "struct_weapons_test_targets_repeat_02"
+classname "script_struct"
+}
+{
+script_linkto "24 26"
+origin "208 2336 144"
+targetname "struct_weapons_test_targets_repeat_03"
+classname "script_struct"
+}
+{
+targetname "vehicle_hummer"
+classname "script_vehicle_collmap"
+model "*36"
+}
+{
+targetname "vehicle_armored_van"
+classname "script_vehicle_collmap"
+model "*37"
+}
+{
+targetname "vehicle_little_bird_bench"
+classname "script_vehicle_collmap"
+model "*38"
+}

@@ -1,0 +1,31 @@
+{
+sunradiosity "1.6"
+skycolor "0.67451 0.74902 1"
+skylight "0.45"
+_color "0.8 0.870588 1"
+ambient ".116"
+classname "worldspawn"
+sundirection "-21 67  0"
+suncolor "1 0.968627 0.870588"
+sunlight "1"
+origin "0 0 0"
+}
+{
+script_visionset "nextgen_interior"
+script_delay "1"
+classname "trigger_multiple_visionset"
+origin "-184 -134 63"
+model "?0"
+}
+{
+script_visionset "nextgentest"
+script_delay "1"
+classname "trigger_multiple_visionset"
+origin "-184 -148 63"
+model "?1"
+}
+{
+origin "0 -448 0"
+angles "0 90 0"
+classname "info_player_start"
+}

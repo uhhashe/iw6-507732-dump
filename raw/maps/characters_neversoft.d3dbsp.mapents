@@ -1,0 +1,1549 @@
+{
+skycolor "0.99 1 1"
+skylight "0.9"
+radiosityscale "1.0"
+sunradiosity "1.3"
+classname "worldspawn"
+contrastgain "0.425"
+_color ".8 .9 1"
+sunlight "1.3"
+sundirection "-30 299 0"
+suncolor "0.99 1 0.97"
+ambient ".0"
+maxbounces "2"
+ahdmode "1"
+}
+{
+origin "448 -192 -32"
+classname "node_pathnode"
+}
+{
+origin "320 -320 -32"
+classname "node_pathnode"
+}
+{
+origin "320 -192 -32"
+classname "node_pathnode"
+}
+{
+origin "704 -192 -32"
+classname "node_pathnode"
+}
+{
+origin "704 -320 -32"
+classname "node_pathnode"
+}
+{
+origin "-112 284 -8"
+angles "0 270 0"
+export "4"
+model "body_venezuela_army_assault_a"
+classname "actor_enemy_venezuela_army_assault"
+}
+{
+origin "576 -192 -32"
+classname "node_pathnode"
+}
+{
+origin "704 -448 -32"
+classname "node_pathnode"
+}
+{
+origin "704 -576 -32"
+classname "node_pathnode"
+}
+{
+origin "576 -576 -32"
+classname "node_pathnode"
+}
+{
+origin "576 -448 -32"
+classname "node_pathnode"
+}
+{
+origin "448 -448 -32"
+classname "node_pathnode"
+}
+{
+origin "448 -576 -32"
+classname "node_pathnode"
+}
+{
+origin "320 -576 -32"
+classname "node_pathnode"
+}
+{
+origin "320 -448 -32"
+classname "node_pathnode"
+}
+{
+origin "448 320 -32"
+classname "node_pathnode"
+}
+{
+origin "448 192 -32"
+classname "node_pathnode"
+}
+{
+origin "320 192 -32"
+classname "node_pathnode"
+}
+{
+origin "320 320 -32"
+classname "node_pathnode"
+}
+{
+origin "704 320 -32"
+classname "node_pathnode"
+}
+{
+origin "704 192 -32"
+classname "node_pathnode"
+}
+{
+origin "576 192 -32"
+classname "node_pathnode"
+}
+{
+origin "576 320 -32"
+classname "node_pathnode"
+}
+{
+origin "704 64 -32"
+classname "node_pathnode"
+}
+{
+origin "704 -64 -32"
+classname "node_pathnode"
+}
+{
+origin "576 -64 -32"
+classname "node_pathnode"
+}
+{
+origin "576 64 -32"
+classname "node_pathnode"
+}
+{
+origin "448 64 -32"
+classname "node_pathnode"
+}
+{
+origin "448 -64 -32"
+classname "node_pathnode"
+}
+{
+origin "320 -64 -32"
+classname "node_pathnode"
+}
+{
+origin "320 64 -32"
+classname "node_pathnode"
+}
+{
+origin "-64 -192 -32"
+classname "node_pathnode"
+}
+{
+origin "-64 -320 -32"
+classname "node_pathnode"
+}
+{
+origin "-192 -320 -32"
+classname "node_pathnode"
+}
+{
+origin "-192 -192 -32"
+classname "node_pathnode"
+}
+{
+origin "192 -192 -32"
+classname "node_pathnode"
+}
+{
+origin "192 -320 -32"
+classname "node_pathnode"
+}
+{
+origin "64 -320 -32"
+classname "node_pathnode"
+}
+{
+origin "64 -192 -32"
+classname "node_pathnode"
+}
+{
+origin "192 -448 -32"
+classname "node_pathnode"
+}
+{
+origin "192 -576 -32"
+classname "node_pathnode"
+}
+{
+origin "64 -576 -32"
+classname "node_pathnode"
+}
+{
+origin "64 -448 -32"
+classname "node_pathnode"
+}
+{
+origin "-64 -448 -32"
+classname "node_pathnode"
+}
+{
+origin "-64 -576 -32"
+classname "node_pathnode"
+}
+{
+origin "-192 -576 -32"
+classname "node_pathnode"
+}
+{
+origin "-192 -448 -32"
+classname "node_pathnode"
+}
+{
+origin "-64 320 -32"
+classname "node_pathnode"
+}
+{
+origin "-64 192 -32"
+classname "node_pathnode"
+}
+{
+origin "-192 192 -32"
+classname "node_pathnode"
+}
+{
+origin "-192 320 -32"
+classname "node_pathnode"
+}
+{
+origin "192 320 -32"
+classname "node_pathnode"
+}
+{
+origin "192 192 -32"
+classname "node_pathnode"
+}
+{
+origin "64 192 -32"
+classname "node_pathnode"
+}
+{
+origin "64 320 -32"
+classname "node_pathnode"
+}
+{
+origin "192 64 -32"
+classname "node_pathnode"
+}
+{
+origin "192 -64 -32"
+classname "node_pathnode"
+}
+{
+origin "64 -64 -32"
+classname "node_pathnode"
+}
+{
+origin "64 64 -32"
+classname "node_pathnode"
+}
+{
+origin "-64 64 -32"
+classname "node_pathnode"
+}
+{
+origin "-64 -64 -32"
+classname "node_pathnode"
+}
+{
+origin "-192 -64 -32"
+classname "node_pathnode"
+}
+{
+origin "-192 64 -32"
+classname "node_pathnode"
+}
+{
+origin "-576 -192 -32"
+classname "node_pathnode"
+}
+{
+origin "-576 -320 -32"
+classname "node_pathnode"
+}
+{
+origin "-704 -320 -32"
+classname "node_pathnode"
+}
+{
+origin "-704 -192 -32"
+classname "node_pathnode"
+}
+{
+origin "-320 -192 -32"
+classname "node_pathnode"
+}
+{
+origin "-320 -320 -32"
+classname "node_pathnode"
+}
+{
+origin "-448 -320 -32"
+classname "node_pathnode"
+}
+{
+origin "-448 -192 -32"
+classname "node_pathnode"
+}
+{
+origin "-320 -448 -32"
+classname "node_pathnode"
+}
+{
+origin "-320 -576 -32"
+classname "node_pathnode"
+}
+{
+origin "-448 -576 -32"
+classname "node_pathnode"
+}
+{
+origin "-448 -448 -32"
+classname "node_pathnode"
+}
+{
+origin "-576 -448 -32"
+classname "node_pathnode"
+}
+{
+origin "-576 -576 -32"
+classname "node_pathnode"
+}
+{
+origin "-704 -576 -32"
+classname "node_pathnode"
+}
+{
+origin "-704 -448 -32"
+classname "node_pathnode"
+}
+{
+origin "-576 320 -32"
+classname "node_pathnode"
+}
+{
+origin "-576 192 -32"
+classname "node_pathnode"
+}
+{
+origin "-704 192 -32"
+classname "node_pathnode"
+}
+{
+origin "-704 320 -32"
+classname "node_pathnode"
+}
+{
+origin "-320 320 -32"
+classname "node_pathnode"
+}
+{
+origin "-320 192 -32"
+classname "node_pathnode"
+}
+{
+origin "-448 192 -32"
+classname "node_pathnode"
+}
+{
+origin "-448 320 -32"
+classname "node_pathnode"
+}
+{
+origin "-320 64 -32"
+classname "node_pathnode"
+}
+{
+origin "-320 -64 -32"
+classname "node_pathnode"
+}
+{
+origin "-448 -64 -32"
+classname "node_pathnode"
+}
+{
+origin "-448 64 -32"
+classname "node_pathnode"
+}
+{
+origin "-576 64 -32"
+classname "node_pathnode"
+}
+{
+origin "-576 -64 -32"
+classname "node_pathnode"
+}
+{
+origin "-704 -64 -32"
+classname "node_pathnode"
+}
+{
+origin "-704 64 -32"
+classname "node_pathnode"
+}
+{
+origin "448 576 -32"
+classname "node_pathnode"
+}
+{
+origin "448 448 -32"
+classname "node_pathnode"
+}
+{
+origin "320 448 -32"
+classname "node_pathnode"
+}
+{
+origin "320 576 -32"
+classname "node_pathnode"
+}
+{
+origin "704 576 -32"
+classname "node_pathnode"
+}
+{
+origin "704 448 -32"
+classname "node_pathnode"
+}
+{
+origin "576 448 -32"
+classname "node_pathnode"
+}
+{
+origin "576 576 -32"
+classname "node_pathnode"
+}
+{
+origin "-64 576 -32"
+classname "node_pathnode"
+}
+{
+origin "-64 448 -32"
+classname "node_pathnode"
+}
+{
+origin "-192 448 -32"
+classname "node_pathnode"
+}
+{
+origin "-192 576 -32"
+classname "node_pathnode"
+}
+{
+origin "192 576 -32"
+classname "node_pathnode"
+}
+{
+origin "192 448 -32"
+classname "node_pathnode"
+}
+{
+origin "64 448 -32"
+classname "node_pathnode"
+}
+{
+origin "64 576 -32"
+classname "node_pathnode"
+}
+{
+origin "-576 576 -32"
+classname "node_pathnode"
+}
+{
+origin "-576 448 -32"
+classname "node_pathnode"
+}
+{
+origin "-704 448 -32"
+classname "node_pathnode"
+}
+{
+origin "-704 576 -32"
+classname "node_pathnode"
+}
+{
+origin "-320 576 -32"
+classname "node_pathnode"
+}
+{
+origin "-320 448 -32"
+classname "node_pathnode"
+}
+{
+origin "-448 448 -32"
+classname "node_pathnode"
+}
+{
+origin "-448 576 -32"
+classname "node_pathnode"
+}
+{
+origin "-46 284 -6"
+angles "0 270.65 0"
+export "3"
+model "body_venezuela_army_smg_a"
+classname "actor_enemy_venezuela_army_smg"
+}
+{
+origin "65.5 402.5 2.3"
+angles "0 270 0"
+export "5"
+model "fullbody_hazmat_a"
+classname "actor_enemy_hazmat_a_smg"
+}
+{
+gndlt "7373728001"
+ltorigin "587.5 240.257 40.9183"
+angles "0 180 0"
+origin "587.5 240 6"
+model "body_us_rangers_assault_a"
+classname "script_model"
+}
+{
+gndlt "7071708001"
+ltorigin "224 239.743 40.9183"
+origin "224 240 6"
+model "body_us_rangers_assault_a"
+classname "script_model"
+}
+{
+origin "-8 180 48"
+script_noteworthy "group1"
+targetname "spawn_point"
+angles "0 270 0"
+classname "script_struct"
+}
+{
+origin "0 512 48"
+script_noteworthy "group1"
+targetname "spawn_point"
+angles "0 270 0"
+classname "script_struct"
+}
+{
+origin "56 180 48"
+script_noteworthy "group1"
+targetname "spawn_point"
+angles "0 270 0"
+classname "script_struct"
+}
+{
+origin "120 180 48"
+script_noteworthy "group1"
+targetname "spawn_point"
+angles "0 270 0"
+classname "script_struct"
+}
+{
+origin "-998 1750 20"
+script_noteworthy "group1"
+targetname "spawn_point"
+angles "0 243 0"
+classname "script_struct"
+}
+{
+origin "1024 -736 48"
+script_noteworthy "group1"
+targetname "spawn_point"
+angles "0 90 0"
+classname "script_struct"
+}
+{
+angles "90 45 -180"
+targetname "ch_streetlight_02_FX_origin"
+origin "424.487 840.787 212"
+classname "script_struct"
+}
+{
+classname "script_struct"
+origin "572.756 854.496 42.0301"
+targetname "fluorescent_glow_FX_origin"
+angles "30 93.3 -90"
+}
+{
+classname "script_struct"
+origin "515.213 853.5 41.0287"
+targetname "fluorescent_glow_FX_origin"
+angles "29.9881 90.8658 -88.2681"
+}
+{
+classname "script_struct"
+origin "629 853.5 42.0301"
+targetname "fluorescent_glow_FX_origin"
+angles "30 90 -90"
+}
+{
+classname "script_struct"
+origin "685.029 853.475 42.0443"
+targetname "fluorescent_glow_FX_origin"
+angles "29.6537 87.036 -91.1353"
+}
+{
+classname "script_struct"
+origin "437.5 919 42.0301"
+targetname "fluorescent_glow_FX_origin"
+angles "30 3.18772e-006 -90"
+}
+{
+classname "script_struct"
+origin "462.468 875.468 42.0301"
+targetname "fluorescent_glow_FX_origin"
+angles "30 45 -90"
+}
+{
+classname "script_struct"
+origin "461.5 1107 42.0301"
+targetname "fluorescent_glow_FX_origin"
+angles "30 3.18772e-006 -90"
+}
+{
+classname "script_struct"
+origin "436.5 1633.5 43.8301"
+targetname "fluorescent_glow_FX_origin"
+angles "30 3.18772e-006 -90"
+}
+{
+classname "script_struct"
+origin "436.5 1758.5 44.0301"
+targetname "fluorescent_glow_FX_origin"
+angles "30 3.18772e-006 -90"
+}
+{
+origin "960 -736 48"
+script_noteworthy "group1"
+targetname "spawn_point"
+angles "0 90 0"
+classname "script_struct"
+}
+{
+classname "info_player_start"
+origin "32 -640 0"
+angles "0 90 0"
+}
+{
+origin "896 -736 48"
+script_noteworthy "group1"
+targetname "spawn_point"
+angles "0 90 0"
+classname "script_struct"
+}
+{
+origin "64 512 48"
+script_noteworthy "group2"
+targetname "spawn_point"
+angles "0 270 0"
+classname "script_struct"
+}
+{
+origin "128 512 48"
+script_noteworthy "group3"
+targetname "spawn_point"
+angles "0 270 0"
+classname "script_struct"
+}
+{
+origin "192 512 48"
+script_noteworthy "group4"
+targetname "spawn_point"
+angles "0 270 0"
+classname "script_struct"
+}
+{
+origin "-8 -12 48"
+script_noteworthy "group2"
+targetname "spawn_point"
+angles "0 270 0"
+classname "script_struct"
+}
+{
+origin "56 -12 48"
+script_noteworthy "group2"
+targetname "spawn_point"
+angles "0 270 0"
+classname "script_struct"
+}
+{
+origin "120 -12 48"
+script_noteworthy "group2"
+targetname "spawn_point"
+angles "0 270 0"
+classname "script_struct"
+}
+{
+gndlt "7172718001"
+ltorigin "276 239.908 40.0966"
+origin "276 240 6"
+model "body_us_rangers_lmg_a"
+classname "script_model"
+}
+{
+gndlt "7274738001"
+ltorigin "328 237.601 39.1722"
+origin "328 240 6"
+model "body_us_rangers_shotgun_a"
+classname "script_model"
+}
+{
+gndlt "7273738001"
+ltorigin "380 237.17 38.2469"
+origin "380 240 6"
+model "body_us_rangers_smg_a"
+classname "script_model"
+}
+{
+origin "-964 1698 20"
+script_noteworthy "group2"
+targetname "spawn_point"
+angles "0 225 0"
+classname "script_struct"
+}
+{
+origin "1024 -688 48"
+script_noteworthy "group2"
+targetname "spawn_point"
+angles "0 90 0"
+classname "script_struct"
+}
+{
+origin "960 -688 48"
+script_noteworthy "group2"
+targetname "spawn_point"
+angles "0 90 0"
+classname "script_struct"
+}
+{
+origin "896 -688 48"
+script_noteworthy "group2"
+targetname "spawn_point"
+angles "0 90 0"
+classname "script_struct"
+}
+{
+origin "-8 -204 48"
+script_noteworthy "group3"
+targetname "spawn_point"
+angles "0 270 0"
+classname "script_struct"
+}
+{
+origin "56 -204 48"
+script_noteworthy "group3"
+targetname "spawn_point"
+angles "0 270 0"
+classname "script_struct"
+}
+{
+origin "120 -204 48"
+script_noteworthy "group3"
+targetname "spawn_point"
+angles "0 270 0"
+classname "script_struct"
+}
+{
+angles "90 45 -180"
+targetname "ch_streetlight_02_FX_origin"
+origin "1688.49 -663.213 212"
+classname "script_struct"
+}
+{
+classname "script_struct"
+origin "1836.76 -649.504 42.0301"
+targetname "fluorescent_glow_FX_origin"
+angles "30 93.3 -90"
+}
+{
+classname "script_struct"
+origin "1779.21 -650.5 41.0287"
+targetname "fluorescent_glow_FX_origin"
+angles "29.9881 90.8658 -88.2681"
+}
+{
+classname "script_struct"
+origin "1893 -650.5 42.0301"
+targetname "fluorescent_glow_FX_origin"
+angles "30 90 -90"
+}
+{
+classname "script_struct"
+origin "1949.03 -650.525 42.0443"
+targetname "fluorescent_glow_FX_origin"
+angles "29.6537 87.036 -91.1353"
+}
+{
+classname "script_struct"
+origin "1701.5 -585 42.0301"
+targetname "fluorescent_glow_FX_origin"
+angles "30 3.18772e-006 -90"
+}
+{
+classname "script_struct"
+origin "1726.47 -628.532 42.0301"
+targetname "fluorescent_glow_FX_origin"
+angles "30 45 -90"
+}
+{
+classname "script_struct"
+origin "1725.5 -397 42.0301"
+targetname "fluorescent_glow_FX_origin"
+angles "30 3.18772e-006 -90"
+}
+{
+classname "script_struct"
+origin "1700.5 129.5 43.8301"
+targetname "fluorescent_glow_FX_origin"
+angles "30 3.18772e-006 -90"
+}
+{
+classname "script_struct"
+origin "1700.5 254.5 44.0301"
+targetname "fluorescent_glow_FX_origin"
+angles "30 3.18772e-006 -90"
+}
+{
+gndlt "5355548001"
+ltorigin "380.42 239.442 72.1293"
+origin "380 236 70"
+model "head_us_rangers_a"
+classname "script_model"
+}
+{
+origin "-496 1248 20"
+script_noteworthy "group3"
+targetname "spawn_point"
+angles "0 72 0"
+classname "script_struct"
+}
+{
+origin "1024 -640 48"
+script_noteworthy "group3"
+targetname "spawn_point"
+angles "0 90 0"
+classname "script_struct"
+}
+{
+origin "960 -640 48"
+script_noteworthy "group3"
+targetname "spawn_point"
+angles "0 90 0"
+classname "script_struct"
+}
+{
+origin "896 -640 48"
+script_noteworthy "group3"
+targetname "spawn_point"
+angles "0 90 0"
+classname "script_struct"
+}
+{
+origin "-8 -396 48"
+script_noteworthy "group4"
+targetname "spawn_point"
+angles "0 270 0"
+classname "script_struct"
+}
+{
+angles "90 225 180"
+targetname "ch_streetlight_02_FX_origin"
+origin "-360.487 -72.7868 196"
+classname "script_struct"
+}
+{
+classname "script_struct"
+origin "-508.756 -86.4959 26.0301"
+targetname "fluorescent_glow_FX_origin"
+angles "30 273.3 -90"
+}
+{
+classname "script_struct"
+origin "-451.213 -85.5 25.0287"
+targetname "fluorescent_glow_FX_origin"
+angles "29.9881 270.866 -88.2681"
+}
+{
+classname "script_struct"
+origin "-565 -85.5 26.0301"
+targetname "fluorescent_glow_FX_origin"
+angles "30 270 -90"
+}
+{
+classname "script_struct"
+origin "-621.029 -85.4751 26.0443"
+targetname "fluorescent_glow_FX_origin"
+angles "29.6537 267.036 -91.1353"
+}
+{
+classname "script_struct"
+origin "-373.5 -151 26.0301"
+targetname "fluorescent_glow_FX_origin"
+angles "30 180 -90"
+}
+{
+classname "script_struct"
+origin "-398.468 -107.468 26.0301"
+targetname "fluorescent_glow_FX_origin"
+angles "30 225 -90"
+}
+{
+classname "script_struct"
+origin "-397.5 -339 26.0301"
+targetname "fluorescent_glow_FX_origin"
+angles "30 180 -90"
+}
+{
+classname "script_struct"
+origin "-372.5 -865.5 27.8301"
+targetname "fluorescent_glow_FX_origin"
+angles "30 180 -90"
+}
+{
+classname "script_struct"
+origin "-372.5 -990.5 28.0301"
+targetname "fluorescent_glow_FX_origin"
+angles "30 180 -90"
+}
+{
+gndlt "5c5d5c8001"
+ltorigin "-233.759 -1007.81 0.577721"
+sound_csv_include "destruct_firehydrant"
+csv_include "destructible_firehydrant"
+origin "-236 -1010 -16"
+targetname "destructible_toy"
+destructible_type "toy_firehydrant"
+model "com_firehydrant"
+classname "script_model"
+angles "0 180 0"
+}
+{
+gndlt "5657550000"
+ltorigin "299 1191 19.4557"
+sound_csv_include "destruct_parkingmeter"
+csv_include "destructible_parkingmeter"
+angles "0 180 0"
+destructible_type "toy_parkingmeter"
+targetname "destructible_toy"
+origin "299 1191 -8"
+model "com_parkingmeter_destructible"
+classname "script_model"
+}
+{
+gndlt "66635d5e01"
+ltorigin "-101 1191 19.4557"
+sound_csv_include "destruct_parkingmeter"
+csv_include "destructible_parkingmeter"
+angles "0 180 0"
+destructible_type "toy_parkingmeter"
+targetname "destructible_toy"
+origin "-101 1191 -8"
+model "com_parkingmeter_destructible"
+classname "script_model"
+}
+{
+gndlt "5c5c5a8001"
+ltorigin "-101 1703 19.4557"
+sound_csv_include "destruct_parkingmeter"
+csv_include "destructible_parkingmeter"
+angles "0 180 0"
+destructible_type "toy_parkingmeter"
+targetname "destructible_toy"
+origin "-101 1703 -8"
+model "com_parkingmeter_destructible"
+classname "script_model"
+}
+{
+gndlt "5c5b578001"
+ltorigin "-101 1447 19.4557"
+sound_csv_include "destruct_parkingmeter"
+csv_include "destructible_parkingmeter"
+angles "0 180 0"
+destructible_type "toy_parkingmeter"
+targetname "destructible_toy"
+origin "-101 1447 -8"
+model "com_parkingmeter_destructible"
+classname "script_model"
+}
+{
+gndlt "5758570001"
+ltorigin "-101 1959 19.4557"
+sound_csv_include "destruct_parkingmeter"
+csv_include "destructible_parkingmeter"
+angles "0 180 0"
+destructible_type "toy_parkingmeter"
+targetname "destructible_toy"
+origin "-101 1959 -8"
+model "com_parkingmeter_destructible"
+classname "script_model"
+}
+{
+gndlt "5050500000"
+ltorigin "299 1703 27.4557"
+sound_csv_include "destruct_parkingmeter"
+csv_include "destructible_parkingmeter"
+angles "0 180 0"
+destructible_type "toy_parkingmeter"
+targetname "destructible_toy"
+origin "299 1703 0"
+model "com_parkingmeter_destructible"
+classname "script_model"
+}
+{
+gndlt "5555540000"
+ltorigin "299 1447 27.4557"
+sound_csv_include "destruct_parkingmeter"
+csv_include "destructible_parkingmeter"
+angles "0 180 0"
+destructible_type "toy_parkingmeter"
+targetname "destructible_toy"
+origin "299 1447 0"
+model "com_parkingmeter_destructible"
+classname "script_model"
+}
+{
+gndlt "4647460000"
+ltorigin "299 2215 27.4557"
+sound_csv_include "destruct_parkingmeter"
+csv_include "destructible_parkingmeter"
+angles "0 180 0"
+destructible_type "toy_parkingmeter"
+targetname "destructible_toy"
+origin "299 2215 0"
+model "com_parkingmeter_destructible"
+classname "script_model"
+}
+{
+gndlt "5051500000"
+ltorigin "299 1959 27.4557"
+sound_csv_include "destruct_parkingmeter"
+csv_include "destructible_parkingmeter"
+angles "0 180 0"
+destructible_type "toy_parkingmeter"
+targetname "destructible_toy"
+origin "299 1959 0"
+model "com_parkingmeter_destructible"
+classname "script_model"
+}
+{
+gndlt "6767666701"
+ltorigin "-110.241 847.812 8.57772"
+sound_csv_include "destruct_firehydrant"
+csv_include "destructible_firehydrant"
+origin "-108 850 -8"
+targetname "destructible_toy"
+destructible_type "toy_firehydrant"
+model "com_firehydrant"
+classname "script_model"
+}
+{
+gndlt "5e5f5d7401"
+ltorigin "297.726 935.774 22.2687"
+sound_csv_include "destruct_newspaperbox"
+csv_include "destructible_newspaperbox_blue"
+destructible_type "toy_newspaper_stand_blue"
+targetname "destructible_toy"
+origin "296 934 0"
+model "com_newspaperbox_blue"
+classname "script_model"
+}
+{
+gndlt "5e5f5e6401"
+ltorigin "296.678 906.175 22.2884"
+sound_csv_include "destruct_newspaperbox"
+csv_include "destructible_newspaperbox_red"
+targetname "destructible_toy"
+destructible_type "toy_newspaper_stand_red"
+origin "296 906 0"
+model "com_newspaperbox_red"
+classname "script_model"
+}
+{
+gndlt "494b497c01"
+ltorigin "-161.726 -147.774 6.26869"
+sound_csv_include "destruct_newspaperbox"
+csv_include "destructible_newspaperbox_blue"
+destructible_type "toy_newspaper_stand_blue"
+targetname "destructible_toy"
+origin "-160 -146 -16"
+model "com_newspaperbox_blue"
+classname "script_model"
+angles "0 180 0"
+}
+{
+gndlt "5354537901"
+ltorigin "-160.678 -118.175 6.28836"
+sound_csv_include "destruct_newspaperbox"
+csv_include "destructible_newspaperbox_red"
+targetname "destructible_toy"
+destructible_type "toy_newspaper_stand_red"
+origin "-160 -118 -16"
+model "com_newspaperbox_red"
+classname "script_model"
+angles "0 180 0"
+}
+{
+origin "56 -396 48"
+script_noteworthy "group4"
+targetname "spawn_point"
+angles "0 270 0"
+classname "script_struct"
+}
+{
+origin "120 -396 48"
+script_noteworthy "group4"
+targetname "spawn_point"
+angles "0 270 0"
+classname "script_struct"
+}
+{
+origin "-432 1248 20"
+script_noteworthy "group4"
+targetname "spawn_point"
+angles "0 104 0"
+classname "script_struct"
+}
+{
+origin "1024 -592 48"
+script_noteworthy "group4"
+targetname "spawn_point"
+angles "0 90 0"
+classname "script_struct"
+}
+{
+origin "960 -592 48"
+script_noteworthy "group4"
+targetname "spawn_point"
+angles "0 90 0"
+classname "script_struct"
+}
+{
+origin "896 -592 48"
+script_noteworthy "group4"
+targetname "spawn_point"
+angles "0 90 0"
+classname "script_struct"
+}
+{
+gndlt "5051518001"
+ltorigin "175.818 238.908 72.3546"
+origin "176 236 70"
+model "head_us_rangers_b"
+classname "script_model"
+}
+{
+gndlt "5052518001"
+ltorigin "328.676 236.994 72.1886"
+origin "328 236 70"
+model "head_us_rangers_c"
+classname "script_model"
+}
+{
+gndlt "4f51508001"
+ltorigin "276.555 239.077 72.396"
+model "head_us_rangers_d"
+origin "276 236 70"
+classname "script_model"
+}
+{
+gndlt "5052518001"
+ltorigin "224.044 236.484 72.338"
+origin "224 236 70"
+model "head_us_rangers_e"
+classname "script_model"
+}
+{
+gndlt "7173728001"
+ltorigin "535.5 240.092 40.0966"
+angles "0 180 0"
+origin "535.5 240 6"
+model "body_us_rangers_lmg_a"
+classname "script_model"
+}
+{
+gndlt "7173728001"
+ltorigin "483.5 242.399 39.1722"
+angles "0 180 0"
+origin "483.5 240 6"
+model "body_us_rangers_shotgun_a"
+classname "script_model"
+}
+{
+gndlt "7072718001"
+ltorigin "431.5 242.83 38.2469"
+angles "0 180 0"
+origin "431.5 240 6"
+model "body_us_rangers_smg_a"
+classname "script_model"
+}
+{
+gndlt "4d4f4e7f01"
+ltorigin "431.08 240.558 72.1293"
+angles "0 180 0"
+origin "431.5 244 70"
+model "head_us_rangers_a"
+classname "script_model"
+}
+{
+gndlt "4d4f4e8001"
+ltorigin "139.682 241.092 72.3546"
+angles "0 180 0"
+origin "139.5 244 70"
+model "head_us_rangers_b"
+classname "script_model"
+}
+{
+gndlt "4f514f8001"
+ltorigin "482.824 243.006 72.1886"
+angles "0 180 0"
+origin "483.5 244 70"
+model "head_us_rangers_c"
+classname "script_model"
+}
+{
+gndlt "4a4c4b8001"
+ltorigin "534.945 240.923 72.396"
+angles "0 180 0"
+model "head_us_rangers_d"
+origin "535.5 244 70"
+classname "script_model"
+}
+{
+gndlt "4e504e8001"
+ltorigin "587.456 243.516 72.338"
+angles "0 180 0"
+origin "587.5 244 70"
+model "head_us_rangers_e"
+classname "script_model"
+}
+{
+origin "120 402 4"
+angles "0 270 0"
+export "6"
+model "fullbody_hazmat_b"
+classname "actor_enemy_hazmat_b_smg"
+}
+{
+classname "script_struct"
+origin "-408 1853 97"
+targetname "light_red_steady_FX_origin"
+angles "0 180 -90"
+}
+{
+classname "script_struct"
+origin "-496 1875 97"
+targetname "light_red_steady_FX_origin"
+angles "0 0 -90"
+}
+{
+classname "script_struct"
+origin "-1286 1434 97"
+targetname "light_orange_steady_FX_origin"
+angles "0 90 -90"
+}
+{
+targetname "pf682_auto1"
+classname "trigger_use"
+origin "-783 1179 126"
+model "?0"
+}
+{
+gndlt "0201010000"
+ltorigin "-786.364 1176.4 125.868"
+sound_csv_include "destruct_tv_exp"
+csv_include "destructible_tubetv_tv1"
+targetname "interactive_tv"
+classname "script_model"
+model "com_tv1_cinematic"
+origin "-790.2 1172.6 116.8"
+angles "20 45 0"
+target "pf682_auto1"
+}
+{
+targetname "pf687_auto1"
+classname "trigger_use"
+origin "-667 1160 142"
+model "?1"
+}
+{
+gndlt "0101010000"
+ltorigin "-666.996 1155.64 141.868"
+sound_csv_include "destruct_tv_exp"
+csv_include "destructible_tubetv_tv1"
+targetname "interactive_tv"
+classname "script_model"
+model "com_tv1_cinematic"
+origin "-667 1150.6 132.8"
+angles "20 90 0"
+target "pf687_auto1"
+}
+{
+targetname "pf688_auto1"
+classname "trigger_use"
+origin "-634 1160 142"
+model "?2"
+}
+{
+gndlt "0101010000"
+ltorigin "-633.996 1155.64 141.868"
+sound_csv_include "destruct_tv_exp"
+csv_include "destructible_tubetv_tv1"
+targetname "interactive_tv"
+classname "script_model"
+model "com_tv1_cinematic"
+origin "-634 1150.6 132.8"
+angles "20 90 0"
+target "pf688_auto1"
+}
+{
+gndlt "1414150000"
+ltorigin "-530.57 1835.09 16.9774"
+sound_csv_include "destruct_filecabinet"
+csv_include "destructible_filecabinet"
+targetname "destructible_toy"
+destructible_type "toy_filecabinet"
+origin "-530.5 1835 -8"
+model "com_filecabinetblackclosed"
+classname "script_model"
+angles "0 276.3 0"
+}
+{
+origin "-1243 1477.5 580"
+targetname "light_glow_industrial_FX_origin"
+classname "script_struct"
+angles "0 90 -90"
+}
+{
+origin "-815 1293.5 580"
+targetname "light_glow_industrial_FX_origin"
+classname "script_struct"
+angles "0 90 -90"
+}
+{
+origin "-815 1661.5 580"
+targetname "light_glow_industrial_FX_origin"
+classname "script_struct"
+angles "0 90 -90"
+}
+{
+origin "-815 1477.5 580"
+targetname "light_glow_industrial_FX_origin"
+classname "script_struct"
+angles "0 90 -90"
+}
+{
+origin "-841 1661.5 580"
+targetname "light_glow_industrial_FX_origin"
+classname "script_struct"
+angles "0 270 -90"
+}
+{
+origin "-841 1293.5 580"
+targetname "light_glow_industrial_FX_origin"
+classname "script_struct"
+angles "0 270 -90"
+}
+{
+origin "-841 1477.5 580"
+targetname "light_glow_industrial_FX_origin"
+classname "script_struct"
+angles "0 270 -90"
+}
+{
+gndlt "0a0a0c0000"
+ltorigin "-560.004 1823.86 50.8679"
+csv_include "destructible_tubetv_tv1"
+sound_csv_include "destruct_tv_exp"
+targetname "interactive_tv"
+classname "script_model"
+model "com_tv1_cinematic"
+origin "-560 1828.9 41.8"
+angles "20 270 -2.33606e-006"
+}
+{
+gndlt "0a0b0c0000"
+ltorigin "-560.004 1827.9 75.003"
+csv_include "destructible_tubetv_tv1"
+sound_csv_include "destruct_tv_exp"
+targetname "interactive_tv"
+classname "script_model"
+model "com_tv1_cinematic"
+origin "-560 1827.9 63.8"
+angles "0 270 0"
+}
+{
+gndlt "18181a0006"
+ltorigin "-385.288 1139.2 50.8679"
+csv_include "destructible_tubetv_tv1"
+sound_csv_include "destruct_tv_exp"
+targetname "interactive_tv"
+classname "script_model"
+model "com_tv1_cinematic"
+origin "-381.485 1135.36 41.8"
+angles "20 135 -1.65185e-006"
+}
+{
+gndlt "19191a0006"
+ltorigin "-383.002 1136.91 75.003"
+csv_include "destructible_tubetv_tv1"
+sound_csv_include "destruct_tv_exp"
+targetname "interactive_tv"
+classname "script_model"
+model "com_tv1_cinematic"
+origin "-382.192 1136.07 63.8"
+angles "0 135 0"
+}
+{
+gndlt "1b1c1e0006"
+ltorigin "-362.388 1283.74 16.9774"
+sound_csv_include "destruct_filecabinet"
+csv_include "destructible_filecabinet"
+targetname "destructible_toy"
+destructible_type "toy_filecabinet"
+origin "-362.5 1284 -8"
+model "com_filecabinetblackclosed"
+classname "script_model"
+angles "0 100 0"
+}
+{
+targetname "pf804_auto1"
+classname "trigger_use"
+origin "-804 1264 39"
+model "?3"
+}
+{
+gndlt "2725210006"
+ltorigin "-809.732 1262.95 38.203"
+sound_csv_include "destruct_tv_exp"
+csv_include "destructible_tubetv_tv1"
+targetname "interactive_tv"
+classname "script_model"
+model "com_tv1_cinematic"
+origin "-810 1262.5 27"
+angles "0 15 0"
+target "pf804_auto1"
+}
+{
+targetname "pf805_auto1"
+classname "trigger_use"
+origin "-801 1346 39"
+model "?4"
+}
+{
+gndlt "1b1c1e0000"
+ltorigin "-804.69 1349.16 38.203"
+sound_csv_include "destruct_tv_exp"
+csv_include "destructible_tubetv_tv1"
+targetname "interactive_tv"
+classname "script_model"
+model "com_tv1_cinematic"
+origin "-805.5 1350 27"
+angles "0 315 0"
+target "pf805_auto1"
+}
+{
+targetname "pf806_auto1"
+classname "trigger_use"
+origin "-375 1186 39"
+model "?5"
+}
+{
+gndlt "1e20210006"
+ltorigin "-371.31 1182.84 38.203"
+sound_csv_include "destruct_tv_exp"
+csv_include "destructible_tubetv_tv1"
+targetname "interactive_tv"
+classname "script_model"
+model "com_tv1_cinematic"
+origin "-370.5 1182 27"
+angles "0 135 0"
+target "pf806_auto1"
+}
+{
+classname "script_struct"
+origin "-1150 1932 97"
+targetname "light_orange_steady_FX_origin"
+angles "0 0 -90"
+}
+{
+classname "script_struct"
+origin "-1150 1916 97"
+targetname "light_orange_steady_FX_origin"
+angles "0 180 -90"
+}
+{
+classname "script_struct"
+origin "-954 1932 97"
+targetname "light_orange_steady_FX_origin"
+angles "0 0 -90"
+}
+{
+classname "script_struct"
+origin "-954 1916 97"
+targetname "light_orange_steady_FX_origin"
+angles "0 180 -90"
+}
+{
+classname "script_struct"
+origin "-954 1084 97"
+targetname "light_orange_steady_FX_origin"
+angles "0 180 -90"
+}
+{
+classname "script_struct"
+origin "-954 1100 97"
+targetname "light_orange_steady_FX_origin"
+angles "0 0 -90"
+}
+{
+classname "script_struct"
+origin "-1150 1084 97"
+targetname "light_orange_steady_FX_origin"
+angles "0 180 -90"
+}
+{
+classname "script_struct"
+origin "-1150 1100 97"
+targetname "light_orange_steady_FX_origin"
+angles "0 0 -90"
+}
+{
+classname "script_struct"
+angles "0 180 0"
+targetname "ending_breach_org"
+origin "-432 1474 -8"
+}
+{
+angles "0 30 0"
+target "auto2"
+targetname "auto1"
+origin "-1048 1688 8"
+_color "1.000000 1.000000 1.000000"
+classname "script_struct"
+}
+{
+classname "script_struct"
+_color "1.000000 1.000000 1.000000"
+origin "40 -488 8"
+target "auto1"
+targetname "move_player_start"
+angles "0 90 0"
+}
+{
+classname "script_struct"
+_color "1.000000 1.000000 1.000000"
+origin "958.4 -512.2 8"
+targetname "auto2"
+angles "0 270 0"
+}
