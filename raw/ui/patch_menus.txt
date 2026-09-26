@@ -1,0 +1,19 @@
+{
+	loadMenu { "ui/menu_so_leaderboard_sd.menu" }
+	loadMenu { "ui/menu_so_leaderboard_hd.menu" }
+	loadMenu { "ui/popup_gettinglb_main.menu" }
+	loadMenu { "ui/popmenu_specops_survival_dlc.menu" }
+	loadMenu { "ui/spec_ops_dlc_go_to_store_popup.menu" }
+	loadMenu { "ui/spec_ops_dlc_missing_popup.menu" }
+	loadMenu { "ui/popup_modechoice_dlc.menu" }
+	loadMenu { "ui/popup_modechoice_simple_dlc.menu" }
+	loadMenu { "ui/menu_lb_survival_solo_dlc.menu" }
+	loadMenu { "ui/menu_lb_survival_team_dlc.menu" }
+	loadMenu { "ui/menu_lb_survival_solo_dlc_bonus.menu" }
+	loadMenu { "ui/menu_lb_survival_team_dlc_bonus.menu" }
+	loadMenu { "ui/popmenu_specops_mission_dlc.menu" }
+	loadMenu { "ui/menu_lb_mission_solo_dlc.menu" }
+	loadMenu { "ui/menu_lb_mission_team_dlc.menu" }
+	loadMenu { "ui/menu_lb_mission_solo_dlc_bonus.menu" }
+	loadMenu { "ui/menu_lb_mission_team_dlc_bonus.menu" }
+}
