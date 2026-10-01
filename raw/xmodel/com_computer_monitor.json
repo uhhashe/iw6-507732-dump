@@ -1,0 +1,25 @@
+{
+    "$schema": "http://openassettools.dev/schema/xmodel.v1.json",
+    "_game": "iw6",
+    "_type": "xmodel",
+    "_version": 2,
+    "flags": 4,
+    "lods": [
+        {
+            "distance": 250.000,
+            "file": "model_export/com_computer_monitor_lod0.glb"
+        },
+        {
+            "distance": 500.000,
+            "file": "model_export/com_computer_monitor_lod1.glb"
+        },
+        {
+            "distance": 1500.000,
+            "file": "model_export/com_computer_monitor_lod2.glb"
+        }
+    ],
+    "physCollmap": "com_computer_monitor",
+    "physPreset": "tv_24inch",
+    "rootBoneName": "computer_monitor_lod0",
+    "type": "rigid"
+}

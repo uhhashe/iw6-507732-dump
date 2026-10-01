@@ -1,0 +1,28 @@
+{
+    "$schema": "http://openassettools.dev/schema/xmodel.v1.json",
+    "_game": "iw6",
+    "_type": "xmodel",
+    "_version": 2,
+    "flags": 4,
+    "lods": [
+        {
+            "distance": 50.000,
+            "file": "model_export/com_flashlight_off_lod0.glb"
+        },
+        {
+            "distance": 100.000,
+            "file": "model_export/com_flashlight_off_lod1.glb"
+        },
+        {
+            "distance": 250.000,
+            "file": "model_export/com_flashlight_off_lod2.glb"
+        },
+        {
+            "distance": 700.000,
+            "file": "model_export/com_flashlight_off_lod3.glb"
+        }
+    ],
+    "physCollmap": "com_flashlight_off",
+    "rootBoneName": "tag_origin",
+    "type": "animated"
+}

@@ -1,0 +1,23 @@
+{
+    "$schema": "http://openassettools.dev/schema/xmodel.v1.json",
+    "_game": "iw6",
+    "_type": "xmodel",
+    "_version": 2,
+    "flags": 4,
+    "lods": [
+        {
+            "distance": 200.000,
+            "file": "model_export/com_newspaperbox_red_lod0.glb"
+        },
+        {
+            "distance": 1000.000,
+            "file": "model_export/com_newspaperbox_red_lod1.glb"
+        },
+        {
+            "distance": 5500.000,
+            "file": "model_export/com_newspaperbox_red_lod2.glb"
+        }
+    ],
+    "rootBoneName": "tag_origin",
+    "type": "animated"
+}

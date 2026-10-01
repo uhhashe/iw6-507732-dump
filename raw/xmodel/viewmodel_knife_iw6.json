@@ -1,0 +1,15 @@
+{
+    "$schema": "http://openassettools.dev/schema/xmodel.v1.json",
+    "_game": "iw6",
+    "_type": "xmodel",
+    "_version": 2,
+    "flags": 4,
+    "lods": [
+        {
+            "distance": 1000.000,
+            "file": "model_export/viewmodel_knife_iw6_lod0.glb"
+        }
+    ],
+    "rootBoneName": "tag_weapon_left",
+    "type": "animated"
+}

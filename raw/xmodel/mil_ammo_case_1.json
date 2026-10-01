@@ -1,0 +1,24 @@
+{
+    "$schema": "http://openassettools.dev/schema/xmodel.v1.json",
+    "_game": "iw6",
+    "_type": "xmodel",
+    "_version": 2,
+    "flags": 4,
+    "lods": [
+        {
+            "distance": 200.000,
+            "file": "model_export/mil_ammo_case_1_lod0.glb"
+        },
+        {
+            "distance": 300.000,
+            "file": "model_export/mil_ammo_case_1_lod1.glb"
+        },
+        {
+            "distance": 1000000.000,
+            "file": "model_export/mil_ammo_case_1_lod2.glb"
+        }
+    ],
+    "physPreset": "metal_gas_can",
+    "rootBoneName": "tag_origin",
+    "type": "rigid"
+}

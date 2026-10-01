@@ -1,0 +1,19 @@
+{
+    "$schema": "http://openassettools.dev/schema/xmodel.v1.json",
+    "_game": "iw6",
+    "_type": "xmodel",
+    "_version": 2,
+    "flags": 4,
+    "lods": [
+        {
+            "distance": 20.000,
+            "file": "model_export/fx_bullet_chain_lod0.glb"
+        },
+        {
+            "distance": 1000.000,
+            "file": "model_export/fx_bullet_chain_lod1.glb"
+        }
+    ],
+    "rootBoneName": "polysurface80488",
+    "type": "rigid"
+}

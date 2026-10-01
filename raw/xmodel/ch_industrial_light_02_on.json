@@ -1,0 +1,23 @@
+{
+    "$schema": "http://openassettools.dev/schema/xmodel.v1.json",
+    "_game": "iw6",
+    "_type": "xmodel",
+    "_version": 2,
+    "flags": 0,
+    "lods": [
+        {
+            "distance": 400.000,
+            "file": "model_export/ch_industrial_light_02_on_lod0.glb"
+        },
+        {
+            "distance": 800.000,
+            "file": "model_export/ch_industrial_light_02_on_lod1.glb"
+        },
+        {
+            "distance": 10000.000,
+            "file": "model_export/ch_industrial_light_02_on_lod2.glb"
+        }
+    ],
+    "rootBoneName": "il02_lod0",
+    "type": "rigid"
+}

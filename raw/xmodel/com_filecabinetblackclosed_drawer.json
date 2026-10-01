@@ -1,0 +1,25 @@
+{
+    "$schema": "http://openassettools.dev/schema/xmodel.v1.json",
+    "_game": "iw6",
+    "_type": "xmodel",
+    "_version": 2,
+    "flags": 4,
+    "lods": [
+        {
+            "distance": 500.000,
+            "file": "model_export/com_filecabinetblackclosed_drawer_lod0.glb"
+        },
+        {
+            "distance": 1500.000,
+            "file": "model_export/com_filecabinetblackclosed_drawer_lod1.glb"
+        },
+        {
+            "distance": 5000.000,
+            "file": "model_export/com_filecabinetblackclosed_drawer_lod2.glb"
+        }
+    ],
+    "physCollmap": "com_filecabinetblackclosed_drawer",
+    "physPreset": "metal_filecabinet",
+    "rootBoneName": "tag_drawer_upper",
+    "type": "rigid"
+}

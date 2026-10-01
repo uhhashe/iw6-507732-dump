@@ -1,0 +1,20 @@
+{
+    "$schema": "http://openassettools.dev/schema/xmodel.v1.json",
+    "_game": "iw6",
+    "_type": "xmodel",
+    "_version": 2,
+    "flags": 4,
+    "lods": [
+        {
+            "distance": 350.000,
+            "file": "model_export/com_cardboardbox02_lod0.glb"
+        },
+        {
+            "distance": 6500.000,
+            "file": "model_export/com_cardboardbox02_lod1.glb"
+        }
+    ],
+    "physPreset": "cardboardbox_empty",
+    "rootBoneName": "cardboardbox_2_lod0",
+    "type": "rigid"
+}

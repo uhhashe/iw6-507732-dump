@@ -1,0 +1,23 @@
+{
+    "$schema": "http://openassettools.dev/schema/xmodel.v1.json",
+    "_game": "iw6",
+    "_type": "xmodel",
+    "_version": 2,
+    "flags": 4,
+    "lods": [
+        {
+            "distance": 750.000,
+            "file": "model_export/me_streetlight_lod0.glb"
+        },
+        {
+            "distance": 1100.000,
+            "file": "model_export/me_streetlight_lod1.glb"
+        },
+        {
+            "distance": 5500.000,
+            "file": "model_export/me_streetlight_lod2.glb"
+        }
+    ],
+    "rootBoneName": "lod01",
+    "type": "rigid"
+}

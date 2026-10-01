@@ -1,0 +1,23 @@
+{
+    "$schema": "http://openassettools.dev/schema/xmodel.v1.json",
+    "_game": "iw6",
+    "_type": "xmodel",
+    "_version": 2,
+    "flags": 4,
+    "lods": [
+        {
+            "distance": 800.000,
+            "file": "model_export/com_wall_fan_blade_lod0.glb"
+        },
+        {
+            "distance": 1500.000,
+            "file": "model_export/com_wall_fan_blade_lod1.glb"
+        },
+        {
+            "distance": 3000.000,
+            "file": "model_export/com_wall_fan_blade_lod2.glb"
+        }
+    ],
+    "rootBoneName": "zblade_lod0",
+    "type": "rigid"
+}

@@ -1,0 +1,23 @@
+{
+    "$schema": "http://openassettools.dev/schema/xmodel.v1.json",
+    "_game": "iw6",
+    "_type": "xmodel",
+    "_version": 2,
+    "flags": 4,
+    "lods": [
+        {
+            "distance": 200.000,
+            "file": "model_export/ch_bunker_wires_04_lod0.glb"
+        },
+        {
+            "distance": 400.000,
+            "file": "model_export/ch_bunker_wires_04_lod1.glb"
+        },
+        {
+            "distance": 2000.000,
+            "file": "model_export/ch_bunker_wires_04_lod2.glb"
+        }
+    ],
+    "rootBoneName": "wire06",
+    "type": "rigid"
+}

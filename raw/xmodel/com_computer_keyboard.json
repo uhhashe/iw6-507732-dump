@@ -1,0 +1,24 @@
+{
+    "$schema": "http://openassettools.dev/schema/xmodel.v1.json",
+    "_game": "iw6",
+    "_type": "xmodel",
+    "_version": 2,
+    "flags": 4,
+    "lods": [
+        {
+            "distance": 250.000,
+            "file": "model_export/com_computer_keyboard_lod0.glb"
+        },
+        {
+            "distance": 500.000,
+            "file": "model_export/com_computer_keyboard_lod1.glb"
+        },
+        {
+            "distance": 1500.000,
+            "file": "model_export/com_computer_keyboard_lod2.glb"
+        }
+    ],
+    "physPreset": "laptop",
+    "rootBoneName": "computer_keyboard_lod0",
+    "type": "rigid"
+}

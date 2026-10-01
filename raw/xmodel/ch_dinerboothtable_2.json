@@ -1,0 +1,27 @@
+{
+    "$schema": "http://openassettools.dev/schema/xmodel.v1.json",
+    "_game": "iw6",
+    "_type": "xmodel",
+    "_version": 2,
+    "flags": 4,
+    "lods": [
+        {
+            "distance": 300.000,
+            "file": "model_export/ch_dinerboothtable_2_lod0.glb"
+        },
+        {
+            "distance": 1000.000,
+            "file": "model_export/ch_dinerboothtable_2_lod1.glb"
+        },
+        {
+            "distance": 2000.000,
+            "file": "model_export/ch_dinerboothtable_2_lod2.glb"
+        },
+        {
+            "distance": 4800.000,
+            "file": "model_export/ch_dinerboothtable_2_lod3.glb"
+        }
+    ],
+    "rootBoneName": "table_2_lod0",
+    "type": "rigid"
+}

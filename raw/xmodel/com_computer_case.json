@@ -1,0 +1,25 @@
+{
+    "$schema": "http://openassettools.dev/schema/xmodel.v1.json",
+    "_game": "iw6",
+    "_type": "xmodel",
+    "_version": 2,
+    "flags": 4,
+    "lods": [
+        {
+            "distance": 250.000,
+            "file": "model_export/com_computer_case_lod0.glb"
+        },
+        {
+            "distance": 400.000,
+            "file": "model_export/com_computer_case_lod1.glb"
+        },
+        {
+            "distance": 2500.000,
+            "file": "model_export/com_computer_case_lod2.glb"
+        }
+    ],
+    "physCollmap": "com_computer_case",
+    "physPreset": "cardboardbox_full",
+    "rootBoneName": "computer_case_lod0",
+    "type": "rigid"
+}

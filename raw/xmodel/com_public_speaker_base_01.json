@@ -1,0 +1,19 @@
+{
+    "$schema": "http://openassettools.dev/schema/xmodel.v1.json",
+    "_game": "iw6",
+    "_type": "xmodel",
+    "_version": 2,
+    "flags": 4,
+    "lods": [
+        {
+            "distance": 350.000,
+            "file": "model_export/com_public_speaker_base_01_lod0.glb"
+        },
+        {
+            "distance": 2000.000,
+            "file": "model_export/com_public_speaker_base_01_lod1.glb"
+        }
+    ],
+    "rootBoneName": "public_speaker_base_lod0",
+    "type": "rigid"
+}

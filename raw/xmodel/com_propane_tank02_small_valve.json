@@ -1,0 +1,21 @@
+{
+    "$schema": "http://openassettools.dev/schema/xmodel.v1.json",
+    "_game": "iw6",
+    "_type": "xmodel",
+    "_version": 2,
+    "flags": 4,
+    "lods": [
+        {
+            "distance": 300.000,
+            "file": "model_export/com_propane_tank02_small_valve_lod0.glb"
+        },
+        {
+            "distance": 800.000,
+            "file": "model_export/com_propane_tank02_small_valve_lod1.glb"
+        }
+    ],
+    "physCollmap": "com_propane_tank02_small_valve",
+    "physPreset": "bucket_metal",
+    "rootBoneName": "tag_valve",
+    "type": "rigid"
+}

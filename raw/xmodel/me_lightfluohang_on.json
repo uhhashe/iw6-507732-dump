@@ -1,0 +1,23 @@
+{
+    "$schema": "http://openassettools.dev/schema/xmodel.v1.json",
+    "_game": "iw6",
+    "_type": "xmodel",
+    "_version": 2,
+    "flags": 4,
+    "lods": [
+        {
+            "distance": 250.000,
+            "file": "model_export/me_lightfluohang_on_lod0.glb"
+        },
+        {
+            "distance": 550.000,
+            "file": "model_export/me_lightfluohang_on_lod1.glb"
+        },
+        {
+            "distance": 20000.000,
+            "file": "model_export/me_lightfluohang_on_lod2.glb"
+        }
+    ],
+    "rootBoneName": "tag_origin",
+    "type": "animated"
+}

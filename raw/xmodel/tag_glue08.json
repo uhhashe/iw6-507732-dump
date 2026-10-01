@@ -1,0 +1,16 @@
+{
+    "$schema": "http://openassettools.dev/schema/xmodel.v1.json",
+    "_game": "iw6",
+    "_type": "xmodel",
+    "_version": 2,
+    "flags": 0,
+    "lods": [
+        {
+            "distance": 1000000.000,
+            "file": "model_export/tag_glue08_lod0.glb"
+        }
+    ],
+    "physPreset": "default",
+    "rootBoneName": "tag_stow_back_mid_up",
+    "type": "animated"
+}

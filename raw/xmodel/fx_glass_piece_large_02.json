@@ -1,0 +1,17 @@
+{
+    "$schema": "http://openassettools.dev/schema/xmodel.v1.json",
+    "_game": "iw6",
+    "_type": "xmodel",
+    "_version": 2,
+    "flags": 4,
+    "lods": [
+        {
+            "distance": 1000.000,
+            "file": "model_export/fx_glass_piece_large_02_lod0.glb"
+        }
+    ],
+    "physCollmap": "fx_glass_piece_large_02",
+    "physPreset": "glass_chunk",
+    "rootBoneName": "fx_glass_piece_large_02_lod0",
+    "type": "rigid"
+}

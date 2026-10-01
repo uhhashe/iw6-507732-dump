@@ -1,0 +1,28 @@
+{
+    "$schema": "http://openassettools.dev/schema/xmodel.v1.json",
+    "_game": "iw6",
+    "_type": "xmodel",
+    "_version": 2,
+    "flags": 4,
+    "lods": [
+        {
+            "distance": 150.000,
+            "file": "model_export/grenade_bag_lod0.glb"
+        },
+        {
+            "distance": 300.000,
+            "file": "model_export/grenade_bag_lod1.glb"
+        },
+        {
+            "distance": 1200.000,
+            "file": "model_export/grenade_bag_lod2.glb"
+        },
+        {
+            "distance": 8000.000,
+            "file": "model_export/grenade_bag_lod3.glb"
+        }
+    ],
+    "physPreset": "bottle_plastic",
+    "rootBoneName": "polysurface76",
+    "type": "rigid"
+}

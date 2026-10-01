@@ -1,0 +1,24 @@
+{
+    "$schema": "http://openassettools.dev/schema/xmodel.v1.json",
+    "_game": "iw6",
+    "_type": "xmodel",
+    "_version": 2,
+    "flags": 4,
+    "lods": [
+        {
+            "distance": 200.000,
+            "file": "model_export/me_box_citrusfruitopen_1_lod0.glb"
+        },
+        {
+            "distance": 600.000,
+            "file": "model_export/me_box_citrusfruitopen_1_lod1.glb"
+        },
+        {
+            "distance": 2000.000,
+            "file": "model_export/me_box_citrusfruitopen_1_lod2.glb"
+        }
+    ],
+    "physPreset": "bottle_plastic",
+    "rootBoneName": "citrusfruitboxopen1_lod0",
+    "type": "rigid"
+}

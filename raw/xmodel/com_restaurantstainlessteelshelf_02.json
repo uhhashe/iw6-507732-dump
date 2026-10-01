@@ -1,0 +1,19 @@
+{
+    "$schema": "http://openassettools.dev/schema/xmodel.v1.json",
+    "_game": "iw6",
+    "_type": "xmodel",
+    "_version": 2,
+    "flags": 4,
+    "lods": [
+        {
+            "distance": 800.000,
+            "file": "model_export/com_restaurantstainlessteelshelf_02_lod0.glb"
+        },
+        {
+            "distance": 1200.000,
+            "file": "model_export/com_restaurantstainlessteelshelf_02_lod1.glb"
+        }
+    ],
+    "rootBoneName": "tag_origin",
+    "type": "rigid"
+}

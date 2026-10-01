@@ -1,0 +1,20 @@
+{
+    "$schema": "http://openassettools.dev/schema/xmodel.v1.json",
+    "_game": "iw6",
+    "_type": "xmodel",
+    "_version": 2,
+    "flags": 4,
+    "lods": [
+        {
+            "distance": 400.000,
+            "file": "model_export/me_electricbox1_lod0.glb"
+        },
+        {
+            "distance": 2000.000,
+            "file": "model_export/me_electricbox1_lod1.glb"
+        }
+    ],
+    "physPreset": "bucket_metal",
+    "rootBoneName": "electricbox1_lod1",
+    "type": "rigid"
+}

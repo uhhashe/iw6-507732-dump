@@ -1,0 +1,17 @@
+{
+    "$schema": "http://openassettools.dev/schema/xmodel.v1.json",
+    "_game": "iw6",
+    "_type": "xmodel",
+    "_version": 2,
+    "flags": 4,
+    "lods": [
+        {
+            "distance": 1500.000,
+            "file": "model_export/street_curb_inlet01grate_lod0.glb"
+        }
+    ],
+    "physCollmap": "street_curb_inlet01grate",
+    "physPreset": "curb_inlet",
+    "rootBoneName": "pasted__pcube5",
+    "type": "rigid"
+}

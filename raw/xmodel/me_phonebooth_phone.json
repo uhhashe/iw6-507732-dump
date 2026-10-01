@@ -1,0 +1,23 @@
+{
+    "$schema": "http://openassettools.dev/schema/xmodel.v1.json",
+    "_game": "iw6",
+    "_type": "xmodel",
+    "_version": 2,
+    "flags": 4,
+    "lods": [
+        {
+            "distance": 500.000,
+            "file": "model_export/me_phonebooth_phone_lod0.glb"
+        },
+        {
+            "distance": 800.000,
+            "file": "model_export/me_phonebooth_phone_lod1.glb"
+        },
+        {
+            "distance": 3500.000,
+            "file": "model_export/me_phonebooth_phone_lod2.glb"
+        }
+    ],
+    "rootBoneName": "boothphone_lod0",
+    "type": "rigid"
+}

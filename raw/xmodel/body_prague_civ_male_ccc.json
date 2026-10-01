@@ -1,0 +1,27 @@
+{
+    "$schema": "http://openassettools.dev/schema/xmodel.v1.json",
+    "_game": "iw6",
+    "_type": "xmodel",
+    "_version": 2,
+    "flags": 0,
+    "lods": [
+        {
+            "distance": 300.000,
+            "file": "model_export/body_prague_civ_male_ccc_lod0.glb"
+        },
+        {
+            "distance": 500.000,
+            "file": "model_export/body_prague_civ_male_ccc_lod1.glb"
+        },
+        {
+            "distance": 1200.000,
+            "file": "model_export/body_prague_civ_male_ccc_lod2.glb"
+        },
+        {
+            "distance": 1000000.000,
+            "file": "model_export/body_prague_civ_male_ccc_lod3.glb"
+        }
+    ],
+    "rootBoneName": "tag_origin",
+    "type": "animated"
+}

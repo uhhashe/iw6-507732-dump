@@ -1,0 +1,21 @@
+{
+    "$schema": "http://openassettools.dev/schema/xmodel.v1.json",
+    "_game": "iw6",
+    "_type": "xmodel",
+    "_version": 2,
+    "flags": 4,
+    "lods": [
+        {
+            "distance": 500.000,
+            "file": "model_export/com_bottle2_lod0.glb"
+        },
+        {
+            "distance": 2500.000,
+            "file": "model_export/com_bottle2_lod1.glb"
+        }
+    ],
+    "physCollmap": "com_bottle2",
+    "physPreset": "bottle_plastic",
+    "rootBoneName": "plasticbottle_2_lod1",
+    "type": "rigid"
+}

@@ -1,0 +1,16 @@
+{
+    "$schema": "http://openassettools.dev/schema/xmodel.v1.json",
+    "_game": "iw6",
+    "_type": "xmodel",
+    "_version": 2,
+    "flags": 4,
+    "lods": [
+        {
+            "distance": 1200.000,
+            "file": "model_export/food_snacks_gumbox01_lod0.glb"
+        }
+    ],
+    "physPreset": "fruit_large",
+    "rootBoneName": "gumbox",
+    "type": "rigid"
+}

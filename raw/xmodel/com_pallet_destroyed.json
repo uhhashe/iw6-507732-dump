@@ -1,0 +1,24 @@
+{
+    "$schema": "http://openassettools.dev/schema/xmodel.v1.json",
+    "_game": "iw6",
+    "_type": "xmodel",
+    "_version": 2,
+    "flags": 4,
+    "lods": [
+        {
+            "distance": 900.000,
+            "file": "model_export/com_pallet_destroyed_lod0.glb"
+        },
+        {
+            "distance": 1800.000,
+            "file": "model_export/com_pallet_destroyed_lod1.glb"
+        },
+        {
+            "distance": 5000.000,
+            "file": "model_export/com_pallet_destroyed_lod2.glb"
+        }
+    ],
+    "physPreset": "cinderblock",
+    "rootBoneName": "tag_origin",
+    "type": "rigid"
+}

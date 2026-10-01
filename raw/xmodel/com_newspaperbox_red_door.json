@@ -1,0 +1,25 @@
+{
+    "$schema": "http://openassettools.dev/schema/xmodel.v1.json",
+    "_game": "iw6",
+    "_type": "xmodel",
+    "_version": 2,
+    "flags": 4,
+    "lods": [
+        {
+            "distance": 200.000,
+            "file": "model_export/com_newspaperbox_red_door_lod0.glb"
+        },
+        {
+            "distance": 1000.000,
+            "file": "model_export/com_newspaperbox_red_door_lod1.glb"
+        },
+        {
+            "distance": 4000.000,
+            "file": "model_export/com_newspaperbox_red_door_lod2.glb"
+        }
+    ],
+    "physCollmap": "com_newspaperbox_red_door",
+    "physPreset": "bucket_metal",
+    "rootBoneName": "tag_door",
+    "type": "rigid"
+}

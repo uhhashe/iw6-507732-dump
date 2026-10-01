@@ -1,0 +1,24 @@
+{
+    "$schema": "http://openassettools.dev/schema/xmodel.v1.json",
+    "_game": "iw6",
+    "_type": "xmodel",
+    "_version": 2,
+    "flags": 4,
+    "lods": [
+        {
+            "distance": 400.000,
+            "file": "model_export/com_tv2_d_lod0.glb"
+        },
+        {
+            "distance": 800.000,
+            "file": "model_export/com_tv2_d_lod1.glb"
+        },
+        {
+            "distance": 3800.000,
+            "file": "model_export/com_tv2_d_lod2.glb"
+        }
+    ],
+    "physPreset": "tv_24inch",
+    "rootBoneName": "tag_origin",
+    "type": "animated"
+}

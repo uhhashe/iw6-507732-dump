@@ -1,0 +1,27 @@
+{
+    "$schema": "http://openassettools.dev/schema/xmodel.v1.json",
+    "_game": "iw6",
+    "_type": "xmodel",
+    "_version": 2,
+    "flags": 4,
+    "lods": [
+        {
+            "distance": 200.000,
+            "file": "model_export/com_folding_table_lod0.glb"
+        },
+        {
+            "distance": 400.000,
+            "file": "model_export/com_folding_table_lod1.glb"
+        },
+        {
+            "distance": 2000.000,
+            "file": "model_export/com_folding_table_lod2.glb"
+        },
+        {
+            "distance": 10000.000,
+            "file": "model_export/com_folding_table_lod3.glb"
+        }
+    ],
+    "rootBoneName": "folding_table_lod0",
+    "type": "rigid"
+}

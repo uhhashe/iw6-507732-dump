@@ -1,0 +1,20 @@
+{
+    "$schema": "http://openassettools.dev/schema/xmodel.v1.json",
+    "_game": "iw6",
+    "_type": "xmodel",
+    "_version": 2,
+    "flags": 4,
+    "lods": [
+        {
+            "distance": 800.000,
+            "file": "model_export/projectile_m67fraggrenade_lod0.glb"
+        },
+        {
+            "distance": 1600.000,
+            "file": "model_export/projectile_m67fraggrenade_lod1.glb"
+        }
+    ],
+    "physPreset": "bottle_plastic",
+    "rootBoneName": "tag_weapon",
+    "type": "animated"
+}

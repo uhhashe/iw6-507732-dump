@@ -1,0 +1,16 @@
+{
+    "$schema": "http://openassettools.dev/schema/xmodel.v1.json",
+    "_game": "iw6",
+    "_type": "xmodel",
+    "_version": 2,
+    "flags": 4,
+    "lods": [
+        {
+            "distance": 8000.000,
+            "file": "model_export/ma_electronics_box_03_lod0.glb"
+        }
+    ],
+    "physPreset": "cardboardbox_empty",
+    "rootBoneName": "pcube3",
+    "type": "rigid"
+}

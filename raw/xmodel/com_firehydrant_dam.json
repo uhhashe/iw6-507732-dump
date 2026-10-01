@@ -1,0 +1,29 @@
+{
+    "$schema": "http://openassettools.dev/schema/xmodel.v1.json",
+    "_game": "iw6",
+    "_type": "xmodel",
+    "_version": 2,
+    "flags": 4,
+    "lods": [
+        {
+            "distance": 400.000,
+            "file": "model_export/com_firehydrant_dam_lod0.glb"
+        },
+        {
+            "distance": 800.000,
+            "file": "model_export/com_firehydrant_dam_lod1.glb"
+        },
+        {
+            "distance": 1000.000,
+            "file": "model_export/com_firehydrant_dam_lod2.glb"
+        },
+        {
+            "distance": 3000.000,
+            "file": "model_export/com_firehydrant_dam_lod3.glb"
+        }
+    ],
+    "physCollmap": "com_firehydrant_dam",
+    "physPreset": "firehydrant",
+    "rootBoneName": "tag_fx",
+    "type": "rigid"
+}

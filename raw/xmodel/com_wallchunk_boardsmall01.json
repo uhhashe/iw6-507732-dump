@@ -1,0 +1,23 @@
+{
+    "$schema": "http://openassettools.dev/schema/xmodel.v1.json",
+    "_game": "iw6",
+    "_type": "xmodel",
+    "_version": 2,
+    "flags": 4,
+    "lods": [
+        {
+            "distance": 256.000,
+            "file": "model_export/com_wallchunk_boardsmall01_lod0.glb"
+        },
+        {
+            "distance": 900.000,
+            "file": "model_export/com_wallchunk_boardsmall01_lod1.glb"
+        },
+        {
+            "distance": 1700.000,
+            "file": "model_export/com_wallchunk_boardsmall01_lod2.glb"
+        }
+    ],
+    "rootBoneName": "polysurface41",
+    "type": "rigid"
+}

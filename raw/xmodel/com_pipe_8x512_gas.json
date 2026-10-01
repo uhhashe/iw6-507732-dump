@@ -1,0 +1,19 @@
+{
+    "$schema": "http://openassettools.dev/schema/xmodel.v1.json",
+    "_game": "iw6",
+    "_type": "xmodel",
+    "_version": 2,
+    "flags": 4,
+    "lods": [
+        {
+            "distance": 300.000,
+            "file": "model_export/com_pipe_8x512_gas_lod0.glb"
+        },
+        {
+            "distance": 10000.000,
+            "file": "model_export/com_pipe_8x512_gas_lod1.glb"
+        }
+    ],
+    "rootBoneName": "pipe_8_137",
+    "type": "rigid"
+}
