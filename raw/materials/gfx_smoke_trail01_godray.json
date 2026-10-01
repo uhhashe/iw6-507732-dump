@@ -1,0 +1,162 @@
+{
+    "$schema": "http://openassettools.dev/schema/material.v1.json",
+    "_game": "iw6",
+    "_type": "material",
+    "_version": 1,
+    "cameraRegion": "emissive",
+    "constants": [
+        {
+            "literal": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "name": "falloffBeginColor"
+        },
+        {
+            "literal": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "nameFragment": "textureAtlas",
+            "nameHash": 1128936273
+        },
+        {
+            "literal": [
+                0.0500000007,
+                20.0,
+                0.0,
+                0.0
+            ],
+            "name": "featherParms"
+        },
+        {
+            "literal": [
+                1.0,
+                1.0,
+                1.0,
+                0.5
+            ],
+            "name": "falloffEndColor"
+        },
+        {
+            "literal": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "name": "colorTint"
+        },
+        {
+            "literal": [
+                0.00526315812,
+                -0.0526315793,
+                27.1491222,
+                -0.818645835
+            ],
+            "name": "falloffParms"
+        }
+    ],
+    "gameFlags": [],
+    "sortKey": 48,
+    "stateBits": [
+        {
+            "alphaTest": "disabled",
+            "blendOpAlpha": "disabled",
+            "blendOpRgb": "disabled",
+            "colorWriteAlpha": false,
+            "colorWriteRgb": false,
+            "cullFace": "unknown",
+            "depthTest": "less_equal",
+            "depthWrite": false,
+            "dstBlendAlpha": "disabled",
+            "dstBlendRgb": "zero",
+            "gammaWrite": false,
+            "polygonOffset": "offset0",
+            "polymodeLine": false,
+            "srcBlendAlpha": "disabled",
+            "srcBlendRgb": "one"
+        },
+        {
+            "alphaTest": "disabled",
+            "blendOpAlpha": "disabled",
+            "blendOpRgb": "disabled",
+            "colorWriteAlpha": false,
+            "colorWriteRgb": false,
+            "cullFace": "unknown",
+            "depthTest": "less_equal",
+            "depthWrite": false,
+            "dstBlendAlpha": "disabled",
+            "dstBlendRgb": "srccolor",
+            "gammaWrite": false,
+            "polygonOffset": "offset2",
+            "polymodeLine": false,
+            "srcBlendAlpha": "disabled",
+            "srcBlendRgb": "zero"
+        }
+    ],
+    "stateBitsEntry": [
+        -1,
+        -1,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        1,
+        -1,
+        -1,
+        -1,
+        -1
+    ],
+    "stateFlags": 17,
+    "surfaceTypeBits": 0,
+    "techniqueSet": "effect_zfeather_falloff_blend",
+    "textureAtlas": {
+        "columns": 1,
+        "rows": 1
+    },
+    "textures": [
+        {
+            "image": "smoke_trail01",
+            "name": "colorMap",
+            "samplerState": {
+                "clampU": false,
+                "clampV": false,
+                "clampW": false,
+                "filter": "linear",
+                "mipMap": "disabled"
+            },
+            "semantic": "colorMap"
+        }
+    ]
+}

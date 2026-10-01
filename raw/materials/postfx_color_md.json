@@ -1,0 +1,86 @@
+{
+    "$schema": "http://openassettools.dev/schema/material.v1.json",
+    "_game": "iw6",
+    "_type": "material",
+    "_version": 1,
+    "cameraRegion": "unknown",
+    "constants": [
+        {
+            "literal": [
+                1.0,
+                1.0,
+                0.0,
+                0.0
+            ],
+            "name": "uvScale"
+        }
+    ],
+    "gameFlags": [],
+    "sortKey": 34,
+    "stateBits": [
+        {
+            "alphaTest": "disabled",
+            "blendOpAlpha": "disabled",
+            "blendOpRgb": "disabled",
+            "colorWriteAlpha": false,
+            "colorWriteRgb": false,
+            "cullFace": "unknown",
+            "depthTest": "disabled",
+            "depthWrite": false,
+            "dstBlendAlpha": "disabled",
+            "dstBlendRgb": "zero",
+            "gammaWrite": false,
+            "polygonOffset": "offset0",
+            "polymodeLine": false,
+            "srcBlendAlpha": "disabled",
+            "srcBlendRgb": "zero"
+        }
+    ],
+    "stateBitsEntry": [
+        -1,
+        -1,
+        -1,
+        0,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+    ],
+    "stateFlags": 1,
+    "surfaceTypeBits": 0,
+    "techniqueSet": "postfx_color_md",
+    "textureAtlas": {
+        "columns": 1,
+        "rows": 1
+    },
+    "textures": []
+}

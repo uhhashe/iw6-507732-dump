@@ -1,0 +1,126 @@
+{
+    "$schema": "http://openassettools.dev/schema/material.v1.json",
+    "_game": "iw6",
+    "_type": "material",
+    "_version": 1,
+    "cameraRegion": "litTrans",
+    "constants": [
+        {
+            "literal": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "nameFragment": "textureAtlas",
+            "nameHash": 1128936273
+        },
+        {
+            "literal": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "name": "colorTint"
+        }
+    ],
+    "gameFlags": [],
+    "sortKey": 26,
+    "stateBits": [
+        {
+            "alphaTest": "disabled",
+            "blendOpAlpha": "disabled",
+            "blendOpRgb": "add",
+            "colorWriteAlpha": false,
+            "colorWriteRgb": false,
+            "cullFace": "unknown",
+            "depthTest": "disabled",
+            "depthWrite": false,
+            "dstBlendAlpha": "disabled",
+            "dstBlendRgb": "invsrccolor",
+            "gammaWrite": false,
+            "polygonOffset": "unknown",
+            "polymodeLine": false,
+            "srcBlendAlpha": "disabled",
+            "srcBlendRgb": "destcolor"
+        },
+        {
+            "alphaTest": "disabled",
+            "blendOpAlpha": "disabled",
+            "blendOpRgb": "add",
+            "colorWriteAlpha": false,
+            "colorWriteRgb": false,
+            "cullFace": "unknown",
+            "depthTest": "less_equal",
+            "depthWrite": false,
+            "dstBlendAlpha": "disabled",
+            "dstBlendRgb": "srccolor",
+            "gammaWrite": false,
+            "polygonOffset": "offset2",
+            "polymodeLine": false,
+            "srcBlendAlpha": "disabled",
+            "srcBlendRgb": "zero"
+        }
+    ],
+    "stateBitsEntry": [
+        -1,
+        -1,
+        -1,
+        0,
+        -1,
+        -1,
+        -1,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        1,
+        -1,
+        -1,
+        -1,
+        -1
+    ],
+    "stateFlags": 48,
+    "surfaceTypeBits": 0,
+    "techniqueSet": "unlit_add_lin",
+    "textureAtlas": {
+        "columns": 1,
+        "rows": 1
+    },
+    "textures": [
+        {
+            "image": "cb_motiontracker_ping_red",
+            "name": "colorMap",
+            "samplerState": {
+                "clampU": true,
+                "clampV": true,
+                "clampW": true,
+                "filter": "linear",
+                "mipMap": "disabled"
+            },
+            "semantic": "colorMap"
+        }
+    ]
+}

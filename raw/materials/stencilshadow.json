@@ -1,0 +1,86 @@
+{
+    "$schema": "http://openassettools.dev/schema/material.v1.json",
+    "_game": "iw6",
+    "_type": "material",
+    "_version": 1,
+    "cameraRegion": "unknown",
+    "constants": [
+        {
+            "literal": [
+                1.0,
+                1.0,
+                0.0,
+                0.0
+            ],
+            "name": "uvScale"
+        }
+    ],
+    "gameFlags": [],
+    "sortKey": 34,
+    "stateBits": [
+        {
+            "alphaTest": "disabled",
+            "blendOpAlpha": "disabled",
+            "blendOpRgb": "disabled",
+            "colorWriteAlpha": false,
+            "colorWriteRgb": false,
+            "cullFace": "unknown",
+            "depthTest": "less",
+            "depthWrite": false,
+            "dstBlendAlpha": "disabled",
+            "dstBlendRgb": "disabled",
+            "gammaWrite": false,
+            "polygonOffset": "unknown",
+            "polymodeLine": false,
+            "srcBlendAlpha": "disabled",
+            "srcBlendRgb": "destcolor"
+        }
+    ],
+    "stateBitsEntry": [
+        -1,
+        -1,
+        -1,
+        0,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+    ],
+    "stateFlags": 48,
+    "surfaceTypeBits": 0,
+    "techniqueSet": "stencilshadow",
+    "textureAtlas": {
+        "columns": 1,
+        "rows": 1
+    },
+    "textures": []
+}

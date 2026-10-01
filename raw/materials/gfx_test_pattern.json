@@ -1,0 +1,126 @@
+{
+    "$schema": "http://openassettools.dev/schema/material.v1.json",
+    "_game": "iw6",
+    "_type": "material",
+    "_version": 1,
+    "cameraRegion": "emissive",
+    "constants": [
+        {
+            "literal": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "nameFragment": "textureAtlas",
+            "nameHash": 1128936273
+        },
+        {
+            "literal": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "name": "colorTint"
+        }
+    ],
+    "gameFlags": [],
+    "sortKey": 48,
+    "stateBits": [
+        {
+            "alphaTest": "disabled",
+            "blendOpAlpha": "disabled",
+            "blendOpRgb": "disabled",
+            "colorWriteAlpha": false,
+            "colorWriteRgb": false,
+            "cullFace": "unknown",
+            "depthTest": "less_equal",
+            "depthWrite": false,
+            "dstBlendAlpha": "disabled",
+            "dstBlendRgb": "disabled",
+            "gammaWrite": false,
+            "polygonOffset": "offset0",
+            "polymodeLine": false,
+            "srcBlendAlpha": "disabled",
+            "srcBlendRgb": "invdestcolor"
+        },
+        {
+            "alphaTest": "disabled",
+            "blendOpAlpha": "disabled",
+            "blendOpRgb": "disabled",
+            "colorWriteAlpha": false,
+            "colorWriteRgb": false,
+            "cullFace": "unknown",
+            "depthTest": "less_equal",
+            "depthWrite": false,
+            "dstBlendAlpha": "disabled",
+            "dstBlendRgb": "srccolor",
+            "gammaWrite": false,
+            "polygonOffset": "offset2",
+            "polymodeLine": false,
+            "srcBlendAlpha": "disabled",
+            "srcBlendRgb": "zero"
+        }
+    ],
+    "stateBitsEntry": [
+        -1,
+        -1,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        1,
+        -1,
+        -1,
+        -1,
+        -1
+    ],
+    "stateFlags": 16,
+    "surfaceTypeBits": 0,
+    "techniqueSet": "effect_blend_nofog",
+    "textureAtlas": {
+        "columns": 1,
+        "rows": 1
+    },
+    "textures": [
+        {
+            "image": "test_pattern",
+            "name": "colorMap",
+            "samplerState": {
+                "clampU": false,
+                "clampV": false,
+                "clampW": false,
+                "filter": "aniso2x",
+                "mipMap": "nearest"
+            },
+            "semantic": "colorMap"
+        }
+    ]
+}
